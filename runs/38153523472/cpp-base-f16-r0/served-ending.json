@@ -1,0 +1,285 @@
+{
+	"systeminfo": "WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": false,
+		"vocab": 51864,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "models/ggml-base.en.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,690",
+				"to": "00:00:05,410"
+			},
+			"offsets": {
+				"from": 690,
+				"to": 5410
+			},
+			"text": " This episode is brought to you by Born in Roma fragrances by Valentino Beauty."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,410",
+				"to": "00:00:07,690"
+			},
+			"offsets": {
+				"from": 5410,
+				"to": 7690
+			},
+			"text": " The iconic fragrance duo."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,690",
+				"to": "00:00:11,650"
+			},
+			"offsets": {
+				"from": 7690,
+				"to": 11650
+			},
+			"text": " Donna Born in Roma Ode Parfoum is a feminine fragrance featuring"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:11,650",
+				"to": "00:00:16,610"
+			},
+			"offsets": {
+				"from": 11650,
+				"to": 16610
+			},
+			"text": " juicy black currant, central jasmine, woody cashmere and warm vanilla."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:16,610",
+				"to": "00:00:20,530"
+			},
+			"offsets": {
+				"from": 16610,
+				"to": 20530
+			},
+			"text": " Its masculine counterpart, Wilma Born in Roma Ode du Dalette,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:20,530",
+				"to": "00:00:23,810"
+			},
+			"offsets": {
+				"from": 20530,
+				"to": 23810
+			},
+			"text": " has notes of fresh violet leaf, aromatic sage,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:23,810",
+				"to": "00:00:26,890"
+			},
+			"offsets": {
+				"from": 23810,
+				"to": 26890
+			},
+			"text": " green vetiver, spicy ginger, and mineral salt."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:26,890",
+				"to": "00:00:28,930"
+			},
+			"offsets": {
+				"from": 26890,
+				"to": 28930
+			},
+			"text": " Shop at Macy's dot com."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:31,170",
+				"to": "00:00:36,370"
+			},
+			"offsets": {
+				"from": 31170,
+				"to": 36370
+			},
+			"text": " Having uncontrolled eosinophilic esophageitis or EOE can mean you're stuck in many ways,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:36,370",
+				"to": "00:00:38,370"
+			},
+			"offsets": {
+				"from": 36370,
+				"to": 38370
+			},
+			"text": " like cutting your food into tiny pieces."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:41,170",
+				"to": "00:00:43,490"
+			},
+			"offsets": {
+				"from": 41170,
+				"to": 43490
+			},
+			"text": " Or stuck chewing food for a long time."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:45,660",
+				"to": "00:00:49,500"
+			},
+			"offsets": {
+				"from": 45660,
+				"to": 49500
+			},
+			"text": " Dupixin de Pilimab, a prescription medicine for patients one year and older weighing"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:49,500",
+				"to": "00:00:51,580"
+			},
+			"offsets": {
+				"from": 49500,
+				"to": 51580
+			},
+			"text": " at least 33 pounds can help with that."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:51,580",
+				"to": "00:00:54,780"
+			},
+			"offsets": {
+				"from": 51580,
+				"to": 54780
+			},
+			"text": " It's a breakthrough treatment that can reduce inflammation in the esophagus"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:54,780",
+				"to": "00:00:55,900"
+			},
+			"offsets": {
+				"from": 54780,
+				"to": 55900
+			},
+			"text": " and improve swallowing."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:58,700",
+				"to": "00:01:04,140"
+			},
+			"offsets": {
+				"from": 58700,
+				"to": 64140
+			},
+			"text": " How about this? Dupixin is not a steroid, it proactively treats EOE so you can get ahead of it."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:04,140",
+				"to": "00:01:07,100"
+			},
+			"offsets": {
+				"from": 64140,
+				"to": 67100
+			},
+			"text": " Severe allergic reactions, including skin reactions can occur."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:07,100",
+				"to": "00:01:11,100"
+			},
+			"offsets": {
+				"from": 67100,
+				"to": 71100
+			},
+			"text": " Get help right away if you have trouble breathing or wheezing or swelling of your face, mouth,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:11,100",
+				"to": "00:01:14,220"
+			},
+			"offsets": {
+				"from": 71100,
+				"to": 74220
+			},
+			"text": " tongue, or throat. Tell your doctor of newer worsening joint aches in pain,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:14,220",
+				"to": "00:01:19,020"
+			},
+			"offsets": {
+				"from": 74220,
+				"to": 79020
+			},
+			"text": " or a parasitic infection or asthma. Don't change or stop other treatments without talking to your doctor."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:19,020",
+				"to": "00:01:22,140"
+			},
+			"offsets": {
+				"from": 79020,
+				"to": 82140
+			},
+			"text": " Feeling stuck with EOE? Start treating with dupixin."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:22,140",
+				"to": "00:01:25,740"
+			},
+			"offsets": {
+				"from": 82140,
+				"to": 85740
+			},
+			"text": " Talk to your gastroenterologist or allergist today about dupixin."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:25,740",
+				"to": "00:01:29,100"
+			},
+			"offsets": {
+				"from": 85740,
+				"to": 89100
+			},
+			"text": " Learn more at www.dupixen.com or call 1-844-Dupixen."
+		}
+	]
+}

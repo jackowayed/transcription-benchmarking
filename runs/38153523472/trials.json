@@ -16,5 +16,11 @@
     "repeat": 0,
     "returncode": 0,
     "process_wall_seconds": 58.781638929999986
+  },
+  {
+    "config": "cpp-base-f16",
+    "repeat": 0,
+    "returncode": 0,
+    "process_wall_seconds": 255.57503013499996
   }
 ]

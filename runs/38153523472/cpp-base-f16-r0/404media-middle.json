@@ -1,0 +1,2210 @@
+{
+	"systeminfo": "WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": false,
+		"vocab": 51864,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "models/ggml-base.en.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:02,220"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 2220
+			},
+			"text": " They told people it was for warm and fuzzy reasons,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,220",
+				"to": "00:00:06,790"
+			},
+			"offsets": {
+				"from": 2220,
+				"to": 6790
+			},
+			"text": " and unfortunately we all paid the consequence."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,790",
+				"to": "00:00:08,710"
+			},
+			"offsets": {
+				"from": 6790,
+				"to": 8710
+			},
+			"text": " - The 404 Media Podcast is brought to you"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,710",
+				"to": "00:00:10,150"
+			},
+			"offsets": {
+				"from": 8710,
+				"to": 10150
+			},
+			"text": " by Nordlayer Browser."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,150",
+				"to": "00:00:12,030"
+			},
+			"offsets": {
+				"from": 10150,
+				"to": 12030
+			},
+			"text": " Nordlayer Browser is an enterprise browser"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:12,030",
+				"to": "00:00:13,510"
+			},
+			"offsets": {
+				"from": 12030,
+				"to": 13510
+			},
+			"text": " that secures online work"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:13,510",
+				"to": "00:00:15,870"
+			},
+			"offsets": {
+				"from": 13510,
+				"to": 15870
+			},
+			"text": " without getting in the way of productivity."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:15,870",
+				"to": "00:00:18,350"
+			},
+			"offsets": {
+				"from": 15870,
+				"to": 18350
+			},
+			"text": " It gives IT teams full visibility and control"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:18,350",
+				"to": "00:00:20,070"
+			},
+			"offsets": {
+				"from": 18350,
+				"to": 20070
+			},
+			"text": " over every web-based AI tool,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:20,070",
+				"to": "00:00:23,390"
+			},
+			"offsets": {
+				"from": 20070,
+				"to": 23390
+			},
+			"text": " SaaS application and download across the organization"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:23,390",
+				"to": "00:00:25,070"
+			},
+			"offsets": {
+				"from": 23390,
+				"to": 25070
+			},
+			"text": " while making sure employees can still enjoy"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:25,070",
+				"to": "00:00:27,470"
+			},
+			"offsets": {
+				"from": 25070,
+				"to": 27470
+			},
+			"text": " a seamless browsing experience."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:27,470",
+				"to": "00:00:29,470"
+			},
+			"offsets": {
+				"from": 27470,
+				"to": 29470
+			},
+			"text": " Designed for today's distributed workforce,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:29,470",
+				"to": "00:00:32,390"
+			},
+			"offsets": {
+				"from": 29470,
+				"to": 32390
+			},
+			"text": " Nordlayer Browser helps companies protect access"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:32,390",
+				"to": "00:00:33,950"
+			},
+			"offsets": {
+				"from": 32390,
+				"to": 33950
+			},
+			"text": " to their internal resources"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:33,950",
+				"to": "00:00:36,330"
+			},
+			"offsets": {
+				"from": 33950,
+				"to": 36330
+			},
+			"text": " and prevent accidental data exposure."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:36,330",
+				"to": "00:00:39,510"
+			},
+			"offsets": {
+				"from": 36330,
+				"to": 39510
+			},
+			"text": " Go to nordlayer.com/browser/404podcast"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:39,510",
+				"to": "00:00:41,870"
+			},
+			"offsets": {
+				"from": 39510,
+				"to": 41870
+			},
+			"text": " and use the coupon code 404podcast10"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:41,870",
+				"to": "00:00:45,070"
+			},
+			"offsets": {
+				"from": 41870,
+				"to": 45070
+			},
+			"text": " at checkout to get Nordlayer Browser at 10% off today."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:46,190",
+				"to": "00:00:48,350"
+			},
+			"offsets": {
+				"from": 46190,
+				"to": 48350
+			},
+			"text": " One of the most frustrating things about traveling"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:48,350",
+				"to": "00:00:49,970"
+			},
+			"offsets": {
+				"from": 48350,
+				"to": 49970
+			},
+			"text": " is when you're somewhere incredible,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:49,970",
+				"to": "00:00:51,230"
+			},
+			"offsets": {
+				"from": 49970,
+				"to": 51230
+			},
+			"text": " somebody starts talking to you"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:51,230",
+				"to": "00:00:53,470"
+			},
+			"offsets": {
+				"from": 51230,
+				"to": 53470
+			},
+			"text": " and you realize you can't really have the conversation"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:53,470",
+				"to": "00:00:54,830"
+			},
+			"offsets": {
+				"from": 53470,
+				"to": 54830
+			},
+			"text": " you wanna have."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:54,830",
+				"to": "00:00:57,530"
+			},
+			"offsets": {
+				"from": 54830,
+				"to": 57530
+			},
+			"text": " You can smile, point, maybe pull out your phone,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:57,530",
+				"to": "00:00:59,230"
+			},
+			"offsets": {
+				"from": 57530,
+				"to": 59230
+			},
+			"text": " but there's still this barrier between you"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:59,230",
+				"to": "00:01:01,030"
+			},
+			"offsets": {
+				"from": 59230,
+				"to": 61030
+			},
+			"text": " and the actual experience."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:01,030",
+				"to": "00:01:04,390"
+			},
+			"offsets": {
+				"from": 61030,
+				"to": 64390
+			},
+			"text": " That's exactly the kind of problem Babel is built to help with."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:04,390",
+				"to": "00:01:06,590"
+			},
+			"offsets": {
+				"from": 64390,
+				"to": 66590
+			},
+			"text": " Babel focuses on real life conversation,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:06,590",
+				"to": "00:01:07,870"
+			},
+			"offsets": {
+				"from": 66590,
+				"to": 67870
+			},
+			"text": " not endless grammar drills"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:07,870",
+				"to": "00:01:10,110"
+			},
+			"offsets": {
+				"from": 67870,
+				"to": 70110
+			},
+			"text": " or memorizing random vocabulary."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:10,110",
+				"to": "00:01:12,230"
+			},
+			"offsets": {
+				"from": 70110,
+				"to": 72230
+			},
+			"text": " You learn words and phrases you'd actually use"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:12,230",
+				"to": "00:01:13,630"
+			},
+			"offsets": {
+				"from": 72230,
+				"to": 73630
+			},
+			"text": " with another person."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:13,630",
+				"to": "00:01:16,590"
+			},
+			"offsets": {
+				"from": 73630,
+				"to": 76590
+			},
+			"text": " And the lessons are designed by more than 200 language experts"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:16,590",
+				"to": "00:01:19,510"
+			},
+			"offsets": {
+				"from": 76590,
+				"to": 79510
+			},
+			"text": " so you're learning how people actually communicate."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:19,510",
+				"to": "00:01:21,270"
+			},
+			"offsets": {
+				"from": 79510,
+				"to": 81270
+			},
+			"text": " And it doesn't require turning language learning"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:21,270",
+				"to": "00:01:22,750"
+			},
+			"offsets": {
+				"from": 81270,
+				"to": 82750
+			},
+			"text": " into a second job."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:22,750",
+				"to": "00:01:25,670"
+			},
+			"offsets": {
+				"from": 82750,
+				"to": 85670
+			},
+			"text": " The lessons are bite-sized enough to fit into a coffee break,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:25,670",
+				"to": "00:01:27,790"
+			},
+			"offsets": {
+				"from": 85670,
+				"to": 87790
+			},
+			"text": " your commute or 10 minutes before bed."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:27,790",
+				"to": "00:01:30,230"
+			},
+			"offsets": {
+				"from": 87790,
+				"to": 90230
+			},
+			"text": " In fact, people who use Babel for just 10 minutes a day"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:30,230",
+				"to": "00:01:31,910"
+			},
+			"offsets": {
+				"from": 90230,
+				"to": 91910
+			},
+			"text": " can start having real conversations"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:31,910",
+				"to": "00:01:33,550"
+			},
+			"offsets": {
+				"from": 91910,
+				"to": 93550
+			},
+			"text": " and as little as three weeks."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:33,550",
+				"to": "00:01:34,830"
+			},
+			"offsets": {
+				"from": 93550,
+				"to": 94830
+			},
+			"text": " That's the part I like."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:34,830",
+				"to": "00:01:36,390"
+			},
+			"offsets": {
+				"from": 94830,
+				"to": 96390
+			},
+			"text": " The goal isn't memorizing a textbook"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:36,390",
+				"to": "00:01:38,590"
+			},
+			"offsets": {
+				"from": 96390,
+				"to": 98590
+			},
+			"text": " or doing a bunch of flashcards and drills."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:38,590",
+				"to": "00:01:40,670"
+			},
+			"offsets": {
+				"from": 98590,
+				"to": 100670
+			},
+			"text": " It's getting to the point where you can actually connect"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:40,670",
+				"to": "00:01:43,150"
+			},
+			"offsets": {
+				"from": 100670,
+				"to": 103150
+			},
+			"text": " with somebody when the opportunity comes up."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:43,150",
+				"to": "00:01:46,070"
+			},
+			"offsets": {
+				"from": 103150,
+				"to": 106070
+			},
+			"text": " Babel has sold more than 25 million subscriptions"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:46,070",
+				"to": "00:01:49,030"
+			},
+			"offsets": {
+				"from": 106070,
+				"to": 109030
+			},
+			"text": " and it comes with a 14-day money-back guarantee."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:49,030",
+				"to": "00:01:51,790"
+			},
+			"offsets": {
+				"from": 109030,
+				"to": 111790
+			},
+			"text": " So if there's somewhere you've always wanted to go"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:51,790",
+				"to": "00:01:54,030"
+			},
+			"offsets": {
+				"from": 111790,
+				"to": 114030
+			},
+			"text": " or a language you've been meaning to pick back up,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:54,030",
+				"to": "00:01:56,230"
+			},
+			"offsets": {
+				"from": 114030,
+				"to": 116230
+			},
+			"text": " this is a pretty good reason to finally start."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:56,230",
+				"to": "00:01:58,910"
+			},
+			"offsets": {
+				"from": 116230,
+				"to": 118910
+			},
+			"text": " Start learning a new language today with Babel."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:58,910",
+				"to": "00:02:03,310"
+			},
+			"offsets": {
+				"from": 118910,
+				"to": 123310
+			},
+			"text": " Right now listeners can save up to 60% off at babble.com/404."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:03,310",
+				"to": "00:02:08,190"
+			},
+			"offsets": {
+				"from": 123310,
+				"to": 128190
+			},
+			"text": " That's babble, b-a-b-b-e-l.com/404 for up to 60% off."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:08,190",
+				"to": "00:02:10,630"
+			},
+			"offsets": {
+				"from": 128190,
+				"to": 130630
+			},
+			"text": " Rules and restrictions may apply."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:10,630",
+				"to": "00:02:13,190"
+			},
+			"offsets": {
+				"from": 130630,
+				"to": 133190
+			},
+			"text": " The best gifts are the ones that solve an annoying problem"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:13,190",
+				"to": "00:02:15,230"
+			},
+			"offsets": {
+				"from": 133190,
+				"to": 135230
+			},
+			"text": " somebody deals with all the time."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:15,230",
+				"to": "00:02:17,470"
+			},
+			"offsets": {
+				"from": 135230,
+				"to": 137470
+			},
+			"text": " And Ridges five and one travel power bank"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:17,470",
+				"to": "00:02:19,430"
+			},
+			"offsets": {
+				"from": 137470,
+				"to": 139430
+			},
+			"text": " is exactly that kind of gift."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:20,310",
+				"to": "00:02:22,030"
+			},
+			"offsets": {
+				"from": 140310,
+				"to": 142030
+			},
+			"text": " Here's my Ridge power bank."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:22,030",
+				"to": "00:02:23,950"
+			},
+			"offsets": {
+				"from": 142030,
+				"to": 143950
+			},
+			"text": " I've been using this thing for about a month"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:23,950",
+				"to": "00:02:25,310"
+			},
+			"offsets": {
+				"from": 143950,
+				"to": 145310
+			},
+			"text": " and I'm kind of obsessed with it"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:25,310",
+				"to": "00:02:27,950"
+			},
+			"offsets": {
+				"from": 145310,
+				"to": 147950
+			},
+			"text": " because it eliminates the mess of chargers and cables"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:27,950",
+				"to": "00:02:29,950"
+			},
+			"offsets": {
+				"from": 147950,
+				"to": 149950
+			},
+			"text": " that I normally have to carry around."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:29,950",
+				"to": "00:02:31,270"
+			},
+			"offsets": {
+				"from": 149950,
+				"to": 151270
+			},
+			"text": " Everything is built in."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:31,270",
+				"to": "00:02:34,990"
+			},
+			"offsets": {
+				"from": 151270,
+				"to": 154990
+			},
+			"text": " It's got MagSafe wireless charging, an Apple Watch charger,"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:34,990",
+				"to": "00:02:39,310"
+			},
+			"offsets": {
+				"from": 154990,
+				"to": 159310
+			},
+			"text": " lightning, USB-C, and importantly built-in cables."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:39,310",
+				"to": "00:02:42,590"
+			},
+			"offsets": {
+				"from": 159310,
+				"to": 162590
+			},
+			"text": " One power bank can handle basically everything I'm carrying."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:42,590",
+				"to": "00:02:46,550"
+			},
+			"offsets": {
+				"from": 162590,
+				"to": 166550
+			},
+			"text": " It has a 10,000 milliamp hour battery with 20 watts of power"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:46,550",
+				"to": "00:02:49,030"
+			},
+			"offsets": {
+				"from": 166550,
+				"to": 169030
+			},
+			"text": " giving you up to three full phone charges."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:49,030",
+				"to": "00:02:50,790"
+			},
+			"offsets": {
+				"from": 169030,
+				"to": 170790
+			},
+			"text": " And right now is a great time to grab them"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:50,790",
+				"to": "00:02:53,510"
+			},
+			"offsets": {
+				"from": 170790,
+				"to": 173510
+			},
+			"text": " because from October 8th through November 5th,"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:53,510",
+				"to": "00:02:55,830"
+			},
+			"offsets": {
+				"from": 173510,
+				"to": 175830
+			},
+			"text": " Ridge is running its friends and family sale"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:55,830",
+				"to": "00:02:58,950"
+			},
+			"offsets": {
+				"from": 175830,
+				"to": 178950
+			},
+			"text": " by two Ridge power banks and get a third one free."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:58,950",
+				"to": "00:03:01,990"
+			},
+			"offsets": {
+				"from": 178950,
+				"to": 181990
+			},
+			"text": " So you can knock out three genuinely useful gifts"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:01,990",
+				"to": "00:03:03,910"
+			},
+			"offsets": {
+				"from": 181990,
+				"to": 183910
+			},
+			"text": " or give away two and keep one"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:03,910",
+				"to": "00:03:06,150"
+			},
+			"offsets": {
+				"from": 183910,
+				"to": 186150
+			},
+			"text": " or keep all three for yourself."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:06,150",
+				"to": "00:03:07,750"
+			},
+			"offsets": {
+				"from": 186150,
+				"to": 187750
+			},
+			"text": " I don't know, that's what I'd probably do."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:07,750",
+				"to": "00:03:10,670"
+			},
+			"offsets": {
+				"from": 187750,
+				"to": 190670
+			},
+			"text": " I use this Ridge power bank all the time."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:10,670",
+				"to": "00:03:11,910"
+			},
+			"offsets": {
+				"from": 190670,
+				"to": 191910
+			},
+			"text": " I really like it."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:11,910",
+				"to": "00:03:14,190"
+			},
+			"offsets": {
+				"from": 191910,
+				"to": 194190
+			},
+			"text": " I took it to a music festival recently"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:14,190",
+				"to": "00:03:16,710"
+			},
+			"offsets": {
+				"from": 194190,
+				"to": 196710
+			},
+			"text": " and normally when I go to music festivals"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:16,710",
+				"to": "00:03:20,750"
+			},
+			"offsets": {
+				"from": 196710,
+				"to": 200750
+			},
+			"text": " I get really self-conscious about running out of battery."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:20,750",
+				"to": "00:03:23,950"
+			},
+			"offsets": {
+				"from": 200750,
+				"to": 203950
+			},
+			"text": " With Ridge I just had a full charge pretty much the entire day."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:23,950",
+				"to": "00:03:25,350"
+			},
+			"offsets": {
+				"from": 203950,
+				"to": 205350
+			},
+			"text": " It was an amazing piece of mind"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:25,350",
+				"to": "00:03:27,390"
+			},
+			"offsets": {
+				"from": 205350,
+				"to": 207390
+			},
+			"text": " and with power banks I've had in the past"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:27,390",
+				"to": "00:03:29,710"
+			},
+			"offsets": {
+				"from": 207390,
+				"to": 209710
+			},
+			"text": " you bring the power bank but then you also need the cable."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:29,710",
+				"to": "00:03:30,830"
+			},
+			"offsets": {
+				"from": 209710,
+				"to": 210830
+			},
+			"text": " It's a whole nightmare."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:30,830",
+				"to": "00:03:33,190"
+			},
+			"offsets": {
+				"from": 210830,
+				"to": 213190
+			},
+			"text": " With Ridge you can just like put your phone"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:33,190",
+				"to": "00:03:36,430"
+			},
+			"offsets": {
+				"from": 213190,
+				"to": 216430
+			},
+			"text": " on the back of this because it's got the MagSafe situation"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:36,430",
+				"to": "00:03:40,350"
+			},
+			"offsets": {
+				"from": 216430,
+				"to": 220350
+			},
+			"text": " and then it has the cables built in which is really awesome."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:40,350",
+				"to": "00:03:42,350"
+			},
+			"offsets": {
+				"from": 220350,
+				"to": 222350
+			},
+			"text": " They just kind of like snap in here"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:42,350",
+				"to": "00:03:44,270"
+			},
+			"offsets": {
+				"from": 222350,
+				"to": 224270
+			},
+			"text": " and then you can pull them out."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:46,150",
+				"to": "00:03:49,070"
+			},
+			"offsets": {
+				"from": 226150,
+				"to": 229070
+			},
+			"text": " You can just like pull them out like this."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:49,070",
+				"to": "00:03:51,270"
+			},
+			"offsets": {
+				"from": 229070,
+				"to": 231270
+			},
+			"text": " So I really like mine."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:51,270",
+				"to": "00:03:53,470"
+			},
+			"offsets": {
+				"from": 231270,
+				"to": 233470
+			},
+			"text": " Ridge also makes wallets, phone cases,"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:53,470",
+				"to": "00:03:55,510"
+			},
+			"offsets": {
+				"from": 233470,
+				"to": 235510
+			},
+			"text": " luggage, key cases and more."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:55,510",
+				"to": "00:03:58,430"
+			},
+			"offsets": {
+				"from": 235510,
+				"to": 238430
+			},
+			"text": " Plus they're free shipping, a 99 day risk free trial"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:58,430",
+				"to": "00:04:00,670"
+			},
+			"offsets": {
+				"from": 238430,
+				"to": 240670
+			},
+			"text": " and a lifetime warranty."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:00,670",
+				"to": "00:04:02,310"
+			},
+			"offsets": {
+				"from": 240670,
+				"to": 242310
+			},
+			"text": " Ready to get a head start on gifting."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:02,310",
+				"to": "00:04:05,070"
+			},
+			"offsets": {
+				"from": 242310,
+				"to": 245070
+			},
+			"text": " You can find Ridge's power bank at Best Buy in Amazon"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:05,070",
+				"to": "00:04:07,590"
+			},
+			"offsets": {
+				"from": 245070,
+				"to": 247590
+			},
+			"text": " or head to Ridge.com/404media"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:07,590",
+				"to": "00:04:09,270"
+			},
+			"offsets": {
+				"from": 247590,
+				"to": 249270
+			},
+			"text": " for Ridge's friends and family sale"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:09,270",
+				"to": "00:04:11,310"
+			},
+			"offsets": {
+				"from": 249270,
+				"to": 251310
+			},
+			"text": " where you can buy two Ridge power banks"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:11,310",
+				"to": "00:04:12,950"
+			},
+			"offsets": {
+				"from": 251310,
+				"to": 252950
+			},
+			"text": " and get a third one free."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:12,950",
+				"to": "00:04:15,350"
+			},
+			"offsets": {
+				"from": 252950,
+				"to": 255350
+			},
+			"text": " That's Ridge.com/404media."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:15,350",
+				"to": "00:04:17,950"
+			},
+			"offsets": {
+				"from": 255350,
+				"to": 257950
+			},
+			"text": " Shop smart this holiday season with Ridge."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:17,950",
+				"to": "00:04:19,870"
+			},
+			"offsets": {
+				"from": 257950,
+				"to": 259870
+			},
+			"text": " Ridge.com/404media."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:19,870",
+				"to": "00:04:22,310"
+			},
+			"offsets": {
+				"from": 259870,
+				"to": 262310
+			},
+			"text": " After your purchase, they'll ask where you heard about us."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:22,310",
+				"to": "00:04:24,230"
+			},
+			"offsets": {
+				"from": 262310,
+				"to": 264230
+			},
+			"text": " Please support our show and tell them"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:24,230",
+				"to": "00:04:26,070"
+			},
+			"offsets": {
+				"from": 264230,
+				"to": 266070
+			},
+			"text": " that 404media sent you."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:26,950",
+				"to": "00:04:29,150"
+			},
+			"offsets": {
+				"from": 266950,
+				"to": 269150
+			},
+			"text": " So for fun, I Googled myself last week"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:29,150",
+				"to": "00:04:30,990"
+			},
+			"offsets": {
+				"from": 269150,
+				"to": 270990
+			},
+			"text": " and found my home address, my phone number"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:30,990",
+				"to": "00:04:33,470"
+			},
+			"offsets": {
+				"from": 270990,
+				"to": 273470
+			},
+			"text": " and a relative I'm fairly sure I've never met."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:33,470",
+				"to": "00:04:35,990"
+			},
+			"offsets": {
+				"from": 273470,
+				"to": 275990
+			},
+			"text": " All on directory sites I never signed up for."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:35,990",
+				"to": "00:04:38,310"
+			},
+			"offsets": {
+				"from": 275990,
+				"to": 278310
+			},
+			"text": " That's a data broker economy for you."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:38,310",
+				"to": "00:04:40,670"
+			},
+			"offsets": {
+				"from": 278310,
+				"to": 280670
+			},
+			"text": " They scrape your info, package you up like a trading card"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:40,670",
+				"to": "00:04:42,350"
+			},
+			"offsets": {
+				"from": 280670,
+				"to": 282350
+			},
+			"text": " and sell you off to whoever's paying"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:42,350",
+				"to": "00:04:45,270"
+			},
+			"offsets": {
+				"from": 282350,
+				"to": 285270
+			},
+			"text": " which is exactly how identity thieves go shopping."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:45,270",
+				"to": "00:04:48,150"
+			},
+			"offsets": {
+				"from": 285270,
+				"to": 288150
+			},
+			"text": " Bad luck when your entire job is not getting docked."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:48,150",
+				"to": "00:04:49,710"
+			},
+			"offsets": {
+				"from": 288150,
+				"to": 289710
+			},
+			"text": " That's why we use incogny."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:49,710",
+				"to": "00:04:51,730"
+			},
+			"offsets": {
+				"from": 289710,
+				"to": 291730
+			},
+			"text": " Instead of you spending hundreds of hours"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:51,730",
+				"to": "00:04:54,630"
+			},
+			"offsets": {
+				"from": 291730,
+				"to": 294630
+			},
+			"text": " filling out opt-out forms across 40 browser tabs,"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:54,630",
+				"to": "00:04:57,310"
+			},
+			"offsets": {
+				"from": 294630,
+				"to": 297310
+			},
+			"text": " incogny gets to work by sending legal removal requests"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:57,310",
+				"to": "00:05:00,530"
+			},
+			"offsets": {
+				"from": 297310,
+				"to": 300530
+			},
+			"text": " to over 420 harmful data broker sites."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:00,530",
+				"to": "00:05:02,710"
+			},
+			"offsets": {
+				"from": 300530,
+				"to": 302710
+			},
+			"text": " It's independently verified by Deloitte."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:02,710",
+				"to": "00:05:04,870"
+			},
+			"offsets": {
+				"from": 302710,
+				"to": 304870
+			},
+			"text": " Resubmits requests every 30 to 60 days"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:04,870",
+				"to": "00:05:07,150"
+			},
+			"offsets": {
+				"from": 304870,
+				"to": 307150
+			},
+			"text": " as brokers try to quietly relist you"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:07,150",
+				"to": "00:05:09,910"
+			},
+			"offsets": {
+				"from": 307150,
+				"to": 309910
+			},
+			"text": " and you can track every request right from the app."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:09,910",
+				"to": "00:05:12,950"
+			},
+			"offsets": {
+				"from": 309910,
+				"to": 312950
+			},
+			"text": " On the unlimited plan, the exposure scanner digs up"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:12,950",
+				"to": "00:05:15,910"
+			},
+			"offsets": {
+				"from": 312950,
+				"to": 315910
+			},
+			"text": " the weir stuff across the wider web like old forums,"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:15,910",
+				"to": "00:05:18,150"
+			},
+			"offsets": {
+				"from": 315910,
+				"to": 318150
+			},
+			"text": " random blogs or obscure directories."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:18,150",
+				"to": "00:05:20,430"
+			},
+			"offsets": {
+				"from": 318150,
+				"to": 320430
+			},
+			"text": " It surfaces all your exposed profile links"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:20,430",
+				"to": "00:05:22,830"
+			},
+			"offsets": {
+				"from": 320430,
+				"to": 322830
+			},
+			"text": " right in your dashboard where you simply select"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:22,830",
+				"to": "00:05:24,230"
+			},
+			"offsets": {
+				"from": 322830,
+				"to": 324230
+			},
+			"text": " which links you want to take in down"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:24,230",
+				"to": "00:05:26,750"
+			},
+			"offsets": {
+				"from": 324230,
+				"to": 326750
+			},
+			"text": " and incogny's team of human privacy experts"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:26,750",
+				"to": "00:05:29,750"
+			},
+			"offsets": {
+				"from": 326750,
+				"to": 329750
+			},
+			"text": " will handle the manual corporate takedowns for you."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:29,750",
+				"to": "00:05:33,590"
+			},
+			"offsets": {
+				"from": 329750,
+				"to": 333590
+			},
+			"text": " Take back control today, go to incogny.com/404media"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:33,590",
+				"to": "00:05:37,030"
+			},
+			"offsets": {
+				"from": 333590,
+				"to": 337030
+			},
+			"text": " and use code 404media for 60% off annual plan."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:37,030",
+				"to": "00:05:41,390"
+			},
+			"offsets": {
+				"from": 337030,
+				"to": 341390
+			},
+			"text": " That's incogny.com/404media, promo code 404media."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:41,390",
+				"to": "00:05:44,350"
+			},
+			"offsets": {
+				"from": 341390,
+				"to": 344350
+			},
+			"text": " Risk-free with a 30 day money back guarantee."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:44,350",
+				"to": "00:05:46,350"
+			},
+			"offsets": {
+				"from": 344350,
+				"to": 346350
+			},
+			"text": " They can't harm you, they can't find you."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:49,570",
+				"to": "00:05:51,590"
+			},
+			"offsets": {
+				"from": 349570,
+				"to": 351590
+			},
+			"text": " One thing that happened after you left,"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:51,590",
+				"to": "00:05:54,970"
+			},
+			"offsets": {
+				"from": 351590,
+				"to": 354970
+			},
+			"text": " like this is kind of, I guess years later at this point"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:54,970",
+				"to": "00:05:57,630"
+			},
+			"offsets": {
+				"from": 354970,
+				"to": 357630
+			},
+			"text": " is Facebook and all of its products"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:57,630",
+				"to": "00:05:59,810"
+			},
+			"offsets": {
+				"from": 357630,
+				"to": 359810
+			},
+			"text": " have become a lot more like TikTok."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:59,810",
+				"to": "00:06:02,130"
+			},
+			"offsets": {
+				"from": 359810,
+				"to": 362130
+			},
+			"text": " You know, it used to show you a lot of content"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:02,130",
+				"to": "00:06:03,090"
+			},
+			"offsets": {
+				"from": 362130,
+				"to": 363090
+			},
+			"text": " from your friends and family"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:03,090",
+				"to": "00:06:04,530"
+			},
+			"offsets": {
+				"from": 363090,
+				"to": 364530
+			},
+			"text": " and people that you were their friends with"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:04,530",
+				"to": "00:06:06,010"
+			},
+			"offsets": {
+				"from": 364530,
+				"to": 366010
+			},
+			"text": " or following or whatever."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:06,010",
+				"to": "00:06:08,570"
+			},
+			"offsets": {
+				"from": 366010,
+				"to": 368570
+			},
+			"text": " And now it is showing a lot more content"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:08,570",
+				"to": "00:06:11,570"
+			},
+			"offsets": {
+				"from": 368570,
+				"to": 371570
+			},
+			"text": " from just like anyone, like any random person"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:11,570",
+				"to": "00:06:12,690"
+			},
+			"offsets": {
+				"from": 371570,
+				"to": 372690
+			},
+			"text": " where it becomes public."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:12,690",
+				"to": "00:06:16,130"
+			},
+			"offsets": {
+				"from": 372690,
+				"to": 376130
+			},
+			"text": " And I mean, I think that kind of is an outgrowth"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:16,130",
+				"to": "00:06:18,570"
+			},
+			"offsets": {
+				"from": 376130,
+				"to": 378570
+			},
+			"text": " of what you're describing,"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:18,570",
+				"to": "00:06:21,450"
+			},
+			"offsets": {
+				"from": 378570,
+				"to": 381450
+			},
+			"text": " where it's like if re-shared content can still elicit"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:21,450",
+				"to": "00:06:23,490"
+			},
+			"offsets": {
+				"from": 381450,
+				"to": 383490
+			},
+			"text": " some sort of response, then maybe the algorithm"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:23,490",
+				"to": "00:06:25,010"
+			},
+			"offsets": {
+				"from": 383490,
+				"to": 385010
+			},
+			"text": " is more likely to show it to you."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:25,010",
+				"to": "00:06:26,210"
+			},
+			"offsets": {
+				"from": 385010,
+				"to": 386210
+			},
+			"text": " But what we're seeing now is like,"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:26,210",
+				"to": "00:06:28,770"
+			},
+			"offsets": {
+				"from": 386210,
+				"to": 388770
+			},
+			"text": " it's a lot more global, I guess."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:28,770",
+				"to": "00:06:31,050"
+			},
+			"offsets": {
+				"from": 388770,
+				"to": 391050
+			},
+			"text": " Like these are not increasingly,"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:31,050",
+				"to": "00:06:32,850"
+			},
+			"offsets": {
+				"from": 391050,
+				"to": 392850
+			},
+			"text": " they're not really social networks."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:32,850",
+				"to": "00:06:35,530"
+			},
+			"offsets": {
+				"from": 392850,
+				"to": 395530
+			},
+			"text": " They're more like log on and do and scroll"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:35,530",
+				"to": "00:06:37,330"
+			},
+			"offsets": {
+				"from": 395530,
+				"to": 397330
+			},
+			"text": " and just get kind of get what you get."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:37,330",
+				"to": "00:06:40,530"
+			},
+			"offsets": {
+				"from": 397330,
+				"to": 400530
+			},
+			"text": " And I guess I'm wondering, I guess do you agree"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:40,530",
+				"to": "00:06:43,570"
+			},
+			"offsets": {
+				"from": 400530,
+				"to": 403570
+			},
+			"text": " with that characterization slash how closely"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:43,570",
+				"to": "00:06:47,330"
+			},
+			"offsets": {
+				"from": 403570,
+				"to": 407330
+			},
+			"text": " have you been following this since you blew the whistle?"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:47,330",
+				"to": "00:06:50,050"
+			},
+			"offsets": {
+				"from": 407330,
+				"to": 410050
+			},
+			"text": " - So I totally agree with this assessment."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:50,050",
+				"to": "00:06:52,370"
+			},
+			"offsets": {
+				"from": 410050,
+				"to": 412370
+			},
+			"text": " And I wanna take some personal responsibility."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:52,370",
+				"to": "00:06:54,250"
+			},
+			"offsets": {
+				"from": 412370,
+				"to": 414250
+			},
+			"text": " So when I worked at Pinterest,"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:54,250",
+				"to": "00:06:56,530"
+			},
+			"offsets": {
+				"from": 414250,
+				"to": 416530
+			},
+			"text": " so Pinterest originally was you only got content"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:56,530",
+				"to": "00:06:58,530"
+			},
+			"offsets": {
+				"from": 416530,
+				"to": 418530
+			},
+			"text": " from people you explicitly chose."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:58,530",
+				"to": "00:07:01,250"
+			},
+			"offsets": {
+				"from": 418530,
+				"to": 421250
+			},
+			"text": " So you heard from humans because you chose those humans."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:01,250",
+				"to": "00:07:02,650"
+			},
+			"offsets": {
+				"from": 421250,
+				"to": 422650
+			},
+			"text": " I think it was largely chronological."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:02,650",
+				"to": "00:07:04,330"
+			},
+			"offsets": {
+				"from": 422650,
+				"to": 424330
+			},
+			"text": " People didn't wanna do the labor"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:04,330",
+				"to": "00:07:06,290"
+			},
+			"offsets": {
+				"from": 424330,
+				"to": 426290
+			},
+			"text": " of finding 50 accounts to follow,"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:06,290",
+				"to": "00:07:08,130"
+			},
+			"offsets": {
+				"from": 426290,
+				"to": 428130
+			},
+			"text": " 'cause you needed about 50 in order to have a good feed."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:08,130",
+				"to": "00:07:11,130"
+			},
+			"offsets": {
+				"from": 428130,
+				"to": 431130
+			},
+			"text": " So they introduced topics, which kind of aggregated"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:11,130",
+				"to": "00:07:13,290"
+			},
+			"offsets": {
+				"from": 431130,
+				"to": 433290
+			},
+			"text": " people together being like, oh, you said you like food,"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:13,290",
+				"to": "00:07:15,330"
+			},
+			"offsets": {
+				"from": 433290,
+				"to": 435330
+			},
+			"text": " we think these accounts have a lot of food in them."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:15,330",
+				"to": "00:07:18,250"
+			},
+			"offsets": {
+				"from": 435330,
+				"to": 438250
+			},
+			"text": " We'll basically ghost follow you onto their account"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:18,250",
+				"to": "00:07:19,530"
+			},
+			"offsets": {
+				"from": 438250,
+				"to": 439530
+			},
+			"text": " 'cause you follow food."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:19,530",
+				"to": "00:07:22,050"
+			},
+			"offsets": {
+				"from": 439530,
+				"to": 442050
+			},
+			"text": " And then they, about maybe six months or a year"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:22,050",
+				"to": "00:07:23,210"
+			},
+			"offsets": {
+				"from": 442050,
+				"to": 443210
+			},
+			"text": " before I joined Pinterest,"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:23,210",
+				"to": "00:07:25,850"
+			},
+			"offsets": {
+				"from": 443210,
+				"to": 445850
+			},
+			"text": " they moved to peer recommendations."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:25,850",
+				"to": "00:07:29,010"
+			},
+			"offsets": {
+				"from": 445850,
+				"to": 449010
+			},
+			"text": " And I joined during a time period"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:29,010",
+				"to": "00:07:31,610"
+			},
+			"offsets": {
+				"from": 449010,
+				"to": 451610
+			},
+			"text": " where they were dealing with the fallout"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:31,610",
+				"to": "00:07:36,690"
+			},
+			"offsets": {
+				"from": 451610,
+				"to": 456690
+			},
+			"text": " of moving away from being anchored on people you chose."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:36,690",
+				"to": "00:07:39,890"
+			},
+			"offsets": {
+				"from": 456690,
+				"to": 459890
+			},
+			"text": " So the challenge is that when you go from being"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:39,890",
+				"to": "00:07:42,050"
+			},
+			"offsets": {
+				"from": 459890,
+				"to": 462050
+			},
+			"text": " in an environment where humans are mediating"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:42,050",
+				"to": "00:07:43,650"
+			},
+			"offsets": {
+				"from": 462050,
+				"to": 463650
+			},
+			"text": " how you interact with the world"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:43,650",
+				"to": "00:07:45,870"
+			},
+			"offsets": {
+				"from": 463650,
+				"to": 465870
+			},
+			"text": " to one where a computer is choosing"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:45,870",
+				"to": "00:07:47,810"
+			},
+			"offsets": {
+				"from": 465870,
+				"to": 467810
+			},
+			"text": " how you interact with the world."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:47,810",
+				"to": "00:07:52,050"
+			},
+			"offsets": {
+				"from": 467810,
+				"to": 472050
+			},
+			"text": " In our case, our problem was it fostered a lot of monotony."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:52,050",
+				"to": "00:07:55,570"
+			},
+			"offsets": {
+				"from": 472050,
+				"to": 475570
+			},
+			"text": " So the thing you are most likely to re-share"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:55,570",
+				"to": "00:07:58,970"
+			},
+			"offsets": {
+				"from": 475570,
+				"to": 478970
+			},
+			"text": " is I think identical to the last thing you re-shared."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:58,970",
+				"to": "00:08:00,000"
+			},
+			"offsets": {
+				"from": 478970,
+				"to": 480000
+			},
+			"text": " So think of it this way like,"
+		}
+	]
+}

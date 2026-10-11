@@ -1,0 +1,350 @@
+whisper_init_from_file_with_params_no_state: loading model from 'models/ggml-base.en.bin'
+whisper_init_with_params_no_state: use gpu    = 0
+whisper_init_with_params_no_state: flash attn = 1
+whisper_init_with_params_no_state: gpu_device = 0
+whisper_init_with_params_no_state: dtw        = 0
+whisper_init_with_params_no_state: devices    = 1
+whisper_init_with_params_no_state: backends   = 1
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51864
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 512
+whisper_model_load: n_audio_head  = 8
+whisper_model_load: n_audio_layer = 6
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 512
+whisper_model_load: n_text_head   = 8
+whisper_model_load: n_text_layer  = 6
+whisper_model_load: n_mels        = 80
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 2 (base)
+whisper_model_load: adding 1607 extra tokens
+whisper_model_load: n_langs       = 99
+whisper_model_load:          CPU total size =   147.37 MB
+whisper_model_load: model size    =  147.37 MB
+whisper_backend_init_gpu: no GPU found
+whisper_init_state: kv self size  =    6.29 MB
+whisper_init_state: kv cross size =   18.87 MB
+whisper_init_state: kv pad  size  =    3.15 MB
+whisper_init_state: compute buffer (conv)   =   16.28 MB
+whisper_init_state: compute buffer (encode) =   23.09 MB
+whisper_init_state: compute buffer (cross)  =    4.66 MB
+whisper_init_state: compute buffer (decode) =   96.37 MB
+read_audio_data: reading audio data from 'data/served-opening.wav' ...
+read_audio_data: trying to decode with miniaudio
+
+system_info: n_threads = 2 / 4 | WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | OPENMP = 1 | REPACK = 1 | 
+
+main: processing 'data/served-opening.wav' (2880000 samples, 180.0 sec), 2 threads, 1 processors, 3 beams + best of 3, lang = en, task = transcribe, timestamps = 1 ...
+
+whisper_full: VAD is enabled, processing speech segments only
+whisper_vad: VAD is enabled, processing speech segments only
+whisper_vad_init_from_file_with_params: loading VAD model from 'models/ggml-silero-v6.2.0.bin'
+whisper_vad_init_with_params: model type: silero-16k
+whisper_vad_init_with_params: model version: 6.2.0
+whisper_vad_init_with_params: n_encoder_layers = 4
+whisper_vad_init_with_params: encoder_in_channels[0] = 129
+whisper_vad_init_with_params: encoder_in_channels[1] = 128
+whisper_vad_init_with_params: encoder_in_channels[2] = 64
+whisper_vad_init_with_params: encoder_in_channels[3] = 64
+whisper_vad_init_with_params: encoder_out_channels[0] = 128
+whisper_vad_init_with_params: encoder_out_channels[1] = 64
+whisper_vad_init_with_params: encoder_out_channels[2] = 64
+whisper_vad_init_with_params: encoder_out_channels[3] = 128
+whisper_vad_init_with_params: lstm_input_size = 128
+whisper_vad_init_with_params: lstm_hidden_size = 128
+whisper_vad_init_with_params: final_conv_in = 128
+whisper_vad_init_with_params: final_conv_out = 1
+whisper_vad_init_with_params:          CPU total size =     0.88 MB
+whisper_vad_init_with_params: model size    =    0.88 MB
+whisper_backend_init_gpu: no GPU found
+whisper_vad_init_context: compute buffer (VAD)   =    1.60 MB
+whisper_vad_segments_from_samples: detecting speech timestamps in 2880000 samples
+whisper_vad_detect_speech_no_reset: detecting speech in 2880000 samples
+whisper_vad_detect_speech_no_reset: n_chunks: 5625
+whisper_vad_detect_speech_no_reset: props size: 5625
+whisper_vad_detect_speech_no_reset: vad time = 3562.81 ms processing 2880000 samples
+whisper_vad_segments_from_probs: detecting speech timestamps using 5625 probabilities
+whisper_vad_segments_from_probs: Merged 0 adjacent segments, now have 3 segments
+whisper_vad_segments_from_probs: Final speech segments after filtering: 3
+whisper_vad_segments_from_probs: VAD segment 0: start = 0.08, end = 29.42 (duration: 29.34)
+whisper_vad_segments_from_probs: VAD segment 1: start = 30.83, end = 60.88 (duration: 30.05)
+whisper_vad_segments_from_probs: VAD segment 2: start = 66.06, end = 180.00 (duration: 113.94)
+whisper_vad: detected 3 speech segments
+whisper_vad: Including segment 0: 0.08 - 29.52 (duration: 29.44)
+whisper_vad: Including segment 1: 30.83 - 60.98 (duration: 30.15)
+whisper_vad: Including segment 2: 66.06 - 180.00 (duration: 113.94)
+whisper_vad: total duration of speech segments: 173.53 seconds
+whisper_vad: vad_segment_info: orig_start: 0.08, orig_end: 29.42, vad_start: 0.00, vad_end: 29.34
+whisper_vad: vad_segment_info: orig_start: 30.83, orig_end: 60.88, vad_start: 29.54, vad_end: 59.59
+whisper_vad: vad_segment_info: orig_start: 66.06, orig_end: 180.00, vad_start: 59.79, vad_end: 173.73
+whisper_vad: Created time mapping table with 8 points
+whisper_vad: Reduced audio from 2880000 to 2779679 samples (3.5% reduction)
+output_json: saving output to 'outputs/cpp-base-f16-r0/served-opening.json'
+read_audio_data: reading audio data from 'data/served-early.wav' ...
+read_audio_data: trying to decode with miniaudio
+
+system_info: n_threads = 2 / 4 | WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | OPENMP = 1 | REPACK = 1 | 
+
+main: processing 'data/served-early.wav' (1920000 samples, 120.0 sec), 2 threads, 1 processors, 3 beams + best of 3, lang = en, task = transcribe, timestamps = 1 ...
+
+whisper_full: VAD is enabled, processing speech segments only
+whisper_vad: VAD is enabled, processing speech segments only
+whisper_vad_segments_from_samples: detecting speech timestamps in 1920000 samples
+whisper_vad_detect_speech_no_reset: detecting speech in 1920000 samples
+whisper_vad_detect_speech_no_reset: n_chunks: 3750
+whisper_vad_detect_speech_no_reset: props size: 3750
+whisper_vad_detect_speech_no_reset: vad time = 5691.03 ms processing 1920000 samples
+whisper_vad_segments_from_probs: detecting speech timestamps using 3750 probabilities
+whisper_vad_segments_from_probs: Final speech segments after filtering: 1
+whisper_vad_segments_from_probs: VAD segment 0: start = 0.00, end = 120.00 (duration: 120.00)
+whisper_vad: detected 1 speech segments
+whisper_vad: Including segment 0: 0.00 - 120.00 (duration: 120.00)
+whisper_vad: total duration of speech segments: 120.00 seconds
+whisper_vad: vad_segment_info: orig_start: 0.00, orig_end: 120.00, vad_start: 0.00, vad_end: 120.00
+whisper_vad: Created time mapping table with 2 points
+whisper_vad: Reduced audio from 1920000 to 1919999 samples (0.0% reduction)
+output_json: saving output to 'outputs/cpp-base-f16-r0/served-early.json'
+read_audio_data: reading audio data from 'data/served-middle.wav' ...
+read_audio_data: trying to decode with miniaudio
+
+system_info: n_threads = 2 / 4 | WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | OPENMP = 1 | REPACK = 1 | 
+
+main: processing 'data/served-middle.wav' (7680000 samples, 480.0 sec), 2 threads, 1 processors, 3 beams + best of 3, lang = en, task = transcribe, timestamps = 1 ...
+
+whisper_full: VAD is enabled, processing speech segments only
+whisper_vad: VAD is enabled, processing speech segments only
+whisper_vad_segments_from_samples: detecting speech timestamps in 7680000 samples
+whisper_vad_detect_speech_no_reset: detecting speech in 7680000 samples
+whisper_vad_detect_speech_no_reset: n_chunks: 15000
+whisper_vad_detect_speech_no_reset: props size: 15000
+whisper_vad_detect_speech_no_reset: vad time = 14056.74 ms processing 7680000 samples
+whisper_vad_segments_from_probs: detecting speech timestamps using 15000 probabilities
+whisper_vad_segments_from_probs: Merged 0 adjacent segments, now have 6 segments
+whisper_vad_segments_from_probs: Final speech segments after filtering: 6
+whisper_vad_segments_from_probs: VAD segment 0: start = 0.00, end = 110.67 (duration: 110.67)
+whisper_vad_segments_from_probs: VAD segment 1: start = 112.43, end = 215.31 (duration: 102.88)
+whisper_vad_segments_from_probs: VAD segment 2: start = 223.41, end = 229.39 (duration: 5.98)
+whisper_vad_segments_from_probs: VAD segment 3: start = 233.01, end = 250.70 (duration: 17.69)
+whisper_vad_segments_from_probs: VAD segment 4: start = 252.05, end = 302.61 (duration: 50.56)
+whisper_vad_segments_from_probs: VAD segment 5: start = 304.24, end = 480.00 (duration: 175.76)
+whisper_vad: detected 6 speech segments
+whisper_vad: Including segment 0: 0.00 - 110.77 (duration: 110.77)
+whisper_vad: Including segment 1: 112.43 - 215.41 (duration: 102.98)
+whisper_vad: Including segment 2: 223.41 - 229.49 (duration: 6.08)
+whisper_vad: Including segment 3: 233.01 - 250.80 (duration: 17.79)
+whisper_vad: Including segment 4: 252.05 - 302.71 (duration: 50.66)
+whisper_vad: Including segment 5: 304.24 - 480.00 (duration: 175.76)
+whisper_vad: total duration of speech segments: 464.04 seconds
+whisper_vad: vad_segment_info: orig_start: 0.00, orig_end: 110.67, vad_start: 0.00, vad_end: 110.67
+whisper_vad: vad_segment_info: orig_start: 112.43, orig_end: 215.31, vad_start: 110.87, vad_end: 213.75
+whisper_vad: vad_segment_info: orig_start: 223.41, orig_end: 229.39, vad_start: 213.95, vad_end: 219.93
+whisper_vad: vad_segment_info: orig_start: 233.01, orig_end: 250.70, vad_start: 220.13, vad_end: 237.82
+whisper_vad: vad_segment_info: orig_start: 252.05, orig_end: 302.61, vad_start: 238.02, vad_end: 288.58
+whisper_vad: vad_segment_info: orig_start: 304.24, orig_end: 480.00, vad_start: 288.78, vad_end: 464.54
+whisper_vad: Created time mapping table with 17 points
+whisper_vad: Reduced audio from 7680000 to 7432639 samples (3.2% reduction)
+output_json: saving output to 'outputs/cpp-base-f16-r0/served-middle.json'
+read_audio_data: reading audio data from 'data/served-late.wav' ...
+read_audio_data: trying to decode with miniaudio
+
+system_info: n_threads = 2 / 4 | WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | OPENMP = 1 | REPACK = 1 | 
+
+main: processing 'data/served-late.wav' (1920000 samples, 120.0 sec), 2 threads, 1 processors, 3 beams + best of 3, lang = en, task = transcribe, timestamps = 1 ...
+
+whisper_full: VAD is enabled, processing speech segments only
+whisper_vad: VAD is enabled, processing speech segments only
+whisper_vad_segments_from_samples: detecting speech timestamps in 1920000 samples
+whisper_vad_detect_speech_no_reset: detecting speech in 1920000 samples
+whisper_vad_detect_speech_no_reset: n_chunks: 3750
+whisper_vad_detect_speech_no_reset: props size: 3750
+whisper_vad_detect_speech_no_reset: vad time = 16188.52 ms processing 1920000 samples
+whisper_vad_segments_from_probs: detecting speech timestamps using 3750 probabilities
+whisper_vad_segments_from_probs: Merged 0 adjacent segments, now have 3 segments
+whisper_vad_segments_from_probs: Final speech segments after filtering: 3
+whisper_vad_segments_from_probs: VAD segment 0: start = 0.00, end = 97.10 (duration: 97.10)
+whisper_vad_segments_from_probs: VAD segment 1: start = 100.05, end = 102.00 (duration: 1.95)
+whisper_vad_segments_from_probs: VAD segment 2: start = 110.13, end = 120.00 (duration: 9.87)
+whisper_vad: detected 3 speech segments
+whisper_vad: Including segment 0: 0.00 - 97.20 (duration: 97.20)
+whisper_vad: Including segment 1: 100.05 - 102.10 (duration: 2.05)
+whisper_vad: Including segment 2: 110.13 - 120.00 (duration: 9.87)
+whisper_vad: total duration of speech segments: 109.12 seconds
+whisper_vad: vad_segment_info: orig_start: 0.00, orig_end: 97.10, vad_start: 0.00, vad_end: 97.10
+whisper_vad: vad_segment_info: orig_start: 100.05, orig_end: 102.00, vad_start: 97.30, vad_end: 99.25
+whisper_vad: vad_segment_info: orig_start: 110.13, orig_end: 120.00, vad_start: 99.45, vad_end: 109.32
+whisper_vad: Created time mapping table with 8 points
+whisper_vad: Reduced audio from 1920000 to 1749119 samples (8.9% reduction)
+output_json: saving output to 'outputs/cpp-base-f16-r0/served-late.json'
+read_audio_data: reading audio data from 'data/served-ending.wav' ...
+read_audio_data: trying to decode with miniaudio
+
+system_info: n_threads = 2 / 4 | WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | OPENMP = 1 | REPACK = 1 | 
+
+main: processing 'data/served-ending.wav' (1440000 samples, 90.0 sec), 2 threads, 1 processors, 3 beams + best of 3, lang = en, task = transcribe, timestamps = 1 ...
+
+whisper_full: VAD is enabled, processing speech segments only
+whisper_vad: VAD is enabled, processing speech segments only
+whisper_vad_segments_from_samples: detecting speech timestamps in 1440000 samples
+whisper_vad_detect_speech_no_reset: detecting speech in 1440000 samples
+whisper_vad_detect_speech_no_reset: n_chunks: 2813
+whisper_vad_detect_speech_no_reset: props size: 2813
+whisper_vad_detect_speech_no_reset: chunk_len: 256 < n_window: 512
+whisper_vad_detect_speech_no_reset: vad time = 17710.38 ms processing 1440000 samples
+whisper_vad_segments_from_probs: detecting speech timestamps using 2813 probabilities
+whisper_vad_segments_from_probs: Final speech segments after filtering: 1
+whisper_vad_segments_from_probs: VAD segment 0: start = 0.69, end = 90.02 (duration: 89.33)
+whisper_vad: detected 1 speech segments
+whisper_vad: Including segment 0: 0.69 - 90.02 (duration: 89.33)
+whisper_vad: total duration of speech segments: 89.31 seconds
+whisper_vad: vad_segment_info: orig_start: 0.69, orig_end: 90.02, vad_start: 0.00, vad_end: 89.31
+whisper_vad: Created time mapping table with 2 points
+whisper_vad: Reduced audio from 1440000 to 1428959 samples (0.8% reduction)
+output_json: saving output to 'outputs/cpp-base-f16-r0/served-ending.json'
+read_audio_data: reading audio data from 'data/404media-opening.wav' ...
+read_audio_data: trying to decode with miniaudio
+
+system_info: n_threads = 2 / 4 | WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | OPENMP = 1 | REPACK = 1 | 
+
+main: processing 'data/404media-opening.wav' (2880000 samples, 180.0 sec), 2 threads, 1 processors, 3 beams + best of 3, lang = en, task = transcribe, timestamps = 1 ...
+
+whisper_full: VAD is enabled, processing speech segments only
+whisper_vad: VAD is enabled, processing speech segments only
+whisper_vad_segments_from_samples: detecting speech timestamps in 2880000 samples
+whisper_vad_detect_speech_no_reset: detecting speech in 2880000 samples
+whisper_vad_detect_speech_no_reset: n_chunks: 5625
+whisper_vad_detect_speech_no_reset: props size: 5625
+whisper_vad_detect_speech_no_reset: vad time = 20810.75 ms processing 2880000 samples
+whisper_vad_segments_from_probs: detecting speech timestamps using 5625 probabilities
+whisper_vad_segments_from_probs: Merged 0 adjacent segments, now have 2 segments
+whisper_vad_segments_from_probs: Final speech segments after filtering: 2
+whisper_vad_segments_from_probs: VAD segment 0: start = 0.00, end = 45.04 (duration: 45.04)
+whisper_vad_segments_from_probs: VAD segment 1: start = 48.88, end = 180.00 (duration: 131.12)
+whisper_vad: detected 2 speech segments
+whisper_vad: Including segment 0: 0.00 - 45.14 (duration: 45.14)
+whisper_vad: Including segment 1: 48.88 - 180.00 (duration: 131.12)
+whisper_vad: total duration of speech segments: 176.26 seconds
+whisper_vad: vad_segment_info: orig_start: 0.00, orig_end: 45.04, vad_start: 0.00, vad_end: 45.04
+whisper_vad: vad_segment_info: orig_start: 48.88, orig_end: 180.00, vad_start: 45.24, vad_end: 176.36
+whisper_vad: Created time mapping table with 5 points
+whisper_vad: Reduced audio from 2880000 to 2821759 samples (2.0% reduction)
+output_json: saving output to 'outputs/cpp-base-f16-r0/404media-opening.json'
+read_audio_data: reading audio data from 'data/404media-early.wav' ...
+read_audio_data: trying to decode with miniaudio
+
+system_info: n_threads = 2 / 4 | WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | OPENMP = 1 | REPACK = 1 | 
+
+main: processing 'data/404media-early.wav' (1920000 samples, 120.0 sec), 2 threads, 1 processors, 3 beams + best of 3, lang = en, task = transcribe, timestamps = 1 ...
+
+whisper_full: VAD is enabled, processing speech segments only
+whisper_vad: VAD is enabled, processing speech segments only
+whisper_vad_segments_from_samples: detecting speech timestamps in 1920000 samples
+whisper_vad_detect_speech_no_reset: detecting speech in 1920000 samples
+whisper_vad_detect_speech_no_reset: n_chunks: 3750
+whisper_vad_detect_speech_no_reset: props size: 3750
+whisper_vad_detect_speech_no_reset: vad time = 22869.40 ms processing 1920000 samples
+whisper_vad_segments_from_probs: detecting speech timestamps using 3750 probabilities
+whisper_vad_segments_from_probs: Final speech segments after filtering: 1
+whisper_vad_segments_from_probs: VAD segment 0: start = 0.00, end = 120.00 (duration: 120.00)
+whisper_vad: detected 1 speech segments
+whisper_vad: Including segment 0: 0.00 - 120.00 (duration: 120.00)
+whisper_vad: total duration of speech segments: 120.00 seconds
+whisper_vad: vad_segment_info: orig_start: 0.00, orig_end: 120.00, vad_start: 0.00, vad_end: 120.00
+whisper_vad: Created time mapping table with 2 points
+whisper_vad: Reduced audio from 1920000 to 1919999 samples (0.0% reduction)
+output_json: saving output to 'outputs/cpp-base-f16-r0/404media-early.json'
+read_audio_data: reading audio data from 'data/404media-middle.wav' ...
+read_audio_data: trying to decode with miniaudio
+
+system_info: n_threads = 2 / 4 | WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | OPENMP = 1 | REPACK = 1 | 
+
+main: processing 'data/404media-middle.wav' (7680000 samples, 480.0 sec), 2 threads, 1 processors, 3 beams + best of 3, lang = en, task = transcribe, timestamps = 1 ...
+
+whisper_full: VAD is enabled, processing speech segments only
+whisper_vad: VAD is enabled, processing speech segments only
+whisper_vad_segments_from_samples: detecting speech timestamps in 7680000 samples
+whisper_vad_detect_speech_no_reset: detecting speech in 7680000 samples
+whisper_vad_detect_speech_no_reset: n_chunks: 15000
+whisper_vad_detect_speech_no_reset: props size: 15000
+whisper_vad_detect_speech_no_reset: vad time = 31268.71 ms processing 7680000 samples
+whisper_vad_segments_from_probs: detecting speech timestamps using 15000 probabilities
+whisper_vad_segments_from_probs: Merged 0 adjacent segments, now have 3 segments
+whisper_vad_segments_from_probs: Final speech segments after filtering: 3
+whisper_vad_segments_from_probs: VAD segment 0: start = 0.00, end = 4.59 (duration: 4.59)
+whisper_vad_segments_from_probs: VAD segment 1: start = 6.42, end = 346.99 (duration: 340.57)
+whisper_vad_segments_from_probs: VAD segment 2: start = 349.17, end = 480.00 (duration: 130.83)
+whisper_vad: detected 3 speech segments
+whisper_vad: Including segment 0: 0.00 - 4.69 (duration: 4.69)
+whisper_vad: Including segment 1: 6.42 - 347.09 (duration: 340.67)
+whisper_vad: Including segment 2: 349.17 - 480.00 (duration: 130.83)
+whisper_vad: total duration of speech segments: 476.19 seconds
+whisper_vad: vad_segment_info: orig_start: 0.00, orig_end: 4.59, vad_start: 0.00, vad_end: 4.59
+whisper_vad: vad_segment_info: orig_start: 6.42, orig_end: 346.99, vad_start: 4.79, vad_end: 345.36
+whisper_vad: vad_segment_info: orig_start: 349.17, orig_end: 480.00, vad_start: 345.56, vad_end: 476.39
+whisper_vad: Created time mapping table with 8 points
+whisper_vad: Reduced audio from 7680000 to 7622239 samples (0.8% reduction)
+output_json: saving output to 'outputs/cpp-base-f16-r0/404media-middle.json'
+read_audio_data: reading audio data from 'data/404media-late.wav' ...
+read_audio_data: trying to decode with miniaudio
+
+system_info: n_threads = 2 / 4 | WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | OPENMP = 1 | REPACK = 1 | 
+
+main: processing 'data/404media-late.wav' (1920000 samples, 120.0 sec), 2 threads, 1 processors, 3 beams + best of 3, lang = en, task = transcribe, timestamps = 1 ...
+
+whisper_full: VAD is enabled, processing speech segments only
+whisper_vad: VAD is enabled, processing speech segments only
+whisper_vad_segments_from_samples: detecting speech timestamps in 1920000 samples
+whisper_vad_detect_speech_no_reset: detecting speech in 1920000 samples
+whisper_vad_detect_speech_no_reset: n_chunks: 3750
+whisper_vad_detect_speech_no_reset: props size: 3750
+whisper_vad_detect_speech_no_reset: vad time = 33351.83 ms processing 1920000 samples
+whisper_vad_segments_from_probs: detecting speech timestamps using 3750 probabilities
+whisper_vad_segments_from_probs: Final speech segments after filtering: 1
+whisper_vad_segments_from_probs: VAD segment 0: start = 0.00, end = 120.00 (duration: 120.00)
+whisper_vad: detected 1 speech segments
+whisper_vad: Including segment 0: 0.00 - 120.00 (duration: 120.00)
+whisper_vad: total duration of speech segments: 120.00 seconds
+whisper_vad: vad_segment_info: orig_start: 0.00, orig_end: 120.00, vad_start: 0.00, vad_end: 120.00
+whisper_vad: Created time mapping table with 2 points
+whisper_vad: Reduced audio from 1920000 to 1919999 samples (0.0% reduction)
+output_json: saving output to 'outputs/cpp-base-f16-r0/404media-late.json'
+read_audio_data: reading audio data from 'data/404media-ending.wav' ...
+read_audio_data: trying to decode with miniaudio
+
+system_info: n_threads = 2 / 4 | WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | OPENMP = 1 | REPACK = 1 | 
+
+main: processing 'data/404media-ending.wav' (1440000 samples, 90.0 sec), 2 threads, 1 processors, 3 beams + best of 3, lang = en, task = transcribe, timestamps = 1 ...
+
+whisper_full: VAD is enabled, processing speech segments only
+whisper_vad: VAD is enabled, processing speech segments only
+whisper_vad_segments_from_samples: detecting speech timestamps in 1440000 samples
+whisper_vad_detect_speech_no_reset: detecting speech in 1440000 samples
+whisper_vad_detect_speech_no_reset: n_chunks: 2813
+whisper_vad_detect_speech_no_reset: props size: 2813
+whisper_vad_detect_speech_no_reset: chunk_len: 256 < n_window: 512
+whisper_vad_detect_speech_no_reset: vad time = 34896.65 ms processing 1440000 samples
+whisper_vad_segments_from_probs: detecting speech timestamps using 2813 probabilities
+whisper_vad_segments_from_probs: Merged 0 adjacent segments, now have 2 segments
+whisper_vad_segments_from_probs: Final speech segments after filtering: 2
+whisper_vad_segments_from_probs: VAD segment 0: start = 0.00, end = 48.18 (duration: 48.18)
+whisper_vad_segments_from_probs: VAD segment 1: start = 60.43, end = 90.02 (duration: 29.59)
+whisper_vad: detected 2 speech segments
+whisper_vad: Including segment 0: 0.00 - 48.28 (duration: 48.28)
+whisper_vad: Including segment 1: 60.43 - 90.02 (duration: 29.59)
+whisper_vad: total duration of speech segments: 77.85 seconds
+whisper_vad: vad_segment_info: orig_start: 0.00, orig_end: 48.18, vad_start: 0.00, vad_end: 48.18
+whisper_vad: vad_segment_info: orig_start: 60.43, orig_end: 90.02, vad_start: 48.38, vad_end: 77.95
+whisper_vad: Created time mapping table with 5 points
+whisper_vad: Reduced audio from 1440000 to 1247199 samples (13.4% reduction)
+output_json: saving output to 'outputs/cpp-base-f16-r0/404media-ending.json'
+
+whisper_print_timings:     load time =    32.72 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =  3833.02 ms
+whisper_print_timings:   sample time = 17869.78 ms / 27124 runs (     0.66 ms per run)
+whisper_print_timings:   encode time = 94385.79 ms /    74 runs (  1275.48 ms per run)
+whisper_print_timings:   decode time =   690.76 ms /   145 runs (     4.76 ms per run)
+whisper_print_timings:   batchd time = 82690.86 ms / 26770 runs (     3.09 ms per run)
+whisper_print_timings:   prompt time = 20526.00 ms / 12793 runs (     1.60 ms per run)
+whisper_print_timings:    total time = 255457.81 ms

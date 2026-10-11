@@ -1,0 +1,560 @@
+{
+	"systeminfo": "WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": false,
+		"vocab": 51864,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "models/ggml-base.en.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:02,660"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 2660
+			},
+			"text": " I did a bunch of things I shouldn't have done."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,660",
+				"to": "00:00:06,880"
+			},
+			"offsets": {
+				"from": 2660,
+				"to": 6880
+			},
+			"text": " And then from that match and moment forward,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,880",
+				"to": "00:00:10,360"
+			},
+			"offsets": {
+				"from": 6880,
+				"to": 10360
+			},
+			"text": " my relationship was largely the best it had ever been"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,360",
+				"to": "00:00:12,960"
+			},
+			"offsets": {
+				"from": 10360,
+				"to": 12960
+			},
+			"text": " with the tennis world, right?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:12,960",
+				"to": "00:00:16,320"
+			},
+			"offsets": {
+				"from": 12960,
+				"to": 16320
+			},
+			"text": " And it's probably because of that match in that moment."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:16,320",
+				"to": "00:00:18,600"
+			},
+			"offsets": {
+				"from": 16320,
+				"to": 18600
+			},
+			"text": " And I didn't listen, I didn't say anything"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:18,600",
+				"to": "00:00:21,520"
+			},
+			"offsets": {
+				"from": 18600,
+				"to": 21520
+			},
+			"text": " that changed the world that, I mean, it was a talk,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:21,520",
+				"to": "00:00:23,200"
+			},
+			"offsets": {
+				"from": 21520,
+				"to": 23200
+			},
+			"text": " but you give credit where credit's due"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:23,200",
+				"to": "00:00:24,640"
+			},
+			"offsets": {
+				"from": 23200,
+				"to": 24640
+			},
+			"text": " in your tough moment, people will give you"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:24,640",
+				"to": "00:00:25,840"
+			},
+			"offsets": {
+				"from": 24640,
+				"to": 25840
+			},
+			"text": " a lot of credit for it."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:25,840",
+				"to": "00:00:29,160"
+			},
+			"offsets": {
+				"from": 25840,
+				"to": 29160
+			},
+			"text": " - All right, next, we actually are going to toss this one"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:29,160",
+				"to": "00:00:32,440"
+			},
+			"offsets": {
+				"from": 29160,
+				"to": 32440
+			},
+			"text": " over to Dean who is in our show on Tuesday,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:32,440",
+				"to": "00:00:34,840"
+			},
+			"offsets": {
+				"from": 32440,
+				"to": 34840
+			},
+			"text": " who used to be your coach, 'cause this is a question"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:34,840",
+				"to": "00:00:36,520"
+			},
+			"offsets": {
+				"from": 34840,
+				"to": 36520
+			},
+			"text": " from someone about coaching."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:36,520",
+				"to": "00:00:38,020"
+			},
+			"offsets": {
+				"from": 36520,
+				"to": 38020
+			},
+			"text": " - Get in there, Dean Goldfein."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:38,020",
+				"to": "00:00:39,280"
+			},
+			"offsets": {
+				"from": 38020,
+				"to": 39280
+			},
+			"text": " - All right, Dean, thanks for sticking around"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:39,280",
+				"to": "00:00:42,840"
+			},
+			"offsets": {
+				"from": 39280,
+				"to": 42840
+			},
+			"text": " to answer this question from a friend to all dogs."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:42,840",
+				"to": "00:00:44,480"
+			},
+			"offsets": {
+				"from": 42840,
+				"to": 44480
+			},
+			"text": " No joke, that's the handle."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:44,480",
+				"to": "00:00:46,840"
+			},
+			"offsets": {
+				"from": 44480,
+				"to": 46840
+			},
+			"text": " It says, \"Is it more desirable to coach"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:46,840",
+				"to": "00:00:49,000"
+			},
+			"offsets": {
+				"from": 46840,
+				"to": 49000
+			},
+			"text": " and help an incredibly talented player"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:49,000",
+				"to": "00:00:51,880"
+			},
+			"offsets": {
+				"from": 49000,
+				"to": 51880
+			},
+			"text": " who isn't living up to his or her potential"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:51,880",
+				"to": "00:00:54,200"
+			},
+			"offsets": {
+				"from": 51880,
+				"to": 54200
+			},
+			"text": " or someone with fewer natural gifts"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:54,200",
+				"to": "00:00:56,300"
+			},
+			"offsets": {
+				"from": 54200,
+				"to": 56300
+			},
+			"text": " who fights like hell to win?\""
+		},
+		{
+			"timestamps": {
+				"from": "00:00:56,300",
+				"to": "00:00:57,720"
+			},
+			"offsets": {
+				"from": 56300,
+				"to": 57720
+			},
+			"text": " - For sure, the second one."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:57,720",
+				"to": "00:01:02,220"
+			},
+			"offsets": {
+				"from": 57720,
+				"to": 62220
+			},
+			"text": " I mean, listen, you hope if you have someone"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:02,220",
+				"to": "00:01:04,680"
+			},
+			"offsets": {
+				"from": 62220,
+				"to": 64680
+			},
+			"text": " that's incredibly talented, but doesn't have"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:04,680",
+				"to": "00:01:09,600"
+			},
+			"offsets": {
+				"from": 64680,
+				"to": 69600
+			},
+			"text": " a good work ethic, that you can find a way"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:09,600",
+				"to": "00:01:13,680"
+			},
+			"offsets": {
+				"from": 69600,
+				"to": 73680
+			},
+			"text": " to instill that in them and get them to understand"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:13,680",
+				"to": "00:01:16,320"
+			},
+			"offsets": {
+				"from": 73680,
+				"to": 76320
+			},
+			"text": " that talent's only going to take you so far"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:16,320",
+				"to": "00:01:20,000"
+			},
+			"offsets": {
+				"from": 76320,
+				"to": 80000
+			},
+			"text": " and that if they really want to be the best"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:20,000",
+				"to": "00:01:21,600"
+			},
+			"offsets": {
+				"from": 80000,
+				"to": 81600
+			},
+			"text": " that they can be, that they're going to have"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:21,600",
+				"to": "00:01:23,120"
+			},
+			"offsets": {
+				"from": 81600,
+				"to": 83120
+			},
+			"text": " to put in the work."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:23,120",
+				"to": "00:01:26,120"
+			},
+			"offsets": {
+				"from": 83120,
+				"to": 86120
+			},
+			"text": " But there's something about working with players"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:26,120",
+				"to": "00:01:31,000"
+			},
+			"offsets": {
+				"from": 86120,
+				"to": 91000
+			},
+			"text": " that aren't as talented that are willing"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:31,000",
+				"to": "00:01:33,240"
+			},
+			"offsets": {
+				"from": 91000,
+				"to": 93240
+			},
+			"text": " to work hard and listen and basically run through"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:33,240",
+				"to": "00:01:34,440"
+			},
+			"offsets": {
+				"from": 93240,
+				"to": 94440
+			},
+			"text": " a brick wall."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:34,440",
+				"to": "00:01:38,180"
+			},
+			"offsets": {
+				"from": 94440,
+				"to": 98180
+			},
+			"text": " And so for sure, the second one,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:38,180",
+				"to": "00:01:40,840"
+			},
+			"offsets": {
+				"from": 98180,
+				"to": 100840
+			},
+			"text": " but I also, I like the challenge of working"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:40,840",
+				"to": "00:01:43,380"
+			},
+			"offsets": {
+				"from": 100840,
+				"to": 103380
+			},
+			"text": " with the first one, but the second one is,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:43,380",
+				"to": "00:01:45,580"
+			},
+			"offsets": {
+				"from": 103380,
+				"to": 105580
+			},
+			"text": " for me, the best."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:45,580",
+				"to": "00:01:48,600"
+			},
+			"offsets": {
+				"from": 105580,
+				"to": 108600
+			},
+			"text": " - Yeah, listen, having seen Dean's forehand,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:48,600",
+				"to": "00:01:49,720"
+			},
+			"offsets": {
+				"from": 108600,
+				"to": 109720
+			},
+			"text": " I could tell you that he wants to work"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:49,720",
+				"to": "00:01:52,540"
+			},
+			"offsets": {
+				"from": 109720,
+				"to": 112540
+			},
+			"text": " with a guy who's not talented, who tries really hard."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:52,540",
+				"to": "00:01:53,540"
+			},
+			"offsets": {
+				"from": 112540,
+				"to": 113540
+			},
+			"text": " - Which one was Andy?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:55,120",
+				"to": "00:01:57,000"
+			},
+			"offsets": {
+				"from": 115120,
+				"to": 117000
+			},
+			"text": " andy andy was the second one"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:57,000",
+				"to": "00:01:58,800"
+			},
+			"offsets": {
+				"from": 117000,
+				"to": 118800
+			},
+			"text": " i mean andy obviously listen"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:58,800",
+				"to": "00:01:59,440"
+			},
+			"offsets": {
+				"from": 118800,
+				"to": 119440
+			},
+			"text": " listen"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:59,440",
+				"to": "00:02:00,000"
+			},
+			"offsets": {
+				"from": 119440,
+				"to": 120000
+			},
+			"text": " well let's"
+		}
+	]
+}

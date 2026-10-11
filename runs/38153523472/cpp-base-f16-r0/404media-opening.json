@@ -1,0 +1,626 @@
+{
+	"systeminfo": "WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": false,
+		"vocab": 51864,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "models/ggml-base.en.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:02,600"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 2600
+			},
+			"text": " We've got the most controlled border we've ever had in the history."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,600",
+				"to": "00:00:06,940"
+			},
+			"offsets": {
+				"from": 2600,
+				"to": 6940
+			},
+			"text": " Yet liberal politician Josh Turic supports amnesty for illegals."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,940",
+				"to": "00:00:09,240"
+			},
+			"offsets": {
+				"from": 6940,
+				"to": 9240
+			},
+			"text": " We need an easier pathway to citizenship."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,240",
+				"to": "00:00:13,680"
+			},
+			"offsets": {
+				"from": 9240,
+				"to": 13680
+			},
+			"text": " Turic voted to give taxpayer-funded welfare benefits to illegal immigrants."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:13,680",
+				"to": "00:00:15,680"
+			},
+			"offsets": {
+				"from": 13680,
+				"to": 15680
+			},
+			"text": " Said cracking down on illegals was..."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:15,680",
+				"to": "00:00:17,540"
+			},
+			"offsets": {
+				"from": 15680,
+				"to": 17540
+			},
+			"text": " Fundamentally wrong in Un-American."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:17,540",
+				"to": "00:00:21,820"
+			},
+			"offsets": {
+				"from": 17540,
+				"to": 21820
+			},
+			"text": " Turic was even caught telling illegal immigrants how to obstruct law enforcement."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:21,820",
+				"to": "00:00:23,880"
+			},
+			"offsets": {
+				"from": 21820,
+				"to": 23880
+			},
+			"text": " Liberal politician Josh Turic."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:23,880",
+				"to": "00:00:25,700"
+			},
+			"offsets": {
+				"from": 23880,
+				"to": 25700
+			},
+			"text": " Fundamentally wrong in Un-American."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:25,700",
+				"to": "00:00:30,040"
+			},
+			"offsets": {
+				"from": 25700,
+				"to": 30040
+			},
+			"text": " Paid for by SLF-PAC, not authorized by any candidate or candidate committee, SLF-PAC.org."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:30,040",
+				"to": "00:00:31,800"
+			},
+			"offsets": {
+				"from": 30040,
+				"to": 31800
+			},
+			"text": " We were never going to get another chance at this."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:31,800",
+				"to": "00:00:33,740"
+			},
+			"offsets": {
+				"from": 31800,
+				"to": 33740
+			},
+			"text": " That was the thing that was actually the most scary for me."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:33,740",
+				"to": "00:00:36,480"
+			},
+			"offsets": {
+				"from": 33740,
+				"to": 36480
+			},
+			"text": " We get one chance to get this out."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:36,480",
+				"to": "00:00:39,340"
+			},
+			"offsets": {
+				"from": 36480,
+				"to": 39340
+			},
+			"text": " If we get caught, if I make a mistake, no one else gets to do this."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:39,340",
+				"to": "00:00:41,180"
+			},
+			"offsets": {
+				"from": 39340,
+				"to": 41180
+			},
+			"text": " You know you only get one shot at it."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:41,180",
+				"to": "00:00:42,420"
+			},
+			"offsets": {
+				"from": 41180,
+				"to": 42420
+			},
+			"text": " You already have enough skin in the game."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:42,420",
+				"to": "00:00:44,020"
+			},
+			"offsets": {
+				"from": 42420,
+				"to": 44020
+			},
+			"text": " You might as just put a little bit more skin in the game."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:49,160",
+				"to": "00:00:52,400"
+			},
+			"offsets": {
+				"from": 49160,
+				"to": 52400
+			},
+			"text": " Today we're talking to meta whistleblower Francis Hagen,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:52,400",
+				"to": "00:00:57,460"
+			},
+			"offsets": {
+				"from": 52400,
+				"to": 57460
+			},
+			"text": " who famously worked with the Wall Street Journal to expose how meta's algorithms"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:57,460",
+				"to": "00:01:01,540"
+			},
+			"offsets": {
+				"from": 57460,
+				"to": 61540
+			},
+			"text": " were radicalizing people, making teen girls feel horrible on Instagram."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:01,540",
+				"to": "00:01:06,840"
+			},
+			"offsets": {
+				"from": 61540,
+				"to": 66840
+			},
+			"text": " And lots of other really bad things, Francis became a whistleblower back in 2021."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:06,840",
+				"to": "00:01:09,920"
+			},
+			"offsets": {
+				"from": 66840,
+				"to": 69920
+			},
+			"text": " And her story is the basis for the social reckoning,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:09,920",
+				"to": "00:01:12,620"
+			},
+			"offsets": {
+				"from": 69920,
+				"to": 72620
+			},
+			"text": " which is Aaron Sorkin's follow-up to the social network."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:12,620",
+				"to": "00:01:13,520"
+			},
+			"offsets": {
+				"from": 72620,
+				"to": 73520
+			},
+			"text": " Let's jump into it."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:13,520",
+				"to": "00:01:15,680"
+			},
+			"offsets": {
+				"from": 73520,
+				"to": 75680
+			},
+			"text": " This is a really great interview with Francis."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:15,680",
+				"to": "00:01:17,280"
+			},
+			"offsets": {
+				"from": 75680,
+				"to": 77280
+			},
+			"text": " I really enjoyed it."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:19,720",
+				"to": "00:01:21,760"
+			},
+			"offsets": {
+				"from": 79720,
+				"to": 81760
+			},
+			"text": " Hi, Francis. Thank you so much for joining us."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:21,760",
+				"to": "00:01:23,260"
+			},
+			"offsets": {
+				"from": 81760,
+				"to": 83260
+			},
+			"text": " I'm really excited to talk to you."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:23,260",
+				"to": "00:01:26,960"
+			},
+			"offsets": {
+				"from": 83260,
+				"to": 86960
+			},
+			"text": " I have been following your work and your story ever since you"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:26,960",
+				"to": "00:01:30,740"
+			},
+			"offsets": {
+				"from": 86960,
+				"to": 90740
+			},
+			"text": " became a whistleblower from Facebook, which was in 2021."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:30,740",
+				"to": "00:01:35,440"
+			},
+			"offsets": {
+				"from": 90740,
+				"to": 95440
+			},
+			"text": " I just saw the social reckoning literally one hour before having this conversation."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:35,440",
+				"to": "00:01:36,560"
+			},
+			"offsets": {
+				"from": 95440,
+				"to": 96560
+			},
+			"text": " I thought it was great."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:36,560",
+				"to": "00:01:37,760"
+			},
+			"offsets": {
+				"from": 96560,
+				"to": 97760
+			},
+			"text": " I want to start there."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:37,760",
+				"to": "00:01:40,380"
+			},
+			"offsets": {
+				"from": 97760,
+				"to": 100380
+			},
+			"text": " I guess we can kind of back into your story."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:40,380",
+				"to": "00:01:44,920"
+			},
+			"offsets": {
+				"from": 100380,
+				"to": 104920
+			},
+			"text": " But when did you figure out that Aaron Sorkin was interested in telling your story?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:44,920",
+				"to": "00:01:50,060"
+			},
+			"offsets": {
+				"from": 104920,
+				"to": 110060
+			},
+			"text": " So I would say like maybe like six months after I first came forward,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:50,060",
+				"to": "00:01:56,860"
+			},
+			"offsets": {
+				"from": 110060,
+				"to": 116860
+			},
+			"text": " I was in LA for a conference and they said Aaron Sorkin is interested in talking to."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:56,860",
+				"to": "00:02:04,100"
+			},
+			"offsets": {
+				"from": 116860,
+				"to": 124100
+			},
+			"text": " And I don't think it was as explicit as like they want to make a companion piece to the social network"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:04,100",
+				"to": "00:02:05,980"
+			},
+			"offsets": {
+				"from": 124100,
+				"to": 125980
+			},
+			"text": " and have you be a major character in it."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:05,980",
+				"to": "00:02:10,960"
+			},
+			"offsets": {
+				"from": 125980,
+				"to": 130960
+			},
+			"text": " It was more like, you know, if I were to do a follow-up, like what would be interesting?"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:10,960",
+				"to": "00:02:12,660"
+			},
+			"offsets": {
+				"from": 130960,
+				"to": 132660
+			},
+			"text": " Like explain to me why you did what you did."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:12,660",
+				"to": "00:02:13,720"
+			},
+			"offsets": {
+				"from": 132660,
+				"to": 133720
+			},
+			"text": " Like, why does this matter?"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:13,720",
+				"to": "00:02:16,740"
+			},
+			"offsets": {
+				"from": 133720,
+				"to": 136740
+			},
+			"text": " One of the things I think the movie does a really, really good job of capturing"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:16,740",
+				"to": "00:02:23,300"
+			},
+			"offsets": {
+				"from": 136740,
+				"to": 143300
+			},
+			"text": " is the topics that were in my disclosures are not just complicated for an everyday person to understand."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:23,300",
+				"to": "00:02:28,800"
+			},
+			"offsets": {
+				"from": 143300,
+				"to": 148800
+			},
+			"text": " They're complicated for people who are really deeply steeped in how social media works."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:28,800",
+				"to": "00:02:30,800"
+			},
+			"offsets": {
+				"from": 148800,
+				"to": 150800
+			},
+			"text": " Like, I thought the movie did a really good job of capturing."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:30,800",
+				"to": "00:02:33,460"
+			},
+			"offsets": {
+				"from": 150800,
+				"to": 153460
+			},
+			"text": " Like, there were things that I knew for certain when I went to Jeff"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:33,460",
+				"to": "00:02:37,540"
+			},
+			"offsets": {
+				"from": 153460,
+				"to": 157540
+			},
+			"text": " and there were things that he and I figured out together by looking through a lot of documentation."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:37,540",
+				"to": "00:02:40,620"
+			},
+			"offsets": {
+				"from": 157540,
+				"to": 160620
+			},
+			"text": " So imagine you have someone like Aaron who's like a smart person."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:40,620",
+				"to": "00:02:43,620"
+			},
+			"offsets": {
+				"from": 160620,
+				"to": 163620
+			},
+			"text": " He's really clued in on a lot of things in the world."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:43,620",
+				"to": "00:02:47,860"
+			},
+			"offsets": {
+				"from": 163620,
+				"to": 167860
+			},
+			"text": " But we're talking about stuff that is a specialty amongst specialists."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:47,860",
+				"to": "00:02:51,180"
+			},
+			"offsets": {
+				"from": 167860,
+				"to": 171180
+			},
+			"text": " How much can you actually convey in an hour and hour and a half?"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:51,180",
+				"to": "00:02:57,140"
+			},
+			"offsets": {
+				"from": 171180,
+				"to": 177140
+			},
+			"text": " So I had never imagined that you could make what I went through into an interesting story."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:57,140",
+				"to": "00:02:59,940"
+			},
+			"offsets": {
+				"from": 177140,
+				"to": 179940
+			},
+			"text": " So like when I didn't hear from him again for a while, I didn't..."
+		}
+	]
+}

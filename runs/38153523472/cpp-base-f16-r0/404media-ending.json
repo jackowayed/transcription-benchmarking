@@ -1,0 +1,329 @@
+{
+	"systeminfo": "WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": false,
+		"vocab": 51864,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "models/ggml-base.en.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:05,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 5000
+			},
+			"text": " I am over on Substack and sign up and I'll post there"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,360",
+				"to": "00:00:09,760"
+			},
+			"offsets": {
+				"from": 5360,
+				"to": 9760
+			},
+			"text": " if we do a Twitch or like a Google live stream kind of thing."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,760",
+				"to": "00:00:11,740"
+			},
+			"offsets": {
+				"from": 9760,
+				"to": 11740
+			},
+			"text": " - Amazing, thank you so much."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:13,420",
+				"to": "00:00:16,620"
+			},
+			"offsets": {
+				"from": 13420,
+				"to": 16620
+			},
+			"text": " As a reminder, 404 Media is a journalist-owned publication."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:16,620",
+				"to": "00:00:19,620"
+			},
+			"offsets": {
+				"from": 16620,
+				"to": 19620
+			},
+			"text": " I'm Jason Kebler, that was Francis Hagen."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:19,620",
+				"to": "00:00:23,540"
+			},
+			"offsets": {
+				"from": 19620,
+				"to": 23540
+			},
+			"text": " This episode was produced and edited by Alyssa Midcalf."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:23,540",
+				"to": "00:00:27,700"
+			},
+			"offsets": {
+				"from": 23540,
+				"to": 27700
+			},
+			"text": " As a reminder, again, we are supported by our subscribers."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:27,700",
+				"to": "00:00:30,600"
+			},
+			"offsets": {
+				"from": 27700,
+				"to": 30600
+			},
+			"text": " You can subscribe to us at 404Media.co."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:30,600",
+				"to": "00:00:34,600"
+			},
+			"offsets": {
+				"from": 30600,
+				"to": 34600
+			},
+			"text": " Subscribers get access to interview podcasts like this early."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:34,600",
+				"to": "00:00:37,000"
+			},
+			"offsets": {
+				"from": 34600,
+				"to": 37000
+			},
+			"text": " They also get access to bonus podcast segments"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:37,000",
+				"to": "00:00:41,500"
+			},
+			"offsets": {
+				"from": 37000,
+				"to": 41500
+			},
+			"text": " and all of our unpay-walled work on 404Media.co."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:41,500",
+				"to": "00:00:44,520"
+			},
+			"offsets": {
+				"from": 41500,
+				"to": 44520
+			},
+			"text": " You can go subscribe to us at 404Media.co."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:44,520",
+				"to": "00:00:47,200"
+			},
+			"offsets": {
+				"from": 44520,
+				"to": 47200
+			},
+			"text": " We will see you again very, very soon."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:00,790",
+				"to": "00:01:03,430"
+			},
+			"offsets": {
+				"from": 60790,
+				"to": 63430
+			},
+			"text": " - Your heart can tell you a lot about your health."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:03,430",
+				"to": "00:01:05,650"
+			},
+			"offsets": {
+				"from": 63430,
+				"to": 65650
+			},
+			"text": " Apple Watch Series 12 measures your heart rate"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:05,650",
+				"to": "00:01:08,010"
+			},
+			"offsets": {
+				"from": 65650,
+				"to": 68010
+			},
+			"text": " every five seconds with the most accurate heart rate"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:08,010",
+				"to": "00:01:09,530"
+			},
+			"offsets": {
+				"from": 68010,
+				"to": 69530
+			},
+			"text": " sensing and aware of all."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:09,530",
+				"to": "00:01:11,850"
+			},
+			"offsets": {
+				"from": 69530,
+				"to": 71850
+			},
+			"text": " So your vitals app, now with heart rate variability,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:11,850",
+				"to": "00:01:13,770"
+			},
+			"offsets": {
+				"from": 71850,
+				"to": 73770
+			},
+			"text": " can tell you when something is off"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:13,770",
+				"to": "00:01:16,020"
+			},
+			"offsets": {
+				"from": 73770,
+				"to": 76020
+			},
+			"text": " and your readiness score can let you know when to rest"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:16,020",
+				"to": "00:01:17,220"
+			},
+			"offsets": {
+				"from": 76020,
+				"to": 77220
+			},
+			"text": " and when to push."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:17,220",
+				"to": "00:01:20,940"
+			},
+			"offsets": {
+				"from": 77220,
+				"to": 80940
+			},
+			"text": " Here's the story in every heartbeat with Apple Watch Series 12."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:20,940",
+				"to": "00:01:22,580"
+			},
+			"offsets": {
+				"from": 80940,
+				"to": 82580
+			},
+			"text": " The future's described are for wellness purposes"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:22,580",
+				"to": "00:01:23,700"
+			},
+			"offsets": {
+				"from": 82580,
+				"to": 83700
+			},
+			"text": " only and not for medical use."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:23,700",
+				"to": "00:01:25,020"
+			},
+			"offsets": {
+				"from": 83700,
+				"to": 85020
+			},
+			"text": " iPhone 11 are later required."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:25,020",
+				"to": "00:01:26,980"
+			},
+			"offsets": {
+				"from": 85020,
+				"to": 86980
+			},
+			"text": " Based on Apple-conducted study of heart rate accuracy,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:26,980",
+				"to": "00:01:30,020"
+			},
+			"offsets": {
+				"from": 86980,
+				"to": 90020
+			},
+			"text": " August 2026, visit apple.com/applewatchseries12."
+		}
+	]
+}

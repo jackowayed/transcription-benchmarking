@@ -1,0 +1,2122 @@
+{
+	"systeminfo": "WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": false,
+		"vocab": 51864,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "models/ggml-base.en.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:02,340"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 2340
+			},
+			"text": " Andy, obviously, was talented."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,340",
+				"to": "00:00:08,100"
+			},
+			"offsets": {
+				"from": 2340,
+				"to": 8100
+			},
+			"text": " But when you-- and this is one thing that I always say about Andy."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,100",
+				"to": "00:00:11,580"
+			},
+			"offsets": {
+				"from": 8100,
+				"to": 11580
+			},
+			"text": " And he doesn't get any more, but back then, people would always say,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:11,580",
+				"to": "00:00:13,180"
+			},
+			"offsets": {
+				"from": 11580,
+				"to": 13180
+			},
+			"text": " well, Andy underachieved."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:13,180",
+				"to": "00:00:14,980"
+			},
+			"offsets": {
+				"from": 13180,
+				"to": 14980
+			},
+			"text": " You know, really wouldn't want slam."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:14,980",
+				"to": "00:00:20,820"
+			},
+			"offsets": {
+				"from": 14980,
+				"to": 20820
+			},
+			"text": " But Andy was an overachiever for what he accomplished."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:20,820",
+				"to": "00:00:24,540"
+			},
+			"offsets": {
+				"from": 20820,
+				"to": 24540
+			},
+			"text": " It was because of, first of all, you talk about a competitor."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:24,540",
+				"to": "00:00:28,380"
+			},
+			"offsets": {
+				"from": 24540,
+				"to": 28380
+			},
+			"text": " I mean, the guy was just an unbelievable competitor"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:28,380",
+				"to": "00:00:30,580"
+			},
+			"offsets": {
+				"from": 28380,
+				"to": 30580
+			},
+			"text": " and work ethic like none other."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:30,580",
+				"to": "00:00:37,380"
+			},
+			"offsets": {
+				"from": 30580,
+				"to": 37380
+			},
+			"text": " And, you know, so yeah, what he achieved was because of those things."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:37,380",
+				"to": "00:00:39,740"
+			},
+			"offsets": {
+				"from": 37380,
+				"to": 39740
+			},
+			"text": " I mean, obviously, he was talented, but you know,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:39,740",
+				"to": "00:00:41,940"
+			},
+			"offsets": {
+				"from": 39740,
+				"to": 41940
+			},
+			"text": " you stack him up with Roger and Rafa."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:41,940",
+				"to": "00:00:43,180"
+			},
+			"offsets": {
+				"from": 41940,
+				"to": 43180
+			},
+			"text": " I mean, it's pretty tough."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:43,180",
+				"to": "00:00:46,500"
+			},
+			"offsets": {
+				"from": 43180,
+				"to": 46500
+			},
+			"text": " So yeah, so Andy was definitely--"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:46,500",
+				"to": "00:00:50,740"
+			},
+			"offsets": {
+				"from": 46500,
+				"to": 50740
+			},
+			"text": " I would say the stats probably show that I was right there with him."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:50,740",
+				"to": "00:00:54,940"
+			},
+			"offsets": {
+				"from": 50740,
+				"to": 54940
+			},
+			"text": " Yeah, for most of the time, it was like Rafa was like,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:54,940",
+				"to": "00:00:59,420"
+			},
+			"offsets": {
+				"from": 54940,
+				"to": 59420
+			},
+			"text": " I can hit a curveball forehand that is 9 to 6"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:59,420",
+				"to": "00:01:00,700"
+			},
+			"offsets": {
+				"from": 59420,
+				"to": 60700
+			},
+			"text": " and has the most RPMs ever."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:00,700",
+				"to": "00:01:04,500"
+			},
+			"offsets": {
+				"from": 60700,
+				"to": 64500
+			},
+			"text": " I'm like, well, I can bunt it back in with no spin."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:04,500",
+				"to": "00:01:09,740"
+			},
+			"offsets": {
+				"from": 64500,
+				"to": 69740
+			},
+			"text": " Yeah, well, Roger spent more years on tour outside of the top 15"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:09,740",
+				"to": "00:01:10,940"
+			},
+			"offsets": {
+				"from": 69740,
+				"to": 70940
+			},
+			"text": " than you did, so there you go."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:10,940",
+				"to": "00:01:12,740"
+			},
+			"offsets": {
+				"from": 70940,
+				"to": 72740
+			},
+			"text": " Yeah, what a loser, what a frickin' loser."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:12,740",
+				"to": "00:01:14,540"
+			},
+			"offsets": {
+				"from": 72740,
+				"to": 74540
+			},
+			"text": " Thanks, Dean."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:14,540",
+				"to": "00:01:15,900"
+			},
+			"offsets": {
+				"from": 74540,
+				"to": 75900
+			},
+			"text": " We'll be right back on Q&A Andy."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:15,900",
+				"to": "00:01:16,740"
+			},
+			"offsets": {
+				"from": 75900,
+				"to": 76740
+			},
+			"text": " Thanks, Dean."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:16,740",
+				"to": "00:01:19,780"
+			},
+			"offsets": {
+				"from": 76740,
+				"to": 79780
+			},
+			"text": " All right, guys."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:19,780",
+				"to": "00:01:22,020"
+			},
+			"offsets": {
+				"from": 79780,
+				"to": 82020
+			},
+			"text": " We'll be right back."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:22,020",
+				"to": "00:01:25,380"
+			},
+			"offsets": {
+				"from": 82020,
+				"to": 85380
+			},
+			"text": " College football is back, so Hilton called him me, the superstition"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:25,380",
+				"to": "00:01:28,100"
+			},
+			"offsets": {
+				"from": 85380,
+				"to": 88100
+			},
+			"text": " concierge, to make your fan rituals a reality."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:28,100",
+				"to": "00:01:29,860"
+			},
+			"offsets": {
+				"from": 88100,
+				"to": 89860
+			},
+			"text": " Need a room to match your lucky number?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:29,860",
+				"to": "00:01:30,580"
+			},
+			"offsets": {
+				"from": 89860,
+				"to": 90580
+			},
+			"text": " We got you."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:30,580",
+				"to": "00:01:34,140"
+			},
+			"offsets": {
+				"from": 90580,
+				"to": 94140
+			},
+			"text": " Want to make sure our team doesn't wash your lucky jersey?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:34,140",
+				"to": "00:01:36,260"
+			},
+			"offsets": {
+				"from": 94140,
+				"to": 96260
+			},
+			"text": " Oh, that smells lucky."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:36,260",
+				"to": "00:01:39,780"
+			},
+			"offsets": {
+				"from": 96260,
+				"to": 99780
+			},
+			"text": " Hilton's unmatched hospitality can keep up with any superstition."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:39,780",
+				"to": "00:01:43,340"
+			},
+			"offsets": {
+				"from": 99780,
+				"to": 103340
+			},
+			"text": " Even a marching band wake up call at 555 in 55 seconds."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:43,340",
+				"to": "00:01:44,700"
+			},
+			"offsets": {
+				"from": 103340,
+				"to": 104700
+			},
+			"text": " Hit it."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:44,700",
+				"to": "00:01:47,340"
+			},
+			"offsets": {
+				"from": 104700,
+				"to": 107340
+			},
+			"text": " When you need a team that will do whatever it takes on game day,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:47,340",
+				"to": "00:01:48,780"
+			},
+			"offsets": {
+				"from": 107340,
+				"to": 108780
+			},
+			"text": " it matters where you stay."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:48,780",
+				"to": "00:01:52,820"
+			},
+			"offsets": {
+				"from": 108780,
+				"to": 112820
+			},
+			"text": " Hilton, for this day."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:52,820",
+				"to": "00:01:55,780"
+			},
+			"offsets": {
+				"from": 112820,
+				"to": 115780
+			},
+			"text": " This episode is brought to you by Born-in-Roma fragrances"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:55,780",
+				"to": "00:01:59,700"
+			},
+			"offsets": {
+				"from": 115780,
+				"to": 119700
+			},
+			"text": " by Valentino Beauty, the iconic fragrance duo."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:59,700",
+				"to": "00:02:03,540"
+			},
+			"offsets": {
+				"from": 119700,
+				"to": 123540
+			},
+			"text": " Donna Born-in-Roma Ode Parfum is a feminine fragrance featuring"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:03,540",
+				"to": "00:02:07,140"
+			},
+			"offsets": {
+				"from": 123540,
+				"to": 127140
+			},
+			"text": " juicy black currant, central jasmine, woody cashmere,"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:07,140",
+				"to": "00:02:08,620"
+			},
+			"offsets": {
+				"from": 127140,
+				"to": 128620
+			},
+			"text": " and warm vanilla."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:08,620",
+				"to": "00:02:12,460"
+			},
+			"offsets": {
+				"from": 128620,
+				"to": 132460
+			},
+			"text": " It's masculine counterpart, Wilmo Born-in-Roma Ode-Duelette,"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:12,460",
+				"to": "00:02:16,500"
+			},
+			"offsets": {
+				"from": 132460,
+				"to": 136500
+			},
+			"text": " has notes of fresh violet leaf, aromatic sage, green vetiver,"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:16,500",
+				"to": "00:02:18,740"
+			},
+			"offsets": {
+				"from": 136500,
+				"to": 138740
+			},
+			"text": " spicy ginger, and mineral salt."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:18,740",
+				"to": "00:02:21,740"
+			},
+			"offsets": {
+				"from": 138740,
+				"to": 141740
+			},
+			"text": " Shop at Macy's.com."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:21,740",
+				"to": "00:02:23,260"
+			},
+			"offsets": {
+				"from": 141740,
+				"to": 143260
+			},
+			"text": " Propel fitness water."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:23,260",
+				"to": "00:02:26,820"
+			},
+			"offsets": {
+				"from": 143260,
+				"to": 146820
+			},
+			"text": " With Gatorade electrolytes, zero sugar, and vitamins,"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:26,820",
+				"to": "00:02:29,980"
+			},
+			"offsets": {
+				"from": 146820,
+				"to": 149980
+			},
+			"text": " propel hydrates better than water to help you get the most out"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:29,980",
+				"to": "00:02:33,060"
+			},
+			"offsets": {
+				"from": 149980,
+				"to": 153060
+			},
+			"text": " of your workout and get back to your best self."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:33,060",
+				"to": "00:02:34,380"
+			},
+			"offsets": {
+				"from": 153060,
+				"to": 154380
+			},
+			"text": " What propels you?"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:34,380",
+				"to": "00:02:38,020"
+			},
+			"offsets": {
+				"from": 154380,
+				"to": 158020
+			},
+			"text": " Propel with Gatorade electrolytes."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:38,020",
+				"to": "00:02:40,420"
+			},
+			"offsets": {
+				"from": 158020,
+				"to": 160420
+			},
+			"text": " Whether you're commanding the court or the open road,"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:40,420",
+				"to": "00:02:43,180"
+			},
+			"offsets": {
+				"from": 160420,
+				"to": 163180
+			},
+			"text": " modern icons know it isn't just about going the distance."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:43,180",
+				"to": "00:02:45,060"
+			},
+			"offsets": {
+				"from": 163180,
+				"to": 165060
+			},
+			"text": " It's about how you will arrive."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:45,060",
+				"to": "00:02:47,900"
+			},
+			"offsets": {
+				"from": 165060,
+				"to": 167900
+			},
+			"text": " Meet the all-electric Cadillac Escalade IQ"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:47,900",
+				"to": "00:02:50,740"
+			},
+			"offsets": {
+				"from": 167900,
+				"to": 170740
+			},
+			"text": " with expectation-defying electric capability"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:50,740",
+				"to": "00:02:53,940"
+			},
+			"offsets": {
+				"from": 170740,
+				"to": 173940
+			},
+			"text": " at 55-inch diagonally measured horizon display"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:53,940",
+				"to": "00:02:56,500"
+			},
+			"offsets": {
+				"from": 173940,
+				"to": 176500
+			},
+			"text": " and available 42-speaker AKG audio."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:56,500",
+				"to": "00:02:59,220"
+			},
+			"offsets": {
+				"from": 176500,
+				"to": 179220
+			},
+			"text": " Every drive becomes a luxurious journey."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:59,220",
+				"to": "00:03:01,420"
+			},
+			"offsets": {
+				"from": 179220,
+				"to": 181420
+			},
+			"text": " And if you don't believe us, go check out our quick-serve"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:01,420",
+				"to": "00:03:03,380"
+			},
+			"offsets": {
+				"from": 181420,
+				"to": 183380
+			},
+			"text": " coverage from this year's US Open,"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:03,380",
+				"to": "00:03:07,020"
+			},
+			"offsets": {
+				"from": 183380,
+				"to": 187020
+			},
+			"text": " where we turn the Escalade IQ into our studio."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:07,020",
+				"to": "00:03:10,380"
+			},
+			"offsets": {
+				"from": 187020,
+				"to": 190380
+			},
+			"text": " Elevate your arrival with the all-electric Cadillac Escalade IQ."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:13,300",
+				"to": "00:03:16,140"
+			},
+			"offsets": {
+				"from": 193300,
+				"to": 196140
+			},
+			"text": " All right, back to the show."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:16,140",
+				"to": "00:03:18,500"
+			},
+			"offsets": {
+				"from": 196140,
+				"to": 198500
+			},
+			"text": " All right, Andy, next up, this one's a little bit more topical."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:18,500",
+				"to": "00:03:20,940"
+			},
+			"offsets": {
+				"from": 198500,
+				"to": 200940
+			},
+			"text": " This one is coming from us and the serve team."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:20,940",
+				"to": "00:03:22,900"
+			},
+			"offsets": {
+				"from": 200940,
+				"to": 202900
+			},
+			"text": " It's earlier this week in Beijing's Varev"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:22,900",
+				"to": "00:03:25,380"
+			},
+			"offsets": {
+				"from": 202900,
+				"to": 205380
+			},
+			"text": " was allowed to replay a point against Novak"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:25,380",
+				"to": "00:03:28,380"
+			},
+			"offsets": {
+				"from": 205380,
+				"to": 208380
+			},
+			"text": " after challenging an LED board change as hindrance."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:28,380",
+				"to": "00:03:31,340"
+			},
+			"offsets": {
+				"from": 208380,
+				"to": 211340
+			},
+			"text": " Despite finishing the rally before raising the issue,"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:31,340",
+				"to": "00:03:33,100"
+			},
+			"offsets": {
+				"from": 211340,
+				"to": 213100
+			},
+			"text": " Novak wasn't happy about the call,"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:33,100",
+				"to": "00:03:43,840"
+			},
+			"offsets": {
+				"from": 213100,
+				"to": 223840
+			},
+			"text": " but let's just take a look at what happened."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:43,840",
+				"to": "00:03:47,360"
+			},
+			"offsets": {
+				"from": 223840,
+				"to": 227360
+			},
+			"text": " That's a very good return there from Novak Jokovic."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:53,380",
+				"to": "00:03:54,220"
+			},
+			"offsets": {
+				"from": 233380,
+				"to": 234220
+			},
+			"text": " Oh, Sarif."
+		},
+		{
+			"timestamps": {
+				"from": "00:03:55,380",
+				"to": "00:03:56,740"
+			},
+			"offsets": {
+				"from": 235380,
+				"to": 236740
+			},
+			"text": " I'm happy with something--"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:56,740",
+				"to": "00:04:00,100"
+			},
+			"offsets": {
+				"from": 236740,
+				"to": 240100
+			},
+			"text": " (INDISTINCT CHATTER)"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:05,100",
+				"to": "00:04:08,860"
+			},
+			"offsets": {
+				"from": 245100,
+				"to": 248860
+			},
+			"text": " They do change as he's just about to serve."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:08,860",
+				"to": "00:04:12,050"
+			},
+			"offsets": {
+				"from": 248860,
+				"to": 252050
+			},
+			"text": " So I think he will get the lead here."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:12,050",
+				"to": "00:04:15,610"
+			},
+			"offsets": {
+				"from": 252050,
+				"to": 255610
+			},
+			"text": " OK, so now you're telling me fine, I get it."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:15,610",
+				"to": "00:04:16,970"
+			},
+			"offsets": {
+				"from": 255610,
+				"to": 256970
+			},
+			"text": " It was about-- he was about to serve."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:16,970",
+				"to": "00:04:18,530"
+			},
+			"offsets": {
+				"from": 256970,
+				"to": 258530
+			},
+			"text": " He served."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:18,530",
+				"to": "00:04:20,730"
+			},
+			"offsets": {
+				"from": 258530,
+				"to": 260730
+			},
+			"text": " I played one shot, he played another shot,"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:20,730",
+				"to": "00:04:22,010"
+			},
+			"offsets": {
+				"from": 260730,
+				"to": 262010
+			},
+			"text": " and then he challenged."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:22,010",
+				"to": "00:04:23,570"
+			},
+			"offsets": {
+				"from": 262010,
+				"to": 263570
+			},
+			"text": " Is that OK?"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:23,570",
+				"to": "00:04:29,410"
+			},
+			"offsets": {
+				"from": 263570,
+				"to": 269410
+			},
+			"text": " One second, even he was annoyed by that change there."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:29,410",
+				"to": "00:04:31,730"
+			},
+			"offsets": {
+				"from": 269410,
+				"to": 271730
+			},
+			"text": " He would stop after the serve and he would go home."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:31,730",
+				"to": "00:04:33,610"
+			},
+			"offsets": {
+				"from": 271730,
+				"to": 273610
+			},
+			"text": " It doesn't make any sense."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:33,610",
+				"to": "00:04:37,370"
+			},
+			"offsets": {
+				"from": 273610,
+				"to": 277370
+			},
+			"text": " I mean, you miss not knowing the right direction."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:37,370",
+				"to": "00:04:39,290"
+			},
+			"offsets": {
+				"from": 277370,
+				"to": 279290
+			},
+			"text": " I didn't know it, but it challenged me."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:39,290",
+				"to": "00:04:41,210"
+			},
+			"offsets": {
+				"from": 279290,
+				"to": 281210
+			},
+			"text": " That's why I came to him and I asked him at this time."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:41,210",
+				"to": "00:04:43,210"
+			},
+			"offsets": {
+				"from": 281210,
+				"to": 283210
+			},
+			"text": " Yeah, but then you stop after the serve,"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:43,210",
+				"to": "00:04:45,570"
+			},
+			"offsets": {
+				"from": 283210,
+				"to": 285570
+			},
+			"text": " but I didn't know if that's the reason enough to challenge."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:45,570",
+				"to": "00:04:47,370"
+			},
+			"offsets": {
+				"from": 285570,
+				"to": 287370
+			},
+			"text": " That's why I love him."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:47,370",
+				"to": "00:04:50,290"
+			},
+			"offsets": {
+				"from": 287370,
+				"to": 290290
+			},
+			"text": " I mean, this must be the one of the most stupid change of rules"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:50,290",
+				"to": "00:04:51,850"
+			},
+			"offsets": {
+				"from": 290290,
+				"to": 291850
+			},
+			"text": " that I've ever heard in my life."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:51,850",
+				"to": "00:04:55,730"
+			},
+			"offsets": {
+				"from": 291850,
+				"to": 295730
+			},
+			"text": " Because he might have seized that there is a hindrance of that"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:55,730",
+				"to": "00:04:57,130"
+			},
+			"offsets": {
+				"from": 295730,
+				"to": 297130
+			},
+			"text": " shot he stops immediately."
+		},
+		{
+			"timestamps": {
+				"from": "00:04:57,130",
+				"to": "00:04:59,650"
+			},
+			"offsets": {
+				"from": 297130,
+				"to": 299650
+			},
+			"text": " I mean, we could play a 30 shot rally"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:59,650",
+				"to": "00:05:00,770"
+			},
+			"offsets": {
+				"from": 299650,
+				"to": 300770
+			},
+			"text": " and he can lose the point."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:00,770",
+				"to": "00:05:04,680"
+			},
+			"offsets": {
+				"from": 300770,
+				"to": 304680
+			},
+			"text": " He's like, OK, I'm going to challenge now."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:04,680",
+				"to": "00:05:06,880"
+			},
+			"offsets": {
+				"from": 304680,
+				"to": 306880
+			},
+			"text": " Real quick for some-- so in February,"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:06,880",
+				"to": "00:05:08,080"
+			},
+			"offsets": {
+				"from": 306880,
+				"to": 308080
+			},
+			"text": " they essentially changed the role."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:08,080",
+				"to": "00:05:09,480"
+			},
+			"offsets": {
+				"from": 308080,
+				"to": 309480
+			},
+			"text": " Originally, it was the other way where"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:09,480",
+				"to": "00:05:12,720"
+			},
+			"offsets": {
+				"from": 309480,
+				"to": 312720
+			},
+			"text": " players had to stop the play to challenge hindrance."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:12,720",
+				"to": "00:05:14,440"
+			},
+			"offsets": {
+				"from": 312720,
+				"to": 314440
+			},
+			"text": " They changed that, apparently, in February."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:14,440",
+				"to": "00:05:16,160"
+			},
+			"offsets": {
+				"from": 314440,
+				"to": 316160
+			},
+			"text": " The current hindrance rule requesting"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:16,160",
+				"to": "00:05:19,560"
+			},
+			"offsets": {
+				"from": 316160,
+				"to": 319560
+			},
+			"text": " after the point is concluded has been implemented as a trial"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:19,560",
+				"to": "00:05:21,120"
+			},
+			"offsets": {
+				"from": 319560,
+				"to": 321120
+			},
+			"text": " and will be reviewed at the end of the season."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:21,120",
+				"to": "00:05:23,120"
+			},
+			"offsets": {
+				"from": 321120,
+				"to": 323120
+			},
+			"text": " So Novak's correct, that's not the way it used to be."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:23,120",
+				"to": "00:05:24,320"
+			},
+			"offsets": {
+				"from": 323120,
+				"to": 324320
+			},
+			"text": " It's a real change."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:24,320",
+				"to": "00:05:27,800"
+			},
+			"offsets": {
+				"from": 324320,
+				"to": 327800
+			},
+			"text": " So no, they're all right, by the way."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:27,800",
+				"to": "00:05:29,480"
+			},
+			"offsets": {
+				"from": 327800,
+				"to": 329480
+			},
+			"text": " And they disagreed in this moment."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:29,480",
+				"to": "00:05:31,240"
+			},
+			"offsets": {
+				"from": 329480,
+				"to": 331240
+			},
+			"text": " That's not a testy exchange."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:31,240",
+				"to": "00:05:32,160"
+			},
+			"offsets": {
+				"from": 331240,
+				"to": 332160
+			},
+			"text": " No, no, no, no, not at all."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:32,160",
+				"to": "00:05:33,120"
+			},
+			"offsets": {
+				"from": 332160,
+				"to": 333120
+			},
+			"text": " That's not a testy exchange."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:33,120",
+				"to": "00:05:35,800"
+			},
+			"offsets": {
+				"from": 333120,
+				"to": 335800
+			},
+			"text": " A testy exchange has some--"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:35,800",
+				"to": "00:05:37,640"
+			},
+			"offsets": {
+				"from": 335800,
+				"to": 337640
+			},
+			"text": " it's very simple."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:37,640",
+				"to": "00:05:39,360"
+			},
+			"offsets": {
+				"from": 337640,
+				"to": 339360
+			},
+			"text": " It did change."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:39,360",
+				"to": "00:05:42,520"
+			},
+			"offsets": {
+				"from": 339360,
+				"to": 342520
+			},
+			"text": " And you see that, you look at the side, you see that."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:42,520",
+				"to": "00:05:43,560"
+			},
+			"offsets": {
+				"from": 342520,
+				"to": 343560
+			},
+			"text": " You have to understand that."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:43,560",
+				"to": "00:05:45,440"
+			},
+			"offsets": {
+				"from": 343560,
+				"to": 345440
+			},
+			"text": " And that's why when people are like,"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:45,440",
+				"to": "00:05:47,080"
+			},
+			"offsets": {
+				"from": 345440,
+				"to": 347080
+			},
+			"text": " oh, we can't walk around during points."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:47,080",
+				"to": "00:05:49,640"
+			},
+			"offsets": {
+				"from": 347080,
+				"to": 349640
+			},
+			"text": " Well, it's not about the actual motion walking around."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:49,640",
+				"to": "00:05:54,040"
+			},
+			"offsets": {
+				"from": 349640,
+				"to": 354040
+			},
+			"text": " We're trying to track a ball that looks like the size of a P,"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:54,040",
+				"to": "00:05:55,880"
+			},
+			"offsets": {
+				"from": 354040,
+				"to": 355880
+			},
+			"text": " and it's going 140 miles an hour."
+		},
+		{
+			"timestamps": {
+				"from": "00:05:55,880",
+				"to": "00:06:00,620"
+			},
+			"offsets": {
+				"from": 355880,
+				"to": 360620
+			},
+			"text": " And we have a quarter of a second to find it, track it, run."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:00,620",
+				"to": "00:06:03,860"
+			},
+			"offsets": {
+				"from": 360620,
+				"to": 363860
+			},
+			"text": " So any sort of variance changes that a little bit."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:03,860",
+				"to": "00:06:05,640"
+			},
+			"offsets": {
+				"from": 363860,
+				"to": 365640
+			},
+			"text": " I think that's what's Vary was saying."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:05,640",
+				"to": "00:06:08,360"
+			},
+			"offsets": {
+				"from": 365640,
+				"to": 368360
+			},
+			"text": " But what Sasha says also makes a lot of sense."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:08,360",
+				"to": "00:06:09,320"
+			},
+			"offsets": {
+				"from": 368360,
+				"to": 369320
+			},
+			"text": " I didn't know if I could."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:09,320",
+				"to": "00:06:11,680"
+			},
+			"offsets": {
+				"from": 369320,
+				"to": 371680
+			},
+			"text": " So I simply asked after the point."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:11,680",
+				"to": "00:06:13,320"
+			},
+			"offsets": {
+				"from": 371680,
+				"to": 373320
+			},
+			"text": " If you don't know that you can challenge something,"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:13,320",
+				"to": "00:06:16,120"
+			},
+			"offsets": {
+				"from": 373320,
+				"to": 376120
+			},
+			"text": " you wouldn't be predisposed to challenging it right away."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:16,120",
+				"to": "00:06:17,560"
+			},
+			"offsets": {
+				"from": 376120,
+				"to": 377560
+			},
+			"text": " You hit the shot, hoping you make it."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:17,560",
+				"to": "00:06:20,040"
+			},
+			"offsets": {
+				"from": 377560,
+				"to": 380040
+			},
+			"text": " And then if you miss it, you ask for basically,"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:20,040",
+				"to": "00:06:22,880"
+			},
+			"offsets": {
+				"from": 380040,
+				"to": 382880
+			},
+			"text": " Novak was saying the rule is stupid."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:22,880",
+				"to": "00:06:24,740"
+			},
+			"offsets": {
+				"from": 382880,
+				"to": 384740
+			},
+			"text": " You should have to stop."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:24,740",
+				"to": "00:06:25,580"
+			},
+			"offsets": {
+				"from": 384740,
+				"to": 385580
+			},
+			"text": " - Do it right away."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:25,580",
+				"to": "00:06:26,560"
+			},
+			"offsets": {
+				"from": 385580,
+				"to": 386560
+			},
+			"text": " - I don't disagree with him."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:26,560",
+				"to": "00:06:27,400"
+			},
+			"offsets": {
+				"from": 386560,
+				"to": 387400
+			},
+			"text": " - Yeah."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:27,400",
+				"to": "00:06:28,240"
+			},
+			"offsets": {
+				"from": 387400,
+				"to": 388240
+			},
+			"text": " - Right?"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:28,240",
+				"to": "00:06:33,240"
+			},
+			"offsets": {
+				"from": 388240,
+				"to": 393240
+			},
+			"text": " And Novak was making a judgment on the actual ruling."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:33,640",
+				"to": "00:06:37,960"
+			},
+			"offsets": {
+				"from": 393640,
+				"to": 397960
+			},
+			"text": " And it seemed like Sasha was looking for clarification"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:37,960",
+				"to": "00:06:40,640"
+			},
+			"offsets": {
+				"from": 397960,
+				"to": 400640
+			},
+			"text": " on what he was allowed to challenge."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:40,640",
+				"to": "00:06:41,680"
+			},
+			"offsets": {
+				"from": 400640,
+				"to": 401680
+			},
+			"text": " - The um could have said-"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:41,680",
+				"to": "00:06:42,500"
+			},
+			"offsets": {
+				"from": 401680,
+				"to": 402500
+			},
+			"text": " - Correct."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:42,500",
+				"to": "00:06:43,640"
+			},
+			"offsets": {
+				"from": 402500,
+				"to": 403640
+			},
+			"text": " - You should have challenged right after we saw it."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:43,640",
+				"to": "00:06:45,760"
+			},
+			"offsets": {
+				"from": 403640,
+				"to": 405760
+			},
+			"text": " - And Sasha would have walked back, by the way."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:45,760",
+				"to": "00:06:47,680"
+			},
+			"offsets": {
+				"from": 405760,
+				"to": 407680
+			},
+			"text": " - He would have been pissed that it changed."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:47,680",
+				"to": "00:06:49,440"
+			},
+			"offsets": {
+				"from": 407680,
+				"to": 409440
+			},
+			"text": " And he would have said, you know, who did this?"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:49,440",
+				"to": "00:06:51,240"
+			},
+			"offsets": {
+				"from": 409440,
+				"to": 411240
+			},
+			"text": " And I got, you know, hoes or whatever."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:51,240",
+				"to": "00:06:52,960"
+			},
+			"offsets": {
+				"from": 411240,
+				"to": 412960
+			},
+			"text": " But they're both correct."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:52,960",
+				"to": "00:06:56,160"
+			},
+			"offsets": {
+				"from": 412960,
+				"to": 416160
+			},
+			"text": " Like that's a ridiculous, you know, thing."
+		},
+		{
+			"timestamps": {
+				"from": "00:06:56,160",
+				"to": "00:07:00,200"
+			},
+			"offsets": {
+				"from": 416160,
+				"to": 420200
+			},
+			"text": " But also as tennis players, are we gonna look and see"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:00,200",
+				"to": "00:07:02,120"
+			},
+			"offsets": {
+				"from": 420200,
+				"to": 422120
+			},
+			"text": " what the new update for screen?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:02,120",
+				"to": "00:07:02,960"
+			},
+			"offsets": {
+				"from": 422120,
+				"to": 422960
+			},
+			"text": " Like, no."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:02,960",
+				"to": "00:07:05,240"
+			},
+			"offsets": {
+				"from": 422960,
+				"to": 425240
+			},
+			"text": " - Well, that's what I was gonna ask you on the backside"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:05,240",
+				"to": "00:07:08,280"
+			},
+			"offsets": {
+				"from": 425240,
+				"to": 428280
+			},
+			"text": " of that, do you remember anything when you were playing"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:08,280",
+				"to": "00:07:10,080"
+			},
+			"offsets": {
+				"from": 428280,
+				"to": 430080
+			},
+			"text": " that was kind of a rule change that happened like that"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:10,080",
+				"to": "00:07:11,400"
+			},
+			"offsets": {
+				"from": 430080,
+				"to": 431400
+			},
+			"text": " that you weren't fully aware of?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:11,400",
+				"to": "00:07:12,640"
+			},
+			"offsets": {
+				"from": 431400,
+				"to": 432640
+			},
+			"text": " Was there anything like that that happened?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:12,640",
+				"to": "00:07:15,320"
+			},
+			"offsets": {
+				"from": 432640,
+				"to": 435320
+			},
+			"text": " - I remember with replay, people didn't really understand"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:15,320",
+				"to": "00:07:17,080"
+			},
+			"offsets": {
+				"from": 435320,
+				"to": 437080
+			},
+			"text": " how to use it at first or when they could use it"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:17,080",
+				"to": "00:07:17,920"
+			},
+			"offsets": {
+				"from": 437080,
+				"to": 437920
+			},
+			"text": " or if they could use it."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:17,920",
+				"to": "00:07:19,800"
+			},
+			"offsets": {
+				"from": 437920,
+				"to": 439800
+			},
+			"text": " And if it overruled, then the other player got pissed."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:19,800",
+				"to": "00:07:22,320"
+			},
+			"offsets": {
+				"from": 439800,
+				"to": 442320
+			},
+			"text": " So there was, yeah, anytime there are changes,"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:23,200",
+				"to": "00:07:25,880"
+			},
+			"offsets": {
+				"from": 443200,
+				"to": 445880
+			},
+			"text": " it takes a cycle through for people to fully kind of"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:25,880",
+				"to": "00:07:27,480"
+			},
+			"offsets": {
+				"from": 445880,
+				"to": 447480
+			},
+			"text": " understand how to do it."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:27,480",
+				"to": "00:07:29,400"
+			},
+			"offsets": {
+				"from": 447480,
+				"to": 449400
+			},
+			"text": " So it's not even just, it is a hindrance."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:29,400",
+				"to": "00:07:31,120"
+			},
+			"offsets": {
+				"from": 449400,
+				"to": 451120
+			},
+			"text": " It's when do you have to stop?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:31,120",
+				"to": "00:07:33,720"
+			},
+			"offsets": {
+				"from": 451120,
+				"to": 453720
+			},
+			"text": " You know, Novak's point about he can play a 30 ball rally"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:33,720",
+				"to": "00:07:34,560"
+			},
+			"offsets": {
+				"from": 453720,
+				"to": 454560
+			},
+			"text": " and then challenge it."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:34,560",
+				"to": "00:07:37,780"
+			},
+			"offsets": {
+				"from": 454560,
+				"to": 457780
+			},
+			"text": " And the guy went like this, that's so stupid."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:37,780",
+				"to": "00:07:39,100"
+			},
+			"offsets": {
+				"from": 457780,
+				"to": 459100
+			},
+			"text": " (laughing)"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:39,100",
+				"to": "00:07:40,080"
+			},
+			"offsets": {
+				"from": 459100,
+				"to": 460080
+			},
+			"text": " No, you can't."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:40,080",
+				"to": "00:07:41,000"
+			},
+			"offsets": {
+				"from": 460080,
+				"to": 461000
+			},
+			"text": " - Yeah, the guy thought it."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:41,000",
+				"to": "00:07:43,480"
+			},
+			"offsets": {
+				"from": 461000,
+				"to": 463480
+			},
+			"text": " - You know, you have to like, once people get like the first"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:43,480",
+				"to": "00:07:45,640"
+			},
+			"offsets": {
+				"from": 463480,
+				"to": 465640
+			},
+			"text": " time through the lineup with the new rule,"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:45,640",
+				"to": "00:07:47,440"
+			},
+			"offsets": {
+				"from": 465640,
+				"to": 467440
+			},
+			"text": " they need to learn that they should challenge right away."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:47,440",
+				"to": "00:07:48,280"
+			},
+			"offsets": {
+				"from": 467440,
+				"to": 468280
+			},
+			"text": " - Yeah."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:48,280",
+				"to": "00:07:50,400"
+			},
+			"offsets": {
+				"from": 468280,
+				"to": 470400
+			},
+			"text": " - That they need to stay, it needs to be just like"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:50,400",
+				"to": "00:07:52,160"
+			},
+			"offsets": {
+				"from": 470400,
+				"to": 472160
+			},
+			"text": " when you stop for a line call."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:52,160",
+				"to": "00:07:53,260"
+			},
+			"offsets": {
+				"from": 472160,
+				"to": 473260
+			},
+			"text": " Challenge it right away."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:53,260",
+				"to": "00:07:55,440"
+			},
+			"offsets": {
+				"from": 473260,
+				"to": 475440
+			},
+			"text": " But I don't blame Sasha for not knowing that."
+		},
+		{
+			"timestamps": {
+				"from": "00:07:55,440",
+				"to": "00:07:57,360"
+			},
+			"offsets": {
+				"from": 475440,
+				"to": 477360
+			},
+			"text": " I wouldn't have known that when you could challenge"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:57,360",
+				"to": "00:07:59,520"
+			},
+			"offsets": {
+				"from": 477360,
+				"to": 479520
+			},
+			"text": " and if you could, him going up afterwards"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:59,520",
+				"to": "00:08:00,000"
+			},
+			"offsets": {
+				"from": 479520,
+				"to": 480000
+			},
+			"text": " and his,"
+		}
+	]
+}

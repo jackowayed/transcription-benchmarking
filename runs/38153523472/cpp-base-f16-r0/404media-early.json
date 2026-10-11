@@ -1,0 +1,450 @@
+{
+	"systeminfo": "WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": false,
+		"vocab": 51864,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "models/ggml-base.en.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:04,640"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 4640
+			},
+			"text": " There was a feeling like, \"Oh, we have dodged the bullet, you know, it's going to be fine.\""
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,640",
+				"to": "00:00:06,920"
+			},
+			"offsets": {
+				"from": 4640,
+				"to": 6920
+			},
+			"text": " We can now get rid of civic integrity."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,920",
+				"to": "00:00:13,180"
+			},
+			"offsets": {
+				"from": 6920,
+				"to": 13180
+			},
+			"text": " And unfortunately, because no one in that group was now on the same work, right, like"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:13,180",
+				"to": "00:00:17,960"
+			},
+			"offsets": {
+				"from": 13180,
+				"to": 17960
+			},
+			"text": " there were a few people who kind of got to stay on adjacent work, but like we were largely"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:17,960",
+				"to": "00:00:21,640"
+			},
+			"offsets": {
+				"from": 17960,
+				"to": 21640
+			},
+			"text": " encouraged to like kind of check out, lots of people left and got other jobs."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:21,640",
+				"to": "00:00:25,480"
+			},
+			"offsets": {
+				"from": 21640,
+				"to": 25480
+			},
+			"text": " My boss, I think basically was a free floater inside of Facebook all the way up until a"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:25,480",
+				"to": "00:00:28,660"
+			},
+			"offsets": {
+				"from": 25480,
+				"to": 28660
+			},
+			"text": " week or two before the first Wall Street Journal story came out."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:28,660",
+				"to": "00:00:32,180"
+			},
+			"offsets": {
+				"from": 28660,
+				"to": 32180
+			},
+			"text": " And I don't listen for certain, but I think he only quit because it meant that he could"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:32,180",
+				"to": "00:00:33,380"
+			},
+			"offsets": {
+				"from": 32180,
+				"to": 33380
+			},
+			"text": " comment publicly."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:33,380",
+				"to": "00:00:38,480"
+			},
+			"offsets": {
+				"from": 33380,
+				"to": 38480
+			},
+			"text": " Because the people whose job was to watch and raise alarms were no longer tasked with"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:38,480",
+				"to": "00:00:46,400"
+			},
+			"offsets": {
+				"from": 38480,
+				"to": 46400
+			},
+			"text": " that, it meant that when Stop the Steel exploded and people need to understand, like Stop the"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:46,400",
+				"to": "00:00:48,560"
+			},
+			"offsets": {
+				"from": 46400,
+				"to": 48560
+			},
+			"text": " Steel was not an accident."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:48,560",
+				"to": "00:00:53,280"
+			},
+			"offsets": {
+				"from": 48560,
+				"to": 53280
+			},
+			"text": " Stop the Steel was an artifact of a basic safety system not working."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:53,280",
+				"to": "00:00:59,600"
+			},
+			"offsets": {
+				"from": 53280,
+				"to": 59600
+			},
+			"text": " So like the worst case is one person invited 300,000 people to stop the steel groups."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:59,600",
+				"to": "00:01:03,120"
+			},
+			"offsets": {
+				"from": 59600,
+				"to": 63120
+			},
+			"text": " I think we can all agree that there's some number that you should be allowed to invite"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:03,120",
+				"to": "00:01:04,120"
+			},
+			"offsets": {
+				"from": 63120,
+				"to": 64120
+			},
+			"text": " in a day."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:04,120",
+				"to": "00:01:05,120"
+			},
+			"offsets": {
+				"from": 64120,
+				"to": 65120
+			},
+			"text": " Maybe it's a thousand."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:05,120",
+				"to": "00:01:06,120"
+			},
+			"offsets": {
+				"from": 65120,
+				"to": 66120
+			},
+			"text": " Maybe it's a hundred."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:06,120",
+				"to": "00:01:07,620"
+			},
+			"offsets": {
+				"from": 66120,
+				"to": 67620
+			},
+			"text": " Like we have different conversations about where the number lies."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:07,620",
+				"to": "00:01:11,480"
+			},
+			"offsets": {
+				"from": 67620,
+				"to": 71480
+			},
+			"text": " I think very few people would say, \"We want to have a social media system where you can"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:11,480",
+				"to": "00:01:13,820"
+			},
+			"offsets": {
+				"from": 71480,
+				"to": 73820
+			},
+			"text": " invite 300,000 people in a day.\""
+		},
+		{
+			"timestamps": {
+				"from": "00:01:13,820",
+				"to": "00:01:17,680"
+			},
+			"offsets": {
+				"from": 73820,
+				"to": 77680
+			},
+			"text": " This is not about the movie, but something you said reminds me of a lot of my reporting"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:17,680",
+				"to": "00:01:18,680"
+			},
+			"offsets": {
+				"from": 77680,
+				"to": 78680
+			},
+			"text": " on."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:18,680",
+				"to": "00:01:23,680"
+			},
+			"offsets": {
+				"from": 78680,
+				"to": 83680
+			},
+			"text": " I was writing about how basically like AI SLOP was spreading on Facebook about two years"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:23,680",
+				"to": "00:01:24,680"
+			},
+			"offsets": {
+				"from": 83680,
+				"to": 84680
+			},
+			"text": " ago."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:24,680",
+				"to": "00:01:25,680"
+			},
+			"offsets": {
+				"from": 84680,
+				"to": 85680
+			},
+			"text": " And it's still all over the place."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:25,680",
+				"to": "00:01:28,440"
+			},
+			"offsets": {
+				"from": 85680,
+				"to": 88440
+			},
+			"text": " But this is just like the bizarre like shrimp Jesus things like this."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:28,440",
+				"to": "00:01:33,840"
+			},
+			"offsets": {
+				"from": 88440,
+				"to": 93840
+			},
+			"text": " And then that led to also just like non-consensual AI generated porn spreading on Facebook as"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:33,840",
+				"to": "00:01:34,840"
+			},
+			"offsets": {
+				"from": 93840,
+				"to": 94840
+			},
+			"text": " well."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:34,840",
+				"to": "00:01:39,520"
+			},
+			"offsets": {
+				"from": 94840,
+				"to": 99520
+			},
+			"text": " And one thing I noticed a group could make a page and then on the page you could throw"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:39,520",
+				"to": "00:01:40,680"
+			},
+			"offsets": {
+				"from": 99520,
+				"to": 100680
+			},
+			"text": " an event."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:40,680",
+				"to": "00:01:44,880"
+			},
+			"offsets": {
+				"from": 100680,
+				"to": 104880
+			},
+			"text": " And then within the event you could like upload files essentially."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:44,880",
+				"to": "00:01:48,940"
+			},
+			"offsets": {
+				"from": 104880,
+				"to": 108940
+			},
+			"text": " And like this essentially seemed to become an unmoderated space."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:48,940",
+				"to": "00:01:52,680"
+			},
+			"offsets": {
+				"from": 108940,
+				"to": 112680
+			},
+			"text": " And when I talk to Facebook about this and when I talk to sources, both the official"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:52,680",
+				"to": "00:01:56,880"
+			},
+			"offsets": {
+				"from": 112680,
+				"to": 116880
+			},
+			"text": " PR at Facebook, but also source that Facebook, they were like, \"That was a feature we launched"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:56,880",
+				"to": "00:01:58,360"
+			},
+			"offsets": {
+				"from": 116880,
+				"to": 118360
+			},
+			"text": " 10 years ago."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:58,360",
+				"to": "00:01:59,360"
+			},
+			"offsets": {
+				"from": 118360,
+				"to": 119360
+			},
+			"text": " No one uses it."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:59,360",
+				"to": "00:02:00,000"
+			},
+			"offsets": {
+				"from": 119360,
+				"to": 120000
+			},
+			"text": " We didn't really use it.\""
+		}
+	]
+}

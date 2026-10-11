@@ -1,0 +1,3593 @@
+{
+  "config": {
+    "id": "cpp-base-f16",
+    "backend": "whisper.cpp",
+    "model": "base.en",
+    "threads": 2,
+    "beam": 3
+  },
+  "affinity": [
+    0,
+    1
+  ],
+  "clips": [
+    {
+      "id": "served-opening",
+      "segments": [
+        {
+          "start": 0.08,
+          "end": 6.08,
+          "text": "Colin's football is back, so Hilton called him me, the superstition concierge to make your fan rituals a reality."
+        },
+        {
+          "start": 6.08,
+          "end": 12.08,
+          "text": "Need a room to match your lucky number? We got you. Want to make sure our team doesn't want your lucky jersey?"
+        },
+        {
+          "start": 12.08,
+          "end": 14.08,
+          "text": "Oh, that smells lucky."
+        },
+        {
+          "start": 14.08,
+          "end": 18.08,
+          "text": "Hilton's unmatched hospitality can keep up with any superstition."
+        },
+        {
+          "start": 18.08,
+          "end": 22.08,
+          "text": "Even a marching band wake up call at 555 and 55 seconds."
+        },
+        {
+          "start": 22.08,
+          "end": 23.08,
+          "text": "Hit it!"
+        },
+        {
+          "start": 23.08,
+          "end": 27.08,
+          "text": "When you need a team that will do whatever it takes on game day, it matters where you stay."
+        },
+        {
+          "start": 27.08,
+          "end": 29.08,
+          "text": "Hilton, for the stay."
+        },
+        {
+          "start": 31.29,
+          "end": 37.29,
+          "text": "This episode is brought to you by Born in Roma Fragrances by Valentino Beauty, the iconic fragrance duo."
+        },
+        {
+          "start": 37.29,
+          "end": 46.29,
+          "text": "Donna Born in Roma Ode Parfoum is a feminine fragrance featuring juicy black currant, central jasmine, woody cashmere, and warm vanilla."
+        },
+        {
+          "start": 46.29,
+          "end": 56.29,
+          "text": "Its masculine counterpart, Womo Born in Roma Ode Dualez has notes of fresh violet leaf, aromatic sage, green vetiver, spicy ginger, and mineral salt."
+        },
+        {
+          "start": 56.29,
+          "end": 59.29,
+          "text": "Shop at Macy's.com"
+        },
+        {
+          "start": 66.27,
+          "end": 70.27,
+          "text": "Hey everyone, welcome to Q&A. It's the show where I don't know what's coming, and apparently you all watch."
+        },
+        {
+          "start": 70.27,
+          "end": 71.27,
+          "text": "Yes, apparently."
+        },
+        {
+          "start": 71.27,
+          "end": 76.27,
+          "text": "Thanks everybody for writing in. As a reminder, if you want to be featured in the show, send us a video."
+        },
+        {
+          "start": 76.27,
+          "end": 82.27,
+          "text": "Please send a video to askAndy@surpodcast.com or DM us, send us in the comments."
+        },
+        {
+          "start": 82.27,
+          "end": 87.27,
+          "text": "I don't know how all of it works. I'm a little bit like you, but the team knows where to get them."
+        },
+        {
+          "start": 87.27,
+          "end": 88.27,
+          "text": "Yeah."
+        },
+        {
+          "start": 88.27,
+          "end": 91.27,
+          "text": "And they'll share them. And you know what? We have a video question to start. Yes."
+        },
+        {
+          "start": 91.27,
+          "end": 94.27,
+          "text": "From somebody that's actually kind of famous."
+        },
+        {
+          "start": 94.27,
+          "end": 96.27,
+          "text": "Oh, yeah."
+        },
+        {
+          "start": 96.27,
+          "end": 107.27,
+          "text": "Hey, Andy, and serve team. My name is Charlie Kimball, and I am the first licensed driver with Type 1 diabetes to race in the Indianapolis 500, and the first driver with diabetes to ever win an IndyCar race."
+        },
+        {
+          "start": 107.27,
+          "end": 119.27,
+          "text": "My wife and I are both avid tennis players. We met playing tennis together in high school. In fact, at the same high school where Mike and Bob Bryan played tennis here in Southern California."
+        },
+        {
+          "start": 119.27,
+          "end": 135.27,
+          "text": "My question, having watched the US Open final and thought it was incredible to see Zverev win his second Grand Slam as somebody with Type 1 diabetes, was more about the moment with Ben Shelton, giving a speech right after losing a final."
+        },
+        {
+          "start": 135.27,
+          "end": 145.27,
+          "text": "I've been there in IndyCar race. You crash out. Hopefully you come out of medical, and they stick a microphone in your face and ask you what happened on maybe the worst day of your career."
+        },
+        {
+          "start": 145.27,
+          "end": 153.27,
+          "text": "Even if you finish second, maybe your best day in tennis. What does that moment feel like for a player on the big stage?"
+        },
+        {
+          "start": 153.27,
+          "end": 162.27,
+          "text": "Charlie, awesome work in your sport. Fantastic. I've said this. I said this a bunch on air on ESPN during the US Open."
+        },
+        {
+          "start": 162.27,
+          "end": 172.27,
+          "text": "I look at athletes performing with Type 1 diabetes differently now that I kind of understand it through a personal lens."
+        },
+        {
+          "start": 172.27,
+          "end": 180.0,
+          "text": "My father-in-law, Steve Decker, best person on earth, the maintenance it takes not only from him when he's working in each other"
+        }
+      ]
+    },
+    {
+      "id": "served-early",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 2.66,
+          "text": "I did a bunch of things I shouldn't have done."
+        },
+        {
+          "start": 2.66,
+          "end": 6.88,
+          "text": "And then from that match and moment forward,"
+        },
+        {
+          "start": 6.88,
+          "end": 10.36,
+          "text": "my relationship was largely the best it had ever been"
+        },
+        {
+          "start": 10.36,
+          "end": 12.96,
+          "text": "with the tennis world, right?"
+        },
+        {
+          "start": 12.96,
+          "end": 16.32,
+          "text": "And it's probably because of that match in that moment."
+        },
+        {
+          "start": 16.32,
+          "end": 18.6,
+          "text": "And I didn't listen, I didn't say anything"
+        },
+        {
+          "start": 18.6,
+          "end": 21.52,
+          "text": "that changed the world that, I mean, it was a talk,"
+        },
+        {
+          "start": 21.52,
+          "end": 23.2,
+          "text": "but you give credit where credit's due"
+        },
+        {
+          "start": 23.2,
+          "end": 24.64,
+          "text": "in your tough moment, people will give you"
+        },
+        {
+          "start": 24.64,
+          "end": 25.84,
+          "text": "a lot of credit for it."
+        },
+        {
+          "start": 25.84,
+          "end": 29.16,
+          "text": "- All right, next, we actually are going to toss this one"
+        },
+        {
+          "start": 29.16,
+          "end": 32.44,
+          "text": "over to Dean who is in our show on Tuesday,"
+        },
+        {
+          "start": 32.44,
+          "end": 34.84,
+          "text": "who used to be your coach, 'cause this is a question"
+        },
+        {
+          "start": 34.84,
+          "end": 36.52,
+          "text": "from someone about coaching."
+        },
+        {
+          "start": 36.52,
+          "end": 38.02,
+          "text": "- Get in there, Dean Goldfein."
+        },
+        {
+          "start": 38.02,
+          "end": 39.28,
+          "text": "- All right, Dean, thanks for sticking around"
+        },
+        {
+          "start": 39.28,
+          "end": 42.84,
+          "text": "to answer this question from a friend to all dogs."
+        },
+        {
+          "start": 42.84,
+          "end": 44.48,
+          "text": "No joke, that's the handle."
+        },
+        {
+          "start": 44.48,
+          "end": 46.84,
+          "text": "It says, \"Is it more desirable to coach"
+        },
+        {
+          "start": 46.84,
+          "end": 49.0,
+          "text": "and help an incredibly talented player"
+        },
+        {
+          "start": 49.0,
+          "end": 51.88,
+          "text": "who isn't living up to his or her potential"
+        },
+        {
+          "start": 51.88,
+          "end": 54.2,
+          "text": "or someone with fewer natural gifts"
+        },
+        {
+          "start": 54.2,
+          "end": 56.3,
+          "text": "who fights like hell to win?\""
+        },
+        {
+          "start": 56.3,
+          "end": 57.72,
+          "text": "- For sure, the second one."
+        },
+        {
+          "start": 57.72,
+          "end": 62.22,
+          "text": "I mean, listen, you hope if you have someone"
+        },
+        {
+          "start": 62.22,
+          "end": 64.68,
+          "text": "that's incredibly talented, but doesn't have"
+        },
+        {
+          "start": 64.68,
+          "end": 69.6,
+          "text": "a good work ethic, that you can find a way"
+        },
+        {
+          "start": 69.6,
+          "end": 73.68,
+          "text": "to instill that in them and get them to understand"
+        },
+        {
+          "start": 73.68,
+          "end": 76.32,
+          "text": "that talent's only going to take you so far"
+        },
+        {
+          "start": 76.32,
+          "end": 80.0,
+          "text": "and that if they really want to be the best"
+        },
+        {
+          "start": 80.0,
+          "end": 81.6,
+          "text": "that they can be, that they're going to have"
+        },
+        {
+          "start": 81.6,
+          "end": 83.12,
+          "text": "to put in the work."
+        },
+        {
+          "start": 83.12,
+          "end": 86.12,
+          "text": "But there's something about working with players"
+        },
+        {
+          "start": 86.12,
+          "end": 91.0,
+          "text": "that aren't as talented that are willing"
+        },
+        {
+          "start": 91.0,
+          "end": 93.24,
+          "text": "to work hard and listen and basically run through"
+        },
+        {
+          "start": 93.24,
+          "end": 94.44,
+          "text": "a brick wall."
+        },
+        {
+          "start": 94.44,
+          "end": 98.18,
+          "text": "And so for sure, the second one,"
+        },
+        {
+          "start": 98.18,
+          "end": 100.84,
+          "text": "but I also, I like the challenge of working"
+        },
+        {
+          "start": 100.84,
+          "end": 103.38,
+          "text": "with the first one, but the second one is,"
+        },
+        {
+          "start": 103.38,
+          "end": 105.58,
+          "text": "for me, the best."
+        },
+        {
+          "start": 105.58,
+          "end": 108.6,
+          "text": "- Yeah, listen, having seen Dean's forehand,"
+        },
+        {
+          "start": 108.6,
+          "end": 109.72,
+          "text": "I could tell you that he wants to work"
+        },
+        {
+          "start": 109.72,
+          "end": 112.54,
+          "text": "with a guy who's not talented, who tries really hard."
+        },
+        {
+          "start": 112.54,
+          "end": 113.54,
+          "text": "- Which one was Andy?"
+        },
+        {
+          "start": 115.12,
+          "end": 117.0,
+          "text": "andy andy was the second one"
+        },
+        {
+          "start": 117.0,
+          "end": 118.8,
+          "text": "i mean andy obviously listen"
+        },
+        {
+          "start": 118.8,
+          "end": 119.44,
+          "text": "listen"
+        },
+        {
+          "start": 119.44,
+          "end": 120.0,
+          "text": "well let's"
+        }
+      ]
+    },
+    {
+      "id": "served-middle",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 2.34,
+          "text": "Andy, obviously, was talented."
+        },
+        {
+          "start": 2.34,
+          "end": 8.1,
+          "text": "But when you-- and this is one thing that I always say about Andy."
+        },
+        {
+          "start": 8.1,
+          "end": 11.58,
+          "text": "And he doesn't get any more, but back then, people would always say,"
+        },
+        {
+          "start": 11.58,
+          "end": 13.18,
+          "text": "well, Andy underachieved."
+        },
+        {
+          "start": 13.18,
+          "end": 14.98,
+          "text": "You know, really wouldn't want slam."
+        },
+        {
+          "start": 14.98,
+          "end": 20.82,
+          "text": "But Andy was an overachiever for what he accomplished."
+        },
+        {
+          "start": 20.82,
+          "end": 24.54,
+          "text": "It was because of, first of all, you talk about a competitor."
+        },
+        {
+          "start": 24.54,
+          "end": 28.38,
+          "text": "I mean, the guy was just an unbelievable competitor"
+        },
+        {
+          "start": 28.38,
+          "end": 30.58,
+          "text": "and work ethic like none other."
+        },
+        {
+          "start": 30.58,
+          "end": 37.38,
+          "text": "And, you know, so yeah, what he achieved was because of those things."
+        },
+        {
+          "start": 37.38,
+          "end": 39.74,
+          "text": "I mean, obviously, he was talented, but you know,"
+        },
+        {
+          "start": 39.74,
+          "end": 41.94,
+          "text": "you stack him up with Roger and Rafa."
+        },
+        {
+          "start": 41.94,
+          "end": 43.18,
+          "text": "I mean, it's pretty tough."
+        },
+        {
+          "start": 43.18,
+          "end": 46.5,
+          "text": "So yeah, so Andy was definitely--"
+        },
+        {
+          "start": 46.5,
+          "end": 50.74,
+          "text": "I would say the stats probably show that I was right there with him."
+        },
+        {
+          "start": 50.74,
+          "end": 54.94,
+          "text": "Yeah, for most of the time, it was like Rafa was like,"
+        },
+        {
+          "start": 54.94,
+          "end": 59.42,
+          "text": "I can hit a curveball forehand that is 9 to 6"
+        },
+        {
+          "start": 59.42,
+          "end": 60.7,
+          "text": "and has the most RPMs ever."
+        },
+        {
+          "start": 60.7,
+          "end": 64.5,
+          "text": "I'm like, well, I can bunt it back in with no spin."
+        },
+        {
+          "start": 64.5,
+          "end": 69.74,
+          "text": "Yeah, well, Roger spent more years on tour outside of the top 15"
+        },
+        {
+          "start": 69.74,
+          "end": 70.94,
+          "text": "than you did, so there you go."
+        },
+        {
+          "start": 70.94,
+          "end": 72.74,
+          "text": "Yeah, what a loser, what a frickin' loser."
+        },
+        {
+          "start": 72.74,
+          "end": 74.54,
+          "text": "Thanks, Dean."
+        },
+        {
+          "start": 74.54,
+          "end": 75.9,
+          "text": "We'll be right back on Q&A Andy."
+        },
+        {
+          "start": 75.9,
+          "end": 76.74,
+          "text": "Thanks, Dean."
+        },
+        {
+          "start": 76.74,
+          "end": 79.78,
+          "text": "All right, guys."
+        },
+        {
+          "start": 79.78,
+          "end": 82.02,
+          "text": "We'll be right back."
+        },
+        {
+          "start": 82.02,
+          "end": 85.38,
+          "text": "College football is back, so Hilton called him me, the superstition"
+        },
+        {
+          "start": 85.38,
+          "end": 88.1,
+          "text": "concierge, to make your fan rituals a reality."
+        },
+        {
+          "start": 88.1,
+          "end": 89.86,
+          "text": "Need a room to match your lucky number?"
+        },
+        {
+          "start": 89.86,
+          "end": 90.58,
+          "text": "We got you."
+        },
+        {
+          "start": 90.58,
+          "end": 94.14,
+          "text": "Want to make sure our team doesn't wash your lucky jersey?"
+        },
+        {
+          "start": 94.14,
+          "end": 96.26,
+          "text": "Oh, that smells lucky."
+        },
+        {
+          "start": 96.26,
+          "end": 99.78,
+          "text": "Hilton's unmatched hospitality can keep up with any superstition."
+        },
+        {
+          "start": 99.78,
+          "end": 103.34,
+          "text": "Even a marching band wake up call at 555 in 55 seconds."
+        },
+        {
+          "start": 103.34,
+          "end": 104.7,
+          "text": "Hit it."
+        },
+        {
+          "start": 104.7,
+          "end": 107.34,
+          "text": "When you need a team that will do whatever it takes on game day,"
+        },
+        {
+          "start": 107.34,
+          "end": 108.78,
+          "text": "it matters where you stay."
+        },
+        {
+          "start": 108.78,
+          "end": 112.82,
+          "text": "Hilton, for this day."
+        },
+        {
+          "start": 112.82,
+          "end": 115.78,
+          "text": "This episode is brought to you by Born-in-Roma fragrances"
+        },
+        {
+          "start": 115.78,
+          "end": 119.7,
+          "text": "by Valentino Beauty, the iconic fragrance duo."
+        },
+        {
+          "start": 119.7,
+          "end": 123.54,
+          "text": "Donna Born-in-Roma Ode Parfum is a feminine fragrance featuring"
+        },
+        {
+          "start": 123.54,
+          "end": 127.14,
+          "text": "juicy black currant, central jasmine, woody cashmere,"
+        },
+        {
+          "start": 127.14,
+          "end": 128.62,
+          "text": "and warm vanilla."
+        },
+        {
+          "start": 128.62,
+          "end": 132.46,
+          "text": "It's masculine counterpart, Wilmo Born-in-Roma Ode-Duelette,"
+        },
+        {
+          "start": 132.46,
+          "end": 136.5,
+          "text": "has notes of fresh violet leaf, aromatic sage, green vetiver,"
+        },
+        {
+          "start": 136.5,
+          "end": 138.74,
+          "text": "spicy ginger, and mineral salt."
+        },
+        {
+          "start": 138.74,
+          "end": 141.74,
+          "text": "Shop at Macy's.com."
+        },
+        {
+          "start": 141.74,
+          "end": 143.26,
+          "text": "Propel fitness water."
+        },
+        {
+          "start": 143.26,
+          "end": 146.82,
+          "text": "With Gatorade electrolytes, zero sugar, and vitamins,"
+        },
+        {
+          "start": 146.82,
+          "end": 149.98,
+          "text": "propel hydrates better than water to help you get the most out"
+        },
+        {
+          "start": 149.98,
+          "end": 153.06,
+          "text": "of your workout and get back to your best self."
+        },
+        {
+          "start": 153.06,
+          "end": 154.38,
+          "text": "What propels you?"
+        },
+        {
+          "start": 154.38,
+          "end": 158.02,
+          "text": "Propel with Gatorade electrolytes."
+        },
+        {
+          "start": 158.02,
+          "end": 160.42,
+          "text": "Whether you're commanding the court or the open road,"
+        },
+        {
+          "start": 160.42,
+          "end": 163.18,
+          "text": "modern icons know it isn't just about going the distance."
+        },
+        {
+          "start": 163.18,
+          "end": 165.06,
+          "text": "It's about how you will arrive."
+        },
+        {
+          "start": 165.06,
+          "end": 167.9,
+          "text": "Meet the all-electric Cadillac Escalade IQ"
+        },
+        {
+          "start": 167.9,
+          "end": 170.74,
+          "text": "with expectation-defying electric capability"
+        },
+        {
+          "start": 170.74,
+          "end": 173.94,
+          "text": "at 55-inch diagonally measured horizon display"
+        },
+        {
+          "start": 173.94,
+          "end": 176.5,
+          "text": "and available 42-speaker AKG audio."
+        },
+        {
+          "start": 176.5,
+          "end": 179.22,
+          "text": "Every drive becomes a luxurious journey."
+        },
+        {
+          "start": 179.22,
+          "end": 181.42,
+          "text": "And if you don't believe us, go check out our quick-serve"
+        },
+        {
+          "start": 181.42,
+          "end": 183.38,
+          "text": "coverage from this year's US Open,"
+        },
+        {
+          "start": 183.38,
+          "end": 187.02,
+          "text": "where we turn the Escalade IQ into our studio."
+        },
+        {
+          "start": 187.02,
+          "end": 190.38,
+          "text": "Elevate your arrival with the all-electric Cadillac Escalade IQ."
+        },
+        {
+          "start": 193.3,
+          "end": 196.14,
+          "text": "All right, back to the show."
+        },
+        {
+          "start": 196.14,
+          "end": 198.5,
+          "text": "All right, Andy, next up, this one's a little bit more topical."
+        },
+        {
+          "start": 198.5,
+          "end": 200.94,
+          "text": "This one is coming from us and the serve team."
+        },
+        {
+          "start": 200.94,
+          "end": 202.9,
+          "text": "It's earlier this week in Beijing's Varev"
+        },
+        {
+          "start": 202.9,
+          "end": 205.38,
+          "text": "was allowed to replay a point against Novak"
+        },
+        {
+          "start": 205.38,
+          "end": 208.38,
+          "text": "after challenging an LED board change as hindrance."
+        },
+        {
+          "start": 208.38,
+          "end": 211.34,
+          "text": "Despite finishing the rally before raising the issue,"
+        },
+        {
+          "start": 211.34,
+          "end": 213.1,
+          "text": "Novak wasn't happy about the call,"
+        },
+        {
+          "start": 213.1,
+          "end": 223.84,
+          "text": "but let's just take a look at what happened."
+        },
+        {
+          "start": 223.84,
+          "end": 227.36,
+          "text": "That's a very good return there from Novak Jokovic."
+        },
+        {
+          "start": 233.38,
+          "end": 234.22,
+          "text": "Oh, Sarif."
+        },
+        {
+          "start": 235.38,
+          "end": 236.74,
+          "text": "I'm happy with something--"
+        },
+        {
+          "start": 236.74,
+          "end": 240.1,
+          "text": "(INDISTINCT CHATTER)"
+        },
+        {
+          "start": 245.1,
+          "end": 248.86,
+          "text": "They do change as he's just about to serve."
+        },
+        {
+          "start": 248.86,
+          "end": 252.05,
+          "text": "So I think he will get the lead here."
+        },
+        {
+          "start": 252.05,
+          "end": 255.61,
+          "text": "OK, so now you're telling me fine, I get it."
+        },
+        {
+          "start": 255.61,
+          "end": 256.97,
+          "text": "It was about-- he was about to serve."
+        },
+        {
+          "start": 256.97,
+          "end": 258.53,
+          "text": "He served."
+        },
+        {
+          "start": 258.53,
+          "end": 260.73,
+          "text": "I played one shot, he played another shot,"
+        },
+        {
+          "start": 260.73,
+          "end": 262.01,
+          "text": "and then he challenged."
+        },
+        {
+          "start": 262.01,
+          "end": 263.57,
+          "text": "Is that OK?"
+        },
+        {
+          "start": 263.57,
+          "end": 269.41,
+          "text": "One second, even he was annoyed by that change there."
+        },
+        {
+          "start": 269.41,
+          "end": 271.73,
+          "text": "He would stop after the serve and he would go home."
+        },
+        {
+          "start": 271.73,
+          "end": 273.61,
+          "text": "It doesn't make any sense."
+        },
+        {
+          "start": 273.61,
+          "end": 277.37,
+          "text": "I mean, you miss not knowing the right direction."
+        },
+        {
+          "start": 277.37,
+          "end": 279.29,
+          "text": "I didn't know it, but it challenged me."
+        },
+        {
+          "start": 279.29,
+          "end": 281.21,
+          "text": "That's why I came to him and I asked him at this time."
+        },
+        {
+          "start": 281.21,
+          "end": 283.21,
+          "text": "Yeah, but then you stop after the serve,"
+        },
+        {
+          "start": 283.21,
+          "end": 285.57,
+          "text": "but I didn't know if that's the reason enough to challenge."
+        },
+        {
+          "start": 285.57,
+          "end": 287.37,
+          "text": "That's why I love him."
+        },
+        {
+          "start": 287.37,
+          "end": 290.29,
+          "text": "I mean, this must be the one of the most stupid change of rules"
+        },
+        {
+          "start": 290.29,
+          "end": 291.85,
+          "text": "that I've ever heard in my life."
+        },
+        {
+          "start": 291.85,
+          "end": 295.73,
+          "text": "Because he might have seized that there is a hindrance of that"
+        },
+        {
+          "start": 295.73,
+          "end": 297.13,
+          "text": "shot he stops immediately."
+        },
+        {
+          "start": 297.13,
+          "end": 299.65,
+          "text": "I mean, we could play a 30 shot rally"
+        },
+        {
+          "start": 299.65,
+          "end": 300.77,
+          "text": "and he can lose the point."
+        },
+        {
+          "start": 300.77,
+          "end": 304.68,
+          "text": "He's like, OK, I'm going to challenge now."
+        },
+        {
+          "start": 304.68,
+          "end": 306.88,
+          "text": "Real quick for some-- so in February,"
+        },
+        {
+          "start": 306.88,
+          "end": 308.08,
+          "text": "they essentially changed the role."
+        },
+        {
+          "start": 308.08,
+          "end": 309.48,
+          "text": "Originally, it was the other way where"
+        },
+        {
+          "start": 309.48,
+          "end": 312.72,
+          "text": "players had to stop the play to challenge hindrance."
+        },
+        {
+          "start": 312.72,
+          "end": 314.44,
+          "text": "They changed that, apparently, in February."
+        },
+        {
+          "start": 314.44,
+          "end": 316.16,
+          "text": "The current hindrance rule requesting"
+        },
+        {
+          "start": 316.16,
+          "end": 319.56,
+          "text": "after the point is concluded has been implemented as a trial"
+        },
+        {
+          "start": 319.56,
+          "end": 321.12,
+          "text": "and will be reviewed at the end of the season."
+        },
+        {
+          "start": 321.12,
+          "end": 323.12,
+          "text": "So Novak's correct, that's not the way it used to be."
+        },
+        {
+          "start": 323.12,
+          "end": 324.32,
+          "text": "It's a real change."
+        },
+        {
+          "start": 324.32,
+          "end": 327.8,
+          "text": "So no, they're all right, by the way."
+        },
+        {
+          "start": 327.8,
+          "end": 329.48,
+          "text": "And they disagreed in this moment."
+        },
+        {
+          "start": 329.48,
+          "end": 331.24,
+          "text": "That's not a testy exchange."
+        },
+        {
+          "start": 331.24,
+          "end": 332.16,
+          "text": "No, no, no, no, not at all."
+        },
+        {
+          "start": 332.16,
+          "end": 333.12,
+          "text": "That's not a testy exchange."
+        },
+        {
+          "start": 333.12,
+          "end": 335.8,
+          "text": "A testy exchange has some--"
+        },
+        {
+          "start": 335.8,
+          "end": 337.64,
+          "text": "it's very simple."
+        },
+        {
+          "start": 337.64,
+          "end": 339.36,
+          "text": "It did change."
+        },
+        {
+          "start": 339.36,
+          "end": 342.52,
+          "text": "And you see that, you look at the side, you see that."
+        },
+        {
+          "start": 342.52,
+          "end": 343.56,
+          "text": "You have to understand that."
+        },
+        {
+          "start": 343.56,
+          "end": 345.44,
+          "text": "And that's why when people are like,"
+        },
+        {
+          "start": 345.44,
+          "end": 347.08,
+          "text": "oh, we can't walk around during points."
+        },
+        {
+          "start": 347.08,
+          "end": 349.64,
+          "text": "Well, it's not about the actual motion walking around."
+        },
+        {
+          "start": 349.64,
+          "end": 354.04,
+          "text": "We're trying to track a ball that looks like the size of a P,"
+        },
+        {
+          "start": 354.04,
+          "end": 355.88,
+          "text": "and it's going 140 miles an hour."
+        },
+        {
+          "start": 355.88,
+          "end": 360.62,
+          "text": "And we have a quarter of a second to find it, track it, run."
+        },
+        {
+          "start": 360.62,
+          "end": 363.86,
+          "text": "So any sort of variance changes that a little bit."
+        },
+        {
+          "start": 363.86,
+          "end": 365.64,
+          "text": "I think that's what's Vary was saying."
+        },
+        {
+          "start": 365.64,
+          "end": 368.36,
+          "text": "But what Sasha says also makes a lot of sense."
+        },
+        {
+          "start": 368.36,
+          "end": 369.32,
+          "text": "I didn't know if I could."
+        },
+        {
+          "start": 369.32,
+          "end": 371.68,
+          "text": "So I simply asked after the point."
+        },
+        {
+          "start": 371.68,
+          "end": 373.32,
+          "text": "If you don't know that you can challenge something,"
+        },
+        {
+          "start": 373.32,
+          "end": 376.12,
+          "text": "you wouldn't be predisposed to challenging it right away."
+        },
+        {
+          "start": 376.12,
+          "end": 377.56,
+          "text": "You hit the shot, hoping you make it."
+        },
+        {
+          "start": 377.56,
+          "end": 380.04,
+          "text": "And then if you miss it, you ask for basically,"
+        },
+        {
+          "start": 380.04,
+          "end": 382.88,
+          "text": "Novak was saying the rule is stupid."
+        },
+        {
+          "start": 382.88,
+          "end": 384.74,
+          "text": "You should have to stop."
+        },
+        {
+          "start": 384.74,
+          "end": 385.58,
+          "text": "- Do it right away."
+        },
+        {
+          "start": 385.58,
+          "end": 386.56,
+          "text": "- I don't disagree with him."
+        },
+        {
+          "start": 386.56,
+          "end": 387.4,
+          "text": "- Yeah."
+        },
+        {
+          "start": 387.4,
+          "end": 388.24,
+          "text": "- Right?"
+        },
+        {
+          "start": 388.24,
+          "end": 393.24,
+          "text": "And Novak was making a judgment on the actual ruling."
+        },
+        {
+          "start": 393.64,
+          "end": 397.96,
+          "text": "And it seemed like Sasha was looking for clarification"
+        },
+        {
+          "start": 397.96,
+          "end": 400.64,
+          "text": "on what he was allowed to challenge."
+        },
+        {
+          "start": 400.64,
+          "end": 401.68,
+          "text": "- The um could have said-"
+        },
+        {
+          "start": 401.68,
+          "end": 402.5,
+          "text": "- Correct."
+        },
+        {
+          "start": 402.5,
+          "end": 403.64,
+          "text": "- You should have challenged right after we saw it."
+        },
+        {
+          "start": 403.64,
+          "end": 405.76,
+          "text": "- And Sasha would have walked back, by the way."
+        },
+        {
+          "start": 405.76,
+          "end": 407.68,
+          "text": "- He would have been pissed that it changed."
+        },
+        {
+          "start": 407.68,
+          "end": 409.44,
+          "text": "And he would have said, you know, who did this?"
+        },
+        {
+          "start": 409.44,
+          "end": 411.24,
+          "text": "And I got, you know, hoes or whatever."
+        },
+        {
+          "start": 411.24,
+          "end": 412.96,
+          "text": "But they're both correct."
+        },
+        {
+          "start": 412.96,
+          "end": 416.16,
+          "text": "Like that's a ridiculous, you know, thing."
+        },
+        {
+          "start": 416.16,
+          "end": 420.2,
+          "text": "But also as tennis players, are we gonna look and see"
+        },
+        {
+          "start": 420.2,
+          "end": 422.12,
+          "text": "what the new update for screen?"
+        },
+        {
+          "start": 422.12,
+          "end": 422.96,
+          "text": "Like, no."
+        },
+        {
+          "start": 422.96,
+          "end": 425.24,
+          "text": "- Well, that's what I was gonna ask you on the backside"
+        },
+        {
+          "start": 425.24,
+          "end": 428.28,
+          "text": "of that, do you remember anything when you were playing"
+        },
+        {
+          "start": 428.28,
+          "end": 430.08,
+          "text": "that was kind of a rule change that happened like that"
+        },
+        {
+          "start": 430.08,
+          "end": 431.4,
+          "text": "that you weren't fully aware of?"
+        },
+        {
+          "start": 431.4,
+          "end": 432.64,
+          "text": "Was there anything like that that happened?"
+        },
+        {
+          "start": 432.64,
+          "end": 435.32,
+          "text": "- I remember with replay, people didn't really understand"
+        },
+        {
+          "start": 435.32,
+          "end": 437.08,
+          "text": "how to use it at first or when they could use it"
+        },
+        {
+          "start": 437.08,
+          "end": 437.92,
+          "text": "or if they could use it."
+        },
+        {
+          "start": 437.92,
+          "end": 439.8,
+          "text": "And if it overruled, then the other player got pissed."
+        },
+        {
+          "start": 439.8,
+          "end": 442.32,
+          "text": "So there was, yeah, anytime there are changes,"
+        },
+        {
+          "start": 443.2,
+          "end": 445.88,
+          "text": "it takes a cycle through for people to fully kind of"
+        },
+        {
+          "start": 445.88,
+          "end": 447.48,
+          "text": "understand how to do it."
+        },
+        {
+          "start": 447.48,
+          "end": 449.4,
+          "text": "So it's not even just, it is a hindrance."
+        },
+        {
+          "start": 449.4,
+          "end": 451.12,
+          "text": "It's when do you have to stop?"
+        },
+        {
+          "start": 451.12,
+          "end": 453.72,
+          "text": "You know, Novak's point about he can play a 30 ball rally"
+        },
+        {
+          "start": 453.72,
+          "end": 454.56,
+          "text": "and then challenge it."
+        },
+        {
+          "start": 454.56,
+          "end": 457.78,
+          "text": "And the guy went like this, that's so stupid."
+        },
+        {
+          "start": 457.78,
+          "end": 459.1,
+          "text": "(laughing)"
+        },
+        {
+          "start": 459.1,
+          "end": 460.08,
+          "text": "No, you can't."
+        },
+        {
+          "start": 460.08,
+          "end": 461.0,
+          "text": "- Yeah, the guy thought it."
+        },
+        {
+          "start": 461.0,
+          "end": 463.48,
+          "text": "- You know, you have to like, once people get like the first"
+        },
+        {
+          "start": 463.48,
+          "end": 465.64,
+          "text": "time through the lineup with the new rule,"
+        },
+        {
+          "start": 465.64,
+          "end": 467.44,
+          "text": "they need to learn that they should challenge right away."
+        },
+        {
+          "start": 467.44,
+          "end": 468.28,
+          "text": "- Yeah."
+        },
+        {
+          "start": 468.28,
+          "end": 470.4,
+          "text": "- That they need to stay, it needs to be just like"
+        },
+        {
+          "start": 470.4,
+          "end": 472.16,
+          "text": "when you stop for a line call."
+        },
+        {
+          "start": 472.16,
+          "end": 473.26,
+          "text": "Challenge it right away."
+        },
+        {
+          "start": 473.26,
+          "end": 475.44,
+          "text": "But I don't blame Sasha for not knowing that."
+        },
+        {
+          "start": 475.44,
+          "end": 477.36,
+          "text": "I wouldn't have known that when you could challenge"
+        },
+        {
+          "start": 477.36,
+          "end": 479.52,
+          "text": "and if you could, him going up afterwards"
+        },
+        {
+          "start": 479.52,
+          "end": 480.0,
+          "text": "and his,"
+        }
+      ]
+    },
+    {
+      "id": "served-late",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 1.68,
+          "text": "Highlight is like, do we lose the point?"
+        },
+        {
+          "start": 1.68,
+          "end": 2.92,
+          "text": "Yes, but was it awesome?"
+        },
+        {
+          "start": 2.92,
+          "end": 3.8,
+          "text": "Yes."
+        },
+        {
+          "start": 3.8,
+          "end": 6.24,
+          "text": "- Yeah, you got to have like part winner,"
+        },
+        {
+          "start": 6.24,
+          "end": 7.88,
+          "text": "part like entertainer."
+        },
+        {
+          "start": 7.88,
+          "end": 8.72,
+          "text": "- Yeah."
+        },
+        {
+          "start": 8.72,
+          "end": 12.08,
+          "text": "- I want Kim Klicers keeps threatening to come down."
+        },
+        {
+          "start": 12.08,
+          "end": 12.92,
+          "text": "- That'd be so good."
+        },
+        {
+          "start": 12.92,
+          "end": 15.78,
+          "text": "- Once she's fully, she gets that wheel fully healed."
+        },
+        {
+          "start": 15.78,
+          "end": 17.76,
+          "text": "- We'll get the camera team out there."
+        },
+        {
+          "start": 17.76,
+          "end": 18.6,
+          "text": "- That'd be."
+        },
+        {
+          "start": 18.6,
+          "end": 20.32,
+          "text": "- For sure, watch you and Kim just mop the floor with some."
+        },
+        {
+          "start": 20.32,
+          "end": 21.22,
+          "text": "- That'd be a fun one."
+        },
+        {
+          "start": 21.22,
+          "end": 23.14,
+          "text": "Or we each take one of you chuckers."
+        },
+        {
+          "start": 23.14,
+          "end": 24.24,
+          "text": "- Ooh!"
+        },
+        {
+          "start": 24.24,
+          "end": 26.22,
+          "text": "By the way, there's something I've been remissing with."
+        },
+        {
+          "start": 26.22,
+          "end": 27.04,
+          "text": "- Do you think, Sean?"
+        },
+        {
+          "start": 27.04,
+          "end": 27.88,
+          "text": "- I'm done."
+        },
+        {
+          "start": 27.88,
+          "end": 29.72,
+          "text": "- There's something I've been remissing mentioning."
+        },
+        {
+          "start": 30.32,
+          "end": 32.52,
+          "text": "And I don't often like to give you compliments,"
+        },
+        {
+          "start": 32.52,
+          "end": 34.6,
+          "text": "especially not publicly."
+        },
+        {
+          "start": 34.6,
+          "end": 37.36,
+          "text": "Normally I save those for behind the scenes."
+        },
+        {
+          "start": 37.36,
+          "end": 38.64,
+          "text": "You know what I'm gonna say, right?"
+        },
+        {
+          "start": 38.64,
+          "end": 39.48,
+          "text": "- I do."
+        },
+        {
+          "start": 40.76,
+          "end": 43.12,
+          "text": "- Last year at the labor cup,"
+        },
+        {
+          "start": 44.04,
+          "end": 45.24,
+          "text": "the serve challenge."
+        },
+        {
+          "start": 45.24,
+          "end": 46.08,
+          "text": "- Yeah."
+        },
+        {
+          "start": 46.08,
+          "end": 47.52,
+          "text": "- You were a fucking disgrace."
+        },
+        {
+          "start": 47.52,
+          "end": 49.0,
+          "text": "- It's awful."
+        },
+        {
+          "start": 49.0,
+          "end": 50.4,
+          "text": "- You were embarrassing."
+        },
+        {
+          "start": 50.4,
+          "end": 52.72,
+          "text": "- It was, it ruined the segment."
+        },
+        {
+          "start": 52.72,
+          "end": 54.66,
+          "text": "It was just like, it made it,"
+        },
+        {
+          "start": 54.66,
+          "end": 57.98,
+          "text": "it was too awkward to overcome."
+        },
+        {
+          "start": 57.98,
+          "end": 60.16,
+          "text": "We tried our little hearts out."
+        },
+        {
+          "start": 61.12,
+          "end": 62.2,
+          "text": "- It was bad."
+        },
+        {
+          "start": 62.2,
+          "end": 65.76,
+          "text": "- Mike Hayden, you hit some real serves in London."
+        },
+        {
+          "start": 65.76,
+          "end": 68.04,
+          "text": "- I just hit one, the other two went into the back fast."
+        },
+        {
+          "start": 68.04,
+          "end": 70.6,
+          "text": "- You have made a lot of progress."
+        },
+        {
+          "start": 70.6,
+          "end": 71.64,
+          "text": "And I'm proud of you."
+        },
+        {
+          "start": 71.64,
+          "end": 72.48,
+          "text": "- Thank you."
+        },
+        {
+          "start": 72.48,
+          "end": 73.32,
+          "text": "- You did a great job."
+        },
+        {
+          "start": 73.32,
+          "end": 74.36,
+          "text": "- Thank you, shout out Kevin, Mark's Park."
+        },
+        {
+          "start": 74.36,
+          "end": 75.2,
+          "text": "- Yeah."
+        },
+        {
+          "start": 75.2,
+          "end": 76.68,
+          "text": "- There you go."
+        },
+        {
+          "start": 76.68,
+          "end": 77.68,
+          "text": "Yeah, so I just had to say that"
+        },
+        {
+          "start": 77.68,
+          "end": 79.72,
+          "text": "'cause I didn't, in the labor cup recap,"
+        },
+        {
+          "start": 79.72,
+          "end": 81.4,
+          "text": "I obviously should have gone there,"
+        },
+        {
+          "start": 81.4,
+          "end": 82.24,
+          "text": "but we got-"
+        },
+        {
+          "start": 82.24,
+          "end": 83.08,
+          "text": "- I shocked myself."
+        },
+        {
+          "start": 83.08,
+          "end": 84.04,
+          "text": "- We got carried away with, you know,"
+        },
+        {
+          "start": 84.04,
+          "end": 87.6,
+          "text": "Techieshaun's love fest and fed knowing about chuckers."
+        },
+        {
+          "start": 87.6,
+          "end": 91.08,
+          "text": "Which absolutely, Techieshaun's love fest needed the attention."
+        },
+        {
+          "start": 91.08,
+          "end": 93.56,
+          "text": "All right, I think that's about to wrap it up"
+        },
+        {
+          "start": 93.56,
+          "end": 95.8,
+          "text": "'cause we need to get to the random question of the day."
+        },
+        {
+          "start": 95.8,
+          "end": 96.8,
+          "text": "- Sean hit it."
+        },
+        {
+          "start": 96.8,
+          "end": 100.63,
+          "text": "(upbeat music)"
+        },
+        {
+          "start": 100.63,
+          "end": 110.32,
+          "text": "\u266a Random question of the day \u266a"
+        },
+        {
+          "start": 110.32,
+          "end": 112.76,
+          "text": "- Wonder if Lin-Manuel would remix that for us."
+        },
+        {
+          "start": 112.76,
+          "end": 114.72,
+          "text": "- Oh yeah, that'd be a great question."
+        },
+        {
+          "start": 114.72,
+          "end": 116.92,
+          "text": "Lin-Manuel Miranda, can you remix the shitty jingle?"
+        },
+        {
+          "start": 116.92,
+          "end": 120.0,
+          "text": "Don't make your own, don't make your own jingle greatest-"
+        }
+      ]
+    },
+    {
+      "id": "served-ending",
+      "segments": [
+        {
+          "start": 0.69,
+          "end": 5.41,
+          "text": "This episode is brought to you by Born in Roma fragrances by Valentino Beauty."
+        },
+        {
+          "start": 5.41,
+          "end": 7.69,
+          "text": "The iconic fragrance duo."
+        },
+        {
+          "start": 7.69,
+          "end": 11.65,
+          "text": "Donna Born in Roma Ode Parfoum is a feminine fragrance featuring"
+        },
+        {
+          "start": 11.65,
+          "end": 16.61,
+          "text": "juicy black currant, central jasmine, woody cashmere and warm vanilla."
+        },
+        {
+          "start": 16.61,
+          "end": 20.53,
+          "text": "Its masculine counterpart, Wilma Born in Roma Ode du Dalette,"
+        },
+        {
+          "start": 20.53,
+          "end": 23.81,
+          "text": "has notes of fresh violet leaf, aromatic sage,"
+        },
+        {
+          "start": 23.81,
+          "end": 26.89,
+          "text": "green vetiver, spicy ginger, and mineral salt."
+        },
+        {
+          "start": 26.89,
+          "end": 28.93,
+          "text": "Shop at Macy's dot com."
+        },
+        {
+          "start": 31.17,
+          "end": 36.37,
+          "text": "Having uncontrolled eosinophilic esophageitis or EOE can mean you're stuck in many ways,"
+        },
+        {
+          "start": 36.37,
+          "end": 38.37,
+          "text": "like cutting your food into tiny pieces."
+        },
+        {
+          "start": 41.17,
+          "end": 43.49,
+          "text": "Or stuck chewing food for a long time."
+        },
+        {
+          "start": 45.66,
+          "end": 49.5,
+          "text": "Dupixin de Pilimab, a prescription medicine for patients one year and older weighing"
+        },
+        {
+          "start": 49.5,
+          "end": 51.58,
+          "text": "at least 33 pounds can help with that."
+        },
+        {
+          "start": 51.58,
+          "end": 54.78,
+          "text": "It's a breakthrough treatment that can reduce inflammation in the esophagus"
+        },
+        {
+          "start": 54.78,
+          "end": 55.9,
+          "text": "and improve swallowing."
+        },
+        {
+          "start": 58.7,
+          "end": 64.14,
+          "text": "How about this? Dupixin is not a steroid, it proactively treats EOE so you can get ahead of it."
+        },
+        {
+          "start": 64.14,
+          "end": 67.1,
+          "text": "Severe allergic reactions, including skin reactions can occur."
+        },
+        {
+          "start": 67.1,
+          "end": 71.1,
+          "text": "Get help right away if you have trouble breathing or wheezing or swelling of your face, mouth,"
+        },
+        {
+          "start": 71.1,
+          "end": 74.22,
+          "text": "tongue, or throat. Tell your doctor of newer worsening joint aches in pain,"
+        },
+        {
+          "start": 74.22,
+          "end": 79.02,
+          "text": "or a parasitic infection or asthma. Don't change or stop other treatments without talking to your doctor."
+        },
+        {
+          "start": 79.02,
+          "end": 82.14,
+          "text": "Feeling stuck with EOE? Start treating with dupixin."
+        },
+        {
+          "start": 82.14,
+          "end": 85.74,
+          "text": "Talk to your gastroenterologist or allergist today about dupixin."
+        },
+        {
+          "start": 85.74,
+          "end": 89.1,
+          "text": "Learn more at www.dupixen.com or call 1-844-Dupixen."
+        }
+      ]
+    },
+    {
+      "id": "404media-opening",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 2.6,
+          "text": "We've got the most controlled border we've ever had in the history."
+        },
+        {
+          "start": 2.6,
+          "end": 6.94,
+          "text": "Yet liberal politician Josh Turic supports amnesty for illegals."
+        },
+        {
+          "start": 6.94,
+          "end": 9.24,
+          "text": "We need an easier pathway to citizenship."
+        },
+        {
+          "start": 9.24,
+          "end": 13.68,
+          "text": "Turic voted to give taxpayer-funded welfare benefits to illegal immigrants."
+        },
+        {
+          "start": 13.68,
+          "end": 15.68,
+          "text": "Said cracking down on illegals was..."
+        },
+        {
+          "start": 15.68,
+          "end": 17.54,
+          "text": "Fundamentally wrong in Un-American."
+        },
+        {
+          "start": 17.54,
+          "end": 21.82,
+          "text": "Turic was even caught telling illegal immigrants how to obstruct law enforcement."
+        },
+        {
+          "start": 21.82,
+          "end": 23.88,
+          "text": "Liberal politician Josh Turic."
+        },
+        {
+          "start": 23.88,
+          "end": 25.7,
+          "text": "Fundamentally wrong in Un-American."
+        },
+        {
+          "start": 25.7,
+          "end": 30.04,
+          "text": "Paid for by SLF-PAC, not authorized by any candidate or candidate committee, SLF-PAC.org."
+        },
+        {
+          "start": 30.04,
+          "end": 31.8,
+          "text": "We were never going to get another chance at this."
+        },
+        {
+          "start": 31.8,
+          "end": 33.74,
+          "text": "That was the thing that was actually the most scary for me."
+        },
+        {
+          "start": 33.74,
+          "end": 36.48,
+          "text": "We get one chance to get this out."
+        },
+        {
+          "start": 36.48,
+          "end": 39.34,
+          "text": "If we get caught, if I make a mistake, no one else gets to do this."
+        },
+        {
+          "start": 39.34,
+          "end": 41.18,
+          "text": "You know you only get one shot at it."
+        },
+        {
+          "start": 41.18,
+          "end": 42.42,
+          "text": "You already have enough skin in the game."
+        },
+        {
+          "start": 42.42,
+          "end": 44.02,
+          "text": "You might as just put a little bit more skin in the game."
+        },
+        {
+          "start": 49.16,
+          "end": 52.4,
+          "text": "Today we're talking to meta whistleblower Francis Hagen,"
+        },
+        {
+          "start": 52.4,
+          "end": 57.46,
+          "text": "who famously worked with the Wall Street Journal to expose how meta's algorithms"
+        },
+        {
+          "start": 57.46,
+          "end": 61.54,
+          "text": "were radicalizing people, making teen girls feel horrible on Instagram."
+        },
+        {
+          "start": 61.54,
+          "end": 66.84,
+          "text": "And lots of other really bad things, Francis became a whistleblower back in 2021."
+        },
+        {
+          "start": 66.84,
+          "end": 69.92,
+          "text": "And her story is the basis for the social reckoning,"
+        },
+        {
+          "start": 69.92,
+          "end": 72.62,
+          "text": "which is Aaron Sorkin's follow-up to the social network."
+        },
+        {
+          "start": 72.62,
+          "end": 73.52,
+          "text": "Let's jump into it."
+        },
+        {
+          "start": 73.52,
+          "end": 75.68,
+          "text": "This is a really great interview with Francis."
+        },
+        {
+          "start": 75.68,
+          "end": 77.28,
+          "text": "I really enjoyed it."
+        },
+        {
+          "start": 79.72,
+          "end": 81.76,
+          "text": "Hi, Francis. Thank you so much for joining us."
+        },
+        {
+          "start": 81.76,
+          "end": 83.26,
+          "text": "I'm really excited to talk to you."
+        },
+        {
+          "start": 83.26,
+          "end": 86.96,
+          "text": "I have been following your work and your story ever since you"
+        },
+        {
+          "start": 86.96,
+          "end": 90.74,
+          "text": "became a whistleblower from Facebook, which was in 2021."
+        },
+        {
+          "start": 90.74,
+          "end": 95.44,
+          "text": "I just saw the social reckoning literally one hour before having this conversation."
+        },
+        {
+          "start": 95.44,
+          "end": 96.56,
+          "text": "I thought it was great."
+        },
+        {
+          "start": 96.56,
+          "end": 97.76,
+          "text": "I want to start there."
+        },
+        {
+          "start": 97.76,
+          "end": 100.38,
+          "text": "I guess we can kind of back into your story."
+        },
+        {
+          "start": 100.38,
+          "end": 104.92,
+          "text": "But when did you figure out that Aaron Sorkin was interested in telling your story?"
+        },
+        {
+          "start": 104.92,
+          "end": 110.06,
+          "text": "So I would say like maybe like six months after I first came forward,"
+        },
+        {
+          "start": 110.06,
+          "end": 116.86,
+          "text": "I was in LA for a conference and they said Aaron Sorkin is interested in talking to."
+        },
+        {
+          "start": 116.86,
+          "end": 124.1,
+          "text": "And I don't think it was as explicit as like they want to make a companion piece to the social network"
+        },
+        {
+          "start": 124.1,
+          "end": 125.98,
+          "text": "and have you be a major character in it."
+        },
+        {
+          "start": 125.98,
+          "end": 130.96,
+          "text": "It was more like, you know, if I were to do a follow-up, like what would be interesting?"
+        },
+        {
+          "start": 130.96,
+          "end": 132.66,
+          "text": "Like explain to me why you did what you did."
+        },
+        {
+          "start": 132.66,
+          "end": 133.72,
+          "text": "Like, why does this matter?"
+        },
+        {
+          "start": 133.72,
+          "end": 136.74,
+          "text": "One of the things I think the movie does a really, really good job of capturing"
+        },
+        {
+          "start": 136.74,
+          "end": 143.3,
+          "text": "is the topics that were in my disclosures are not just complicated for an everyday person to understand."
+        },
+        {
+          "start": 143.3,
+          "end": 148.8,
+          "text": "They're complicated for people who are really deeply steeped in how social media works."
+        },
+        {
+          "start": 148.8,
+          "end": 150.8,
+          "text": "Like, I thought the movie did a really good job of capturing."
+        },
+        {
+          "start": 150.8,
+          "end": 153.46,
+          "text": "Like, there were things that I knew for certain when I went to Jeff"
+        },
+        {
+          "start": 153.46,
+          "end": 157.54,
+          "text": "and there were things that he and I figured out together by looking through a lot of documentation."
+        },
+        {
+          "start": 157.54,
+          "end": 160.62,
+          "text": "So imagine you have someone like Aaron who's like a smart person."
+        },
+        {
+          "start": 160.62,
+          "end": 163.62,
+          "text": "He's really clued in on a lot of things in the world."
+        },
+        {
+          "start": 163.62,
+          "end": 167.86,
+          "text": "But we're talking about stuff that is a specialty amongst specialists."
+        },
+        {
+          "start": 167.86,
+          "end": 171.18,
+          "text": "How much can you actually convey in an hour and hour and a half?"
+        },
+        {
+          "start": 171.18,
+          "end": 177.14,
+          "text": "So I had never imagined that you could make what I went through into an interesting story."
+        },
+        {
+          "start": 177.14,
+          "end": 179.94,
+          "text": "So like when I didn't hear from him again for a while, I didn't..."
+        }
+      ]
+    },
+    {
+      "id": "404media-early",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 4.64,
+          "text": "There was a feeling like, \"Oh, we have dodged the bullet, you know, it's going to be fine.\""
+        },
+        {
+          "start": 4.64,
+          "end": 6.92,
+          "text": "We can now get rid of civic integrity."
+        },
+        {
+          "start": 6.92,
+          "end": 13.18,
+          "text": "And unfortunately, because no one in that group was now on the same work, right, like"
+        },
+        {
+          "start": 13.18,
+          "end": 17.96,
+          "text": "there were a few people who kind of got to stay on adjacent work, but like we were largely"
+        },
+        {
+          "start": 17.96,
+          "end": 21.64,
+          "text": "encouraged to like kind of check out, lots of people left and got other jobs."
+        },
+        {
+          "start": 21.64,
+          "end": 25.48,
+          "text": "My boss, I think basically was a free floater inside of Facebook all the way up until a"
+        },
+        {
+          "start": 25.48,
+          "end": 28.66,
+          "text": "week or two before the first Wall Street Journal story came out."
+        },
+        {
+          "start": 28.66,
+          "end": 32.18,
+          "text": "And I don't listen for certain, but I think he only quit because it meant that he could"
+        },
+        {
+          "start": 32.18,
+          "end": 33.38,
+          "text": "comment publicly."
+        },
+        {
+          "start": 33.38,
+          "end": 38.48,
+          "text": "Because the people whose job was to watch and raise alarms were no longer tasked with"
+        },
+        {
+          "start": 38.48,
+          "end": 46.4,
+          "text": "that, it meant that when Stop the Steel exploded and people need to understand, like Stop the"
+        },
+        {
+          "start": 46.4,
+          "end": 48.56,
+          "text": "Steel was not an accident."
+        },
+        {
+          "start": 48.56,
+          "end": 53.28,
+          "text": "Stop the Steel was an artifact of a basic safety system not working."
+        },
+        {
+          "start": 53.28,
+          "end": 59.6,
+          "text": "So like the worst case is one person invited 300,000 people to stop the steel groups."
+        },
+        {
+          "start": 59.6,
+          "end": 63.12,
+          "text": "I think we can all agree that there's some number that you should be allowed to invite"
+        },
+        {
+          "start": 63.12,
+          "end": 64.12,
+          "text": "in a day."
+        },
+        {
+          "start": 64.12,
+          "end": 65.12,
+          "text": "Maybe it's a thousand."
+        },
+        {
+          "start": 65.12,
+          "end": 66.12,
+          "text": "Maybe it's a hundred."
+        },
+        {
+          "start": 66.12,
+          "end": 67.62,
+          "text": "Like we have different conversations about where the number lies."
+        },
+        {
+          "start": 67.62,
+          "end": 71.48,
+          "text": "I think very few people would say, \"We want to have a social media system where you can"
+        },
+        {
+          "start": 71.48,
+          "end": 73.82,
+          "text": "invite 300,000 people in a day.\""
+        },
+        {
+          "start": 73.82,
+          "end": 77.68,
+          "text": "This is not about the movie, but something you said reminds me of a lot of my reporting"
+        },
+        {
+          "start": 77.68,
+          "end": 78.68,
+          "text": "on."
+        },
+        {
+          "start": 78.68,
+          "end": 83.68,
+          "text": "I was writing about how basically like AI SLOP was spreading on Facebook about two years"
+        },
+        {
+          "start": 83.68,
+          "end": 84.68,
+          "text": "ago."
+        },
+        {
+          "start": 84.68,
+          "end": 85.68,
+          "text": "And it's still all over the place."
+        },
+        {
+          "start": 85.68,
+          "end": 88.44,
+          "text": "But this is just like the bizarre like shrimp Jesus things like this."
+        },
+        {
+          "start": 88.44,
+          "end": 93.84,
+          "text": "And then that led to also just like non-consensual AI generated porn spreading on Facebook as"
+        },
+        {
+          "start": 93.84,
+          "end": 94.84,
+          "text": "well."
+        },
+        {
+          "start": 94.84,
+          "end": 99.52,
+          "text": "And one thing I noticed a group could make a page and then on the page you could throw"
+        },
+        {
+          "start": 99.52,
+          "end": 100.68,
+          "text": "an event."
+        },
+        {
+          "start": 100.68,
+          "end": 104.88,
+          "text": "And then within the event you could like upload files essentially."
+        },
+        {
+          "start": 104.88,
+          "end": 108.94,
+          "text": "And like this essentially seemed to become an unmoderated space."
+        },
+        {
+          "start": 108.94,
+          "end": 112.68,
+          "text": "And when I talk to Facebook about this and when I talk to sources, both the official"
+        },
+        {
+          "start": 112.68,
+          "end": 116.88,
+          "text": "PR at Facebook, but also source that Facebook, they were like, \"That was a feature we launched"
+        },
+        {
+          "start": 116.88,
+          "end": 118.36,
+          "text": "10 years ago."
+        },
+        {
+          "start": 118.36,
+          "end": 119.36,
+          "text": "No one uses it."
+        },
+        {
+          "start": 119.36,
+          "end": 120.0,
+          "text": "We didn't really use it.\""
+        }
+      ]
+    },
+    {
+      "id": "404media-middle",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 2.22,
+          "text": "They told people it was for warm and fuzzy reasons,"
+        },
+        {
+          "start": 2.22,
+          "end": 6.79,
+          "text": "and unfortunately we all paid the consequence."
+        },
+        {
+          "start": 6.79,
+          "end": 8.71,
+          "text": "- The 404 Media Podcast is brought to you"
+        },
+        {
+          "start": 8.71,
+          "end": 10.15,
+          "text": "by Nordlayer Browser."
+        },
+        {
+          "start": 10.15,
+          "end": 12.03,
+          "text": "Nordlayer Browser is an enterprise browser"
+        },
+        {
+          "start": 12.03,
+          "end": 13.51,
+          "text": "that secures online work"
+        },
+        {
+          "start": 13.51,
+          "end": 15.87,
+          "text": "without getting in the way of productivity."
+        },
+        {
+          "start": 15.87,
+          "end": 18.35,
+          "text": "It gives IT teams full visibility and control"
+        },
+        {
+          "start": 18.35,
+          "end": 20.07,
+          "text": "over every web-based AI tool,"
+        },
+        {
+          "start": 20.07,
+          "end": 23.39,
+          "text": "SaaS application and download across the organization"
+        },
+        {
+          "start": 23.39,
+          "end": 25.07,
+          "text": "while making sure employees can still enjoy"
+        },
+        {
+          "start": 25.07,
+          "end": 27.47,
+          "text": "a seamless browsing experience."
+        },
+        {
+          "start": 27.47,
+          "end": 29.47,
+          "text": "Designed for today's distributed workforce,"
+        },
+        {
+          "start": 29.47,
+          "end": 32.39,
+          "text": "Nordlayer Browser helps companies protect access"
+        },
+        {
+          "start": 32.39,
+          "end": 33.95,
+          "text": "to their internal resources"
+        },
+        {
+          "start": 33.95,
+          "end": 36.33,
+          "text": "and prevent accidental data exposure."
+        },
+        {
+          "start": 36.33,
+          "end": 39.51,
+          "text": "Go to nordlayer.com/browser/404podcast"
+        },
+        {
+          "start": 39.51,
+          "end": 41.87,
+          "text": "and use the coupon code 404podcast10"
+        },
+        {
+          "start": 41.87,
+          "end": 45.07,
+          "text": "at checkout to get Nordlayer Browser at 10% off today."
+        },
+        {
+          "start": 46.19,
+          "end": 48.35,
+          "text": "One of the most frustrating things about traveling"
+        },
+        {
+          "start": 48.35,
+          "end": 49.97,
+          "text": "is when you're somewhere incredible,"
+        },
+        {
+          "start": 49.97,
+          "end": 51.23,
+          "text": "somebody starts talking to you"
+        },
+        {
+          "start": 51.23,
+          "end": 53.47,
+          "text": "and you realize you can't really have the conversation"
+        },
+        {
+          "start": 53.47,
+          "end": 54.83,
+          "text": "you wanna have."
+        },
+        {
+          "start": 54.83,
+          "end": 57.53,
+          "text": "You can smile, point, maybe pull out your phone,"
+        },
+        {
+          "start": 57.53,
+          "end": 59.23,
+          "text": "but there's still this barrier between you"
+        },
+        {
+          "start": 59.23,
+          "end": 61.03,
+          "text": "and the actual experience."
+        },
+        {
+          "start": 61.03,
+          "end": 64.39,
+          "text": "That's exactly the kind of problem Babel is built to help with."
+        },
+        {
+          "start": 64.39,
+          "end": 66.59,
+          "text": "Babel focuses on real life conversation,"
+        },
+        {
+          "start": 66.59,
+          "end": 67.87,
+          "text": "not endless grammar drills"
+        },
+        {
+          "start": 67.87,
+          "end": 70.11,
+          "text": "or memorizing random vocabulary."
+        },
+        {
+          "start": 70.11,
+          "end": 72.23,
+          "text": "You learn words and phrases you'd actually use"
+        },
+        {
+          "start": 72.23,
+          "end": 73.63,
+          "text": "with another person."
+        },
+        {
+          "start": 73.63,
+          "end": 76.59,
+          "text": "And the lessons are designed by more than 200 language experts"
+        },
+        {
+          "start": 76.59,
+          "end": 79.51,
+          "text": "so you're learning how people actually communicate."
+        },
+        {
+          "start": 79.51,
+          "end": 81.27,
+          "text": "And it doesn't require turning language learning"
+        },
+        {
+          "start": 81.27,
+          "end": 82.75,
+          "text": "into a second job."
+        },
+        {
+          "start": 82.75,
+          "end": 85.67,
+          "text": "The lessons are bite-sized enough to fit into a coffee break,"
+        },
+        {
+          "start": 85.67,
+          "end": 87.79,
+          "text": "your commute or 10 minutes before bed."
+        },
+        {
+          "start": 87.79,
+          "end": 90.23,
+          "text": "In fact, people who use Babel for just 10 minutes a day"
+        },
+        {
+          "start": 90.23,
+          "end": 91.91,
+          "text": "can start having real conversations"
+        },
+        {
+          "start": 91.91,
+          "end": 93.55,
+          "text": "and as little as three weeks."
+        },
+        {
+          "start": 93.55,
+          "end": 94.83,
+          "text": "That's the part I like."
+        },
+        {
+          "start": 94.83,
+          "end": 96.39,
+          "text": "The goal isn't memorizing a textbook"
+        },
+        {
+          "start": 96.39,
+          "end": 98.59,
+          "text": "or doing a bunch of flashcards and drills."
+        },
+        {
+          "start": 98.59,
+          "end": 100.67,
+          "text": "It's getting to the point where you can actually connect"
+        },
+        {
+          "start": 100.67,
+          "end": 103.15,
+          "text": "with somebody when the opportunity comes up."
+        },
+        {
+          "start": 103.15,
+          "end": 106.07,
+          "text": "Babel has sold more than 25 million subscriptions"
+        },
+        {
+          "start": 106.07,
+          "end": 109.03,
+          "text": "and it comes with a 14-day money-back guarantee."
+        },
+        {
+          "start": 109.03,
+          "end": 111.79,
+          "text": "So if there's somewhere you've always wanted to go"
+        },
+        {
+          "start": 111.79,
+          "end": 114.03,
+          "text": "or a language you've been meaning to pick back up,"
+        },
+        {
+          "start": 114.03,
+          "end": 116.23,
+          "text": "this is a pretty good reason to finally start."
+        },
+        {
+          "start": 116.23,
+          "end": 118.91,
+          "text": "Start learning a new language today with Babel."
+        },
+        {
+          "start": 118.91,
+          "end": 123.31,
+          "text": "Right now listeners can save up to 60% off at babble.com/404."
+        },
+        {
+          "start": 123.31,
+          "end": 128.19,
+          "text": "That's babble, b-a-b-b-e-l.com/404 for up to 60% off."
+        },
+        {
+          "start": 128.19,
+          "end": 130.63,
+          "text": "Rules and restrictions may apply."
+        },
+        {
+          "start": 130.63,
+          "end": 133.19,
+          "text": "The best gifts are the ones that solve an annoying problem"
+        },
+        {
+          "start": 133.19,
+          "end": 135.23,
+          "text": "somebody deals with all the time."
+        },
+        {
+          "start": 135.23,
+          "end": 137.47,
+          "text": "And Ridges five and one travel power bank"
+        },
+        {
+          "start": 137.47,
+          "end": 139.43,
+          "text": "is exactly that kind of gift."
+        },
+        {
+          "start": 140.31,
+          "end": 142.03,
+          "text": "Here's my Ridge power bank."
+        },
+        {
+          "start": 142.03,
+          "end": 143.95,
+          "text": "I've been using this thing for about a month"
+        },
+        {
+          "start": 143.95,
+          "end": 145.31,
+          "text": "and I'm kind of obsessed with it"
+        },
+        {
+          "start": 145.31,
+          "end": 147.95,
+          "text": "because it eliminates the mess of chargers and cables"
+        },
+        {
+          "start": 147.95,
+          "end": 149.95,
+          "text": "that I normally have to carry around."
+        },
+        {
+          "start": 149.95,
+          "end": 151.27,
+          "text": "Everything is built in."
+        },
+        {
+          "start": 151.27,
+          "end": 154.99,
+          "text": "It's got MagSafe wireless charging, an Apple Watch charger,"
+        },
+        {
+          "start": 154.99,
+          "end": 159.31,
+          "text": "lightning, USB-C, and importantly built-in cables."
+        },
+        {
+          "start": 159.31,
+          "end": 162.59,
+          "text": "One power bank can handle basically everything I'm carrying."
+        },
+        {
+          "start": 162.59,
+          "end": 166.55,
+          "text": "It has a 10,000 milliamp hour battery with 20 watts of power"
+        },
+        {
+          "start": 166.55,
+          "end": 169.03,
+          "text": "giving you up to three full phone charges."
+        },
+        {
+          "start": 169.03,
+          "end": 170.79,
+          "text": "And right now is a great time to grab them"
+        },
+        {
+          "start": 170.79,
+          "end": 173.51,
+          "text": "because from October 8th through November 5th,"
+        },
+        {
+          "start": 173.51,
+          "end": 175.83,
+          "text": "Ridge is running its friends and family sale"
+        },
+        {
+          "start": 175.83,
+          "end": 178.95,
+          "text": "by two Ridge power banks and get a third one free."
+        },
+        {
+          "start": 178.95,
+          "end": 181.99,
+          "text": "So you can knock out three genuinely useful gifts"
+        },
+        {
+          "start": 181.99,
+          "end": 183.91,
+          "text": "or give away two and keep one"
+        },
+        {
+          "start": 183.91,
+          "end": 186.15,
+          "text": "or keep all three for yourself."
+        },
+        {
+          "start": 186.15,
+          "end": 187.75,
+          "text": "I don't know, that's what I'd probably do."
+        },
+        {
+          "start": 187.75,
+          "end": 190.67,
+          "text": "I use this Ridge power bank all the time."
+        },
+        {
+          "start": 190.67,
+          "end": 191.91,
+          "text": "I really like it."
+        },
+        {
+          "start": 191.91,
+          "end": 194.19,
+          "text": "I took it to a music festival recently"
+        },
+        {
+          "start": 194.19,
+          "end": 196.71,
+          "text": "and normally when I go to music festivals"
+        },
+        {
+          "start": 196.71,
+          "end": 200.75,
+          "text": "I get really self-conscious about running out of battery."
+        },
+        {
+          "start": 200.75,
+          "end": 203.95,
+          "text": "With Ridge I just had a full charge pretty much the entire day."
+        },
+        {
+          "start": 203.95,
+          "end": 205.35,
+          "text": "It was an amazing piece of mind"
+        },
+        {
+          "start": 205.35,
+          "end": 207.39,
+          "text": "and with power banks I've had in the past"
+        },
+        {
+          "start": 207.39,
+          "end": 209.71,
+          "text": "you bring the power bank but then you also need the cable."
+        },
+        {
+          "start": 209.71,
+          "end": 210.83,
+          "text": "It's a whole nightmare."
+        },
+        {
+          "start": 210.83,
+          "end": 213.19,
+          "text": "With Ridge you can just like put your phone"
+        },
+        {
+          "start": 213.19,
+          "end": 216.43,
+          "text": "on the back of this because it's got the MagSafe situation"
+        },
+        {
+          "start": 216.43,
+          "end": 220.35,
+          "text": "and then it has the cables built in which is really awesome."
+        },
+        {
+          "start": 220.35,
+          "end": 222.35,
+          "text": "They just kind of like snap in here"
+        },
+        {
+          "start": 222.35,
+          "end": 224.27,
+          "text": "and then you can pull them out."
+        },
+        {
+          "start": 226.15,
+          "end": 229.07,
+          "text": "You can just like pull them out like this."
+        },
+        {
+          "start": 229.07,
+          "end": 231.27,
+          "text": "So I really like mine."
+        },
+        {
+          "start": 231.27,
+          "end": 233.47,
+          "text": "Ridge also makes wallets, phone cases,"
+        },
+        {
+          "start": 233.47,
+          "end": 235.51,
+          "text": "luggage, key cases and more."
+        },
+        {
+          "start": 235.51,
+          "end": 238.43,
+          "text": "Plus they're free shipping, a 99 day risk free trial"
+        },
+        {
+          "start": 238.43,
+          "end": 240.67,
+          "text": "and a lifetime warranty."
+        },
+        {
+          "start": 240.67,
+          "end": 242.31,
+          "text": "Ready to get a head start on gifting."
+        },
+        {
+          "start": 242.31,
+          "end": 245.07,
+          "text": "You can find Ridge's power bank at Best Buy in Amazon"
+        },
+        {
+          "start": 245.07,
+          "end": 247.59,
+          "text": "or head to Ridge.com/404media"
+        },
+        {
+          "start": 247.59,
+          "end": 249.27,
+          "text": "for Ridge's friends and family sale"
+        },
+        {
+          "start": 249.27,
+          "end": 251.31,
+          "text": "where you can buy two Ridge power banks"
+        },
+        {
+          "start": 251.31,
+          "end": 252.95,
+          "text": "and get a third one free."
+        },
+        {
+          "start": 252.95,
+          "end": 255.35,
+          "text": "That's Ridge.com/404media."
+        },
+        {
+          "start": 255.35,
+          "end": 257.95,
+          "text": "Shop smart this holiday season with Ridge."
+        },
+        {
+          "start": 257.95,
+          "end": 259.87,
+          "text": "Ridge.com/404media."
+        },
+        {
+          "start": 259.87,
+          "end": 262.31,
+          "text": "After your purchase, they'll ask where you heard about us."
+        },
+        {
+          "start": 262.31,
+          "end": 264.23,
+          "text": "Please support our show and tell them"
+        },
+        {
+          "start": 264.23,
+          "end": 266.07,
+          "text": "that 404media sent you."
+        },
+        {
+          "start": 266.95,
+          "end": 269.15,
+          "text": "So for fun, I Googled myself last week"
+        },
+        {
+          "start": 269.15,
+          "end": 270.99,
+          "text": "and found my home address, my phone number"
+        },
+        {
+          "start": 270.99,
+          "end": 273.47,
+          "text": "and a relative I'm fairly sure I've never met."
+        },
+        {
+          "start": 273.47,
+          "end": 275.99,
+          "text": "All on directory sites I never signed up for."
+        },
+        {
+          "start": 275.99,
+          "end": 278.31,
+          "text": "That's a data broker economy for you."
+        },
+        {
+          "start": 278.31,
+          "end": 280.67,
+          "text": "They scrape your info, package you up like a trading card"
+        },
+        {
+          "start": 280.67,
+          "end": 282.35,
+          "text": "and sell you off to whoever's paying"
+        },
+        {
+          "start": 282.35,
+          "end": 285.27,
+          "text": "which is exactly how identity thieves go shopping."
+        },
+        {
+          "start": 285.27,
+          "end": 288.15,
+          "text": "Bad luck when your entire job is not getting docked."
+        },
+        {
+          "start": 288.15,
+          "end": 289.71,
+          "text": "That's why we use incogny."
+        },
+        {
+          "start": 289.71,
+          "end": 291.73,
+          "text": "Instead of you spending hundreds of hours"
+        },
+        {
+          "start": 291.73,
+          "end": 294.63,
+          "text": "filling out opt-out forms across 40 browser tabs,"
+        },
+        {
+          "start": 294.63,
+          "end": 297.31,
+          "text": "incogny gets to work by sending legal removal requests"
+        },
+        {
+          "start": 297.31,
+          "end": 300.53,
+          "text": "to over 420 harmful data broker sites."
+        },
+        {
+          "start": 300.53,
+          "end": 302.71,
+          "text": "It's independently verified by Deloitte."
+        },
+        {
+          "start": 302.71,
+          "end": 304.87,
+          "text": "Resubmits requests every 30 to 60 days"
+        },
+        {
+          "start": 304.87,
+          "end": 307.15,
+          "text": "as brokers try to quietly relist you"
+        },
+        {
+          "start": 307.15,
+          "end": 309.91,
+          "text": "and you can track every request right from the app."
+        },
+        {
+          "start": 309.91,
+          "end": 312.95,
+          "text": "On the unlimited plan, the exposure scanner digs up"
+        },
+        {
+          "start": 312.95,
+          "end": 315.91,
+          "text": "the weir stuff across the wider web like old forums,"
+        },
+        {
+          "start": 315.91,
+          "end": 318.15,
+          "text": "random blogs or obscure directories."
+        },
+        {
+          "start": 318.15,
+          "end": 320.43,
+          "text": "It surfaces all your exposed profile links"
+        },
+        {
+          "start": 320.43,
+          "end": 322.83,
+          "text": "right in your dashboard where you simply select"
+        },
+        {
+          "start": 322.83,
+          "end": 324.23,
+          "text": "which links you want to take in down"
+        },
+        {
+          "start": 324.23,
+          "end": 326.75,
+          "text": "and incogny's team of human privacy experts"
+        },
+        {
+          "start": 326.75,
+          "end": 329.75,
+          "text": "will handle the manual corporate takedowns for you."
+        },
+        {
+          "start": 329.75,
+          "end": 333.59,
+          "text": "Take back control today, go to incogny.com/404media"
+        },
+        {
+          "start": 333.59,
+          "end": 337.03,
+          "text": "and use code 404media for 60% off annual plan."
+        },
+        {
+          "start": 337.03,
+          "end": 341.39,
+          "text": "That's incogny.com/404media, promo code 404media."
+        },
+        {
+          "start": 341.39,
+          "end": 344.35,
+          "text": "Risk-free with a 30 day money back guarantee."
+        },
+        {
+          "start": 344.35,
+          "end": 346.35,
+          "text": "They can't harm you, they can't find you."
+        },
+        {
+          "start": 349.57,
+          "end": 351.59,
+          "text": "One thing that happened after you left,"
+        },
+        {
+          "start": 351.59,
+          "end": 354.97,
+          "text": "like this is kind of, I guess years later at this point"
+        },
+        {
+          "start": 354.97,
+          "end": 357.63,
+          "text": "is Facebook and all of its products"
+        },
+        {
+          "start": 357.63,
+          "end": 359.81,
+          "text": "have become a lot more like TikTok."
+        },
+        {
+          "start": 359.81,
+          "end": 362.13,
+          "text": "You know, it used to show you a lot of content"
+        },
+        {
+          "start": 362.13,
+          "end": 363.09,
+          "text": "from your friends and family"
+        },
+        {
+          "start": 363.09,
+          "end": 364.53,
+          "text": "and people that you were their friends with"
+        },
+        {
+          "start": 364.53,
+          "end": 366.01,
+          "text": "or following or whatever."
+        },
+        {
+          "start": 366.01,
+          "end": 368.57,
+          "text": "And now it is showing a lot more content"
+        },
+        {
+          "start": 368.57,
+          "end": 371.57,
+          "text": "from just like anyone, like any random person"
+        },
+        {
+          "start": 371.57,
+          "end": 372.69,
+          "text": "where it becomes public."
+        },
+        {
+          "start": 372.69,
+          "end": 376.13,
+          "text": "And I mean, I think that kind of is an outgrowth"
+        },
+        {
+          "start": 376.13,
+          "end": 378.57,
+          "text": "of what you're describing,"
+        },
+        {
+          "start": 378.57,
+          "end": 381.45,
+          "text": "where it's like if re-shared content can still elicit"
+        },
+        {
+          "start": 381.45,
+          "end": 383.49,
+          "text": "some sort of response, then maybe the algorithm"
+        },
+        {
+          "start": 383.49,
+          "end": 385.01,
+          "text": "is more likely to show it to you."
+        },
+        {
+          "start": 385.01,
+          "end": 386.21,
+          "text": "But what we're seeing now is like,"
+        },
+        {
+          "start": 386.21,
+          "end": 388.77,
+          "text": "it's a lot more global, I guess."
+        },
+        {
+          "start": 388.77,
+          "end": 391.05,
+          "text": "Like these are not increasingly,"
+        },
+        {
+          "start": 391.05,
+          "end": 392.85,
+          "text": "they're not really social networks."
+        },
+        {
+          "start": 392.85,
+          "end": 395.53,
+          "text": "They're more like log on and do and scroll"
+        },
+        {
+          "start": 395.53,
+          "end": 397.33,
+          "text": "and just get kind of get what you get."
+        },
+        {
+          "start": 397.33,
+          "end": 400.53,
+          "text": "And I guess I'm wondering, I guess do you agree"
+        },
+        {
+          "start": 400.53,
+          "end": 403.57,
+          "text": "with that characterization slash how closely"
+        },
+        {
+          "start": 403.57,
+          "end": 407.33,
+          "text": "have you been following this since you blew the whistle?"
+        },
+        {
+          "start": 407.33,
+          "end": 410.05,
+          "text": "- So I totally agree with this assessment."
+        },
+        {
+          "start": 410.05,
+          "end": 412.37,
+          "text": "And I wanna take some personal responsibility."
+        },
+        {
+          "start": 412.37,
+          "end": 414.25,
+          "text": "So when I worked at Pinterest,"
+        },
+        {
+          "start": 414.25,
+          "end": 416.53,
+          "text": "so Pinterest originally was you only got content"
+        },
+        {
+          "start": 416.53,
+          "end": 418.53,
+          "text": "from people you explicitly chose."
+        },
+        {
+          "start": 418.53,
+          "end": 421.25,
+          "text": "So you heard from humans because you chose those humans."
+        },
+        {
+          "start": 421.25,
+          "end": 422.65,
+          "text": "I think it was largely chronological."
+        },
+        {
+          "start": 422.65,
+          "end": 424.33,
+          "text": "People didn't wanna do the labor"
+        },
+        {
+          "start": 424.33,
+          "end": 426.29,
+          "text": "of finding 50 accounts to follow,"
+        },
+        {
+          "start": 426.29,
+          "end": 428.13,
+          "text": "'cause you needed about 50 in order to have a good feed."
+        },
+        {
+          "start": 428.13,
+          "end": 431.13,
+          "text": "So they introduced topics, which kind of aggregated"
+        },
+        {
+          "start": 431.13,
+          "end": 433.29,
+          "text": "people together being like, oh, you said you like food,"
+        },
+        {
+          "start": 433.29,
+          "end": 435.33,
+          "text": "we think these accounts have a lot of food in them."
+        },
+        {
+          "start": 435.33,
+          "end": 438.25,
+          "text": "We'll basically ghost follow you onto their account"
+        },
+        {
+          "start": 438.25,
+          "end": 439.53,
+          "text": "'cause you follow food."
+        },
+        {
+          "start": 439.53,
+          "end": 442.05,
+          "text": "And then they, about maybe six months or a year"
+        },
+        {
+          "start": 442.05,
+          "end": 443.21,
+          "text": "before I joined Pinterest,"
+        },
+        {
+          "start": 443.21,
+          "end": 445.85,
+          "text": "they moved to peer recommendations."
+        },
+        {
+          "start": 445.85,
+          "end": 449.01,
+          "text": "And I joined during a time period"
+        },
+        {
+          "start": 449.01,
+          "end": 451.61,
+          "text": "where they were dealing with the fallout"
+        },
+        {
+          "start": 451.61,
+          "end": 456.69,
+          "text": "of moving away from being anchored on people you chose."
+        },
+        {
+          "start": 456.69,
+          "end": 459.89,
+          "text": "So the challenge is that when you go from being"
+        },
+        {
+          "start": 459.89,
+          "end": 462.05,
+          "text": "in an environment where humans are mediating"
+        },
+        {
+          "start": 462.05,
+          "end": 463.65,
+          "text": "how you interact with the world"
+        },
+        {
+          "start": 463.65,
+          "end": 465.87,
+          "text": "to one where a computer is choosing"
+        },
+        {
+          "start": 465.87,
+          "end": 467.81,
+          "text": "how you interact with the world."
+        },
+        {
+          "start": 467.81,
+          "end": 472.05,
+          "text": "In our case, our problem was it fostered a lot of monotony."
+        },
+        {
+          "start": 472.05,
+          "end": 475.57,
+          "text": "So the thing you are most likely to re-share"
+        },
+        {
+          "start": 475.57,
+          "end": 478.97,
+          "text": "is I think identical to the last thing you re-shared."
+        },
+        {
+          "start": 478.97,
+          "end": 480.0,
+          "text": "So think of it this way like,"
+        }
+      ]
+    },
+    {
+      "id": "404media-late",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 3.68,
+          "text": "who I am, only they tell a story in the worst possible light, because they wanted to distract"
+        },
+        {
+          "start": 3.68,
+          "end": 4.84,
+          "text": "from something else."
+        },
+        {
+          "start": 4.84,
+          "end": 8.04,
+          "text": "And part of what really struck me was two things."
+        },
+        {
+          "start": 8.04,
+          "end": 13.22,
+          "text": "One was they had worked with a number of anonymous whistleblowers before, where totally innocent"
+        },
+        {
+          "start": 13.22,
+          "end": 18.48,
+          "text": "people had faced the blowback, because they had been blamed for being the whistleblower."
+        },
+        {
+          "start": 18.48,
+          "end": 23.52,
+          "text": "And the idea that someone who had done nothing wrong with suffer because of my actions was"
+        },
+        {
+          "start": 23.52,
+          "end": 25.36,
+          "text": "something that really weighed upon me."
+        },
+        {
+          "start": 25.36,
+          "end": 28.4,
+          "text": "And the second one was, it was never going to get, we were never going to get another"
+        },
+        {
+          "start": 28.4,
+          "end": 29.4,
+          "text": "chance at this."
+        },
+        {
+          "start": 29.4,
+          "end": 33.24,
+          "text": "It was pretty obvious when I was in the middle of it, that was the thing that was actually"
+        },
+        {
+          "start": 33.24,
+          "end": 38.12,
+          "text": "the most scary for me, was I was like, we get one chance to get this out."
+        },
+        {
+          "start": 38.12,
+          "end": 41.96,
+          "text": "If we get caught, if I make a mistake, no one else gets to do this."
+        },
+        {
+          "start": 41.96,
+          "end": 46.64,
+          "text": "If you know you only get one shot at it, you might as well, you already have enough skin"
+        },
+        {
+          "start": 46.64,
+          "end": 48.88,
+          "text": "in the game, you might as just put a little bit more skin in the game."
+        },
+        {
+          "start": 48.88,
+          "end": 54.36,
+          "text": "I never feared getting sued until Sarah1Williams got sued by Facebook for writing in careless"
+        },
+        {
+          "start": 54.36,
+          "end": 58.1,
+          "text": "people, which is like her memoir about her experiences working directly with Mark and"
+        },
+        {
+          "start": 58.1,
+          "end": 59.1,
+          "text": "Cheryl."
+        },
+        {
+          "start": 59.1,
+          "end": 63.64,
+          "text": "I've been asked about her immediately following this because I feel like her book and your"
+        },
+        {
+          "start": 63.64,
+          "end": 68.24,
+          "text": "story are the two things that have made me understand this company better than anything"
+        },
+        {
+          "start": 68.24,
+          "end": 69.24,
+          "text": "else."
+        },
+        {
+          "start": 69.24,
+          "end": 70.24,
+          "text": "Yeah."
+        },
+        {
+          "start": 70.24,
+          "end": 74.36,
+          "text": "So Sarah1Williams, the fact that she has been sued for hundreds of millions of dollars in"
+        },
+        {
+          "start": 74.36,
+          "end": 78.88,
+          "text": "my mind is the greatest testament for her book that can exist."
+        },
+        {
+          "start": 78.88,
+          "end": 83.56,
+          "text": "Because until she came forward, Meta had never sued a whistleblower before."
+        },
+        {
+          "start": 83.56,
+          "end": 88.0,
+          "text": "And it seems quite obvious to me that the reason why they sued her is because they can"
+        },
+        {
+          "start": 88.0,
+          "end": 91.76,
+          "text": "never have a second employee confirm the stuff that she said."
+        },
+        {
+          "start": 91.76,
+          "end": 92.76,
+          "text": "Right?"
+        },
+        {
+          "start": 92.76,
+          "end": 96.2,
+          "text": "If anyone else says, \"Oh, yeah, I saw all the same stuff that she saw,\" like that is one"
+        },
+        {
+          "start": 96.2,
+          "end": 98.88,
+          "text": "of the most damning things that could happen for Mark and Cheryl."
+        },
+        {
+          "start": 98.88,
+          "end": 103.56,
+          "text": "But she had not become a whistleblower by the time I was a whistleblower."
+        },
+        {
+          "start": 103.56,
+          "end": 105.56,
+          "text": "I didn't think they were going to come after me lately."
+        },
+        {
+          "start": 105.56,
+          "end": 109.6,
+          "text": "I thought optically it would be very, very hard for them because I had brought out the"
+        },
+        {
+          "start": 109.6,
+          "end": 110.6,
+          "text": "receipts."
+        },
+        {
+          "start": 110.6,
+          "end": 112.32,
+          "text": "I am a nice girl from Iowa."
+        },
+        {
+          "start": 112.32,
+          "end": 115.32,
+          "text": "Like you can come after me, but like your girl looked like an asshole."
+        },
+        {
+          "start": 115.32,
+          "end": 119.54,
+          "text": "I got lucky because, you know, Jeff had sources inside of"
+        }
+      ]
+    },
+    {
+      "id": "404media-ending",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 5.0,
+          "text": "I am over on Substack and sign up and I'll post there"
+        },
+        {
+          "start": 5.36,
+          "end": 9.76,
+          "text": "if we do a Twitch or like a Google live stream kind of thing."
+        },
+        {
+          "start": 9.76,
+          "end": 11.74,
+          "text": "- Amazing, thank you so much."
+        },
+        {
+          "start": 13.42,
+          "end": 16.62,
+          "text": "As a reminder, 404 Media is a journalist-owned publication."
+        },
+        {
+          "start": 16.62,
+          "end": 19.62,
+          "text": "I'm Jason Kebler, that was Francis Hagen."
+        },
+        {
+          "start": 19.62,
+          "end": 23.54,
+          "text": "This episode was produced and edited by Alyssa Midcalf."
+        },
+        {
+          "start": 23.54,
+          "end": 27.7,
+          "text": "As a reminder, again, we are supported by our subscribers."
+        },
+        {
+          "start": 27.7,
+          "end": 30.6,
+          "text": "You can subscribe to us at 404Media.co."
+        },
+        {
+          "start": 30.6,
+          "end": 34.6,
+          "text": "Subscribers get access to interview podcasts like this early."
+        },
+        {
+          "start": 34.6,
+          "end": 37.0,
+          "text": "They also get access to bonus podcast segments"
+        },
+        {
+          "start": 37.0,
+          "end": 41.5,
+          "text": "and all of our unpay-walled work on 404Media.co."
+        },
+        {
+          "start": 41.5,
+          "end": 44.52,
+          "text": "You can go subscribe to us at 404Media.co."
+        },
+        {
+          "start": 44.52,
+          "end": 47.2,
+          "text": "We will see you again very, very soon."
+        },
+        {
+          "start": 60.79,
+          "end": 63.43,
+          "text": "- Your heart can tell you a lot about your health."
+        },
+        {
+          "start": 63.43,
+          "end": 65.65,
+          "text": "Apple Watch Series 12 measures your heart rate"
+        },
+        {
+          "start": 65.65,
+          "end": 68.01,
+          "text": "every five seconds with the most accurate heart rate"
+        },
+        {
+          "start": 68.01,
+          "end": 69.53,
+          "text": "sensing and aware of all."
+        },
+        {
+          "start": 69.53,
+          "end": 71.85,
+          "text": "So your vitals app, now with heart rate variability,"
+        },
+        {
+          "start": 71.85,
+          "end": 73.77,
+          "text": "can tell you when something is off"
+        },
+        {
+          "start": 73.77,
+          "end": 76.02,
+          "text": "and your readiness score can let you know when to rest"
+        },
+        {
+          "start": 76.02,
+          "end": 77.22,
+          "text": "and when to push."
+        },
+        {
+          "start": 77.22,
+          "end": 80.94,
+          "text": "Here's the story in every heartbeat with Apple Watch Series 12."
+        },
+        {
+          "start": 80.94,
+          "end": 82.58,
+          "text": "The future's described are for wellness purposes"
+        },
+        {
+          "start": 82.58,
+          "end": 83.7,
+          "text": "only and not for medical use."
+        },
+        {
+          "start": 83.7,
+          "end": 85.02,
+          "text": "iPhone 11 are later required."
+        },
+        {
+          "start": 85.02,
+          "end": 86.98,
+          "text": "Based on Apple-conducted study of heart rate accuracy,"
+        },
+        {
+          "start": 86.98,
+          "end": 90.02,
+          "text": "August 2026, visit apple.com/applewatchseries12."
+        }
+      ]
+    }
+  ],
+  "model_load_seconds": 0.03272,
+  "process_seconds": 255.47146163099995,
+  "transcribe_seconds": 255.43874163099994,
+  "timing_note": "CLI wall time minus reported model load; includes CLI startup and audio decoding; model loaded once",
+  "audio_seconds": 1980.0,
+  "rtf": 0.12900946547020198,
+  "peak_rss_mb": 480.10546875,
+  "rss_measurement": "largest process peak RSS (parent or native child)"
+}

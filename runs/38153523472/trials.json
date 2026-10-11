@@ -58,5 +58,11 @@
     "repeat": 1,
     "returncode": 0,
     "process_wall_seconds": 54.66301438300002
+  },
+  {
+    "config": "fw-batch16",
+    "repeat": 1,
+    "returncode": 0,
+    "process_wall_seconds": 52.299975815999915
   }
 ]

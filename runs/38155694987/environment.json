@@ -1,0 +1,180 @@
+{
+  "platform": "Linux-6.17.0-1022-azure-aarch64-with-glibc2.39",
+  "cpu": "Architecture:                            aarch64\nCPU op-mode(s):                          32-bit, 64-bit\nByte Order:                              Little Endian\nCPU(s):                                  4\nOn-line CPU(s) list:                     0-3\nVendor ID:                               ARM\nModel name:                              Neoverse-N2\nModel:                                   0\nThread(s) per core:                      1\nCore(s) per socket:                      4\nSocket(s):                               1\nStepping:                                r0p0\nBogoMIPS:                                2000.00\nFlags:                                   fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16\nL1d cache:                               256 KiB (4 instances)\nL1i cache:                               256 KiB (4 instances)\nL2 cache:                                4 MiB (4 instances)\nL3 cache:                                128 MiB (1 instance)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0-3\nVulnerability Gather data sampling:      Not affected\nVulnerability Ghostwrite:                Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Old microcode:             Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Not affected\nVulnerability Spec rstack overflow:      Not affected\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; CSV2, BHB\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Not affected\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Not affected\n",
+  "selected_cpus": [
+    0,
+    1
+  ],
+  "cpu_topology": "CPU CORE SOCKET ONLINE\n  0    0      0    yes\n  1    1      0    yes\n  2    2      0    yes\n  3    3      0    yes\n",
+  "github_sha": "d25aee06626d13831cd9e29f428edd706a159340",
+  "run_id": "38155694987",
+  "versions": {
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.8.2",
+    "sherpa-onnx": "1.13.8",
+    "numpy": "2.2.6",
+    "onnxruntime": "1.31.0",
+    "jiwer": "4.0.0"
+  },
+  "all_package_versions": {
+    "ctranslate2": "4.8.2",
+    "tokenizers": "0.23.3",
+    "sherpa-onnx-core": "1.13.8",
+    "filelock": "4.1.1",
+    "typing_extensions": "4.16.0",
+    "numpy": "2.2.6",
+    "anyio": "4.15.1",
+    "jiwer": "4.0.0",
+    "pip": "26.2.1",
+    "PyYAML": "6.0.3",
+    "httpx2": "2.13.1",
+    "av": "18.1.0",
+    "h11": "0.16.0",
+    "faster-whisper": "1.2.1",
+    "idna": "3.20",
+    "packaging": "26.3",
+    "huggingface_hub": "2.2.0",
+    "click": "8.5.0",
+    "httpcore2": "2.13.1",
+    "flatbuffers": "25.12.19",
+    "onnxruntime": "1.31.0",
+    "RapidFuzz": "3.14.6",
+    "protobuf": "7.36.2",
+    "truststore": "0.10.4",
+    "hf-xet": "1.7.0",
+    "setuptools": "79.0.1",
+    "tqdm": "4.70.1",
+    "fsspec": "2026.9.0",
+    "sherpa_onnx": "1.13.8"
+  },
+  "runner_image": {
+    "os": "ubuntu24-arm64",
+    "version": "20261004.142.1"
+  },
+  "cpp_commit": null,
+  "corpus": {
+    "created_at": "2026-10-11T15:59:46.035356+00:00",
+    "episodes": [
+      {
+        "show": "served",
+        "title": "Should Grand Slam Runner-Ups Have to Speak? Andy Roddick on Ben Shelton & Wimbledon 2009 | Q&Andy",
+        "published": "Thu, 08 Oct 2026 03:00:00 -0000",
+        "guid": "76545932-c280-11f1-975e-1f79725fe84f",
+        "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/traffic.megaphone.fm/LCLRC9943037296.mp3",
+        "feed": "https://feeds.megaphone.fm/VMP6052759157",
+        "duration": 1443.134478,
+        "source_sha256": "1e5287773431cb18f4ce186023b5fb56237350e8240378ffb686a53304d68c95"
+      },
+      {
+        "show": "404media",
+        "title": "The Social Reckoning\u2019s Real-Life Whistleblower",
+        "published": "Fri, 09 Oct 2026 15:45:00 -0000",
+        "guid": "55034a60-c346-11f1-a51b-fbcce07c4e6f",
+        "url": "https://pdst.fm/e/clrtpod.com/m/pscrb.fm/rss/p/arttrk.com/p/2D5E6/mgln.ai/e/1246/tracking.swap.fm/track/AoSMVIl7piQbthzJoBqJ/traffic.megaphone.fm/TBIEA1361980390.mp3",
+        "feed": "https://feeds.megaphone.fm/TBIEA2761282490",
+        "duration": 3351.562289,
+        "source_sha256": "5ab0bf61421cfa2093919ab97364f6a1025e8b6e5bc7e3e2936155251268f501"
+      }
+    ],
+    "clips": [
+      {
+        "id": "served-opening",
+        "show": "served",
+        "kind": "opening",
+        "offset": 0,
+        "duration": 180.0,
+        "path": "data/served-opening.wav",
+        "sha256": "8fbc4a52f6f46d92253e986dffd5426db61a3e2920d299626a76c93fabe35419"
+      },
+      {
+        "id": "served-early",
+        "show": "served",
+        "kind": "early",
+        "offset": 360.7836195,
+        "duration": 120.0,
+        "path": "data/served-early.wav",
+        "sha256": "76f647defad2aeeca5429861af614c59902ed9a8f214e1538abf59228e74001e"
+      },
+      {
+        "id": "served-middle",
+        "show": "served",
+        "kind": "middle",
+        "offset": 481.567239,
+        "duration": 480.0,
+        "path": "data/served-middle.wav",
+        "sha256": "7b4764e8d4d8aedef6d03dbe84c8de1e583102ea47740a67490d6faef15bba21"
+      },
+      {
+        "id": "served-late",
+        "show": "served",
+        "kind": "late",
+        "offset": 1082.3508585,
+        "duration": 120.0,
+        "path": "data/served-late.wav",
+        "sha256": "eef83a243f483224893e813c5987fabf04983164e712a731ad6f44571573827a"
+      },
+      {
+        "id": "served-ending",
+        "show": "served",
+        "kind": "ending",
+        "offset": 1353.134478,
+        "duration": 90.0,
+        "path": "data/served-ending.wav",
+        "sha256": "25d56ceab53b8fa3c1ddda71875106f193be8749ccac810682822eda02d1657d"
+      },
+      {
+        "id": "404media-opening",
+        "show": "404media",
+        "kind": "opening",
+        "offset": 0,
+        "duration": 180.0,
+        "path": "data/404media-opening.wav",
+        "sha256": "c522d61f199f5437644c064eda4c09769f99ae4a6585b026777dee12d0293112"
+      },
+      {
+        "id": "404media-early",
+        "show": "404media",
+        "kind": "early",
+        "offset": 837.89057225,
+        "duration": 120.0,
+        "path": "data/404media-early.wav",
+        "sha256": "cb59f2a7cc583a6f6179a2af552fa36b28f29e4246c42fd83cdef028868e94a2"
+      },
+      {
+        "id": "404media-middle",
+        "show": "404media",
+        "kind": "middle",
+        "offset": 1435.7811445,
+        "duration": 480.0,
+        "path": "data/404media-middle.wav",
+        "sha256": "4f9c6fd9dadb9ac60278fd0d47d52a62a5b336ff0f325305c5529aec483497dc"
+      },
+      {
+        "id": "404media-late",
+        "show": "404media",
+        "kind": "late",
+        "offset": 2513.67171675,
+        "duration": 120.0,
+        "path": "data/404media-late.wav",
+        "sha256": "8f8082e7f96fd9c4a548a6f92156f22b3eb048be7e61eb8b9fcbe68118c6e909"
+      },
+      {
+        "id": "404media-ending",
+        "show": "404media",
+        "kind": "ending",
+        "offset": 3261.562289,
+        "duration": 90.0,
+        "path": "data/404media-ending.wav",
+        "sha256": "c30155752dfe4a151556e54d11087eaf1470230c07e1ada69b9e976858cc5c78"
+      }
+    ]
+  },
+  "models": {
+    "faster-whisper:base.en": {
+      "path": "/home/runner/.cache/huggingface/hub/models--Systran--faster-whisper-base.en/snapshots/3d3d5dee26484f91867d81cb899cfcf72b96be6c",
+      "repository": "Systran/faster-whisper-base.en",
+      "revision": "3d3d5dee26484f91867d81cb899cfcf72b96be6c",
+      "setup_seconds": 1.731647578999997
+    }
+  }
+}

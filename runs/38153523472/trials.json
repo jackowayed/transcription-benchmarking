@@ -4,5 +4,11 @@
     "repeat": 0,
     "returncode": 0,
     "process_wall_seconds": 59.385153868
+  },
+  {
+    "config": "fw-english",
+    "repeat": 0,
+    "returncode": 0,
+    "process_wall_seconds": 59.586365328
   }
 ]

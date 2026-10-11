@@ -52,5 +52,11 @@
     "repeat": 0,
     "returncode": 0,
     "process_wall_seconds": 43.746880248000025
+  },
+  {
+    "config": "fw-batch8",
+    "repeat": 1,
+    "returncode": 0,
+    "process_wall_seconds": 54.66301438300002
   }
 ]

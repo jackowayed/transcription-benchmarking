@@ -1,0 +1,34 @@
+[
+  {
+    "id": "fw-baseline",
+    "repeats": 1,
+    "median_seconds": 175.1306335190001,
+    "min_seconds": 175.1306335190001,
+    "max_seconds": 175.1306335190001,
+    "rtf": 0.0884498149085859,
+    "seconds_per_audio_hour": 318.4193336709092,
+    "median_load_seconds": 0.3187716319999936,
+    "peak_rss_mb": 832.703125,
+    "transcripts_identical_across_repeats": true,
+    "words": 5902,
+    "matches_observed_baseline_transcripts": true,
+    "baseline_word_deletion_fraction": 0.0,
+    "baseline_timing_gaps_ge_5s": []
+  },
+  {
+    "id": "fw-batch16",
+    "repeats": 1,
+    "median_seconds": 154.74532259299997,
+    "min_seconds": 154.74532259299997,
+    "max_seconds": 154.74532259299997,
+    "rtf": 0.07815420332979796,
+    "seconds_per_audio_hour": 281.35513198727267,
+    "median_load_seconds": 0.310576210000022,
+    "peak_rss_mb": 2010.92578125,
+    "transcripts_identical_across_repeats": true,
+    "words": 5902,
+    "matches_observed_baseline_transcripts": true,
+    "baseline_word_deletion_fraction": 0.0,
+    "baseline_timing_gaps_ge_5s": []
+  }
+]

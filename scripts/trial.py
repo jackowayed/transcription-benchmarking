@@ -3,31 +3,35 @@ import argparse,json,pathlib,time,os,resource,subprocess,re,wave
 import numpy as np
 
 def read_audio(path):
- with wave.open(path) as w:
-  assert w.getframerate()==16000 and w.getnchannels()==1
-  return np.frombuffer(w.readframes(w.getnframes()),dtype='<i2').astype(np.float32)/32768
+ from faster_whisper.audio import decode_audio
+ return decode_audio(path,sampling_rate=16000)
 
-def parakeet_segments(recognizer,audio):
- # Decode every sample, with 1 s of context on either side of each 25 s core.
- # Retain tokens by core timestamp to avoid duplicating overlap text.
+def parakeet_segments(recognizer,audio,token_sink=None):
+ # Decode all samples in 25 s cores with 2 s context on either side.
+ # Assign complete words to cores by their first token timestamp. This avoids
+ # splitting a multi-piece word across independently decoded overlap windows.
  segments=[];length=len(audio)/16000
  for core in np.arange(0,length,25):
-  lo=max(0,float(core)-1);hi=min(length,float(core)+26)
+  lo=max(0,float(core)-2);hi=min(length,float(core)+27)
   stream=recognizer.create_stream();stream.accept_waveform(16000,audio[int(lo*16000):int(hi*16000)]);recognizer.decode_stream(stream)
   result=stream.result;tokens=list(result.tokens);times=list(result.timestamps);durations=list(getattr(result,'durations',[]))
-  if result.text.strip() and not times:
-   raise RuntimeError('Parakeet produced text without token timestamps')
-  group=[];start=last=end=None
+  if result.text.strip() and not times:raise RuntimeError('Parakeet produced text without token timestamps')
+  words=[]
   for i,(token,ts) in enumerate(zip(tokens,times)):
-   t=lo+float(ts)
+   t=lo+float(ts);dur=float(durations[i]) if i<len(durations) else (float(times[i+1]-ts) if i+1<len(times) else .1)
+   end=min(length,t+max(.01,dur));text=token.replace('▁',' ')
+   if token_sink is not None:token_sink.append({'core':float(core),'start':t,'end':end,'token':token})
+   if not words or token.startswith(('▁',' ')):words.append({'start':t,'end':end,'text':text})
+   else:words[-1]['text']+=text;words[-1]['end']=end
+  group=[];start=last=end=None
+  for word in words:
+   t=word['start']
    if t<float(core) or t>=min(length,float(core)+25):continue
-   dur=float(durations[i]) if i<len(durations) else (float(times[i+1]-ts) if i+1<len(times) else .1)
-   text=token.replace('▁',' ')
-   if group and (t-last>.8 or t-start>=8):
+   if group and (t-last>.8 or t-start>=5):
     segments.append({'start':start,'end':end,'text':''.join(group).strip()});group=[]
    if not group:start=t
-   group.append(text);last=t;end=min(length,t+max(.01,dur))
-   if text.rstrip().endswith(('.','?','!')):
+   group.append(word['text']);last=word['end'];end=word['end']
+   if word['text'].rstrip().endswith(('.','?','!')):
     segments.append({'start':start,'end':end,'text':''.join(group).strip()});group=[]
   if group:segments.append({'start':start,'end':end,'text':''.join(group).strip()})
  return segments
@@ -70,9 +74,12 @@ def run(config,manifest,models):
    if backend=='faster-whisper':
     gen,info=pipeline.transcribe(clip['path'],beam_size=config['beam'],batch_size=config['batch'],vad_filter=True,word_timestamps=False,without_timestamps=False,language=config.get('language'))
     segments=[{'start':x.start,'end':x.end,'text':x.text.strip()} for x in gen]
-   else:segments=parakeet_segments(model,read_audio(clip['path']))
+   else:
+    raw_tokens=[];segments=parakeet_segments(model,read_audio(clip['path']),raw_tokens)
    elapsed=time.perf_counter()-t;total+=elapsed
-   meta['clips'].append({'id':clip['id'],'seconds':elapsed,'segments':segments})
+   entry={'id':clip['id'],'seconds':elapsed,'segments':segments}
+   if backend=='sherpa-onnx':entry['native_tokens']=raw_tokens
+   meta['clips'].append(entry)
   meta['transcribe_seconds']=total
  meta['audio_seconds']=sum(x['duration'] for x in manifest['clips']);meta['rtf']=meta['transcribe_seconds']/meta['audio_seconds'];meta['peak_rss_mb']=max(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,resource.getrusage(resource.RUSAGE_CHILDREN).ru_maxrss)/1024;meta['rss_measurement']='largest process peak RSS (parent or native child)'
  return meta

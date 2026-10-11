@@ -33,8 +33,11 @@ are reused across clips in a trial. whisper.cpp receives all clips in one CLI
 invocation and loads once; its reported load time is subtracted from process
 wall time. Downloads and compilation occur before timing. Packages are pinned;
 model revisions and hashes are captured in metadata. Parakeet processes every
-sample in 25-second cores with one-second overlap context; tokens are retained
-by core timestamp and grouped into at-most-eight-second segments. Its timestamps
+sample in 25-second cores with two-second overlap context. Complete words are assigned to a core by their first
+token timestamp, then grouped into roughly five-second segments. Native tokens
+are retained for boundary review. The initial screening used one-second context
+and token-level ownership with eight-second grouping; full candidate validation
+uses the corrected adapter. Its timestamps
 and context behavior differ from Whisper and require downstream evaluation.
 
 Small reports and transcripts are committed to a `benchmark-results-RUN_ID` branch (initial screening used `benchmark-results`)

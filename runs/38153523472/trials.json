@@ -46,5 +46,11 @@
     "repeat": 0,
     "returncode": 0,
     "process_wall_seconds": 286.05936612999994
+  },
+  {
+    "config": "parakeet-110m",
+    "repeat": 0,
+    "returncode": 0,
+    "process_wall_seconds": 43.746880248000025
   }
 ]

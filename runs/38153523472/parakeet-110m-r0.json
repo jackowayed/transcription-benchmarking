@@ -1,0 +1,3140 @@
+{
+  "config": {
+    "id": "parakeet-110m",
+    "backend": "sherpa-onnx",
+    "model": "sherpa-onnx-nemo-parakeet_tdt_transducer_110m-en-36000-int8",
+    "threads": 2
+  },
+  "affinity": [
+    0,
+    1
+  ],
+  "clips": [
+    {
+      "id": "served-opening",
+      "seconds": 3.86959524100007,
+      "segments": [
+        {
+          "start": 0.3999999761581421,
+          "end": 1.8399999886751175,
+          "text": "College football is back."
+        },
+        {
+          "start": 1.8399999141693115,
+          "end": 6.319999769330025,
+          "text": "So Hilton called to me the superstition concierge to make your fan rituals a reality."
+        },
+        {
+          "start": 6.480000019073486,
+          "end": 8.319999769330025,
+          "text": "Need a room to match your lucky number?"
+        },
+        {
+          "start": 8.399999618530273,
+          "end": 8.960000112652779,
+          "text": "We got you."
+        },
+        {
+          "start": 9.039999961853027,
+          "end": 12.31999984383583,
+          "text": "Want to make sure our team doesn't wash your lucky jersey?"
+        },
+        {
+          "start": 12.479999542236328,
+          "end": 14.39999969303608,
+          "text": "Ooh, that smells lucky."
+        },
+        {
+          "start": 14.479999542236328,
+          "end": 18.07999999821186,
+          "text": "Hilton's unmatched hospitality can keep up with any superstition."
+        },
+        {
+          "start": 18.079999923706055,
+          "end": 21.760000303387642,
+          "text": "Even a marching band wake up call at five hundred fifty five and fifty five seconds."
+        },
+        {
+          "start": 21.920000076293945,
+          "end": 22.959999158978462,
+          "text": "Hit it."
+        },
+        {
+          "start": 22.959999084472656,
+          "end": 25.039999082684517,
+          "text": "When you need a team that will do whatever it takes on game"
+        },
+        {
+          "start": 25.039999961853027,
+          "end": 25.839999988675117,
+          "text": "akes on game day."
+        },
+        {
+          "start": 25.919999957084656,
+          "end": 27.03999987244606,
+          "text": "It matters where you stay."
+        },
+        {
+          "start": 27.199999809265137,
+          "end": 28.47999969124794,
+          "text": "Hilton for this day"
+        },
+        {
+          "start": 30.960000038146973,
+          "end": 31.120000034570694,
+          "text": "."
+        },
+        {
+          "start": 31.199999809265137,
+          "end": 37.92000015079975,
+          "text": "This episode is brought to you by Born in Roma Fragrances by Valentino Beauty, the iconic fragrance duo."
+        },
+        {
+          "start": 38.0,
+          "end": 46.000000074505806,
+          "text": "Donna Born in Roma Au de Parfum is a feminine fragrance featuring juicy black currant, central jasmine, woody cashmarin, and warm"
+        },
+        {
+          "start": 46.079999923706055,
+          "end": 46.79999931156635,
+          "text": "vanilla."
+        },
+        {
+          "start": 47.03999900817871,
+          "end": 50.000000074505806,
+          "text": "Its masculine counterpart, Wilmo Born in Roma Au"
+        },
+        {
+          "start": 50.27999997138977,
+          "end": 57.07999999821186,
+          "text": "De Dulet has notes of fresh violet leaf, aromatic sage, green vetter, spicy ginger, and mineral salt."
+        },
+        {
+          "start": 57.15999984741211,
+          "end": 58.75999942421913,
+          "text": "Shop at macy's dot com"
+        },
+        {
+          "start": 66.03999900817871,
+          "end": 66.11999900639057,
+          "text": "."
+        },
+        {
+          "start": 66.11999893188477,
+          "end": 67.79999931156635,
+          "text": "Hey everyone, welcome to Andy."
+        },
+        {
+          "start": 67.79999923706055,
+          "end": 70.44999862670899,
+          "text": "It's the show where I don't know what's coming and apparently you all watch."
+        },
+        {
+          "start": 70.60000038146973,
+          "end": 71.79999931156635,
+          "text": "Yes, apparently, yeah."
+        },
+        {
+          "start": 71.8799991607666,
+          "end": 73.07999999821186,
+          "text": "Thanks everybody for writing in."
+        },
+        {
+          "start": 73.15999984741211,
+          "end": 74.92000015079975,
+          "text": "As a reminder if you want to be featured in the"
+        },
+        {
+          "start": 75.03999996185303,
+          "end": 76.47999985516071,
+          "text": "the show, send us a video."
+        },
+        {
+          "start": 76.48000001907349,
+          "end": 82.559999614954,
+          "text": "Please send a video to ask Andy at Servpodcast dot com or DMS, send us in the comments."
+        },
+        {
+          "start": 82.55999946594238,
+          "end": 84.39999969303608,
+          "text": "I don't know how all of it works."
+        },
+        {
+          "start": 84.47999954223633,
+          "end": 85.75999942421913,
+          "text": "I'm a little bit like you, but"
+        },
+        {
+          "start": 86.47999954223633,
+          "end": 87.83999927341938,
+          "text": "the team knows where to get 'em."
+        },
+        {
+          "start": 87.84000015258789,
+          "end": 89.04000003635883,
+          "text": "Yeah, and they'll share them."
+        },
+        {
+          "start": 89.03999996185303,
+          "end": 89.67999942600727,
+          "text": "And you know what?"
+        },
+        {
+          "start": 89.75999927520752,
+          "end": 91.19999900460243,
+          "text": "We have a video question to start."
+        },
+        {
+          "start": 91.19999885559082,
+          "end": 94.23999984562397,
+          "text": "Yes, from somebody that's actually kind of famous."
+        },
+        {
+          "start": 94.31999969482422,
+          "end": 95.11999900639057,
+          "text": "Oh, yeah."
+        },
+        {
+          "start": 95.19999885559082,
+          "end": 96.63999946415424,
+          "text": "Hey Andy and Serv team."
+        },
+        {
+          "start": 96.71999931335449,
+          "end": 99.92000015079975,
+          "text": "My name's Charlie Kimball and I am the first licensed driver"
+        },
+        {
+          "start": 100.03999996185303,
+          "end": 107.47999976575375,
+          "text": "ed driver with type one diabetes to race in the Indianapolis five hundred and the first driver with diabetes to ever win an indie car race."
+        },
+        {
+          "start": 107.80000019073486,
+          "end": 110.2799998819828,
+          "text": "My wife and I are both avid tennis players."
+        },
+        {
+          "start": 110.27999973297119,
+          "end": 113.08000007271767,
+          "text": "We met playing tennis together in high school."
+        },
+        {
+          "start": 113.07999992370605,
+          "end": 119.63999953866005,
+          "text": "In fact, at the same high school where Mike and Bob Brian played tennis here in Southern California."
+        },
+        {
+          "start": 119.71999931335449,
+          "end": 125.0000000745058,
+          "text": "My question, having watched the US Open Final and thought it was incredible to"
+        },
+        {
+          "start": 125.03999996185303,
+          "end": 132.79999938607216,
+          "text": "ible to see Verva witness second grand slam as somebody with type one diabetes was more about the moment with Ben Shelton"
+        },
+        {
+          "start": 133.11999988555908,
+          "end": 135.67999950051308,
+          "text": "giving a speech right after losing a final."
+        },
+        {
+          "start": 135.67999935150146,
+          "end": 143.76000037789345,
+          "text": "I've been there in an indie car race, you crash out, hopefully you come out of medical and they stick a microphone in your face and ask you what happened on may"
+        },
+        {
+          "start": 143.76000022888184,
+          "end": 146.15999999642372,
+          "text": "be the worst day of your career."
+        },
+        {
+          "start": 146.1599998474121,
+          "end": 150.08000007271767,
+          "text": "Even if you finish second, maybe your best day in tennis, what does that moment"
+        },
+        {
+          "start": 150.19999992847443,
+          "end": 153.23999992012978,
+          "text": "ent feel like for a player on the big stage"
+        },
+        {
+          "start": 153.96000003814697,
+          "end": 154.1200000345707,
+          "text": "?"
+        },
+        {
+          "start": 154.44000005722046,
+          "end": 154.9199997484684,
+          "text": "Charlie"
+        },
+        {
+          "start": 155.6399998664856,
+          "end": 156.59999965131283,
+          "text": ", awesome work"
+        },
+        {
+          "start": 157.1599998474121,
+          "end": 159.0000000745058,
+          "text": "in your sport, fantastic."
+        },
+        {
+          "start": 159.31999969482422,
+          "end": 162.67999942600727,
+          "text": "I've said this, I said this a bunch on air on ESPN during the US Open"
+        },
+        {
+          "start": 163.55999946594238,
+          "end": 163.7199994623661,
+          "text": "."
+        },
+        {
+          "start": 163.7199993133545,
+          "end": 165.47999961674213,
+          "text": "I look at athletes"
+        },
+        {
+          "start": 166.44000053405762,
+          "end": 168.76000037789345,
+          "text": "performing with type one diabetes"
+        },
+        {
+          "start": 169.47999954223633,
+          "end": 172.5999985486269,
+          "text": "differently now that I kind of understand it through a personal lens."
+        },
+        {
+          "start": 172.68000030517578,
+          "end": 175.0000001490116,
+          "text": "My father in law, Steve Decker,"
+        },
+        {
+          "start": 175.27999997138977,
+          "end": 179.52000005543232,
+          "text": "best person on earth, the maintenance it takes not only from him when he's working and"
+        }
+      ]
+    },
+    {
+      "id": "served-early",
+      "seconds": 2.5581071469998733,
+      "segments": [
+        {
+          "start": 0.7999999523162842,
+          "end": 2.7199998646974564,
+          "text": "I did a bunch of things I shouldn't have done."
+        },
+        {
+          "start": 2.7200000286102295,
+          "end": 10.639999613165855,
+          "text": "And then from that match and moment forward, my relationship was largely the best it had ever been with"
+        },
+        {
+          "start": 11.039999961853027,
+          "end": 11.839999347925186,
+          "text": "the tennis world"
+        },
+        {
+          "start": 12.479999542236328,
+          "end": 12.799999311566353,
+          "text": ", right?"
+        },
+        {
+          "start": 12.880000114440918,
+          "end": 14.959999233484268,
+          "text": "And it's probably because of that match"
+        },
+        {
+          "start": 15.59999942779541,
+          "end": 16.39999969303608,
+          "text": "and that moment."
+        },
+        {
+          "start": 16.399999618530273,
+          "end": 17.92000015079975,
+          "text": "And I didn't listen."
+        },
+        {
+          "start": 18.0,
+          "end": 21.519998624920845,
+          "text": "I didn't say anything that changed the world that I mean it was a talk."
+        },
+        {
+          "start": 21.520000457763672,
+          "end": 25.039999082684517,
+          "text": "But you give credit where credits due in your tough moment, people will give you a lot of c"
+        },
+        {
+          "start": 25.039999961853027,
+          "end": 25.759999945759773,
+          "text": "of credit for it."
+        },
+        {
+          "start": 25.919999957084656,
+          "end": 33.75999942421913,
+          "text": "All right next, we actually are going to toss this one over to Dean who is in our show on Tuesday who used to be your coach because"
+        },
+        {
+          "start": 34.0,
+          "end": 36.23999984562397,
+          "text": "this is a question from someone about coaching."
+        },
+        {
+          "start": 36.31999969482422,
+          "end": 37.759999349713326,
+          "text": "Get in there, Dean Goldfein."
+        },
+        {
+          "start": 37.84000015258789,
+          "end": 42.39999969303608,
+          "text": "All right, Dean, thanks for sticking around to answer this question from Friend to All Dogs."
+        },
+        {
+          "start": 42.8799991607666,
+          "end": 44.479999616742134,
+          "text": "No joke, that's the handle."
+        },
+        {
+          "start": 44.55999946594238,
+          "end": 50.000000074505806,
+          "text": "It says, is it more desirable to coach and help an incredibly talented player who isn't living up"
+        },
+        {
+          "start": 50.12000000476837,
+          "end": 56.2799998819828,
+          "text": "ving up to his or her potential or someone with fewer natural gifts who fights like hell to win."
+        },
+        {
+          "start": 56.27999973297119,
+          "end": 57.80000026524067,
+          "text": "For sure the second one."
+        },
+        {
+          "start": 57.80000019073486,
+          "end": 58.120000034570694,
+          "text": "I mean"
+        },
+        {
+          "start": 59.63999938964844,
+          "end": 65.79999938607216,
+          "text": ", listen, they you hope if you have someone that's that's incredibly talented but doesn't have a good work ethic"
+        },
+        {
+          "start": 66.92000007629395,
+          "end": 67.16000007092953,
+          "text": "that"
+        },
+        {
+          "start": 68.03999900817871,
+          "end": 68.51999877393246,
+          "text": "you can"
+        },
+        {
+          "start": 69.07999992370605,
+          "end": 72.92000022530556,
+          "text": "find a way to instill that in them and get them to understand"
+        },
+        {
+          "start": 73.71999931335449,
+          "end": 75.08000007271767,
+          "text": "that talent's only going to"
+        },
+        {
+          "start": 75.03999996185303,
+          "end": 78.15999999642372,
+          "text": "to take you so far and that if they really want to"
+        },
+        {
+          "start": 79.35999965667725,
+          "end": 83.11999996006489,
+          "text": "be the best that they can be that they're going to have to put in the work."
+        },
+        {
+          "start": 83.19999980926514,
+          "end": 86.0000000745058,
+          "text": "But there's something about working with with players"
+        },
+        {
+          "start": 87.51999950408936,
+          "end": 88.7199994623661,
+          "text": "that aren't as talented"
+        },
+        {
+          "start": 90.23999977111816,
+          "end": 94.47999961674213,
+          "text": "that are willing to work hard and listen and basically run through a brick wall."
+        },
+        {
+          "start": 94.55999946594238,
+          "end": 94.79999946057796,
+          "text": "And"
+        },
+        {
+          "start": 95.76000022888184,
+          "end": 99.92000015079975,
+          "text": "you know, so for sure the second one, but I also I like the challenge"
+        },
+        {
+          "start": 100.03999996185303,
+          "end": 103.15999983251095,
+          "text": "challenge of working with the first one, but the second one is"
+        },
+        {
+          "start": 104.11999988555908,
+          "end": 104.51999972760677,
+          "text": "for me"
+        },
+        {
+          "start": 105.07999992370605,
+          "end": 105.56000001728535,
+          "text": "the best."
+        },
+        {
+          "start": 105.6399998664856,
+          "end": 106.19999995827675,
+          "text": "Yeah."
+        },
+        {
+          "start": 106.83999967575073,
+          "end": 112.4399996548891,
+          "text": "Listen, having seen Dean's forehead, I could tell you that he wants to work with a guy who's not talented who tries really hard."
+        },
+        {
+          "start": 112.51999950408936,
+          "end": 113.559999614954,
+          "text": "Which one was Andy?"
+        },
+        {
+          "start": 115.55999946594238,
+          "end": 116.76000030338764,
+          "text": "Andy was the second one."
+        },
+        {
+          "start": 116.84000015258789,
+          "end": 119.31999976933002,
+          "text": "I mean, Andy, obviously listen, listen."
+        }
+      ]
+    },
+    {
+      "id": "served-middle",
+      "seconds": 10.487712590000001,
+      "segments": [
+        {
+          "start": 0.1599999964237213,
+          "end": 5.359999880194664,
+          "text": "Andy obviously was talented, but when you, you know, and this is one thing that"
+        },
+        {
+          "start": 6.639999866485596,
+          "end": 14.47999969124794,
+          "text": "I always say about Andy and he doesn't get anymore, but back then, you know, people would always say, well, Andy underachieved, you know, he only won one slam"
+        },
+        {
+          "start": 14.960000038146973,
+          "end": 15.040000036358833,
+          "text": "."
+        },
+        {
+          "start": 15.039999961853027,
+          "end": 15.27999995648861,
+          "text": "But"
+        },
+        {
+          "start": 16.0,
+          "end": 17.60000053048134,
+          "text": "Andy was an overachiever"
+        },
+        {
+          "start": 18.559999465942383,
+          "end": 19.840000301599503,
+          "text": "for what he accomplished"
+        },
+        {
+          "start": 20.719999313354492,
+          "end": 20.879999309778214,
+          "text": "."
+        },
+        {
+          "start": 20.8799991607666,
+          "end": 24.39999969303608,
+          "text": "It was because of first of all, you talk about a competitor."
+        },
+        {
+          "start": 24.399999618530273,
+          "end": 25.039999082684517,
+          "text": "I mean the guy"
+        },
+        {
+          "start": 25.039999961853027,
+          "end": 25.919999942183495,
+          "text": "the guy was just"
+        },
+        {
+          "start": 26.55999994277954,
+          "end": 30.6399999409914,
+          "text": "an unbelievable competitor and work ethic like none other."
+        },
+        {
+          "start": 30.71999979019165,
+          "end": 30.87999978661537,
+          "text": "And"
+        },
+        {
+          "start": 31.519999980926514,
+          "end": 34.63999953866005,
+          "text": "you know, so yeah, what he achieved was"
+        },
+        {
+          "start": 35.920000076293945,
+          "end": 37.19999988377094,
+          "text": "because of those things."
+        },
+        {
+          "start": 37.19999980926514,
+          "end": 43.359998777508736,
+          "text": "I mean, obviously he was talented, but you know, you stack him up with Roger and Rafa, I mean it's pretty tough."
+        },
+        {
+          "start": 43.35999870300293,
+          "end": 43.51999869942665,
+          "text": "So"
+        },
+        {
+          "start": 44.31999969482422,
+          "end": 44.63999946415424,
+          "text": "yeah."
+        },
+        {
+          "start": 44.63999938964844,
+          "end": 50.00000014901161,
+          "text": "So Andy Andy was definitely I would say I would say the stats probably show that I was right there"
+        },
+        {
+          "start": 50.12000000476837,
+          "end": 50.75999994575977,
+          "text": "there with him."
+        },
+        {
+          "start": 50.83999991416931,
+          "end": 52.039999946951866,
+          "text": "Yeah, for the"
+        },
+        {
+          "start": 53.0,
+          "end": 60.67999942600727,
+          "text": "most of the time is like Rafael is like, I can hit, you know, a curveball forehand that is nine to six and has the most RPMs ever."
+        },
+        {
+          "start": 60.75999927520752,
+          "end": 64.67999950051308,
+          "text": "I'm like, well, I can bund a backhand with no spin."
+        },
+        {
+          "start": 64.67999935150146,
+          "end": 65.15999992191792,
+          "text": "Yeah."
+        },
+        {
+          "start": 65.23999977111816,
+          "end": 65.31999976933002,
+          "text": "Well"
+        },
+        {
+          "start": 66.84000015258789,
+          "end": 70.11999900639057,
+          "text": "Roger spent more years on Tour outside of the top fifteen than you did."
+        },
+        {
+          "start": 70.11999893188477,
+          "end": 70.76000030338764,
+          "text": "So there you go."
+        },
+        {
+          "start": 70.76000022888184,
+          "end": 71.63999946415424,
+          "text": "Yeah, what a loser."
+        },
+        {
+          "start": 71.63999938964844,
+          "end": 72.76000030338764,
+          "text": "What a fucking loser."
+        },
+        {
+          "start": 72.84000015258789,
+          "end": 73.15999992191792,
+          "text": "Thanks to"
+        },
+        {
+          "start": 74.27999877929688,
+          "end": 74.8400002270937,
+          "text": "We'll be right back"
+        },
+        {
+          "start": 75.67999994754791,
+          "end": 76.71999986469746,
+          "text": "Andy, thanks, you know."
+        },
+        {
+          "start": 76.79999995231628,
+          "end": 77.43999996781349,
+          "text": "All right guys"
+        },
+        {
+          "start": 79.51999998092651,
+          "end": 80.56000001728535,
+          "text": ", we'll be right back"
+        },
+        {
+          "start": 81.67999982833862,
+          "end": 81.75999982655048,
+          "text": "."
+        },
+        {
+          "start": 81.91999959945679,
+          "end": 83.35999973118305,
+          "text": "College football is back."
+        },
+        {
+          "start": 83.4399995803833,
+          "end": 87.92000015079975,
+          "text": "So Hilton called in me, the superstition concierge to make your fan rituals a reality."
+        },
+        {
+          "start": 88.07999992370605,
+          "end": 89.91999919712543,
+          "text": "Need a room to match your lucky number?"
+        },
+        {
+          "start": 90.0,
+          "end": 90.55999954044819,
+          "text": "We got you."
+        },
+        {
+          "start": 90.63999938964844,
+          "end": 93.92000015079975,
+          "text": "Want to make sure our team doesn't wash your lucky jersey?"
+        },
+        {
+          "start": 94.0,
+          "end": 95.84000037610531,
+          "text": "Ooh, that smells lucky."
+        },
+        {
+          "start": 96.07999992370605,
+          "end": 99.92000015079975,
+          "text": "Hilton's unmatched hospitality can keep up with any superstition, even a march"
+        },
+        {
+          "start": 100.03999996185303,
+          "end": 103.31999976933002,
+          "text": "ven a marching band wake up call at five hundred fifty five in fifty five seconds."
+        },
+        {
+          "start": 103.48000001907349,
+          "end": 104.60000005364418,
+          "text": "Hit it."
+        },
+        {
+          "start": 104.59999990463257,
+          "end": 108.67999942600727,
+          "text": "When you need a team that will do whatever it takes on game day, it matters where you stay."
+        },
+        {
+          "start": 108.84000015258789,
+          "end": 110.19999995827675,
+          "text": "Hilton for the stake"
+        },
+        {
+          "start": 112.59999942779541,
+          "end": 112.67999942600727,
+          "text": "."
+        },
+        {
+          "start": 112.84000015258789,
+          "end": 119.47999961674213,
+          "text": "This episode is brought to you by Born in Roma Fragrances by Valentino Beauty, the iconic fragrance duo."
+        },
+        {
+          "start": 119.63999938964844,
+          "end": 125.0000000745058,
+          "text": "Donna Born in Roma Audu Parfum is a feminine fragrance featuring juicy black currant central"
+        },
+        {
+          "start": 125.03999996185303,
+          "end": 128.6400000154972,
+          "text": "ral jasmine, woody cashmarin, and warm vanilla."
+        },
+        {
+          "start": 128.6399998664856,
+          "end": 136.63999946415424,
+          "text": "Its masculine counterpart, Wilmo Born in Roma Au de Twilet, has notes of fresh violet leaf, aromatic sage, green vetiver,"
+        },
+        {
+          "start": 136.7199993133545,
+          "end": 138.5599995404482,
+          "text": "spicy ginger and mineral salt."
+        },
+        {
+          "start": 138.79999923706055,
+          "end": 140.39999976754189,
+          "text": "Shop at macys dot com"
+        },
+        {
+          "start": 141.76000022888184,
+          "end": 146.7199993878603,
+          "text": "Propel fitness water with Gatorade electrolytes, zero sugar, and vitamins."
+        },
+        {
+          "start": 146.79999923706055,
+          "end": 150.08000007271767,
+          "text": "Propel hydrates better than water to help you get the most out of"
+        },
+        {
+          "start": 150.03999996185303,
+          "end": 152.99999983608723,
+          "text": "out of your workout and get back to your best self."
+        },
+        {
+          "start": 153.1599998474121,
+          "end": 154.279999807477,
+          "text": "What propels you?"
+        },
+        {
+          "start": 154.35999965667725,
+          "end": 156.60000005364418,
+          "text": "Propel with Gateorade Electrolytes"
+        },
+        {
+          "start": 157.80000019073486,
+          "end": 157.88000018894672,
+          "text": "."
+        },
+        {
+          "start": 157.96000003814697,
+          "end": 163.23999984562397,
+          "text": "Whether you're commanding the court or the open road, modern icons know it isn't just about going the distance."
+        },
+        {
+          "start": 163.23999977111816,
+          "end": 164.91999919712543,
+          "text": "It's about how you arrive."
+        },
+        {
+          "start": 165.07999992370605,
+          "end": 173.07999999821186,
+          "text": "Meet the all electric cadillac escalade IQ with Expectation defying electric capability, a fifty five inch diagonally measured hor"
+        },
+        {
+          "start": 173.07999992370605,
+          "end": 174.92000015079975,
+          "text": "izon display and available forty two speak"
+        },
+        {
+          "start": 175.12000000476837,
+          "end": 178.96000011265278,
+          "text": "speaker AKG audio, every drive becomes a luxurious journey."
+        },
+        {
+          "start": 179.03999996185303,
+          "end": 186.79999931156635,
+          "text": "And if you don't believe us, go check out our quick serve coverage from this year's US Open, where we turn the Escalade IQ into our studio."
+        },
+        {
+          "start": 187.03999996185303,
+          "end": 190.47999961674213,
+          "text": "Elevate your arrival with the all electric cadillac Escalade IQ"
+        },
+        {
+          "start": 193.11999893188477,
+          "end": 193.19999893009663,
+          "text": "."
+        },
+        {
+          "start": 193.27999877929688,
+          "end": 194.47999969124794,
+          "text": "All right, back to the show"
+        },
+        {
+          "start": 195.68000030517578,
+          "end": 195.76000030338764,
+          "text": "."
+        },
+        {
+          "start": 195.8400001525879,
+          "end": 198.559999614954,
+          "text": "All right, Nietzs, next up, this one's a little bit more topical."
+        },
+        {
+          "start": 198.63999938964844,
+          "end": 200.0000000745058,
+          "text": "This one is coming from us and the"
+        },
+        {
+          "start": 200.03999996185303,
+          "end": 200.83999998867512,
+          "text": "and the Serve team."
+        },
+        {
+          "start": 200.91999995708466,
+          "end": 208.35999973118305,
+          "text": "It's earlier this week in Beijing's Verev was allowed to replay a point against Novak after challenging an LED board change as hindrance."
+        },
+        {
+          "start": 208.35999965667725,
+          "end": 214.83999927341938,
+          "text": "Despite finishing the rally before raising the issue, Novak wasn't happy about the call, but let's just take a look at what happened."
+        },
+        {
+          "start": 218.35999870300293,
+          "end": 219.79999931156635,
+          "text": "That's why I came to him and I asked him"
+        },
+        {
+          "start": 223.55999946594238,
+          "end": 223.7199994623661,
+          "text": "."
+        },
+        {
+          "start": 223.79999923706055,
+          "end": 225.0000001490116,
+          "text": "That's a very good return"
+        },
+        {
+          "start": 225.12000000476837,
+          "end": 227.51999996602535,
+          "text": "urn there from Novak Djokovic."
+        },
+        {
+          "start": 233.51999950408936,
+          "end": 233.92000015079975,
+          "text": "Serif"
+        },
+        {
+          "start": 234.7199993133545,
+          "end": 236.15999999642372,
+          "text": "y, unhappy with something"
+        },
+        {
+          "start": 244.8799991607666,
+          "end": 244.95999915897846,
+          "text": "."
+        },
+        {
+          "start": 245.19999885559082,
+          "end": 246.95999923348427,
+          "text": "They do change as he's"
+        },
+        {
+          "start": 248.0,
+          "end": 250.08000007271767,
+          "text": "just about to serve, so I think he will get the let"
+        },
+        {
+          "start": 250.03999996185303,
+          "end": 250.5999999344349,
+          "text": "let here"
+        },
+        {
+          "start": 252.03999996185303,
+          "end": 252.1199999600649,
+          "text": "."
+        },
+        {
+          "start": 252.27999997138977,
+          "end": 254.83999975025654,
+          "text": "Okay, so now you tell me fine."
+        },
+        {
+          "start": 254.92000007629395,
+          "end": 255.559999614954,
+          "text": "I get it."
+        },
+        {
+          "start": 256.2799997329712,
+          "end": 257.7199993878603,
+          "text": "He was about to serve he served"
+        },
+        {
+          "start": 258.67999935150146,
+          "end": 261.8799992352724,
+          "text": "I played one shot, he played another shot and then he challenged."
+        },
+        {
+          "start": 261.960000038147,
+          "end": 263.3999998420477,
+          "text": "Is that okay?"
+        },
+        {
+          "start": 264.5999994277954,
+          "end": 264.91999919712543,
+          "text": "One second"
+        },
+        {
+          "start": 267.0,
+          "end": 271.7199993878603,
+          "text": "he was annoyed by that change there he would stop after the serve and he would go."
+        },
+        {
+          "start": 272.1999988555908,
+          "end": 273.47999969124794,
+          "text": "It doesn't make any sense"
+        },
+        {
+          "start": 275.039999961853,
+          "end": 276.3200000077486,
+          "text": "keeping you missed"
+        },
+        {
+          "start": 278.0,
+          "end": 278.07999999821186,
+          "text": "."
+        },
+        {
+          "start": 278.07999992370605,
+          "end": 279.5999999791384,
+          "text": "I didn't know if I can challenge enough."
+        },
+        {
+          "start": 279.59999990463257,
+          "end": 280.87999971210957,
+          "text": "That's why I came to him and I asked him"
+        },
+        {
+          "start": 281.59999990463257,
+          "end": 285.35999973118305,
+          "text": "but then you stop after the serve but I didn't know if there's a reason enough to challenge"
+        },
+        {
+          "start": 286.23999977111816,
+          "end": 286.31999976933,
+          "text": "my"
+        },
+        {
+          "start": 287.4399995803833,
+          "end": 295.51999869942665,
+          "text": "I mean this must be the one of the most stupid change of rules that I've ever heard in my life when the player sees that he's there is a hindrance of"
+        },
+        {
+          "start": 295.6000003814697,
+          "end": 297.1999989300966,
+          "text": "that shot he stops immediately."
+        },
+        {
+          "start": 297.1999988555908,
+          "end": 300.0000000745058,
+          "text": "I mean he can we can play a thirty shot rally and he can lose"
+        },
+        {
+          "start": 300.039999961853,
+          "end": 300.5999999791384,
+          "text": "lose the point."
+        },
+        {
+          "start": 300.59999990463257,
+          "end": 302.35999980568886,
+          "text": "He's like, okay, I'm going to challenge now"
+        },
+        {
+          "start": 304.44000005722046,
+          "end": 304.6000000536442,
+          "text": "."
+        },
+        {
+          "start": 304.6799998283386,
+          "end": 308.5999995023012,
+          "text": "Real quick for some so in February, they essentially changed the rule originally."
+        },
+        {
+          "start": 308.5999994277954,
+          "end": 312.51999957859516,
+          "text": "It was the other way where players had to stop the play to challenge hindrance."
+        },
+        {
+          "start": 312.5999994277954,
+          "end": 314.35999973118305,
+          "text": "They changed that apparently in February."
+        },
+        {
+          "start": 314.4399995803833,
+          "end": 321.0000000745058,
+          "text": "The current hindrance rule requesting after the point is concluded has been implemented as a trial and will be reviewed at the end of the season."
+        },
+        {
+          "start": 321.0,
+          "end": 322.1999989300966,
+          "text": "So Novak's correct."
+        },
+        {
+          "start": 322.2799987792969,
+          "end": 323.31999976933,
+          "text": "That's not the way it used to be."
+        },
+        {
+          "start": 323.3199996948242,
+          "end": 324.5999985486269,
+          "text": "It's a rule changing."
+        },
+        {
+          "start": 324.6800003051758,
+          "end": 324.92000015079975,
+          "text": "So no"
+        },
+        {
+          "start": 325.1200000047684,
+          "end": 327.279999807477,
+          "text": "no they're all right the way."
+        },
+        {
+          "start": 327.3599998950958,
+          "end": 330.87999971210957,
+          "text": "By the way and they disagreed in this moment, that's not a testy exchange."
+        },
+        {
+          "start": 330.960000038147,
+          "end": 333.19999988377094,
+          "text": "No, no, no, no, it's not a testy exchange."
+        },
+        {
+          "start": 333.2799997329712,
+          "end": 337.279999807477,
+          "text": "A testy exchange has like some, you know, it's it's very simple."
+        },
+        {
+          "start": 337.2799997329712,
+          "end": 339.35999973118305,
+          "text": "You know, it did change, right?"
+        },
+        {
+          "start": 339.35999965667725,
+          "end": 346.8799992352724,
+          "text": "And you see that like you look at the side, you see that, like, you have to understand and that's why when people like, oh, we can't walk around during points."
+        },
+        {
+          "start": 346.8799991607666,
+          "end": 349.35999877750874,
+          "text": "Like, well, it's not about the actual motion walking around."
+        },
+        {
+          "start": 349.35999870300293,
+          "end": 350.0000000745058,
+          "text": "We're trying to tr"
+        },
+        {
+          "start": 350.1200000047684,
+          "end": 352.99999991059303,
+          "text": "trying to track a ball that looks like the size of a pee"
+        },
+        {
+          "start": 353.7999997138977,
+          "end": 356.51999965310097,
+          "text": "and it's going one hundred and forty miles an hour and you have"
+        },
+        {
+          "start": 357.23999977111816,
+          "end": 360.67999942600727,
+          "text": "a quarter of a second to find it, track it, run."
+        },
+        {
+          "start": 360.67999935150146,
+          "end": 363.7199993878603,
+          "text": "So any sort of variance changes that a little bit, right?"
+        },
+        {
+          "start": 363.79999923706055,
+          "end": 368.2799988538027,
+          "text": "I think that's what Vera was saying, but what Sasha says also makes a lot of sense."
+        },
+        {
+          "start": 368.35999870300293,
+          "end": 369.31999976933,
+          "text": "I didn't know if I could."
+        },
+        {
+          "start": 369.3199996948242,
+          "end": 370.92000022530556,
+          "text": "So I simply asked after the point."
+        },
+        {
+          "start": 371.7199993133545,
+          "end": 375.0000000745058,
+          "text": "If you don't know that you can challenge something, you wouldn't be predisposed to challenging"
+        },
+        {
+          "start": 375.039999961853,
+          "end": 375.7599999457598,
+          "text": "enging it right away."
+        },
+        {
+          "start": 376.3199999332428,
+          "end": 377.67999990284443,
+          "text": "You hit the shot hoping you make it."
+        },
+        {
+          "start": 377.6799998283386,
+          "end": 381.4399997293949,
+          "text": "And then if you miss it, you ask for basically Novak was saying the rule is"
+        },
+        {
+          "start": 382.23999977111816,
+          "end": 382.88000026345253,
+          "text": "stupid."
+        },
+        {
+          "start": 382.8800001144409,
+          "end": 385.279999807477,
+          "text": "You should have to stop do it right away."
+        },
+        {
+          "start": 385.35999965667725,
+          "end": 386.63999946415424,
+          "text": "I don't disagree with him."
+        },
+        {
+          "start": 386.63999938964844,
+          "end": 387.8399993479252,
+          "text": "Yeah, right."
+        },
+        {
+          "start": 387.8400001525879,
+          "end": 388.0800001472235,
+          "text": "And"
+        },
+        {
+          "start": 389.19999980926514,
+          "end": 392.79999938607216,
+          "text": "he was Novak was making a judgment on the actual ruling"
+        },
+        {
+          "start": 393.6000003814697,
+          "end": 400.0000000745058,
+          "text": "and it seemed like Sasha was looking for clarification on what he was allowed to challenge."
+        },
+        {
+          "start": 400.039999961853,
+          "end": 400.35999996960163,
+          "text": "enge."
+        },
+        {
+          "start": 400.3600000143051,
+          "end": 403.6399999409914,
+          "text": "Yeah, the ump could have said should have challenged right after saw it."
+        },
+        {
+          "start": 403.6399998664856,
+          "end": 405.3999996930361,
+          "text": "And Sasha would have walked back by the way."
+        },
+        {
+          "start": 405.4800000190735,
+          "end": 405.7999997884035,
+          "text": "Yeah."
+        },
+        {
+          "start": 405.87999963760376,
+          "end": 412.92000015079975,
+          "text": "He would have been pissed at it changed and he would have said, you know, who did this and I got, you know, hose or whatever, but they're they're both correct."
+        },
+        {
+          "start": 412.92000007629395,
+          "end": 414.1199999600649,
+          "text": "Like that's a ridiculous"
+        },
+        {
+          "start": 415.23999977111816,
+          "end": 416.1999989300966,
+          "text": "you know thing."
+        },
+        {
+          "start": 416.2799987792969,
+          "end": 422.6800003796816,
+          "text": "But also as tennis players, are we going to look and see what the new update for screen like no?"
+        },
+        {
+          "start": 422.76000022888184,
+          "end": 424.92000015079975,
+          "text": "Well, that's why I was I was going to ask you on the back side"
+        },
+        {
+          "start": 425.1200000047684,
+          "end": 431.35999973118305,
+          "text": "side of that, do you remember anything when you were playing that was kind of a rule change that happened like that that you weren't fully aware of?"
+        },
+        {
+          "start": 431.35999965667725,
+          "end": 432.5599995404482,
+          "text": "Was there anything like that happened?"
+        },
+        {
+          "start": 432.960000038147,
+          "end": 439.91999919712543,
+          "text": "I remember with replay, people didn't really understand how to use it at first or when they could use it or if they could use it and if it overruled and the other player got pissed."
+        },
+        {
+          "start": 439.92000007629395,
+          "end": 442.1599999964237,
+          "text": "So there was yeah, any time there are changes"
+        },
+        {
+          "start": 443.0399990081787,
+          "end": 447.35999877750874,
+          "text": ", it takes a cycle through for people to fully kind of understand how to do it."
+        },
+        {
+          "start": 447.439998626709,
+          "end": 449.35999877750874,
+          "text": "So it's not even just it is a hindrance."
+        },
+        {
+          "start": 449.439998626709,
+          "end": 450.0000000745058,
+          "text": "It's when do"
+        },
+        {
+          "start": 450.1200000047684,
+          "end": 450.9999999552965,
+          "text": "do you have to stop?"
+        },
+        {
+          "start": 451.0,
+          "end": 457.5599995404482,
+          "text": "You know, Novak's point about he can play a thirty ball rally and then challenge it and the guy went like this that's that's so stupid"
+        },
+        {
+          "start": 458.67999935150146,
+          "end": 466.6800003796816,
+          "text": "they know it yeah they got it you have to like once people get like the first time through the lineup with the new rule they need to learn that they should chall"
+        },
+        {
+          "start": 466.6800003051758,
+          "end": 474.67999847233295,
+          "text": "enge right away that they need to stop it needs to be just like when you stop for a line call challenge it right away but I don't blame Sasha for not"
+        },
+        {
+          "start": 474.6800003051758,
+          "end": 475.0000000745058,
+          "text": "knowing that"
+        },
+        {
+          "start": 475.039999961853,
+          "end": 479.35999973118305,
+          "text": "not knowing that I wouldn't have known that when you could challenge and if you could him going up afterwards and his"
+        }
+      ]
+    },
+    {
+      "id": "served-late",
+      "seconds": 2.6095751950001613,
+      "segments": [
+        {
+          "start": 0.7199999690055847,
+          "end": 1.8399999886751175,
+          "text": "It's like, do we lose the point?"
+        },
+        {
+          "start": 1.8399999141693115,
+          "end": 3.0400000363588333,
+          "text": "Yes, but wasn't it awesome?"
+        },
+        {
+          "start": 3.119999885559082,
+          "end": 3.359999969601631,
+          "text": "Yes."
+        },
+        {
+          "start": 3.43999981880188,
+          "end": 3.7599998265504837,
+          "text": "Yeah."
+        },
+        {
+          "start": 3.919999837875366,
+          "end": 5.119999960064888,
+          "text": "You gotta like it fantastic."
+        },
+        {
+          "start": 5.839999675750732,
+          "end": 7.919999673962593,
+          "text": "Part winner, part like entertainer?"
+        },
+        {
+          "start": 7.919999599456787,
+          "end": 8.319999769330025,
+          "text": "Yeah."
+        },
+        {
+          "start": 8.399999618530273,
+          "end": 8.719999387860298,
+          "text": "Yeah."
+        },
+        {
+          "start": 8.800000190734863,
+          "end": 11.83999927341938,
+          "text": "I want Kim Kleisers keep threatening to come down."
+        },
+        {
+          "start": 13.039999961853027,
+          "end": 15.519999578595161,
+          "text": "Once she's fully she gets that wheel fully healed."
+        },
+        {
+          "start": 16.0,
+          "end": 17.199998930096626,
+          "text": "We'll get the camera team out there"
+        },
+        {
+          "start": 17.920000076293945,
+          "end": 21.199998930096626,
+          "text": "for sure watch you and Kim just mop the floor with some that'd be a fun one."
+        },
+        {
+          "start": 21.19999885559082,
+          "end": 23.199999004602432,
+          "text": "Or we each take one of you chuckers."
+        },
+        {
+          "start": 24.15999984741211,
+          "end": 24.959999158978462,
+          "text": "By the way, there's something"
+        },
+        {
+          "start": 25.039999961853027,
+          "end": 27.040000036358833,
+          "text": "s something I've been remissing Sean."
+        },
+        {
+          "start": 27.039999961853027,
+          "end": 27.51999981701374,
+          "text": "I'm done."
+        },
+        {
+          "start": 27.59999990463257,
+          "end": 29.359999805688858,
+          "text": "There's something I've been remiss in mentioning"
+        },
+        {
+          "start": 30.15999984741211,
+          "end": 30.23999984562397,
+          "text": "."
+        },
+        {
+          "start": 30.31999969482422,
+          "end": 34.08000007271767,
+          "text": "And I don't often like to give you compliments, especially not publicly."
+        },
+        {
+          "start": 34.63999938964844,
+          "end": 37.120000034570694,
+          "text": "Normally I save those for behind the scenes."
+        },
+        {
+          "start": 37.11999988555908,
+          "end": 38.559999614953995,
+          "text": "You know what I'm going to say, right?"
+        },
+        {
+          "start": 38.71999931335449,
+          "end": 39.1200001090765,
+          "text": "I do"
+        },
+        {
+          "start": 40.55999946594238,
+          "end": 40.719999462366104,
+          "text": "."
+        },
+        {
+          "start": 40.79999923706055,
+          "end": 41.4399988502264,
+          "text": "Last year"
+        },
+        {
+          "start": 42.0,
+          "end": 45.27999892830849,
+          "text": "at the Labor Cup, the Serve Challenge."
+        },
+        {
+          "start": 45.279998779296875,
+          "end": 47.359998777508736,
+          "text": "Yeah, you were a fucking disgrace."
+        },
+        {
+          "start": 47.760000228881836,
+          "end": 48.79999931156635,
+          "text": "It was awful."
+        },
+        {
+          "start": 48.8799991607666,
+          "end": 50.000000074505806,
+          "text": "You were just embarrassing"
+        },
+        {
+          "start": 50.03999996185303,
+          "end": 50.67999990284443,
+          "text": "assing it was"
+        },
+        {
+          "start": 51.55999994277954,
+          "end": 52.759999826550484,
+          "text": "it ruined the segment."
+        },
+        {
+          "start": 52.75999999046326,
+          "end": 54.04000011086464,
+          "text": "It was just like it made it"
+        },
+        {
+          "start": 56.03999996185303,
+          "end": 57.7199993878603,
+          "text": "was too awkward to overcome."
+        },
+        {
+          "start": 58.920000076293945,
+          "end": 60.120000034570694,
+          "text": "We tried our little hearts out"
+        },
+        {
+          "start": 60.84000015258789,
+          "end": 61.00000014901161,
+          "text": "."
+        },
+        {
+          "start": 61.079999923706055,
+          "end": 61.95999923348427,
+          "text": "It was bad."
+        },
+        {
+          "start": 62.19999980926514,
+          "end": 63.00000014901161,
+          "text": "Mike Hayden"
+        },
+        {
+          "start": 63.79999923706055,
+          "end": 65.63999946415424,
+          "text": ", you hit some real serves in London."
+        },
+        {
+          "start": 65.63999938964844,
+          "end": 66.60000045597553,
+          "text": "You did just hit one."
+        },
+        {
+          "start": 67.23999977111816,
+          "end": 68.27999885380268,
+          "text": "You went into the backfield."
+        },
+        {
+          "start": 68.43999862670898,
+          "end": 71.39999969303608,
+          "text": "You have made a lot of progress and I'm proud of you."
+        },
+        {
+          "start": 71.47999954223633,
+          "end": 71.79999931156635,
+          "text": "Thank you."
+        },
+        {
+          "start": 71.8799991607666,
+          "end": 72.5999985486269,
+          "text": "You did a great job."
+        },
+        {
+          "start": 72.68000030517578,
+          "end": 73.07999999821186,
+          "text": "Thank you."
+        },
+        {
+          "start": 73.07999992370605,
+          "end": 74.51999862492085,
+          "text": "Shout out Kevin, Marx part."
+        },
+        {
+          "start": 74.5999984741211,
+          "end": 75.0000000745058,
+          "text": "Yeah, ye"
+        },
+        {
+          "start": 75.03999996185303,
+          "end": 76.15999999642372,
+          "text": "ah, there you go."
+        },
+        {
+          "start": 76.48000001907349,
+          "end": 82.47999961674213,
+          "text": "Yeah, so I just had to say that because I didn't in the Labor Cup recap, I obviously should have gone there, but we got I shocked myself."
+        },
+        {
+          "start": 82.47999954223633,
+          "end": 85.43999972939491,
+          "text": "We got carried away with Tucky Sean's love fest and"
+        },
+        {
+          "start": 86.07999992370605,
+          "end": 90.87999923527241,
+          "text": "the fed knowing about Chuckers Which absolutely Teki Sean's love fest needed the attention."
+        },
+        {
+          "start": 90.8799991607666,
+          "end": 92.63999953866005,
+          "text": "All right, I think that's about to wrap it up"
+        },
+        {
+          "start": 93.35999870300293,
+          "end": 95.68000037968159,
+          "text": "because we need to get to the random question of the day."
+        },
+        {
+          "start": 95.76000022888184,
+          "end": 96.63999953866005,
+          "text": "Sean hit it"
+        },
+        {
+          "start": 99.19999885559082,
+          "end": 100.00000014901161,
+          "text": "time for the"
+        },
+        {
+          "start": 100.03999996185303,
+          "end": 102.04000003635883,
+          "text": "the random question of the Dun"
+        },
+        {
+          "start": 109.80000019073486,
+          "end": 109.88000018894672,
+          "text": "e."
+        },
+        {
+          "start": 109.88000011444092,
+          "end": 112.19999988377094,
+          "text": "I wonder if Lindman Wow would remix that for us?"
+        },
+        {
+          "start": 112.67999935150146,
+          "end": 114.279999807477,
+          "text": "Oh yeah that'd be a great question."
+        },
+        {
+          "start": 114.35999965667725,
+          "end": 117.0000000745058,
+          "text": "Linman Warina, can you remix the shitty jingle?"
+        },
+        {
+          "start": 117.07999992370605,
+          "end": 119.95999915897846,
+          "text": "Don't make your own don't make your own jingle greatest."
+        }
+      ]
+    },
+    {
+      "id": "served-ending",
+      "seconds": 1.9439551030000075,
+      "segments": [
+        {
+          "start": 1.1200000047683716,
+          "end": 7.759999826550484,
+          "text": "This episode is brought to you by Born in Roma Fragrances by Valentino Beauty, the iconic fragrance duo."
+        },
+        {
+          "start": 7.919999599456787,
+          "end": 15.83999927341938,
+          "text": "Donna Born in Roma Eau de Parfum is a feminine fragrance featuring juicy black currant, central jasmine, woody cashmarin, and warm"
+        },
+        {
+          "start": 15.920000076293945,
+          "end": 16.639999464154243,
+          "text": "vanilla."
+        },
+        {
+          "start": 16.8799991607666,
+          "end": 24.879999235272408,
+          "text": "Its masculine counterpart, Womo Born in Roma Au de Twilet, has notes of fresh violet leaf, aromatic sage, green vediver, spic"
+        },
+        {
+          "start": 24.8799991607666,
+          "end": 24.959999158978462,
+          "text": "y"
+        },
+        {
+          "start": 25.12000000476837,
+          "end": 28.480000093579292,
+          "text": "spicy ginger, and mineral salt, shop at macys dot com"
+        },
+        {
+          "start": 31.27999973297119,
+          "end": 38.47999969124794,
+          "text": "Having uncontrolled eelosinophilic esophagitis or EOE can mean you're stuck in many ways, like cutting your food into tiny pieces."
+        },
+        {
+          "start": 41.52000045776367,
+          "end": 43.359998777508736,
+          "text": "Stuck, chewing food for a long time."
+        },
+        {
+          "start": 45.68000030517578,
+          "end": 49.92000015079975,
+          "text": "Dupixent Dupillamab, a prescription medicine for patients one year and older weighing at least thirty"
+        },
+        {
+          "start": 50.03999996185303,
+          "end": 51.6399999409914,
+          "text": "ast thirty three pounds can help with that."
+        },
+        {
+          "start": 51.72000002861023,
+          "end": 55.95999963581562,
+          "text": "It's a breakthrough treatment that can reduce inflammation in the esophagus and improve swallowing."
+        },
+        {
+          "start": 56.11999988555908,
+          "end": 58.759999349713326,
+          "text": "You can get with this or you can get with that."
+        },
+        {
+          "start": 58.920000076293945,
+          "end": 59.479999616742134,
+          "text": "How about this?"
+        },
+        {
+          "start": 59.55999946594238,
+          "end": 61.159999921917915,
+          "text": "Dupixent is not a steroid."
+        },
+        {
+          "start": 61.239999771118164,
+          "end": 64.04000003635883,
+          "text": "It proactively treats EOE so you can get ahead of it."
+        },
+        {
+          "start": 64.11999988555908,
+          "end": 67.23999984562397,
+          "text": "Severe allergic reactions, including skin reactions can occur."
+        },
+        {
+          "start": 67.23999977111816,
+          "end": 71.87999923527241,
+          "text": "Get help right away if you have trouble breathing or wheezing, or swelling of your face, mouth, tongue, or throat."
+        },
+        {
+          "start": 71.95999908447266,
+          "end": 75.0000000745058,
+          "text": "Tell your doctor of new or worsening joint aches and pain or a parasitic in"
+        },
+        {
+          "start": 75.03999996185303,
+          "end": 76.3200000077486,
+          "text": "itic infection or asthma."
+        },
+        {
+          "start": 76.3199999332428,
+          "end": 79.04000003635883,
+          "text": "Don't change or stop other treatments without talking to your doctor."
+        },
+        {
+          "start": 79.19999980926514,
+          "end": 80.6399999409914,
+          "text": "Feeling stuck with the OE?"
+        },
+        {
+          "start": 80.6399998664856,
+          "end": 82.15999992191792,
+          "text": "Start treating with DuPixant."
+        },
+        {
+          "start": 82.15999984741211,
+          "end": 85.75999934971333,
+          "text": "Talk to your gastroenterologist or allergist today about dupixent."
+        },
+        {
+          "start": 85.84000015258789,
+          "end": 87.04000003635883,
+          "text": "Learn more at dupixent."
+        },
+        {
+          "start": 87.11999988555908,
+          "end": 89.43999980390072,
+          "text": "com or call one eight four DuPixent."
+        }
+      ]
+    },
+    {
+      "id": "404media-opening",
+      "seconds": 3.92410769900016,
+      "segments": [
+        {
+          "start": 0.1599999964237213,
+          "end": 2.7199998646974564,
+          "text": "We've got the most controlled border we've ever had in the history."
+        },
+        {
+          "start": 2.799999952316284,
+          "end": 6.95999963581562,
+          "text": "Yet liberal politician Josh Turk supports amnesty for illegals."
+        },
+        {
+          "start": 7.199999809265137,
+          "end": 9.119999960064888,
+          "text": "We need an easier pathway to citizenship."
+        },
+        {
+          "start": 9.279999732971191,
+          "end": 17.27999885380268,
+          "text": "Turick voted to give taxpayer funded welfare benefits to illegal immigrants, said cracking down on illegals was fundamentally wrong and unaware"
+        },
+        {
+          "start": 17.35999870300293,
+          "end": 17.43999870121479,
+          "text": "."
+        },
+        {
+          "start": 17.520000457763672,
+          "end": 21.840000227093697,
+          "text": "Turick was even caught telling illegal immigrants how to obstruct law enforcement."
+        },
+        {
+          "start": 21.920000076293945,
+          "end": 23.770000228881838,
+          "text": "Liberal politician Josh Turk."
+        },
+        {
+          "start": 23.920000076293945,
+          "end": 25.039999082684517,
+          "text": "Fundamentally wrong and una"
+        },
+        {
+          "start": 25.039999961853027,
+          "end": 31.759999826550484,
+          "text": "ong and unaccredit by SLF, not authorized by any candidate or candidates committee SLFPAC dot org dot We were never going to get another chance at this."
+        },
+        {
+          "start": 31.919999599456787,
+          "end": 34.00000014901161,
+          "text": "That was the thing that was actually the most scary for me."
+        },
+        {
+          "start": 34.0,
+          "end": 36.39999969303608,
+          "text": "We get one chance to get this out."
+        },
+        {
+          "start": 36.47999954223633,
+          "end": 39.35999973118305,
+          "text": "If we get caught, if I make a mistake, no one else gets to do this."
+        },
+        {
+          "start": 39.519999504089355,
+          "end": 41.03999908268452,
+          "text": "You know you only get one shot at it."
+        },
+        {
+          "start": 41.19999885559082,
+          "end": 44.399999767541885,
+          "text": "You already have enough skin in the game, you might just put a little bit more skin in the game."
+        },
+        {
+          "start": 48.959999084472656,
+          "end": 49.92000015079975,
+          "text": "Today we're talking to"
+        },
+        {
+          "start": 50.03999996185303,
+          "end": 58.04000003635883,
+          "text": "king to Meta whistleblower Francis Haugen, who famously worked with the Wall Street Journal to expose how Meta's algorithms were radical"
+        },
+        {
+          "start": 58.19999980926514,
+          "end": 63.39999969303608,
+          "text": "izing people, making teen girls feel horrible on Instagram and lots of other really bad things."
+        },
+        {
+          "start": 63.63999938964844,
+          "end": 71.63999946415424,
+          "text": "Francis became a whistleblower back in twenty twenty one and her story is the basis for the social reckoning, which is Erin Sorkin's follow up to"
+        },
+        {
+          "start": 71.71999931335449,
+          "end": 72.68000037968159,
+          "text": "the social network."
+        },
+        {
+          "start": 72.76000022888184,
+          "end": 73.7199994623661,
+          "text": "Let's jump into it."
+        },
+        {
+          "start": 73.71999931335449,
+          "end": 74.92000015079975,
+          "text": "This is a really great interview with"
+        },
+        {
+          "start": 75.19999992847443,
+          "end": 75.99999995529652,
+          "text": "with Francis."
+        },
+        {
+          "start": 76.0,
+          "end": 77.43999980390072,
+          "text": "I really enjoyed it."
+        },
+        {
+          "start": 79.67999982833862,
+          "end": 81.83999975025654,
+          "text": "Hi, Francis, thank you so much for joining us."
+        },
+        {
+          "start": 81.91999959945679,
+          "end": 83.35999973118305,
+          "text": "I'm really excited to talk to you."
+        },
+        {
+          "start": 83.51999950408936,
+          "end": 90.7199993878603,
+          "text": "I have been following your work and your story ever since you became a whistleblower from Facebook, which was in twenty twenty one."
+        },
+        {
+          "start": 90.8799991607666,
+          "end": 95.4399987757206,
+          "text": "I just saw the social reckoning literally one hour before having this conversation."
+        },
+        {
+          "start": 95.52000045776367,
+          "end": 96.559999614954,
+          "text": "I thought it was great."
+        },
+        {
+          "start": 96.95999908447266,
+          "end": 98.47999961674213,
+          "text": "I want to start there, I guess."
+        },
+        {
+          "start": 98.63999938964844,
+          "end": 100.0000000745058,
+          "text": "We can kind of back into your story"
+        },
+        {
+          "start": 100.03999996185303,
+          "end": 104.35999980568886,
+          "text": "into your story, but when did you figure out that Erin Sorkin was interested in telling your story"
+        },
+        {
+          "start": 105.0,
+          "end": 105.07999999821186,
+          "text": "?"
+        },
+        {
+          "start": 105.15999984741211,
+          "end": 112.91999934613705,
+          "text": "So I would say like maybe maybe like six months after I first came forward, I was in LA for a conference and"
+        },
+        {
+          "start": 113.79999923706055,
+          "end": 117.39999969303608,
+          "text": "they said, you know, Erin Sorkin is interested in talking to you."
+        },
+        {
+          "start": 117.39999961853027,
+          "end": 124.92000015079975,
+          "text": "And I don't think it was as explicit as like they want to make a companion piece to the social network and have you be a"
+        },
+        {
+          "start": 125.12000000476837,
+          "end": 129.04000011086464,
+          "text": "a major character and it was more like, you know, if I were to do a follow up, like"
+        },
+        {
+          "start": 130.07999992370605,
+          "end": 130.87999971210957,
+          "text": "what would be interesting?"
+        },
+        {
+          "start": 130.87999963760376,
+          "end": 133.67999942600727,
+          "text": "Like explain to me why you did what you did, like why does this matter?"
+        },
+        {
+          "start": 133.76000022888184,
+          "end": 137.2799999564886,
+          "text": "One of the things I think the movie does a really, really good job of capturing is"
+        },
+        {
+          "start": 137.8400001525879,
+          "end": 141.35999892652035,
+          "text": "the topics that were in my disclosures are not just complicated for"
+        },
+        {
+          "start": 142.1599998474121,
+          "end": 148.47999961674213,
+          "text": "an everyday person to understand, they're complicated for people who are really deeply steeped in how social media works."
+        },
+        {
+          "start": 148.63999938964844,
+          "end": 150.0000000745058,
+          "text": "Like I thought the movie did a really good j"
+        },
+        {
+          "start": 150.03999996185303,
+          "end": 150.75999994575977,
+          "text": "really good job of capturing"
+        },
+        {
+          "start": 151.79999995231628,
+          "end": 157.31999976933002,
+          "text": "there were things that I knew for certain when I went to Jeff, and there were things that he and I figured out together by looking through a lot of documentation."
+        },
+        {
+          "start": 157.47999954223633,
+          "end": 160.75999942421913,
+          "text": "So imagine you have someone like Erin who's like a smart person."
+        },
+        {
+          "start": 160.75999927520752,
+          "end": 167.79999931156635,
+          "text": "He's really clued in on a lot of things in the world, but we're talking about stuff that is a specialty amongst specialists."
+        },
+        {
+          "start": 167.95999908447266,
+          "end": 171.31999976933002,
+          "text": "How much can you actually convey in an hour and an hour and a half?"
+        },
+        {
+          "start": 171.39999961853027,
+          "end": 175.0000000745058,
+          "text": "So I had never imagined that you could make what I went through"
+        },
+        {
+          "start": 175.03999996185303,
+          "end": 177.04000003635883,
+          "text": "I went through into an interesting story."
+        },
+        {
+          "start": 177.11999988555908,
+          "end": 179.6899998283386,
+          "text": "So like when I didn't hear from them again for a while, I didn't"
+        }
+      ]
+    },
+    {
+      "id": "404media-early",
+      "seconds": 2.6247910500001126,
+      "segments": [
+        {
+          "start": 0.6399999856948853,
+          "end": 3.1999998837709427,
+          "text": "There was a feeling like, oh, we have dodged the bullet."
+        },
+        {
+          "start": 3.2799999713897705,
+          "end": 4.480000093579292,
+          "text": "You know, it's gonna be fine."
+        },
+        {
+          "start": 4.559999942779541,
+          "end": 6.719999864697456,
+          "text": "We can now get rid of civic integrity."
+        },
+        {
+          "start": 6.799999713897705,
+          "end": 8.239999994635582,
+          "text": "And unfortunately because"
+        },
+        {
+          "start": 8.880000114440918,
+          "end": 12.960000112652779,
+          "text": "no one in that group was now on the same work, right?"
+        },
+        {
+          "start": 12.960000038146973,
+          "end": 16.719999387860298,
+          "text": "Like there were a few people who kind of got to stay on adjacent work."
+        },
+        {
+          "start": 16.719999313354492,
+          "end": 21.600000455975533,
+          "text": "But like we were largely encouraged to like kind of check out lots of people left and got other jobs."
+        },
+        {
+          "start": 21.68000030517578,
+          "end": 25.039999082684517,
+          "text": "My boss, I think, basically was a free floater inside of Facebook all the way up until"
+        },
+        {
+          "start": 25.039999961853027,
+          "end": 28.6399999409914,
+          "text": "way up until a week or two before the first Wall Street Journal story came out."
+        },
+        {
+          "start": 28.639999866485596,
+          "end": 33.11999996006489,
+          "text": "And I don't know this for certain, but I think he only quit because it meant that he could comment publicly."
+        },
+        {
+          "start": 33.27999973297119,
+          "end": 34.639999613165855,
+          "text": "Because the people whose job was"
+        },
+        {
+          "start": 35.27999973297119,
+          "end": 39.19999995827675,
+          "text": "to watch and raise alarms were no longer tasked with that."
+        },
+        {
+          "start": 39.27999973297119,
+          "end": 39.759999349713326,
+          "text": "It meant that"
+        },
+        {
+          "start": 40.47999954223633,
+          "end": 43.35999885201454,
+          "text": "when Stop the Steel exploded"
+        },
+        {
+          "start": 44.15999984741211,
+          "end": 48.23999984562397,
+          "text": "and people need to understand like Stop the Steel was not an accident."
+        },
+        {
+          "start": 48.239999771118164,
+          "end": 49.92000015079975,
+          "text": "Like Stop the Steel was an artifact"
+        },
+        {
+          "start": 50.03999996185303,
+          "end": 53.31999984383583,
+          "text": "tifact of basic safety systems not working."
+        },
+        {
+          "start": 53.31999969482422,
+          "end": 53.47999969124794,
+          "text": "So"
+        },
+        {
+          "start": 54.359999656677246,
+          "end": 59.63999946415424,
+          "text": "the worst case is one person invited three hundred thousand people to stop the steel groups."
+        },
+        {
+          "start": 59.80000019073486,
+          "end": 63.55999954044819,
+          "text": "I think we can all agree that they like there's some number that you should be allowed to invite in a day."
+        },
+        {
+          "start": 63.55999946594238,
+          "end": 64.59999950230122,
+          "text": "Maybe it's a thousand."
+        },
+        {
+          "start": 64.59999942779541,
+          "end": 65.47999961674213,
+          "text": "Maybe it's a hundred."
+        },
+        {
+          "start": 65.55999946594238,
+          "end": 67.79999931156635,
+          "text": "Like we have different conversations about where the number lies."
+        },
+        {
+          "start": 67.8799991607666,
+          "end": 73.47999969124794,
+          "text": "I think very few people would say we want to have a social media system where you can invite three hundred thousand people in a day."
+        },
+        {
+          "start": 73.79999923706055,
+          "end": 74.8400002270937,
+          "text": "This is not about the movie, but"
+        },
+        {
+          "start": 75.19999992847443,
+          "end": 82.80000026524067,
+          "text": "but something you said reminds me of a lot of my reporting on so I was writing about how basically like AI slop was spreading on Facebook about"
+        },
+        {
+          "start": 83.27999973297119,
+          "end": 88.47999961674213,
+          "text": "two years ago and it's still all over the place, but this is just like the bizarre like shrimp jesus things like this."
+        },
+        {
+          "start": 88.47999954223633,
+          "end": 94.7199993878603,
+          "text": "And then that led to also just like nonconsensual AI generated porn spreading on Facebook as well."
+        },
+        {
+          "start": 94.71999931335449,
+          "end": 100.0000000745058,
+          "text": "And one thing I noticed a group could make a page and then on the page you could throw an event"
+        },
+        {
+          "start": 100.03999996185303,
+          "end": 104.75999982655048,
+          "text": "an event and then within the event you could like upload files essentially."
+        },
+        {
+          "start": 104.75999975204468,
+          "end": 108.8400002270937,
+          "text": "And like this essentially seemed to become an unmoderated space."
+        },
+        {
+          "start": 108.92000007629395,
+          "end": 116.92000015079975,
+          "text": "And when I talked to Facebook about this and when I talked to sources, both the official PR at Facebook but also source at Facebook, they were like, that was a feature we launch"
+        },
+        {
+          "start": 116.92000007629395,
+          "end": 118.92000015079975,
+          "text": "ed ten years ago, no one uses it."
+        }
+      ]
+    },
+    {
+      "id": "404media-middle",
+      "seconds": 10.550903865999999,
+      "segments": [
+        {
+          "start": 0.23999999463558197,
+          "end": 3.999999836087227,
+          "text": "They told people it was for warm and fuzzy reasons, and unfortunately we all paid the consequence"
+        },
+        {
+          "start": 6.480000019073486,
+          "end": 6.560000017285347,
+          "text": "."
+        },
+        {
+          "start": 6.639999866485596,
+          "end": 9.920000150799751,
+          "text": "The Four Media Podcast is brought to you by NordLair Browser."
+        },
+        {
+          "start": 10.0,
+          "end": 15.599999502301216,
+          "text": "NordLayer Browser is an enterprise browser that secures online work without getting in the way of productivity."
+        },
+        {
+          "start": 15.75999927520752,
+          "end": 23.680000379681587,
+          "text": "It gives IT teams full visibility and control over every web based AI tool, SaaS application, and download across the organization, while making sure"
+        },
+        {
+          "start": 23.760000228881836,
+          "end": 24.959999158978462,
+          "text": "employees can still enjoy a se"
+        },
+        {
+          "start": 25.039999961853027,
+          "end": 27.199999883770943,
+          "text": "enjoy a seamless browsing experience."
+        },
+        {
+          "start": 27.359999895095825,
+          "end": 35.35999973118305,
+          "text": "Designed for today's distributed workforce, NordLair Browser helps companies protect access to their internal resources and prevent accidental dat"
+        },
+        {
+          "start": 35.4399995803833,
+          "end": 36.07999999821186,
+          "text": "a exposure."
+        },
+        {
+          "start": 36.15999984741211,
+          "end": 44.15999999642372,
+          "text": "Go to nordlayer dot com slash browser slash four hundred four podcast and use the coupon code four hundred four podcast ten at checkout to get NordLayer Browser at ten per"
+        },
+        {
+          "start": 44.15999984741211,
+          "end": 45.35999892652035,
+          "text": "cent off today."
+        },
+        {
+          "start": 46.15999984741211,
+          "end": 50.000000074505806,
+          "text": "One of the most frustrating things about traveling is when you're somewhere incredible, some"
+        },
+        {
+          "start": 50.12000000476837,
+          "end": 54.67999990284443,
+          "text": ", somebody start talking to you and you realize you can't really have the conversation you want to have."
+        },
+        {
+          "start": 54.83999967575073,
+          "end": 60.75999949872494,
+          "text": "You can smile, point, maybe pull out your phone, but there's still this barrier between you and the actual experience."
+        },
+        {
+          "start": 61.0,
+          "end": 64.1200001090765,
+          "text": "That's exactly the kind of problem Babel is built to help with."
+        },
+        {
+          "start": 64.27999973297119,
+          "end": 69.87999930977821,
+          "text": "Babel focuses on real life conversation, not endless grammar drills or memorizing random vocabulary."
+        },
+        {
+          "start": 70.03999900817871,
+          "end": 73.47999961674213,
+          "text": "You learn words and phrases you'd actually use with another person."
+        },
+        {
+          "start": 73.47999954223633,
+          "end": 75.0000000745058,
+          "text": "And the lessons are designed by more than two"
+        },
+        {
+          "start": 75.03999996185303,
+          "end": 79.35999973118305,
+          "text": "ed more than two hundred language experts, so you're learning how people actually communicate."
+        },
+        {
+          "start": 79.44000005722046,
+          "end": 82.55999954044819,
+          "text": "And it doesn't require turning language learning into a second job."
+        },
+        {
+          "start": 82.80000019073486,
+          "end": 87.75999934971333,
+          "text": "The lessons are bite sized enough to fit into a coffee break, your commute or ten minutes before bed."
+        },
+        {
+          "start": 87.92000007629395,
+          "end": 93.35999877750874,
+          "text": "In fact, people who use Babel for just ten minutes a day can start having real conversations in as little as three weeks."
+        },
+        {
+          "start": 93.52000045776367,
+          "end": 94.55999954044819,
+          "text": "That's the part I like."
+        },
+        {
+          "start": 94.63999938964844,
+          "end": 98.39999969303608,
+          "text": "The goal isn't memorizing a textbook or doing a bunch of flashcards and drills."
+        },
+        {
+          "start": 98.47999954223633,
+          "end": 99.8400002270937,
+          "text": "It's getting to the point where you can actually"
+        },
+        {
+          "start": 100.03999996185303,
+          "end": 102.91999991238117,
+          "text": "you can actually connect with somebody when the opportunity comes up."
+        },
+        {
+          "start": 103.07999992370605,
+          "end": 108.83999942243099,
+          "text": "Babel has sold more than twenty five million subscriptions and it comes with a fourteen day money back guarantee."
+        },
+        {
+          "start": 109.0,
+          "end": 116.11999900639057,
+          "text": "So if there's somewhere you've always wanted to go or a language you've been meaning to pick back up, this is a pretty good reason to finally start."
+        },
+        {
+          "start": 116.19999885559082,
+          "end": 118.8400002270937,
+          "text": "Start learning a new language today with Babel."
+        },
+        {
+          "start": 118.92000007629395,
+          "end": 123.15999992191792,
+          "text": "Right now listeners can save up to sixty percent off at babel dot com slash four hundred four."
+        },
+        {
+          "start": 123.15999984741211,
+          "end": 124.92000015079975,
+          "text": "That's Babel B El"
+        },
+        {
+          "start": 125.12000000476837,
+          "end": 127.99999983608723,
+          "text": "el dot com slash four hundred four for up to sixty percent off."
+        },
+        {
+          "start": 128.1599998474121,
+          "end": 130.23999999463558,
+          "text": "Rules and restrictions may apply."
+        },
+        {
+          "start": 130.55999994277954,
+          "end": 135.1199999600649,
+          "text": "The best gifts are the ones that solve an annoying problem somebody deals with all the time."
+        },
+        {
+          "start": 135.11999988555908,
+          "end": 139.51999972760677,
+          "text": "And Ridge's five in one travel power bank is exactly that kind of gift."
+        },
+        {
+          "start": 140.1599998474121,
+          "end": 142.23999992012978,
+          "text": "Here's my Ridge Power Bank."
+        },
+        {
+          "start": 142.23999977111816,
+          "end": 149.75999854505062,
+          "text": "I've been using this thing for about a month and I'm kind of obsessed with it because it eliminates the mess of chargers and cables that I normally have to carry around."
+        },
+        {
+          "start": 149.8400001525879,
+          "end": 150.0000000745058,
+          "text": "Every"
+        },
+        {
+          "start": 150.12000000476837,
+          "end": 151.15999992191792,
+          "text": "Everything is built in."
+        },
+        {
+          "start": 151.24000000953674,
+          "end": 159.15999992191792,
+          "text": "It's got mag safe wireless charging, an Apple Watch charger, lightning, USBC, and importantly, built in cables."
+        },
+        {
+          "start": 159.23999977111816,
+          "end": 162.51999972760677,
+          "text": "One power bank can handle basically everything I'm carrying."
+        },
+        {
+          "start": 162.67999935150146,
+          "end": 168.92000015079975,
+          "text": "It has a ten thousand millamp hour battery with twenty watts of power giving you up to three full phone charges."
+        },
+        {
+          "start": 168.92000007629395,
+          "end": 174.92000022530556,
+          "text": "And right now is a great time to grab them because from october eighth through november fifth, Ridge is running its friends and family"
+        },
+        {
+          "start": 175.12000000476837,
+          "end": 178.87999971210957,
+          "text": "and family sale buy two Ridge Power Banks and get a third one free."
+        },
+        {
+          "start": 178.96000003814697,
+          "end": 185.92000015079975,
+          "text": "So you can knock out three genuinely useful gifts or give away two and keep one or keep all three for yourself."
+        },
+        {
+          "start": 186.0,
+          "end": 186.5599995404482,
+          "text": "I don't know."
+        },
+        {
+          "start": 186.55999946594238,
+          "end": 187.83999927341938,
+          "text": "That's what I'd probably do."
+        },
+        {
+          "start": 188.0,
+          "end": 190.63999946415424,
+          "text": "I use this Ridge Power Bank all the time."
+        },
+        {
+          "start": 190.79999923706055,
+          "end": 191.76000030338764,
+          "text": "I really like it."
+        },
+        {
+          "start": 192.0,
+          "end": 200.0000000745058,
+          "text": "I took it to a music festival recently and normally when I go to music festivals, I get really self conscious about running out of b"
+        },
+        {
+          "start": 200.75999999046326,
+          "end": 203.87999971210957,
+          "text": "With Ridge, I just had a full charge pretty much the entire day."
+        },
+        {
+          "start": 203.96000003814697,
+          "end": 205.39999969303608,
+          "text": "It was amazing peace of mind."
+        },
+        {
+          "start": 205.39999961853027,
+          "end": 209.63999946415424,
+          "text": "And with power banks I've had in the past, you bring the power bank, but then you also need the cable."
+        },
+        {
+          "start": 209.63999938964844,
+          "end": 210.75999934971333,
+          "text": "It's a whole nightmare."
+        },
+        {
+          "start": 210.75999927520752,
+          "end": 218.76000030338764,
+          "text": "With Ridge, you can just like put your phone on the back of this because it's got the mag safe situation and then it has the cables built in,"
+        },
+        {
+          "start": 218.76000022888184,
+          "end": 220.19999893009663,
+          "text": "which is really awesome."
+        },
+        {
+          "start": 220.35999870300293,
+          "end": 224.03999915719032,
+          "text": "They just kind of like snap in here and then you can pull them out"
+        },
+        {
+          "start": 226.1599998474121,
+          "end": 229.279999807477,
+          "text": "You can just like pull them out like this."
+        },
+        {
+          "start": 229.2799997329712,
+          "end": 231.19999995827675,
+          "text": "So I really like mine."
+        },
+        {
+          "start": 231.19999980926514,
+          "end": 235.35999973118305,
+          "text": "Ridge also makes wallets, phone cases, luggage, key cases and more."
+        },
+        {
+          "start": 235.35999965667725,
+          "end": 240.23999984562397,
+          "text": "Plus there's free shipping a ninety nine day risk free trial and a lifetime warranty."
+        },
+        {
+          "start": 240.55999946594238,
+          "end": 248.5599995404482,
+          "text": "Ready to get a head start on gifting, you can find Ridge's Power Bank at Best Buy and Amazon or Headseridge dot com slash four hundred four media for Ridge's friends and"
+        },
+        {
+          "start": 248.55999946594238,
+          "end": 249.8400002270937,
+          "text": "family sale where you can buy two"
+        },
+        {
+          "start": 250.03999996185303,
+          "end": 252.75999982655048,
+          "text": "buy two Ridge Power Banks and get a third one free."
+        },
+        {
+          "start": 252.8399999141693,
+          "end": 257.80000026524067,
+          "text": "That's ridge dot com slash four hundred four media, shop smart this holiday season with ridge."
+        },
+        {
+          "start": 257.8800001144409,
+          "end": 259.79999931156635,
+          "text": "Ridge dot com slash four hundred four media."
+        },
+        {
+          "start": 259.8800001144409,
+          "end": 262.2799998819828,
+          "text": "After your purchase, they'll ask where you heard about us."
+        },
+        {
+          "start": 262.2799997329712,
+          "end": 266.03999923169613,
+          "text": "Please support our show and tell them that four hundred four media sent you"
+        },
+        {
+          "start": 266.76000022888184,
+          "end": 266.8400002270937,
+          "text": "."
+        },
+        {
+          "start": 266.92000007629395,
+          "end": 274.92000022530556,
+          "text": "So for fun, I googled myself last week and found my home address, my phone number, and a relative I'm fairly sure I've never met all on directory sites I"
+        },
+        {
+          "start": 274.92000007629395,
+          "end": 275.0000000745058,
+          "text": "never"
+        },
+        {
+          "start": 275.1200000047684,
+          "end": 275.9199999123812,
+          "text": "I never signed up for."
+        },
+        {
+          "start": 276.0,
+          "end": 278.2399999201298,
+          "text": "That's the data broker economy for you."
+        },
+        {
+          "start": 278.23999977111816,
+          "end": 284.9600001126528,
+          "text": "They scrape your info, package you up like a trading card and sell you off to whoever's paying, which is exactly how identity thieves go shopping."
+        },
+        {
+          "start": 285.19999980926514,
+          "end": 287.8399992734194,
+          "text": "Bad luck when your entire job is not getting doxed."
+        },
+        {
+          "start": 288.07999992370605,
+          "end": 289.67999942600727,
+          "text": "That's why we use Incogni."
+        },
+        {
+          "start": 289.7599992752075,
+          "end": 297.67999854683876,
+          "text": "Instead of you spending hundreds of hours filling out opt out forms across forty browser tabs, Incogni gets to work by sending legal removal requests to over"
+        },
+        {
+          "start": 297.76000022888184,
+          "end": 300.0000000745058,
+          "text": "four hundred twenty harmful data broker sites."
+        },
+        {
+          "start": 300.3600000143051,
+          "end": 300.440000012517,
+          "text": "."
+        },
+        {
+          "start": 300.5199999809265,
+          "end": 308.51999957859516,
+          "text": "It's independently verified by Deloitte, resubmits requests every thirty to sixty days as brokers try to quietly re list you, and you can track every request"
+        },
+        {
+          "start": 308.76000022888184,
+          "end": 309.63999946415424,
+          "text": "right from the app."
+        },
+        {
+          "start": 309.80000019073486,
+          "end": 317.7199993878603,
+          "text": "On the unlimited plan, the exposure scanner digs up the weirder stuff across the wider web, like old forums, random blogs, or obscure directories"
+        },
+        {
+          "start": 317.8799991607666,
+          "end": 317.95999915897846,
+          "text": "."
+        },
+        {
+          "start": 318.11999893188477,
+          "end": 325.0000000745058,
+          "text": "It surfaces all your exposed profile links right in your dashboard where you simply select which links you want taken down incognites team of"
+        },
+        {
+          "start": 325.039999961853,
+          "end": 329.5200000554323,
+          "text": "i team of human privacy experts will handle the manual corporate takedowns for you."
+        },
+        {
+          "start": 329.7599997520447,
+          "end": 330.9599996358156,
+          "text": "Take back control today."
+        },
+        {
+          "start": 330.960000038147,
+          "end": 331.99999959766865,
+          "text": "Go to incogni."
+        },
+        {
+          "start": 332.0,
+          "end": 336.7199993878603,
+          "text": "com slash four hundred four media and use code four hundred four media for sixty percent off annual plan."
+        },
+        {
+          "start": 336.79999923706055,
+          "end": 337.8399992734194,
+          "text": "That's incogni."
+        },
+        {
+          "start": 337.92000007629395,
+          "end": 344.23999984562397,
+          "text": "com slash four hundred four media promo code four hundred four media, risk free with a thirty day money back guarantee."
+        },
+        {
+          "start": 344.3199996948242,
+          "end": 346.2399999201298,
+          "text": "They can't harm you if they can't find you"
+        },
+        {
+          "start": 349.1999988555908,
+          "end": 349.2799988538027,
+          "text": "."
+        },
+        {
+          "start": 350.1200000047684,
+          "end": 358.2799998819828,
+          "text": "that happened after you left, like this is kind of I guess years later at this point is Facebook and all of its products have become"
+        },
+        {
+          "start": 358.2799997329712,
+          "end": 359.79999931156635,
+          "text": "a lot more like TikTok."
+        },
+        {
+          "start": 359.8800001144409,
+          "end": 366.1199990063906,
+          "text": "You know, it used to show you a lot of content from your friends and family and people that you either friends with, they're following or whatever."
+        },
+        {
+          "start": 366.11999893188477,
+          "end": 372.76000030338764,
+          "text": "And now it is showing a lot more content from just like anyone, like any random person where it becomes public."
+        },
+        {
+          "start": 372.76000022888184,
+          "end": 375.0000001490116,
+          "text": "And I mean that I think that kind of is"
+        },
+        {
+          "start": 375.039999961853,
+          "end": 376.63999985158443,
+          "text": "is an outgrowth of"
+        },
+        {
+          "start": 377.4399998188019,
+          "end": 384.9600001126528,
+          "text": "what you're describing where it's like if reshared content can still elicit some sort of response, then maybe the algorithm is more likely to show it to you."
+        },
+        {
+          "start": 385.039999961853,
+          "end": 388.7199993878603,
+          "text": "But what we're seeing now is like it's a lot more global, I guess."
+        },
+        {
+          "start": 388.79999923706055,
+          "end": 389.6799995750189,
+          "text": "Like these are not"
+        },
+        {
+          "start": 390.4799995422363,
+          "end": 397.35999877750874,
+          "text": "increasingly they're not really social networks, they're more like log on and doom scroll and just get kind of get what you get."
+        },
+        {
+          "start": 397.439998626709,
+          "end": 400.0000001490116,
+          "text": "And I guess I'm wondering, I guess, do you ag"
+        },
+        {
+          "start": 400.1200000047684,
+          "end": 407.0799996703863,
+          "text": "agree with that characterization slash, how closely have you been following this since you blew the whistle?"
+        },
+        {
+          "start": 407.5599994659424,
+          "end": 407.7199994623661,
+          "text": "So"
+        },
+        {
+          "start": 408.4399995803833,
+          "end": 410.279999807477,
+          "text": "I totally agree with this assessment."
+        },
+        {
+          "start": 410.2799997329712,
+          "end": 412.4399996548891,
+          "text": "And I want to take some personal responsibility."
+        },
+        {
+          "start": 412.51999950408936,
+          "end": 418.4399987012148,
+          "text": "So when I worked at Pinterest, Pinterest originally was you only got content from people you explicitly chose."
+        },
+        {
+          "start": 418.439998626709,
+          "end": 420.92000015079975,
+          "text": "So you heard from humans because you chose those humans."
+        },
+        {
+          "start": 421.07999992370605,
+          "end": 422.6800003796816,
+          "text": "I think it was largely chronological."
+        },
+        {
+          "start": 422.76000022888184,
+          "end": 425.0000000745058,
+          "text": "People didn't want to do the labor of finding fif"
+        },
+        {
+          "start": 425.039999961853,
+          "end": 428.1699998474121,
+          "text": "ing fifty accounts to follow 'cause you needed about fifty in order to have a good feed."
+        },
+        {
+          "start": 428.3199996948242,
+          "end": 433.279999807477,
+          "text": "So they introduced topics which kind of aggregated people together being like, Oh, you said you like food."
+        },
+        {
+          "start": 433.2799997329712,
+          "end": 435.35999980568886,
+          "text": "We think these accounts have a lot of food in them."
+        },
+        {
+          "start": 435.35999965667725,
+          "end": 439.4399996548891,
+          "text": "We'll basically ghost follow you onto their account 'cause you follow food."
+        },
+        {
+          "start": 439.51999950408936,
+          "end": 445.8400002270937,
+          "text": "And then about maybe six months or a year before I joined Pinterest, they moved to pure recommendations."
+        },
+        {
+          "start": 445.92000007629395,
+          "end": 446.1600000709295,
+          "text": "And"
+        },
+        {
+          "start": 447.439998626709,
+          "end": 450.0000001490116,
+          "text": "I joined during a time period where they were dealing"
+        },
+        {
+          "start": 450.039999961853,
+          "end": 450.7599999457598,
+          "text": "ing with the fallout"
+        },
+        {
+          "start": 451.72000002861023,
+          "end": 455.56000001728535,
+          "text": "of moving away from being anchored on people you chose"
+        },
+        {
+          "start": 456.44000005722046,
+          "end": 456.5200000554323,
+          "text": "."
+        },
+        {
+          "start": 456.6799998283386,
+          "end": 464.75999942421913,
+          "text": "So the challenge is that when you go from being in an environment where humans are mediating how you interact with the world to one where a comp"
+        },
+        {
+          "start": 464.7599992752075,
+          "end": 472.0399990826845,
+          "text": "uter is choosing how you interact with the world, in our case, our problem was it fostered a lot of monotony, right?"
+        },
+        {
+          "start": 472.11999893188477,
+          "end": 474.67999847233295,
+          "text": "So the thing you are most likely to reshare"
+        },
+        {
+          "start": 475.75999999046326,
+          "end": 478.6399999409914,
+          "text": "is a thing identical to the last thing you reshared."
+        },
+        {
+          "start": 478.71999979019165,
+          "end": 479.83999975025654,
+          "text": "So think of it this way like you"
+        }
+      ]
+    },
+    {
+      "id": "404media-late",
+      "seconds": 2.5742198169998574,
+      "segments": [
+        {
+          "start": 0.3999999761581421,
+          "end": 4.799999788403511,
+          "text": "who I am only they tell a story in the worst possible light because they want to distract from something else."
+        },
+        {
+          "start": 4.799999713897705,
+          "end": 7.919999673962593,
+          "text": "And part of what really struck me was two things."
+        },
+        {
+          "start": 8.0,
+          "end": 16.080000072717667,
+          "text": "One was they had worked with a number of anonymous whistleblowers before where totally innocent people had faced the blowback because they had"
+        },
+        {
+          "start": 16.079999923706055,
+          "end": 18.159999921917915,
+          "text": "been blamed for being the whistleblower."
+        },
+        {
+          "start": 18.15999984741211,
+          "end": 24.879999235272408,
+          "text": "And the idea that someone who had done nothing wrong would suffer because of my actions was something that really weighed upon me."
+        },
+        {
+          "start": 25.039999961853027,
+          "end": 25.279999926686287,
+          "text": "me."
+        },
+        {
+          "start": 25.360000014305115,
+          "end": 29.599999979138374,
+          "text": "And the second one was it was never going to get we were never going to get another chance at this, right?"
+        },
+        {
+          "start": 29.59999990463257,
+          "end": 37.51999965310097,
+          "text": "Like it was like it was pretty obvious when I was in the middle of it, like that was the thing that was actually the most scary for me was I was like, we get one chance to get this out"
+        },
+        {
+          "start": 37.75999927520752,
+          "end": 37.83999927341938,
+          "text": "."
+        },
+        {
+          "start": 37.84000015258789,
+          "end": 41.68000037968159,
+          "text": "Like if we get caught, if we make if I make a mistake, no one else gets to do this."
+        },
+        {
+          "start": 41.760000228881836,
+          "end": 43.8400003015995,
+          "text": "You know, if you know you only get one shot at it"
+        },
+        {
+          "start": 44.55999946594238,
+          "end": 48.95999915897846,
+          "text": ", you might as well you already have enough skin in the game, you might just put a little bit more skin in the game."
+        },
+        {
+          "start": 49.03999900817871,
+          "end": 50.000000074505806,
+          "text": "I never feared getting su"
+        },
+        {
+          "start": 50.199999928474426,
+          "end": 58.279999807477,
+          "text": "sued, you know, until Sarah Wynne Williams got sued by Facebook for writing careless people, which is like her memoir about her experiences working directly with Mark and C"
+        },
+        {
+          "start": 58.27999973297119,
+          "end": 58.759999349713326,
+          "text": "heryl."
+        },
+        {
+          "start": 58.920000076293945,
+          "end": 67.00000022351742,
+          "text": "I was going to ask about her immediately following this because I feel like her book and your story are the two things that have made me understand this comp"
+        },
+        {
+          "start": 67.0,
+          "end": 68.60000045597553,
+          "text": "any better than anything else."
+        },
+        {
+          "start": 68.68000030517578,
+          "end": 68.92000015079975,
+          "text": "Yeah."
+        },
+        {
+          "start": 69.0,
+          "end": 74.67999847233295,
+          "text": "So Sarah Williams, the fact that she has been sued for hundreds of millions of dollars in my mind"
+        },
+        {
+          "start": 75.51999998092651,
+          "end": 83.19999995827675,
+          "text": "is the greatest testament for her book that can exist because until she came forward, Meta had never sued a whistleblower before."
+        },
+        {
+          "start": 83.35999965667725,
+          "end": 91.4399987757206,
+          "text": "And it seems quite obvious to me that the reason why they sued her is because they can never have a second employee confirm the stuff that she"
+        },
+        {
+          "start": 91.44000053405762,
+          "end": 92.15999992191792,
+          "text": "said, right?"
+        },
+        {
+          "start": 92.23999977111816,
+          "end": 95.35999877750874,
+          "text": "If anyone else says, oh yeah, I saw all the same stuff that she saw."
+        },
+        {
+          "start": 95.35999870300293,
+          "end": 98.7199993878603,
+          "text": "Like that is one of the most damning things that could happen for Mark Sherrill."
+        },
+        {
+          "start": 98.79999923706055,
+          "end": 100.0000000745058,
+          "text": "But when she had"
+        },
+        {
+          "start": 100.12000000476837,
+          "end": 103.23999984562397,
+          "text": "she had not become a whistleblower by the time I was a whistleblower."
+        },
+        {
+          "start": 103.23999977111816,
+          "end": 105.56000001728535,
+          "text": "Like there, I didn't think they were going to come after me lately."
+        },
+        {
+          "start": 105.71999979019165,
+          "end": 110.19999988377094,
+          "text": "I thought optically it'd be very, very hard for them because like I had brought out the receipts."
+        },
+        {
+          "start": 110.27999973297119,
+          "end": 112.11999996006489,
+          "text": "I am a nice girl from Iowa."
+        },
+        {
+          "start": 112.19999980926514,
+          "end": 115.39999969303608,
+          "text": "Like you can come after me, but like you're gonna look like an asshole."
+        },
+        {
+          "start": 115.47999954223633,
+          "end": 116.51999877393246,
+          "text": "I got lucky because"
+        },
+        {
+          "start": 117.39999961853027,
+          "end": 118.92000015079975,
+          "text": "Jeff had sources inside of"
+        },
+        {
+          "start": 119.8799991607666,
+          "end": 119.8899991607666,
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "404media-ending",
+      "seconds": 1.9275998230000368,
+      "segments": [
+        {
+          "start": 0.7999999523162842,
+          "end": 2.7200000137090683,
+          "text": "You know, I am over on Substack and"
+        },
+        {
+          "start": 3.359999895095825,
+          "end": 9.519999653100967,
+          "text": "sign up and I'll post there if we do a Twitch or a Google live stream kind of thing."
+        },
+        {
+          "start": 9.920000076293945,
+          "end": 10.559999540448189,
+          "text": "Amazing."
+        },
+        {
+          "start": 10.719999313354492,
+          "end": 11.519999653100967,
+          "text": "Thank you so much"
+        },
+        {
+          "start": 13.119999885559082,
+          "end": 13.279999881982803,
+          "text": "."
+        },
+        {
+          "start": 13.279999732971191,
+          "end": 16.479999616742134,
+          "text": "As a reminder, Four Media is a journalist owned publication."
+        },
+        {
+          "start": 16.479999542236328,
+          "end": 17.840000227093697,
+          "text": "I'm Jason Kebler."
+        },
+        {
+          "start": 17.920000076293945,
+          "end": 19.600000455975533,
+          "text": "That was Francis Haugen."
+        },
+        {
+          "start": 19.68000030517578,
+          "end": 23.43999870121479,
+          "text": "This episode was produced and edited by Alyssa Mitcalf."
+        },
+        {
+          "start": 23.600000381469727,
+          "end": 25.039999082684517,
+          "text": "As a reminder, again, we are"
+        },
+        {
+          "start": 25.12000000476837,
+          "end": 27.599999979138374,
+          "text": ", we are supported by our subscribers."
+        },
+        {
+          "start": 27.679999828338623,
+          "end": 30.15999999642372,
+          "text": "You can subscribe to us at fourmedia dot c"
+        },
+        {
+          "start": 30.87999963760376,
+          "end": 34.63999953866005,
+          "text": "ubscribers get access to interview podcasts like this early."
+        },
+        {
+          "start": 34.63999938964844,
+          "end": 41.43999870121479,
+          "text": "They also get access to bonus podcast segments and all of our unpawalled work on four media dot cod."
+        },
+        {
+          "start": 41.44000053405762,
+          "end": 43.8400002270937,
+          "text": "You can go subscribe to us at fourmedia."
+        },
+        {
+          "start": 44.0,
+          "end": 44.63999946415424,
+          "text": "co."
+        },
+        {
+          "start": 44.71999931335449,
+          "end": 47.4399988502264,
+          "text": "We will see you again very, very soon."
+        },
+        {
+          "start": 60.75999927520752,
+          "end": 63.159999921917915,
+          "text": "Your heart can tell you a lot about your health."
+        },
+        {
+          "start": 63.31999969482422,
+          "end": 69.31999984383583,
+          "text": "Apple Watch series twelve measures your heart rate every five seconds with the most accurate heart rate sensing in a wearable."
+        },
+        {
+          "start": 69.47999954223633,
+          "end": 73.55999954044819,
+          "text": "So your vitals app, now with heart rate variability can tell you when something is off."
+        },
+        {
+          "start": 73.55999946594238,
+          "end": 75.0000000745058,
+          "text": "And your readiness score can let"
+        },
+        {
+          "start": 75.03999996185303,
+          "end": 77.04000003635883,
+          "text": "let you know when to rest and when to push."
+        },
+        {
+          "start": 77.11999988555908,
+          "end": 80.56000001728535,
+          "text": "Here's the story in every heartbeat with Apple Watch series twelve."
+        },
+        {
+          "start": 80.6399998664856,
+          "end": 83.51999957859516,
+          "text": "The features described it for wellness purposes only and not for medical use."
+        },
+        {
+          "start": 83.59999942779541,
+          "end": 84.88000018894672,
+          "text": "iPhone eleven are later required."
+        },
+        {
+          "start": 84.88000011444092,
+          "end": 88.47999961674213,
+          "text": "Based on Apple conducted study of heart rate accuracy august twenty sixth visit."
+        },
+        {
+          "start": 88.55999946594238,
+          "end": 89.91999919712543,
+          "text": "com slash Apple Watch series twelve."
+        }
+      ]
+    }
+  ],
+  "model_load_seconds": 0.56715090900002,
+  "transcribe_seconds": 43.07056753100028,
+  "audio_seconds": 1980.0,
+  "rtf": 0.021752811884343574,
+  "peak_rss_mb": 729.37109375,
+  "rss_measurement": "largest process peak RSS (parent or native child)"
+}

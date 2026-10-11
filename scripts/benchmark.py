@@ -5,7 +5,12 @@ configs=json.loads(pathlib.Path('configs.json').read_text())
 environment={'platform':platform.platform(),'cpu':subprocess.check_output(['lscpu'],text=True),'selected_cpus':allowed[:2],'cpu_topology':subprocess.check_output(['lscpu','-e=CPU,CORE,SOCKET,ONLINE'],text=True),'github_sha':os.environ.get('GITHUB_SHA'),'run_id':os.environ.get('GITHUB_RUN_ID'),'versions':{p:importlib.metadata.version(p) for p in ['faster-whisper','ctranslate2','sherpa-onnx','numpy','onnxruntime','jiwer']},'cpp_commit':subprocess.check_output(['git','-C','whisper.cpp','rev-parse','HEAD'],text=True).strip(),'corpus':json.loads(pathlib.Path('data/manifest.json').read_text()),'models':json.loads(pathlib.Path('models/manifest.json').read_text())}
 (root/'environment.json').write_text(json.dumps(environment,indent=2));trials=[]
 for repeat in range(int(os.environ.get('REPEATS','2'))):
- order=configs.copy();random.Random(20261011+repeat).shuffle(order)
+ order=configs.copy()
+ if repeat>0:
+  baseline=json.loads((root/'fw-baseline-r0.json').read_text())['transcribe_seconds']
+  order=[c for c in configs if (root/(c['id']+'-r0.json')).exists() and json.loads((root/(c['id']+'-r0.json')).read_text())['transcribe_seconds']<=baseline*1.25]
+ random.Random(20261011+repeat).shuffle(order)
+ if repeat==0:order.sort(key=lambda c:c['id']!='fw-baseline')
  for config in order:
   target=root/(config['id']+'-r'+str(repeat)+'.json');t=time.perf_counter()
   env=os.environ.copy();env.update(OMP_NUM_THREADS=str(config['threads']),OPENBLAS_NUM_THREADS='1',MKL_NUM_THREADS=str(config['threads']))

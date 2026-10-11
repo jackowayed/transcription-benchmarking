@@ -30,7 +30,7 @@ def prepare(out='data'):
   episode={'show':show,'title':item.findtext('title'),'published':item.findtext('pubDate'),'guid':item.findtext('guid'),'url':url,'feed':feed,'duration':actual,'source_sha256':sha(mp3)}
   episodes.append(episode)
   # Include pre-roll, three editorial/midroll windows, and closing promotions.
-  windows=[('opening',0,180),('early',actual*.25,120),('middle',actual*.5,120),('late',actual*.75,120),('ending',max(0,actual-90),90)]
+  windows=[('opening',0,180),('early',actual*.25,120),('middle',max(0,actual*.5-240),480),('late',actual*.75,120),('ending',max(0,actual-90),90)]
   for kind,start,length in windows:
    name=show+'-'+kind;path=root/(name+'.wav')
    subprocess.run(['ffmpeg','-nostdin','-y','-v','error','-i',str(mp3),'-ss',str(start),'-t',str(length),'-ac','1','-ar','16000','-c:a','pcm_s16le',str(path)],check=True)

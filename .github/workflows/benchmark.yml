@@ -23,6 +23,8 @@ jobs:
           cache: pip
       - name: Install Python engines
         run: pip install -r requirements.txt
+      - name: Install FFmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - name: Build whisper.cpp
         run: |
           git clone --depth 1 --branch v1.9.5 https://github.com/ggml-org/whisper.cpp.git

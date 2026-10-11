@@ -25,7 +25,9 @@ whisper.cpp base F16/Q5, and Parakeet 110M/v3 INT8 through sherpa-onnx. The base
 explicitly sets `without_timestamps=False`; Faster Whisper's default batched
 coarse chunks would change the downstream ad-boundary problem.
 
-Two repetitions shuffle configurations deterministically. Each condition starts
+The first screening trial covers every configuration. Subsequent repetitions
+retain candidates within 25% of the baseline transcription time and shuffle them
+deterministically, keeping the experiment bounded. Report each repeat count. Each condition starts
 in a fresh process on the same runner. Model loading is separate; Python models
 are reused across clips in a trial. whisper.cpp receives all clips in one CLI
 invocation and loads once; its reported load time is subtracted from process

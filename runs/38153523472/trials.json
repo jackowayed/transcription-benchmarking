@@ -22,5 +22,11 @@
     "repeat": 0,
     "returncode": 0,
     "process_wall_seconds": 255.57503013499996
+  },
+  {
+    "config": "parakeet-v3",
+    "repeat": 0,
+    "returncode": 0,
+    "process_wall_seconds": 141.4397942239999
   }
 ]

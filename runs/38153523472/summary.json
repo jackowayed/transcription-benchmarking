@@ -1,0 +1,189 @@
+[
+  {
+    "id": "fw-baseline",
+    "repeats": 2,
+    "median_seconds": 56.290229466999975,
+    "min_seconds": 53.56841302599992,
+    "max_seconds": 59.01204590800003,
+    "rtf": 0.02842940882171716,
+    "seconds_per_audio_hour": 102.34587175818177,
+    "median_load_seconds": 0.2391711105001093,
+    "peak_rss_mb": 764.66796875,
+    "transcripts_identical_across_repeats": true,
+    "words": 5878,
+    "baseline_word_deletion_fraction": 0.0,
+    "baseline_timing_gaps_ge_5s": []
+  },
+  {
+    "id": "fw-batch8",
+    "repeats": 2,
+    "median_seconds": 56.34410742899993,
+    "min_seconds": 54.27468260099977,
+    "max_seconds": 58.4135322570001,
+    "rtf": 0.02845661991363633,
+    "seconds_per_audio_hour": 102.44383168909079,
+    "median_load_seconds": 0.24605553100002453,
+    "peak_rss_mb": 1262.47265625,
+    "transcripts_identical_across_repeats": true,
+    "words": 5878,
+    "baseline_word_deletion_fraction": 0.0,
+    "baseline_timing_gaps_ge_5s": []
+  },
+  {
+    "id": "fw-batch16",
+    "repeats": 2,
+    "median_seconds": 51.94335425950004,
+    "min_seconds": 51.925035346999834,
+    "max_seconds": 51.961673172000246,
+    "rtf": 0.026234017302777798,
+    "seconds_per_audio_hour": 94.44246229000007,
+    "median_load_seconds": 0.23378366350010538,
+    "peak_rss_mb": 1827.4765625,
+    "transcripts_identical_across_repeats": true,
+    "words": 5878,
+    "baseline_word_deletion_fraction": 0.0,
+    "baseline_timing_gaps_ge_5s": []
+  },
+  {
+    "id": "fw-thread1",
+    "repeats": 2,
+    "median_seconds": 60.886137221500235,
+    "min_seconds": 60.83161008800016,
+    "max_seconds": 60.94066435500031,
+    "rtf": 0.03075057435429305,
+    "seconds_per_audio_hour": 110.70206767545497,
+    "median_load_seconds": 0.23182673700006262,
+    "peak_rss_mb": 763.0859375,
+    "transcripts_identical_across_repeats": true,
+    "words": 5878,
+    "baseline_word_deletion_fraction": 0.0,
+    "baseline_timing_gaps_ge_5s": []
+  },
+  {
+    "id": "fw-english",
+    "repeats": 2,
+    "median_seconds": 56.667000079999994,
+    "min_seconds": 54.13984622599992,
+    "max_seconds": 59.19415393400007,
+    "rtf": 0.02861969701010101,
+    "seconds_per_audio_hour": 103.03090923636364,
+    "median_load_seconds": 0.24190045099999224,
+    "peak_rss_mb": 821.203125,
+    "transcripts_identical_across_repeats": true,
+    "words": 5878,
+    "baseline_word_deletion_fraction": 0.0,
+    "baseline_timing_gaps_ge_5s": []
+  },
+  {
+    "id": "cpp-base-q5",
+    "repeats": 1,
+    "median_seconds": 285.9670631859999,
+    "min_seconds": 285.9670631859999,
+    "max_seconds": 285.9670631859999,
+    "rtf": 0.14442780968989893,
+    "seconds_per_audio_hour": 519.9401148836362,
+    "median_load_seconds": 0.02309,
+    "peak_rss_mb": 399.32421875,
+    "transcripts_identical_across_repeats": true,
+    "words": 6076,
+    "baseline_word_deletion_fraction": 0.016161959850289214,
+    "baseline_timing_gaps_ge_5s": [
+      {
+        "clip": "served-ending",
+        "start": 88.86,
+        "end": 93.92,
+        "episode_start": 1441.9944779999998,
+        "episode_end": 1447.054478,
+        "baseline_text": "Learn more at dupixant.com or call 1-844-dupixant."
+      },
+      {
+        "clip": "404media-opening",
+        "start": 44.1,
+        "end": 49.16,
+        "episode_start": 44.1,
+        "episode_end": 49.16,
+        "baseline_text": "You might have just put a little bit more skin in the game."
+      }
+    ]
+  },
+  {
+    "id": "cpp-base-f16",
+    "repeats": 1,
+    "median_seconds": 255.43874163099994,
+    "min_seconds": 255.43874163099994,
+    "max_seconds": 255.43874163099994,
+    "rtf": 0.12900946547020198,
+    "seconds_per_audio_hour": 464.4340756927271,
+    "median_load_seconds": 0.03272,
+    "peak_rss_mb": 480.10546875,
+    "transcripts_identical_across_repeats": true,
+    "words": 6049,
+    "baseline_word_deletion_fraction": 0.02041510717931269,
+    "baseline_timing_gaps_ge_5s": [
+      {
+        "clip": "404media-opening",
+        "start": 44.02,
+        "end": 49.16,
+        "episode_start": 44.02,
+        "episode_end": 49.16,
+        "baseline_text": "You might have just put a little bit more skin in the game."
+      }
+    ]
+  },
+  {
+    "id": "parakeet-110m",
+    "repeats": 2,
+    "median_seconds": 41.75529044650011,
+    "min_seconds": 40.440013361999945,
+    "max_seconds": 43.07056753100028,
+    "rtf": 0.02108853052853541,
+    "seconds_per_audio_hour": 75.91870990272749,
+    "median_load_seconds": 0.5508885509999573,
+    "peak_rss_mb": 729.375,
+    "transcripts_identical_across_repeats": true,
+    "words": 6275,
+    "baseline_word_deletion_fraction": 0.0187138482477033,
+    "baseline_timing_gaps_ge_5s": [
+      {
+        "clip": "served-late",
+        "start": 102.04000003635883,
+        "end": 109.80000019073486,
+        "episode_start": 1184.3908585363588,
+        "episode_end": 1192.1508586907348,
+        "baseline_text": "Question of the day."
+      }
+    ]
+  },
+  {
+    "id": "parakeet-v3",
+    "repeats": 1,
+    "median_seconds": 140.10763417199973,
+    "min_seconds": 140.10763417199973,
+    "max_seconds": 140.10763417199973,
+    "rtf": 0.07076143139999987,
+    "seconds_per_audio_hour": 254.74115303999952,
+    "median_load_seconds": 1.1656929849999642,
+    "peak_rss_mb": 1260.91015625,
+    "transcripts_identical_across_repeats": true,
+    "words": 6306,
+    "baseline_word_deletion_fraction": 0.01514120449132358,
+    "baseline_timing_gaps_ge_5s": [
+      {
+        "clip": "served-middle",
+        "start": 220.03999930620193,
+        "end": 226.86,
+        "episode_start": 701.6072383062019,
+        "episode_end": 708.427239,
+        "baseline_text": "That's a very good return there from Novak Djokovic"
+      },
+      {
+        "clip": "served-late",
+        "start": 102.04000002145767,
+        "end": 108.51999950408936,
+        "episode_start": 1184.3908585214576,
+        "episode_end": 1190.8708580040893,
+        "baseline_text": "Question of the day."
+      }
+    ]
+  }
+]

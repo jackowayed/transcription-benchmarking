@@ -4,5 +4,11 @@
     "repeat": 0,
     "returncode": 0,
     "process_wall_seconds": 232.109119664
+  },
+  {
+    "config": "fw-thread1",
+    "repeat": 0,
+    "returncode": 0,
+    "process_wall_seconds": 253.43870486899993
   }
 ]

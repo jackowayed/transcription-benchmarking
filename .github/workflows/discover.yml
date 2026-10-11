@@ -1,7 +1,7 @@
 name: Discover podcasts and runner
 on: workflow_dispatch
 permissions:
-  contents: read
+  contents: write
 jobs:
   discover:
     runs-on: ubuntu-latest
@@ -9,3 +9,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python scripts/discover.py
+      - run: python scripts/publish.py discovery discovery
+        env:
+          GITHUB_TOKEN: ${{ github.token }}

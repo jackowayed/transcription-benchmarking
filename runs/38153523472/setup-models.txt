@@ -1,0 +1,11 @@
+
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Fetching 6 files:  33%|███▎      | 2/6 [00:00<00:00, 17.18it/s]
+Fetching 6 files: 100%|██████████| 6/6 [00:01<00:00,  4.47it/s]
+Fetching 6 files: 100%|██████████| 6/6 [00:01<00:00,  4.83it/s]
+faster-whisper:base.en {'path': '/home/runner/.cache/huggingface/hub/models--Systran--faster-whisper-base.en/snapshots/3d3d5dee26484f91867d81cb899cfcf72b96be6c', 'repository': 'Systran/faster-whisper-base.en', 'revision': '3d3d5dee26484f91867d81cb899cfcf72b96be6c', 'setup_seconds': 1.4649026560000067}
+whisper.cpp:base.en-q5_1 {'path': 'models/ggml-base.en-q5_1.bin', 'sha256': '4baf70dd0d7c4247ba2b81fafd9c01005ac77c2f9ef064e00dcf195d0e2fdd2f', 'setup_seconds': 1.1671079249999963}
+whisper.cpp:base.en {'path': 'models/ggml-base.en.bin', 'sha256': 'a03779c86df3323075f5e796cb2ce5029f00ec8869eee3fdfb897afe36c6d002', 'setup_seconds': 1.1258608049999879}
+sherpa-onnx:sherpa-onnx-nemo-parakeet_tdt_transducer_110m-en-36000-int8 {'path': 'models/sherpa-onnx-nemo-parakeet_tdt_transducer_110m-en-36000-int8', 'url': 'https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-nemo-parakeet_tdt_transducer_110m-en-36000-int8.tar.bz2', 'archive_sha256': 'f628312e9fdf8686374cb01a69425c41732529d540860311f16f37cbc32cfe9b', 'setup_seconds': 6.634716463999993}
+sherpa-onnx:sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8 {'path': 'models/sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8', 'url': 'https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8.tar.bz2', 'archive_sha256': '5793d0fd397c5778d2cf2126994d58e9d56b1be7c04d13c7a15bb1b4eafb16bf', 'setup_seconds': 29.95689452699999}

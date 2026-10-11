@@ -6,6 +6,14 @@ on:
         description: Repeated trials per configuration
         default: '2'
         required: true
+      config_ids:
+        description: Comma-separated configuration IDs; blank screens all engines
+        default: ''
+      corpus_mode:
+        description: Samples or complete episodes (original MP3 for Faster Whisper)
+        type: choice
+        options: [samples, full-mp3, full-wav]
+        default: samples
 permissions:
   contents: write
 jobs:
@@ -15,6 +23,8 @@ jobs:
     env:
       HF_HUB_DISABLE_XET: '1'
       REPEATS: ${{ inputs.repeats }}
+      CONFIG_IDS: ${{ inputs.config_ids }}
+      CORPUS_MODE: ${{ inputs.corpus_mode }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -30,6 +40,7 @@ jobs:
       - name: Download models before timed trials
         run: python scripts/stage.py setup-models python scripts/setup_models.py
       - name: Build whisper.cpp
+        if: inputs.config_ids == '' || contains(inputs.config_ids, 'cpp-')
         run: |
           git clone --depth 1 --branch v1.9.5 https://github.com/ggml-org/whisper.cpp.git
           cmake -S whisper.cpp -B whisper.cpp/build -DCMAKE_BUILD_TYPE=Release -DGGML_CUDA=OFF -DWHISPER_BUILD_TESTS=OFF -DWHISPER_BUILD_EXAMPLES=ON
@@ -53,4 +64,5 @@ jobs:
             outputs/
             data/manifest.json
             data/*.wav
+            data/*.mp3
           retention-days: 30

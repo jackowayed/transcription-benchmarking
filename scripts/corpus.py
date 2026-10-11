@@ -1,5 +1,5 @@
 """Freeze recent episodes once, with audio hashes and original-time clip offsets."""
-import urllib.request,xml.etree.ElementTree as ET,json,pathlib,hashlib,subprocess,datetime
+import urllib.request,xml.etree.ElementTree as ET,json,pathlib,hashlib,subprocess,datetime,os
 FEEDS={'served':'https://feeds.megaphone.fm/VMP6052759157','404media':'https://feeds.megaphone.fm/TBIEA2761282490'}
 
 def download(url,path):
@@ -29,6 +29,19 @@ def prepare(out='data'):
   actual=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',str(mp3)],text=True))
   episode={'show':show,'title':item.findtext('title'),'published':item.findtext('pubDate'),'guid':item.findtext('guid'),'url':url,'feed':feed,'duration':actual,'source_sha256':sha(mp3)}
   episodes.append(episode)
+  mode=os.environ.get('CORPUS_MODE','samples')
+  if mode=='full-mp3':
+   from configuration import selected_configs
+   if any(c['backend']!='faster-whisper' for c in selected_configs()):raise ValueError('full-mp3 is reserved for Faster Whisper original-input validation')
+   clips.append({'id':show+'-full','show':show,'kind':'full','offset':0,'duration':actual,'path':str(mp3),'sha256':episode['source_sha256']})
+   continue
+  if mode=='full-wav':
+   path=root/(show+'-full.wav')
+   subprocess.run(['ffmpeg','-nostdin','-y','-v','error','-i',str(mp3),'-ac','1','-ar','16000','-c:a','pcm_s16le',str(path)],check=True)
+   import wave
+   with wave.open(str(path)) as w:seconds=w.getnframes()/w.getframerate()
+   clips.append({'id':show+'-full','show':show,'kind':'full','offset':0,'duration':seconds,'path':str(path),'sha256':sha(path)})
+   continue
   # Include pre-roll, three editorial/midroll windows, and closing promotions.
   windows=[('opening',0,180),('early',actual*.25,120),('middle',max(0,actual*.5-240),480),('late',actual*.75,120),('ending',max(0,actual-90),90)]
   for kind,start,length in windows:

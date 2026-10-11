@@ -80,5 +80,10 @@ def run(config,manifest,models):
 if __name__=='__main__':
  parser=argparse.ArgumentParser();parser.add_argument('--config',required=True);parser.add_argument('--output',required=True);args=parser.parse_args()
  config=json.loads(args.config);os.environ['TRIAL_OUTPUT']=str(pathlib.Path(args.output).with_suffix(''))
- result=run(config,json.loads(pathlib.Path('data/manifest.json').read_text()),json.loads(pathlib.Path('models/manifest.json').read_text()))
+ try:
+  result=run(config,json.loads(pathlib.Path('data/manifest.json').read_text()),json.loads(pathlib.Path('models/manifest.json').read_text()))
+ except Exception:
+  import traceback
+  pathlib.Path(args.output).with_suffix('.error.txt').write_text(traceback.format_exc())
+  raise
  pathlib.Path(args.output).write_text(json.dumps(result,indent=2));print(config['id'],result['transcribe_seconds'],result['rtf'],flush=True)

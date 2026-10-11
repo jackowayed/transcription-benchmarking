@@ -39,9 +39,16 @@ and context behavior differ from Whisper and require downstream evaluation.
 
 Small reports and transcripts are committed to the `benchmark-results` branch
 under `runs/RUN_ID`, with incremental evidence after each completed trial. Audio
-WAVs and native output are retained in Actions artifacts for 30 days. The report
+inputs and native output are retained in Actions artifacts for 30 days. The report
 includes real-time factor, load time, memory, and baseline disagreement. **Baseline
 word deletions and timing gaps are review flags, not measured accuracy.**
+
+Use workflow input `config_ids` to run only named finalists (the baseline is always
+included). Set `corpus_mode=full-mp3` for complete original-MP3 Faster Whisper
+validation, or `full-wav` for complete decoded audio across engines. All source
+MP3s, WAV inputs, and source hashes are retained with future runs. Exact text and
+timestamp matches against observed baseline trials are recorded separately from
+lexical disagreement.
 
 A production recommendation needs full-episode checks on the actual private
 runner and the existing Gemini classifier/edit planner, including repeated calls,

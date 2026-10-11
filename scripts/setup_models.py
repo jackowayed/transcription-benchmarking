@@ -1,6 +1,7 @@
 import json,pathlib,time,urllib.request,subprocess,hashlib,tarfile,importlib.metadata
 from huggingface_hub import snapshot_download
-configs=json.loads(pathlib.Path('configs.json').read_text());root=pathlib.Path('models');root.mkdir(exist_ok=True);out={}
+from configuration import selected_configs
+configs=selected_configs();root=pathlib.Path('models');root.mkdir(exist_ok=True);out={}
 def fetch(url,path):
  if not path.exists():
   with urllib.request.urlopen(url,timeout=180) as r,open(path,'wb') as f:
@@ -21,6 +22,7 @@ for c in configs:
  info['setup_seconds']=time.perf_counter()-t;out[key]=info
  print(key,info,flush=True)
 # Native VAD is recorded as a different segmentation implementation.
-vad=root/'ggml-silero-v6.2.0.bin';fetch('https://huggingface.co/ggml-org/whisper-vad/resolve/main/'+vad.name,vad)
-out['cpp_vad']={'path':str(vad),'sha256':hashlib.sha256(vad.read_bytes()).hexdigest()}
+if any(c['backend']=='whisper.cpp' for c in configs):
+ vad=root/'ggml-silero-v6.2.0.bin';fetch('https://huggingface.co/ggml-org/whisper-vad/resolve/main/'+vad.name,vad)
+ out['cpp_vad']={'path':str(vad),'sha256':hashlib.sha256(vad.read_bytes()).hexdigest()}
 (root/'manifest.json').write_text(json.dumps(out,indent=2))

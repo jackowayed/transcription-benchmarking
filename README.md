@@ -1,5 +1,9 @@
 # Podcast transcription benchmarking
 
+**Measured recommendation:** keep `base.en`/INT8/beam 3/two threads and use
+batch 16 with timestamp tokens. Complete MP3s took 9.7% less transcription time
+with identical text and timestamps. [Results and limitations](RESULTS.md).
+
 Measure alternatives to timestamped Faster Whisper `base.en`, CPU/int8, beam 3,
 batch 4, two threads, VAD on, word alignment off. The use case is Gemini ad-region
 detection: missing sponsor speech is more serious than isolated incorrect words.

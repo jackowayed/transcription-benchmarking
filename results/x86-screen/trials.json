@@ -1,0 +1,92 @@
+[
+  {
+    "config": "fw-baseline",
+    "repeat": 0,
+    "returncode": 0,
+    "process_wall_seconds": 59.385153868
+  },
+  {
+    "config": "fw-english",
+    "repeat": 0,
+    "returncode": 0,
+    "process_wall_seconds": 59.586365328
+  },
+  {
+    "config": "fw-batch8",
+    "repeat": 0,
+    "returncode": 0,
+    "process_wall_seconds": 58.781638929999986
+  },
+  {
+    "config": "cpp-base-f16",
+    "repeat": 0,
+    "returncode": 0,
+    "process_wall_seconds": 255.57503013499996
+  },
+  {
+    "config": "parakeet-v3",
+    "repeat": 0,
+    "returncode": 0,
+    "process_wall_seconds": 141.4397942239999
+  },
+  {
+    "config": "fw-batch16",
+    "repeat": 0,
+    "returncode": 0,
+    "process_wall_seconds": 52.31027144399991
+  },
+  {
+    "config": "fw-thread1",
+    "repeat": 0,
+    "returncode": 0,
+    "process_wall_seconds": 61.22100312300006
+  },
+  {
+    "config": "cpp-base-q5",
+    "repeat": 0,
+    "returncode": 0,
+    "process_wall_seconds": 286.05936612999994
+  },
+  {
+    "config": "parakeet-110m",
+    "repeat": 0,
+    "returncode": 0,
+    "process_wall_seconds": 43.746880248000025
+  },
+  {
+    "config": "fw-batch8",
+    "repeat": 1,
+    "returncode": 0,
+    "process_wall_seconds": 54.66301438300002
+  },
+  {
+    "config": "fw-batch16",
+    "repeat": 1,
+    "returncode": 0,
+    "process_wall_seconds": 52.299975815999915
+  },
+  {
+    "config": "parakeet-110m",
+    "repeat": 1,
+    "returncode": 0,
+    "process_wall_seconds": 41.083747008000046
+  },
+  {
+    "config": "fw-english",
+    "repeat": 1,
+    "returncode": 0,
+    "process_wall_seconds": 54.50461415099994
+  },
+  {
+    "config": "fw-baseline",
+    "repeat": 1,
+    "returncode": 0,
+    "process_wall_seconds": 53.90482715899998
+  },
+  {
+    "config": "fw-thread1",
+    "repeat": 1,
+    "returncode": 0,
+    "process_wall_seconds": 61.27226496499998
+  }
+]

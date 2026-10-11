@@ -1,0 +1,26 @@
+[
+  {
+    "config": "fw-baseline",
+    "repeat": 0,
+    "returncode": 0,
+    "process_wall_seconds": 59.08587114100001
+  },
+  {
+    "config": "parakeet-110m",
+    "repeat": 0,
+    "returncode": 0,
+    "process_wall_seconds": 47.45497804200002
+  },
+  {
+    "config": "fw-baseline",
+    "repeat": 1,
+    "returncode": 0,
+    "process_wall_seconds": 57.46531324700001
+  },
+  {
+    "config": "parakeet-110m",
+    "repeat": 1,
+    "returncode": 0,
+    "process_wall_seconds": 45.33332388599999
+  }
+]

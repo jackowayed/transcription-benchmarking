@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fw-baseline",
+    "repeats": 2,
+    "median_seconds": 229.50114585700015,
+    "min_seconds": 227.4365874800003,
+    "max_seconds": 231.56570423399998,
+    "rtf": 0.04741177394027421,
+    "seconds_per_audio_hour": 170.68238618498717,
+    "median_load_seconds": 0.3383115394999763,
+    "peak_rss_mb": 1169.83984375,
+    "transcripts_identical_across_repeats": true,
+    "words": 15008,
+    "matches_observed_baseline_transcripts": true,
+    "baseline_word_deletion_fraction": 0.0,
+    "baseline_timing_gaps_ge_5s": []
+  },
+  {
+    "id": "fw-batch16",
+    "repeats": 2,
+    "median_seconds": 207.23500718150012,
+    "min_seconds": 206.95326010200029,
+    "max_seconds": 207.51675426099996,
+    "rtf": 0.04281189654330737,
+    "seconds_per_audio_hour": 154.12282755590655,
+    "median_load_seconds": 0.3289451949999602,
+    "peak_rss_mb": 2028.8359375,
+    "transcripts_identical_across_repeats": true,
+    "words": 15008,
+    "matches_observed_baseline_transcripts": true,
+    "baseline_word_deletion_fraction": 0.0,
+    "baseline_timing_gaps_ge_5s": []
+  },
+  {
+    "id": "fw-thread1",
+    "repeats": 2,
+    "median_seconds": 253.56985054900005,
+    "min_seconds": 252.99187543700003,
+    "max_seconds": 254.14782566100007,
+    "rtf": 0.05238403663478533,
+    "seconds_per_audio_hour": 188.58253188522718,
+    "median_load_seconds": 0.315390019500029,
+    "peak_rss_mb": 1188.00390625,
+    "transcripts_identical_across_repeats": true,
+    "words": 15008,
+    "matches_observed_baseline_transcripts": true,
+    "baseline_word_deletion_fraction": 0.0,
+    "baseline_timing_gaps_ge_5s": []
+  }
+]

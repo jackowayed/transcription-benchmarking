@@ -76,5 +76,11 @@
     "repeat": 1,
     "returncode": 0,
     "process_wall_seconds": 54.50461415099994
+  },
+  {
+    "config": "fw-baseline",
+    "repeat": 1,
+    "returncode": 0,
+    "process_wall_seconds": 53.90482715899998
   }
 ]

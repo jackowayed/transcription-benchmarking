@@ -37,7 +37,7 @@ sample in 25-second cores with one-second overlap context; tokens are retained
 by core timestamp and grouped into at-most-eight-second segments. Its timestamps
 and context behavior differ from Whisper and require downstream evaluation.
 
-Small reports and transcripts are committed to the `benchmark-results` branch
+Small reports and transcripts are committed to a `benchmark-results-RUN_ID` branch (initial screening used `benchmark-results`)
 under `runs/RUN_ID`, with incremental evidence after each completed trial. Audio
 inputs and native output are retained in Actions artifacts for 30 days. The report
 includes real-time factor, load time, memory, and baseline disagreement. **Baseline

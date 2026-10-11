@@ -6,7 +6,7 @@ def api(path,method='GET',body=None):
  with urllib.request.urlopen(req,timeout=60) as r:return json.load(r)
 
 def publish(directory,prefix):
- branch='benchmark-results'
+ branch=os.environ.get('RESULTS_BRANCH','benchmark-results')
  try:parent=api('/git/ref/heads/'+branch)['object']['sha']
  except urllib.error.HTTPError as e:
   if e.code!=404:raise

@@ -1,0 +1,8 @@
+{
+  "command": [
+    "python",
+    "scripts/corpus.py"
+  ],
+  "seconds": 8.494407147999993,
+  "returncode": 0
+}

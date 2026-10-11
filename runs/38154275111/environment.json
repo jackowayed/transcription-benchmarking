@@ -1,0 +1,73 @@
+{
+  "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+  "cpu": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           48 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  4\nOn-line CPU(s) list:                     0-3\nVendor ID:                               AuthenticAMD\nModel name:                              AMD EPYC 9V74 80-Core Processor\nCPU family:                              25\nModel:                                   17\nThread(s) per core:                      2\nCore(s) per socket:                      2\nSocket(s):                               1\nStepping:                                1\nBogoMIPS:                                5192.25\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid aperfmperf tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves user_shstk avx512_bf16 clzero xsaveerptr rdpru arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload avx512vbmi umip avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid fsrm\nVirtualization:                          AMD-V\nHypervisor vendor:                       Microsoft\nVirtualization type:                     full\nL1d cache:                               64 KiB (2 instances)\nL1i cache:                               64 KiB (2 instances)\nL2 cache:                                2 MiB (2 instances)\nL3 cache:                                32 MiB (1 instance)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0-3\nVulnerability Gather data sampling:      Not affected\nVulnerability Ghostwrite:                Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Old microcode:             Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Not affected\nVulnerability Spec rstack overflow:      Vulnerable: Safe RET, no microcode\nVulnerability Spec store bypass:         Vulnerable\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; Retpolines; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Vulnerable: No microcode\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Not affected\n",
+  "selected_cpus": [
+    0,
+    1
+  ],
+  "cpu_topology": "CPU CORE SOCKET ONLINE\n  0    0      0    yes\n  1    0      0    yes\n  2    1      0    yes\n  3    1      0    yes\n",
+  "github_sha": "3a154381c27926d9ff79d343ea78daebdaee35a9",
+  "run_id": "38154275111",
+  "versions": {
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.8.2",
+    "sherpa-onnx": "1.13.8",
+    "numpy": "2.2.6",
+    "onnxruntime": "1.31.0",
+    "jiwer": "4.0.0"
+  },
+  "cpp_commit": null,
+  "corpus": {
+    "created_at": "2026-10-11T16:10:24.007209+00:00",
+    "episodes": [
+      {
+        "show": "served",
+        "title": "Should Grand Slam Runner-Ups Have to Speak? Andy Roddick on Ben Shelton & Wimbledon 2009 | Q&Andy",
+        "published": "Thu, 08 Oct 2026 03:00:00 -0000",
+        "guid": "76545932-c280-11f1-975e-1f79725fe84f",
+        "url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/traffic.megaphone.fm/LCLRC9943037296.mp3",
+        "feed": "https://feeds.megaphone.fm/VMP6052759157",
+        "duration": 1489.031656,
+        "source_sha256": "e85d4e024e7eeb208220b45eeec1a5cdb565fde04a118b59714649cdd56a1434"
+      },
+      {
+        "show": "404media",
+        "title": "The Social Reckoning\u2019s Real-Life Whistleblower",
+        "published": "Fri, 09 Oct 2026 15:45:00 -0000",
+        "guid": "55034a60-c346-11f1-a51b-fbcce07c4e6f",
+        "url": "https://pdst.fm/e/clrtpod.com/m/pscrb.fm/rss/p/arttrk.com/p/2D5E6/mgln.ai/e/1246/tracking.swap.fm/track/AoSMVIl7piQbthzJoBqJ/traffic.megaphone.fm/TBIEA1361980390.mp3",
+        "feed": "https://feeds.megaphone.fm/TBIEA2761282490",
+        "duration": 3351.562289,
+        "source_sha256": "5f72969cc746fb10a513eb8be7e2325500d97daec3233bf9c5ca61fbfcee55dc"
+      }
+    ],
+    "clips": [
+      {
+        "id": "served-full",
+        "show": "served",
+        "kind": "full",
+        "offset": 0,
+        "duration": 1489.031656,
+        "path": "data/served.mp3",
+        "sha256": "e85d4e024e7eeb208220b45eeec1a5cdb565fde04a118b59714649cdd56a1434"
+      },
+      {
+        "id": "404media-full",
+        "show": "404media",
+        "kind": "full",
+        "offset": 0,
+        "duration": 3351.562289,
+        "path": "data/404media.mp3",
+        "sha256": "5f72969cc746fb10a513eb8be7e2325500d97daec3233bf9c5ca61fbfcee55dc"
+      }
+    ]
+  },
+  "models": {
+    "faster-whisper:base.en": {
+      "path": "/home/runner/.cache/huggingface/hub/models--Systran--faster-whisper-base.en/snapshots/3d3d5dee26484f91867d81cb899cfcf72b96be6c",
+      "repository": "Systran/faster-whisper-base.en",
+      "revision": "3d3d5dee26484f91867d81cb899cfcf72b96be6c",
+      "setup_seconds": 2.500528118999995
+    }
+  }
+}

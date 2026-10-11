@@ -4,5 +4,11 @@
     "repeat": 0,
     "returncode": 0,
     "process_wall_seconds": 59.08587114100001
+  },
+  {
+    "config": "parakeet-110m",
+    "repeat": 0,
+    "returncode": 0,
+    "process_wall_seconds": 47.45497804200002
   }
 ]

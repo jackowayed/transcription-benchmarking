@@ -1,0 +1,8 @@
+
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Fetching 6 files:  33%|███▎      | 2/6 [00:00<00:00, 18.34it/s]
+Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00,  5.60it/s]
+Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00,  6.01it/s]
+faster-whisper:base.en {'path': '/home/runner/.cache/huggingface/hub/models--Systran--faster-whisper-base.en/snapshots/3d3d5dee26484f91867d81cb899cfcf72b96be6c', 'repository': 'Systran/faster-whisper-base.en', 'revision': '3d3d5dee26484f91867d81cb899cfcf72b96be6c', 'setup_seconds': 1.2143846390000022}
+sherpa-onnx:sherpa-onnx-nemo-parakeet_tdt_transducer_110m-en-36000-int8 {'path': 'models/sherpa-onnx-nemo-parakeet_tdt_transducer_110m-en-36000-int8', 'url': 'https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-nemo-parakeet_tdt_transducer_110m-en-36000-int8.tar.bz2', 'archive_sha256': 'f628312e9fdf8686374cb01a69425c41732529d540860311f16f37cbc32cfe9b', 'setup_seconds': 7.198463059000005}

@@ -1,0 +1,8 @@
+{
+  "command": [
+    "python",
+    "scripts/setup_models.py"
+  ],
+  "seconds": 8.614390354000001,
+  "returncode": 0
+}

@@ -40,5 +40,11 @@
     "repeat": 0,
     "returncode": 0,
     "process_wall_seconds": 61.22100312300006
+  },
+  {
+    "config": "cpp-base-q5",
+    "repeat": 0,
+    "returncode": 0,
+    "process_wall_seconds": 286.05936612999994
   }
 ]

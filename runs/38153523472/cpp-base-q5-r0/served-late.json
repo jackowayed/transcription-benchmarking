@@ -1,0 +1,692 @@
+{
+	"systeminfo": "WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": false,
+		"vocab": 51864,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 9
+	},
+	"params": {
+		"model": "models/ggml-base.en-q5_1.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:01,680"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 1680
+			},
+			"text": " Highlight is like, do we lose the point?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,680",
+				"to": "00:00:03,420"
+			},
+			"offsets": {
+				"from": 1680,
+				"to": 3420
+			},
+			"text": " Yes, but it wasn't awesome, yes."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,420",
+				"to": "00:00:04,260"
+			},
+			"offsets": {
+				"from": 3420,
+				"to": 4260
+			},
+			"text": " - Yeah."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,260",
+				"to": "00:00:07,860"
+			},
+			"offsets": {
+				"from": 4260,
+				"to": 7860
+			},
+			"text": " You gotta have like part winner, part like entertainer."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,860",
+				"to": "00:00:08,700"
+			},
+			"offsets": {
+				"from": 7860,
+				"to": 8700
+			},
+			"text": " - Yeah."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,700",
+				"to": "00:00:09,520"
+			},
+			"offsets": {
+				"from": 8700,
+				"to": 9520
+			},
+			"text": " - Yeah."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,520",
+				"to": "00:00:12,000"
+			},
+			"offsets": {
+				"from": 9520,
+				"to": 12000
+			},
+			"text": " - I want Kim Kleister's keeps threatening to come down."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:12,000",
+				"to": "00:00:12,840"
+			},
+			"offsets": {
+				"from": 12000,
+				"to": 12840
+			},
+			"text": " - That'd be so good."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:12,840",
+				"to": "00:00:15,820"
+			},
+			"offsets": {
+				"from": 12840,
+				"to": 15820
+			},
+			"text": " - Once she's fully, she gets that wheel fully healed."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:15,820",
+				"to": "00:00:17,760"
+			},
+			"offsets": {
+				"from": 15820,
+				"to": 17760
+			},
+			"text": " - We'll get the camera team out there."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:17,760",
+				"to": "00:00:18,600"
+			},
+			"offsets": {
+				"from": 17760,
+				"to": 18600
+			},
+			"text": " - That'd be."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:18,600",
+				"to": "00:00:20,300"
+			},
+			"offsets": {
+				"from": 18600,
+				"to": 20300
+			},
+			"text": " - For sure, watch you and Kim just mop the floor with some."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:20,300",
+				"to": "00:00:21,220"
+			},
+			"offsets": {
+				"from": 20300,
+				"to": 21220
+			},
+			"text": " - That'd be a fun one."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:21,220",
+				"to": "00:00:23,140"
+			},
+			"offsets": {
+				"from": 21220,
+				"to": 23140
+			},
+			"text": " Or we each take one of you chuckers."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:23,140",
+				"to": "00:00:24,240"
+			},
+			"offsets": {
+				"from": 23140,
+				"to": 24240
+			},
+			"text": " - Ooh."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:24,240",
+				"to": "00:00:26,160"
+			},
+			"offsets": {
+				"from": 24240,
+				"to": 26160
+			},
+			"text": " By the way, there's something I've been remissing with."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:26,160",
+				"to": "00:00:27,000"
+			},
+			"offsets": {
+				"from": 26160,
+				"to": 27000
+			},
+			"text": " - We think, Sean."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:27,000",
+				"to": "00:00:27,840"
+			},
+			"offsets": {
+				"from": 27000,
+				"to": 27840
+			},
+			"text": " - I'm done."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:27,840",
+				"to": "00:00:29,800"
+			},
+			"offsets": {
+				"from": 27840,
+				"to": 29800
+			},
+			"text": " - There's something I've been remissing mentioning."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:29,800",
+				"to": "00:00:32,520"
+			},
+			"offsets": {
+				"from": 29800,
+				"to": 32520
+			},
+			"text": " And I don't often like to give you compliments,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:32,520",
+				"to": "00:00:34,660"
+			},
+			"offsets": {
+				"from": 32520,
+				"to": 34660
+			},
+			"text": " especially not publicly."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:34,660",
+				"to": "00:00:37,320"
+			},
+			"offsets": {
+				"from": 34660,
+				"to": 37320
+			},
+			"text": " Normally I save those for behind the scenes."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:37,320",
+				"to": "00:00:38,560"
+			},
+			"offsets": {
+				"from": 37320,
+				"to": 38560
+			},
+			"text": " You know what I'm gonna say, right?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:38,560",
+				"to": "00:00:39,400"
+			},
+			"offsets": {
+				"from": 38560,
+				"to": 39400
+			},
+			"text": " - I do."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:40,720",
+				"to": "00:00:45,200"
+			},
+			"offsets": {
+				"from": 40720,
+				"to": 45200
+			},
+			"text": " - Last year, at the labor cup, the serve challenge."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:45,200",
+				"to": "00:00:46,040"
+			},
+			"offsets": {
+				"from": 45200,
+				"to": 46040
+			},
+			"text": " - Yeah."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:46,040",
+				"to": "00:00:47,640"
+			},
+			"offsets": {
+				"from": 46040,
+				"to": 47640
+			},
+			"text": " - You were a fucking disgrace."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:47,640",
+				"to": "00:00:48,960"
+			},
+			"offsets": {
+				"from": 47640,
+				"to": 48960
+			},
+			"text": " - It was awful."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:48,960",
+				"to": "00:00:50,400"
+			},
+			"offsets": {
+				"from": 48960,
+				"to": 50400
+			},
+			"text": " - You were embarrassing."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:50,400",
+				"to": "00:00:52,640"
+			},
+			"offsets": {
+				"from": 50400,
+				"to": 52640
+			},
+			"text": " - It was, it ruined the segment."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:52,640",
+				"to": "00:00:54,160"
+			},
+			"offsets": {
+				"from": 52640,
+				"to": 54160
+			},
+			"text": " It was just like, it made it,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:54,160",
+				"to": "00:00:57,920"
+			},
+			"offsets": {
+				"from": 54160,
+				"to": 57920
+			},
+			"text": " it was too awkward to overcome."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:57,920",
+				"to": "00:01:00,120"
+			},
+			"offsets": {
+				"from": 57920,
+				"to": 60120
+			},
+			"text": " - When we tried our little hearts out."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:01,040",
+				"to": "00:01:02,160"
+			},
+			"offsets": {
+				"from": 61040,
+				"to": 62160
+			},
+			"text": " - It was bad."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:02,160",
+				"to": "00:01:05,760"
+			},
+			"offsets": {
+				"from": 62160,
+				"to": 65760
+			},
+			"text": " - Mike Hayden, you hit some real serves in London."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:05,760",
+				"to": "00:01:08,080"
+			},
+			"offsets": {
+				"from": 65760,
+				"to": 68080
+			},
+			"text": " - I had just hit one, the other two went into the back fast."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:08,080",
+				"to": "00:01:10,560"
+			},
+			"offsets": {
+				"from": 68080,
+				"to": 70560
+			},
+			"text": " - You have made a lot of progress."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:10,560",
+				"to": "00:01:11,560"
+			},
+			"offsets": {
+				"from": 70560,
+				"to": 71560
+			},
+			"text": " And I'm proud of you."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:11,560",
+				"to": "00:01:12,400"
+			},
+			"offsets": {
+				"from": 71560,
+				"to": 72400
+			},
+			"text": " - Thank you."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:12,400",
+				"to": "00:01:13,240"
+			},
+			"offsets": {
+				"from": 72400,
+				"to": 73240
+			},
+			"text": " - You did a great job."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:13,240",
+				"to": "00:01:14,320"
+			},
+			"offsets": {
+				"from": 73240,
+				"to": 74320
+			},
+			"text": " - Thank you, shout out Kevin, Mars Park."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:14,320",
+				"to": "00:01:15,160"
+			},
+			"offsets": {
+				"from": 74320,
+				"to": 75160
+			},
+			"text": " - Yeah."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:15,160",
+				"to": "00:01:16,480"
+			},
+			"offsets": {
+				"from": 75160,
+				"to": 76480
+			},
+			"text": " - There you go."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:16,480",
+				"to": "00:01:17,640"
+			},
+			"offsets": {
+				"from": 76480,
+				"to": 77640
+			},
+			"text": " Yeah, so I just had to say that"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:17,640",
+				"to": "00:01:19,680"
+			},
+			"offsets": {
+				"from": 77640,
+				"to": 79680
+			},
+			"text": " 'cause I didn't, in the labor cup recap,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:19,680",
+				"to": "00:01:21,720"
+			},
+			"offsets": {
+				"from": 79680,
+				"to": 81720
+			},
+			"text": " I obviously should have gone there, but we got--"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:21,720",
+				"to": "00:01:22,560"
+			},
+			"offsets": {
+				"from": 81720,
+				"to": 82560
+			},
+			"text": " - I shocked myself."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:22,560",
+				"to": "00:01:24,020"
+			},
+			"offsets": {
+				"from": 82560,
+				"to": 84020
+			},
+			"text": " - We got carried away with, you know,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:24,020",
+				"to": "00:01:27,560"
+			},
+			"offsets": {
+				"from": 84020,
+				"to": 87560
+			},
+			"text": " Techy Shawn's love fast and fed knowing about chuckers."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:27,560",
+				"to": "00:01:31,040"
+			},
+			"offsets": {
+				"from": 87560,
+				"to": 91040
+			},
+			"text": " Which absolutely Techy Shawn's love fast needed the attention."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:31,040",
+				"to": "00:01:33,520"
+			},
+			"offsets": {
+				"from": 91040,
+				"to": 93520
+			},
+			"text": " All right, I think that's about to wrap it up."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:33,520",
+				"to": "00:01:35,760"
+			},
+			"offsets": {
+				"from": 93520,
+				"to": 95760
+			},
+			"text": " 'Cause we need to get to the random question of the day."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:35,760",
+				"to": "00:01:36,840"
+			},
+			"offsets": {
+				"from": 95760,
+				"to": 96840
+			},
+			"text": " Shawn hit it."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:36,840",
+				"to": "00:01:40,430"
+			},
+			"offsets": {
+				"from": 96840,
+				"to": 100430
+			},
+			"text": " (upbeat music)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:40,430",
+				"to": "00:01:50,280"
+			},
+			"offsets": {
+				"from": 100430,
+				"to": 110280
+			},
+			"text": " ♪ Random question of the day ♪"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:50,280",
+				"to": "00:01:52,660"
+			},
+			"offsets": {
+				"from": 110280,
+				"to": 112660
+			},
+			"text": " - I wonder if Lin-Man Wow would remix that for us."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:52,660",
+				"to": "00:01:54,660"
+			},
+			"offsets": {
+				"from": 112660,
+				"to": 114660
+			},
+			"text": " - Oh yeah, that'd be a great question."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:54,660",
+				"to": "00:01:56,920"
+			},
+			"offsets": {
+				"from": 114660,
+				"to": 116920
+			},
+			"text": " Lin-Man Wow, Miranda, can you remix the shitty jingle?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:56,920",
+				"to": "00:01:58,080"
+			},
+			"offsets": {
+				"from": 116920,
+				"to": 118080
+			},
+			"text": " Don't make your own."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:58,080",
+				"to": "00:02:00,000"
+			},
+			"offsets": {
+				"from": 118080,
+				"to": 120000
+			},
+			"text": " Don't make your own jingle greatest."
+		}
+	]
+}

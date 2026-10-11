@@ -1,0 +1,175 @@
+{
+	"systeminfo": "WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": false,
+		"vocab": 51864,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 9
+	},
+	"params": {
+		"model": "models/ggml-base.en-q5_1.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,690",
+				"to": "00:00:07,230"
+			},
+			"offsets": {
+				"from": 690,
+				"to": 7230
+			},
+			"text": " This episode is brought to you by Born in Roma fragrances by Valentino Beauty the iconic fragrance duo"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,730",
+				"to": "00:00:16,190"
+			},
+			"offsets": {
+				"from": 7730,
+				"to": 16190
+			},
+			"text": " Donna Born in Roma Ode Parfoum is a feminine fragrance featuring juicy black currant central jasmine woody cashmere in and warm vanilla"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:16,510",
+				"to": "00:00:22,410"
+			},
+			"offsets": {
+				"from": 16510,
+				"to": 22410
+			},
+			"text": " It's masculine counterpart Wilmo Born in Roma Ode Dualet has notes of fresh violet leaf"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:22,710",
+				"to": "00:00:28,430"
+			},
+			"offsets": {
+				"from": 22710,
+				"to": 28430
+			},
+			"text": " aromatic sage green vetiver spicy ginger and mineral salt shop at Macy's calm"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:31,090",
+				"to": "00:00:38,290"
+			},
+			"offsets": {
+				"from": 31090,
+				"to": 38290
+			},
+			"text": " Having uncontrolled eos in a phyllic esophageitis or eo e can mean you're stuck in many ways like cutting your food into tiny pieces"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:40,850",
+				"to": "00:00:43,290"
+			},
+			"offsets": {
+				"from": 40850,
+				"to": 43290
+			},
+			"text": " Or stuck chewing food for a long time"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:45,380",
+				"to": "00:00:51,520"
+			},
+			"offsets": {
+				"from": 45380,
+				"to": 51520
+			},
+			"text": " Duapixen du pillamab of prescription medicine for patients one year and older weighing at least 33 pounds can help with that"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:51,520",
+				"to": "00:00:55,940"
+			},
+			"offsets": {
+				"from": 51520,
+				"to": 55940
+			},
+			"text": " It's a breakthrough treatment that can reduce inflammation in the esophagus and improve swallowing"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:58,420",
+				"to": "00:01:03,780"
+			},
+			"offsets": {
+				"from": 58420,
+				"to": 63780
+			},
+			"text": " How about this? Duapixen is not a steroid it proactively treats you so you can get ahead of it"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:03,980",
+				"to": "00:01:10,540"
+			},
+			"offsets": {
+				"from": 63980,
+				"to": 70540
+			},
+			"text": " Severe allergic reactions including skin reactions can occur get held right away a few of trouble breathing or wheezing or swelling of your face"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:10,540",
+				"to": "00:01:16,100"
+			},
+			"offsets": {
+				"from": 70540,
+				"to": 76100
+			},
+			"text": " mouth, tongue, or throat tell your doctor of newer worsening joint aches in pain or a parasitic infection or asthma"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:16,100",
+				"to": "00:01:22,040"
+			},
+			"offsets": {
+				"from": 76100,
+				"to": 82040
+			},
+			"text": " Don't change or stop other treatments without talking to your doctor feeling stuck with the oe start treating with dupixen"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:22,060",
+				"to": "00:01:28,860"
+			},
+			"offsets": {
+				"from": 82060,
+				"to": 88860
+			},
+			"text": " Talk to your gastroenterologist or allergist today about dupixen learn more at dupixen.com or call 1-844-dupixen"
+		}
+	]
+}

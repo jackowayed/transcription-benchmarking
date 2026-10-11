@@ -1,0 +1,362 @@
+{
+	"systeminfo": "WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": false,
+		"vocab": 51864,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 9
+	},
+	"params": {
+		"model": "models/ggml-base.en-q5_1.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,080",
+				"to": "00:00:06,080"
+			},
+			"offsets": {
+				"from": 80,
+				"to": 6080
+			},
+			"text": " Colin's football is back, so Hilton called him me, the superstition concierge to make your fan rituals a reality."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,080",
+				"to": "00:00:12,080"
+			},
+			"offsets": {
+				"from": 6080,
+				"to": 12080
+			},
+			"text": " Need a room to match your lucky number? We got you. Want to make sure our team doesn't want your lucky jersey?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:12,080",
+				"to": "00:00:14,080"
+			},
+			"offsets": {
+				"from": 12080,
+				"to": 14080
+			},
+			"text": " Ooh, that smells lucky."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:14,080",
+				"to": "00:00:18,080"
+			},
+			"offsets": {
+				"from": 14080,
+				"to": 18080
+			},
+			"text": " Hilton's unmatched hospitality can keep up with any superstition."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:18,080",
+				"to": "00:00:21,080"
+			},
+			"offsets": {
+				"from": 18080,
+				"to": 21080
+			},
+			"text": " Even a marching band wake up call it 555 in 55 seconds."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:21,080",
+				"to": "00:00:22,080"
+			},
+			"offsets": {
+				"from": 21080,
+				"to": 22080
+			},
+			"text": " Hit it!"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:22,080",
+				"to": "00:00:27,080"
+			},
+			"offsets": {
+				"from": 22080,
+				"to": 27080
+			},
+			"text": " When you need a team that will do whatever it takes on game day, it matters where you stay."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:27,080",
+				"to": "00:00:29,080"
+			},
+			"offsets": {
+				"from": 27080,
+				"to": 29080
+			},
+			"text": " Hilton, for this day."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:31,290",
+				"to": "00:00:37,290"
+			},
+			"offsets": {
+				"from": 31290,
+				"to": 37290
+			},
+			"text": " This episode is brought to you by Born in Roma fragrances by Valentino Beauty, the iconic fragrance duo."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:37,290",
+				"to": "00:00:46,290"
+			},
+			"offsets": {
+				"from": 37290,
+				"to": 46290
+			},
+			"text": " Donna Born in Roma Ode Parfum is a feminine fragrance featuring juicy blackcurrant, central jasmine, woody, cajmarin, and warm vanilla."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:46,290",
+				"to": "00:00:57,290"
+			},
+			"offsets": {
+				"from": 46290,
+				"to": 57290
+			},
+			"text": " It's masculine counterpart, Wilmo Born in Roma Ode Dualette, has notes of fresh violet leaf, aromatic sage, green vetiver, spicy ginger, and mineral salt."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:57,290",
+				"to": "00:00:59,290"
+			},
+			"offsets": {
+				"from": 57290,
+				"to": 59290
+			},
+			"text": " Shop at Macy's dot com."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:06,270",
+				"to": "00:01:10,270"
+			},
+			"offsets": {
+				"from": 66270,
+				"to": 70270
+			},
+			"text": " Hey everyone, welcome to Q&A. It's the show where I don't know what's coming and apparently you all watch."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:10,270",
+				"to": "00:01:11,270"
+			},
+			"offsets": {
+				"from": 70270,
+				"to": 71270
+			},
+			"text": " Yes, apparently."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:11,270",
+				"to": "00:01:16,270"
+			},
+			"offsets": {
+				"from": 71270,
+				"to": 76270
+			},
+			"text": " Thanks everybody for writing in. As a reminder, if you want to be featured in the show, send us a video."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:16,270",
+				"to": "00:01:22,270"
+			},
+			"offsets": {
+				"from": 76270,
+				"to": 82270
+			},
+			"text": " Please send a video to askAndy@surpodcast.com or DM us, send us in the comments."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:22,270",
+				"to": "00:01:25,270"
+			},
+			"offsets": {
+				"from": 82270,
+				"to": 85270
+			},
+			"text": " I don't know how all of it works. I'm a little bit like you."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:25,270",
+				"to": "00:01:29,270"
+			},
+			"offsets": {
+				"from": 85270,
+				"to": 89270
+			},
+			"text": " But the team knows where to get them and they'll share them."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:29,270",
+				"to": "00:01:31,270"
+			},
+			"offsets": {
+				"from": 89270,
+				"to": 91270
+			},
+			"text": " And you know what? We have a video question to start."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:31,270",
+				"to": "00:01:34,270"
+			},
+			"offsets": {
+				"from": 91270,
+				"to": 94270
+			},
+			"text": " Yes, from somebody that's actually kind of famous."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:34,270",
+				"to": "00:01:36,270"
+			},
+			"offsets": {
+				"from": 94270,
+				"to": 96270
+			},
+			"text": " Oh, yeah."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:36,270",
+				"to": "00:01:47,270"
+			},
+			"offsets": {
+				"from": 96270,
+				"to": 107270
+			},
+			"text": " Hey, Andy and serve team. My name is Charlie Kimball and I am the first licensed driver with type 1 diabetes to race in the Indianapolis 500 and the first driver with diabetes to ever win an indie car race."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:47,270",
+				"to": "00:01:52,270"
+			},
+			"offsets": {
+				"from": 107270,
+				"to": 112270
+			},
+			"text": " My wife and I are both avid tennis players. We met playing tennis together in high school."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:52,270",
+				"to": "00:01:59,270"
+			},
+			"offsets": {
+				"from": 112270,
+				"to": 119270
+			},
+			"text": " In fact, at the same high school where Mike and Bob Brian played tennis here in Southern California."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:59,270",
+				"to": "00:02:15,270"
+			},
+			"offsets": {
+				"from": 119270,
+				"to": 135270
+			},
+			"text": " My question, having watched the U.S. Open final and thought it was incredible to see his fair witness second Grand Slam as somebody with type 1 diabetes was more about the moment with Ben Shelton, giving a speech right after losing a final."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:15,270",
+				"to": "00:02:25,270"
+			},
+			"offsets": {
+				"from": 135270,
+				"to": 145270
+			},
+			"text": " I've been there in an indie car race. You crash out. Hopefully you come out of medical and they stick a microphone in your face and ask you what happened on maybe the worst day of your career."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:25,270",
+				"to": "00:02:33,270"
+			},
+			"offsets": {
+				"from": 145270,
+				"to": 153270
+			},
+			"text": " Even if you finish second, it may be your best day in tennis. What does that moment feel like for a player on the big stage?"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:33,270",
+				"to": "00:02:42,270"
+			},
+			"offsets": {
+				"from": 153270,
+				"to": 162270
+			},
+			"text": " Charlie, awesome work in your sport. Fantastic. I've said this. I said this a bunch on air on ESPN during the U.S. Open."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:42,270",
+				"to": "00:02:52,270"
+			},
+			"offsets": {
+				"from": 162270,
+				"to": 172270
+			},
+			"text": " I look at athletes performing with type 1 diabetes differently now that I kind of understand it through a personal lens."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:52,270",
+				"to": "00:03:00,000"
+			},
+			"offsets": {
+				"from": 172270,
+				"to": 180000
+			},
+			"text": " My father-in-law, Steve Decker, best person on earth. The maintenance it takes not only from him when he's working and he's working."
+		}
+	]
+}

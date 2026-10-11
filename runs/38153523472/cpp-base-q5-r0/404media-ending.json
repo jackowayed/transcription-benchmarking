@@ -1,0 +1,296 @@
+{
+	"systeminfo": "WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX_VNNI = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": false,
+		"vocab": 51864,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 9
+	},
+	"params": {
+		"model": "models/ggml-base.en-q5_1.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:08,220"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 8220
+			},
+			"text": " I am over on sub stack and sign up and I'll post there if we do a Twitch or like a Google"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,220",
+				"to": "00:00:09,860"
+			},
+			"offsets": {
+				"from": 8220,
+				"to": 9860
+			},
+			"text": " live stream kind of thing."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,860",
+				"to": "00:00:10,860"
+			},
+			"offsets": {
+				"from": 9860,
+				"to": 10860
+			},
+			"text": " Amazing."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,860",
+				"to": "00:00:13,460"
+			},
+			"offsets": {
+				"from": 10860,
+				"to": 13460
+			},
+			"text": " Thank you so much."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:13,460",
+				"to": "00:00:16,580"
+			},
+			"offsets": {
+				"from": 13460,
+				"to": 16580
+			},
+			"text": " As a reminder, 404 Media is a journalist on publication."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:16,580",
+				"to": "00:00:17,820"
+			},
+			"offsets": {
+				"from": 16580,
+				"to": 17820
+			},
+			"text": " I'm Jason Kebler."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:17,820",
+				"to": "00:00:19,760"
+			},
+			"offsets": {
+				"from": 17820,
+				"to": 19760
+			},
+			"text": " That was Francis Hagen."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:19,760",
+				"to": "00:00:23,580"
+			},
+			"offsets": {
+				"from": 19760,
+				"to": 23580
+			},
+			"text": " This episode was produced and edited by Alyssa mid-calf."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:23,580",
+				"to": "00:00:27,760"
+			},
+			"offsets": {
+				"from": 23580,
+				"to": 27760
+			},
+			"text": " As a reminder, again, we are supported by our subscribers."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:27,760",
+				"to": "00:00:30,760"
+			},
+			"offsets": {
+				"from": 27760,
+				"to": 30760
+			},
+			"text": " You can subscribe to us at 404-Media.co."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:30,760",
+				"to": "00:00:34,660"
+			},
+			"offsets": {
+				"from": 30760,
+				"to": 34660
+			},
+			"text": " Subscribers get access to interview podcasts like this early."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:34,660",
+				"to": "00:00:40,400"
+			},
+			"offsets": {
+				"from": 34660,
+				"to": 40400
+			},
+			"text": " They also get access to bonus podcast segments and all of our unpaywalled work on 404-Media"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:40,400",
+				"to": "00:00:41,400"
+			},
+			"offsets": {
+				"from": 40400,
+				"to": 41400
+			},
+			"text": ".co."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:41,400",
+				"to": "00:00:44,640"
+			},
+			"offsets": {
+				"from": 41400,
+				"to": 44640
+			},
+			"text": " You can go subscribe to us at 404-Media.co."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:44,640",
+				"to": "00:01:00,890"
+			},
+			"offsets": {
+				"from": 44640,
+				"to": 60890
+			},
+			"text": " We will see you again very, very soon."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:00,890",
+				"to": "00:01:03,490"
+			},
+			"offsets": {
+				"from": 60890,
+				"to": 63490
+			},
+			"text": " Your heart can tell you a lot about your health."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:03,490",
+				"to": "00:01:07,570"
+			},
+			"offsets": {
+				"from": 63490,
+				"to": 67570
+			},
+			"text": " Apple Watch Series 12 measures your heart rate every five seconds with the most accurate"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:07,570",
+				"to": "00:01:09,630"
+			},
+			"offsets": {
+				"from": 67570,
+				"to": 69630
+			},
+			"text": " heart rate sensing and aware."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:09,630",
+				"to": "00:01:14,010"
+			},
+			"offsets": {
+				"from": 69630,
+				"to": 74010
+			},
+			"text": " So your Vitals app, now with heart rate variability, can tell you when something is off, and your"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:14,010",
+				"to": "00:01:17,380"
+			},
+			"offsets": {
+				"from": 74010,
+				"to": 77380
+			},
+			"text": " readiness score can let you know when to rest and when to push."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:17,380",
+				"to": "00:01:21,000"
+			},
+			"offsets": {
+				"from": 77380,
+				"to": 81000
+			},
+			"text": " Hear the story in every heartbeat with Apple Watch Series 12."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:21,000",
+				"to": "00:01:23,720"
+			},
+			"offsets": {
+				"from": 81000,
+				"to": 83720
+			},
+			"text": " The features described are for wellness purposes only and not for medical use."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:23,720",
+				"to": "00:01:25,060"
+			},
+			"offsets": {
+				"from": 83720,
+				"to": 85060
+			},
+			"text": " iPhone 11 are later required."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:25,060",
+				"to": "00:01:29,980"
+			},
+			"offsets": {
+				"from": 85060,
+				"to": 89980
+			},
+			"text": " Based on Apple conducted study of heart rate accuracy August 2026, visit apple.com/applewatchseries12."
+		}
+	]
+}

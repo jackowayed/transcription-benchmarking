@@ -29,9 +29,9 @@ jobs:
           cmake -S whisper.cpp -B whisper.cpp/build -DCMAKE_BUILD_TYPE=Release -DGGML_CUDA=OFF -DWHISPER_BUILD_TESTS=OFF -DWHISPER_BUILD_EXAMPLES=ON
           cmake --build whisper.cpp/build --config Release -j 4
       - name: Freeze recent podcast samples
-        run: python scripts/corpus.py
+        run: python scripts/stage.py corpus python scripts/corpus.py
       - name: Download models before timed trials
-        run: python scripts/setup_models.py
+        run: python scripts/stage.py setup-models python scripts/setup_models.py
       - name: Run fresh-process trials on two logical CPUs
         run: python scripts/benchmark.py
         env:
@@ -39,7 +39,8 @@ jobs:
       - name: Publish evidence
         if: always()
         run: |
-          if test -d outputs; then python scripts/report.py; python scripts/publish.py outputs runs/${GITHUB_RUN_ID}; fi
+          if test -f outputs/environment.json; then python scripts/report.py; fi
+          if test -d outputs; then python scripts/publish.py outputs runs/${GITHUB_RUN_ID}; fi
         env:
           GITHUB_TOKEN: ${{ github.token }}
       - uses: actions/upload-artifact@v4

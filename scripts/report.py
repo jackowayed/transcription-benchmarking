@@ -3,7 +3,7 @@ import pathlib,json,statistics,re,hashlib,sys
 from jiwer import process_words
 
 def normalized(text):return ' '.join(re.findall(r"[a-z0-9]+(?:'[a-z]+)?",text.lower()))
-def digest(clips):return hashlib.sha256(json.dumps(clips,sort_keys=True).encode()).hexdigest()
+def digest(clips):return hashlib.sha256(json.dumps([{'id':c['id'],'segments':c['segments']} for c in clips],sort_keys=True).encode()).hexdigest()
 def subtract(intervals,coverage):
  out=[]
  for a,b in intervals:

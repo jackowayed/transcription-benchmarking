@@ -25,15 +25,15 @@ jobs:
         run: pip install -r requirements.txt
       - name: Install FFmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Freeze recent podcast samples
+        run: python scripts/stage.py corpus python scripts/corpus.py
+      - name: Download models before timed trials
+        run: python scripts/stage.py setup-models python scripts/setup_models.py
       - name: Build whisper.cpp
         run: |
           git clone --depth 1 --branch v1.9.5 https://github.com/ggml-org/whisper.cpp.git
           cmake -S whisper.cpp -B whisper.cpp/build -DCMAKE_BUILD_TYPE=Release -DGGML_CUDA=OFF -DWHISPER_BUILD_TESTS=OFF -DWHISPER_BUILD_EXAMPLES=ON
           cmake --build whisper.cpp/build --config Release -j 4
-      - name: Freeze recent podcast samples
-        run: python scripts/stage.py corpus python scripts/corpus.py
-      - name: Download models before timed trials
-        run: python scripts/stage.py setup-models python scripts/setup_models.py
       - name: Run fresh-process trials on two logical CPUs
         run: python scripts/benchmark.py
         env:

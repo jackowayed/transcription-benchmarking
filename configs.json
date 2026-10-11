@@ -4,7 +4,7 @@
   {"id":"fw-batch16","backend":"faster-whisper","model":"base.en","threads":2,"beam":3,"batch":16,"language":null},
   {"id":"fw-thread1","backend":"faster-whisper","model":"base.en","threads":1,"beam":3,"batch":4,"language":null},
   {"id":"fw-english","backend":"faster-whisper","model":"base.en","threads":2,"beam":3,"batch":4,"language":"en"},
-  {"id":"cpp-base-q5","backend":"whisper.cpp","model":"base.en-q5_0","threads":2,"beam":3},
+  {"id":"cpp-base-q5","backend":"whisper.cpp","model":"base.en-q5_1","threads":2,"beam":3},
   {"id":"cpp-base-f16","backend":"whisper.cpp","model":"base.en","threads":2,"beam":3},
   {"id":"parakeet-110m","backend":"sherpa-onnx","model":"sherpa-onnx-nemo-parakeet_tdt_transducer_110m-en-36000-int8","threads":2},
   {"id":"parakeet-v3","backend":"sherpa-onnx","model":"sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8","threads":2}

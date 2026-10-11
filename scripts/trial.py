@@ -74,7 +74,7 @@ def run(config,manifest,models):
    elapsed=time.perf_counter()-t;total+=elapsed
    meta['clips'].append({'id':clip['id'],'seconds':elapsed,'segments':segments})
   meta['transcribe_seconds']=total
- meta['audio_seconds']=sum(x['duration'] for x in manifest['clips']);meta['rtf']=meta['transcribe_seconds']/meta['audio_seconds'];meta['peak_rss_mb']=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss/1024
+ meta['audio_seconds']=sum(x['duration'] for x in manifest['clips']);meta['rtf']=meta['transcribe_seconds']/meta['audio_seconds'];meta['peak_rss_mb']=max(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,resource.getrusage(resource.RUSAGE_CHILDREN).ru_maxrss)/1024;meta['rss_measurement']='largest process peak RSS (parent or native child)'
  return meta
 
 if __name__=='__main__':

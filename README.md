@@ -44,7 +44,9 @@ includes real-time factor, load time, memory, and baseline disagreement. **Basel
 word deletions and timing gaps are review flags, not measured accuracy.**
 
 Use workflow input `config_ids` to run only named finalists (the baseline is always
-included). Set `corpus_mode=full-mp3` for complete original-MP3 Faster Whisper
+included). Use `runner=ubuntu-24.04-arm` to benchmark two ARM CPUs. Supply
+`reuse_run_id` from a completed run to reuse its exact frozen audio across
+hardware, rather than downloading different dynamic ads. Set `corpus_mode=full-mp3` for complete original-MP3 Faster Whisper
 validation, or `full-wav` for complete decoded audio across engines. All source
 MP3s, WAV inputs, and source hashes are retained with future runs. Exact text and
 timestamp matches against observed baseline trials are recorded separately from

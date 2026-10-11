@@ -9,6 +9,14 @@ on:
       config_ids:
         description: Comma-separated configuration IDs; blank screens all engines
         default: ''
+      runner:
+        description: Standard runner architecture
+        type: choice
+        options: [ubuntu-latest, ubuntu-24.04-arm]
+        default: ubuntu-latest
+      reuse_run_id:
+        description: Completed benchmark run whose frozen audio should be reused
+        default: ''
       corpus_mode:
         description: Samples or complete episodes (original MP3 for Faster Whisper)
         type: choice
@@ -16,9 +24,10 @@ on:
         default: samples
 permissions:
   contents: write
+  actions: read
 jobs:
   benchmark:
-    runs-on: ubuntu-latest
+    runs-on: ${{ inputs.runner || 'ubuntu-latest' }}
     timeout-minutes: 90
     env:
       HF_HUB_DISABLE_XET: '1'
@@ -36,7 +45,19 @@ jobs:
         run: pip install -r requirements.txt
       - name: Install FFmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Restore frozen audio
+        if: inputs.reuse_run_id != ''
+        uses: actions/download-artifact@v4
+        with:
+          name: benchmark-${{ inputs.reuse_run_id }}
+          run-id: ${{ inputs.reuse_run_id }}
+          github-token: ${{ github.token }}
+          path: reused
+      - name: Place restored audio
+        if: inputs.reuse_run_id != ''
+        run: mv reused/data data
       - name: Freeze recent podcast samples
+        if: inputs.reuse_run_id == ''
         run: python scripts/stage.py corpus python scripts/corpus.py
       - name: Download models before timed trials
         run: python scripts/stage.py setup-models python scripts/setup_models.py
